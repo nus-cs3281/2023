@@ -18,6 +18,12 @@ pageNav: 2
         ['Lee Hyung Woon', 'lhw-1'],
         ['Chan Yu Cheng', 'yucheng11122017']
     ]},
+    {name: 'RepoSense', students: [
+        ['Marcus Tang Xin Kye', 'MarcusTXK'],
+        ['Charisma Kausar', 'ckcherry23'],
+        ['Chang Si Kai', 'sikai00'],
+        ['David Gareth Ong', 'vvidday']
+    ]},
     {name: 'TEAMMATES', students: [
         ['Sim Sing Yee, Eunice', 'EuniceSim142'],
         ['Ong Jun Heng, Cedric', 'cedricongjh'],
@@ -27,12 +33,6 @@ pageNav: 2
         ['Kevin Foong Wei Tong', 'kevin9foong'],
         ['Gujar Parth Shailesh', 'parth-io'],
         ['Neo Wei Qing', 'weiquu']
-    ]},
-    {name: 'RepoSense', students: [
-        ['Marcus Tang Xin Kye', 'MarcusTXK'],
-        ['Charisma Kausar', 'ckcherry23'],
-        ['Chang Si Kai', 'sikai00'],
-        ['David Gareth Ong', 'vvidday']
     ]}
 ] %}
 
