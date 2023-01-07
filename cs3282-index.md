@@ -7,26 +7,26 @@ pageNav: 2
 
 {% set projects = [
     {name: 'CATcher', students: [
-        ['KANG SU MIN', 'kkangs0226', 'A2', 'B3', 'C2'],
-        ['Lee Chun Wei', 'chunweii', 'A3', 'B2', 'C1']
+        ['KANG SU MIN', 'kkangs0226', 'A2', 'B2', 'C2'],
+        ['Lee Chun Wei', 'chunweii', 'A1', 'B1', 'C1']
     ]},
     {name: 'MarkBind', students: [
-        ['KOH RAYSON', 'raysonkoh', 'A2', 'B3', 'C3'],
-        ['LIU YONGLIANG', 'tlylt', 'A1', 'B1', 'C2'],
-        ['ONG JUN XIONG', 'ong6', 'A2', 'B1', 'C3'],
-        ['Jovyn Tan Li Shyan', 'jovyntls', 'A3', 'B1', 'C1']
+        ['KOH RAYSON', 'raysonkoh', 'A2', 'B2', 'C2'],
+        ['LIU YONGLIANG', 'tlylt', 'A1', 'B1', 'C1'],
+        ['ONG JUN XIONG', 'ong6', 'A2', 'B2', 'C2'],
+        ['Jovyn Tan Li Shyan', 'jovyntls', 'A2', 'B2', 'C2']
     ]},
     {name: 'RepoSense', students: [
-        ['CHAN JUN DA', 'chan-j-d', 'A2', 'B3', 'C1'],
-        ['HUANG CHENGYU', 'HCY123902', 'A1', 'B2', 'C3'],
-        ['TAY YI HSUEN', 'yhtMinceraft1010X', 'A3', 'B3', 'C2'],
+        ['CHAN JUN DA', 'chan-j-d', 'A2', 'B2', 'C2'],
+        ['HUANG CHENGYU', 'HCY123902', 'A1', 'B1', 'C1'],
+        ['TAY YI HSUEN', 'yhtMinceraft1010X', 'A1', 'B1', 'C1'],
         ['Zhou Jiahao', 'Zhou-Jiahao-1998', 'A1', 'B1', 'C1']
     ]},
     {name: 'TEAMMATES', students: [
-        ['FANG JUNWEI, SAMUEL', 'samuelfangjw', 'A3', 'B2', 'C1'],
-        ['DAO NGOC HIEU', 'daongochieu2810', 'A1', 'B1', 'C2'],
-        ['ZHAO JINGJING', 'zhaojj2209', 'A1', 'B2', 'C2'],
-        ['WU QIRUI', 'hhdqirui', 'A2', 'B2', 'C3']
+        ['FANG JUNWEI, SAMUEL', 'samuelfangjw', 'A2', 'B2', 'C2'],
+        ['DAO NGOC HIEU', 'daongochieu2810', 'A1', 'B1', 'C1'],
+        ['ZHAO JINGJING', 'zhaojj2209', 'A1', 'B1', 'C1'],
+        ['WU QIRUI', 'hhdqirui', 'A2', 'B2', 'C2']
     ]}
 ] %}
 
