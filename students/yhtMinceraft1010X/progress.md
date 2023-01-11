@@ -44,6 +44,7 @@
 | 14 December 2022 | RepoSense | Reviewed PR: [Use ES6+ way for string interpolation](https://github.com/reposense/RepoSense/pull/1845) |
 
 # CS3282 During-Sem Progress
-| Date            | Project       | Achievements                                                                                                                |
-|-----------------|---------------|-----------------------------------------------------------------------------------------------------------------------------|
-|    |      |                      |
+| Week | Project   | Achievements                                                                                                          |
+|------|-----------|-----------------------------------------------------------------------------------------------------------------------|
+| 1    | RepoSense | Merged PR: [Change git log author regex type](https://github.com/reposense/RepoSense/pull/1855)                       |
+| 1    | RepoSense | Reviewed PR: [Add date range validation to sinceDate and untilDate](https://github.com/reposense/RepoSense/pull/1850) |
