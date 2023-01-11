@@ -19,11 +19,10 @@
 <panel header="**Progress**" minimized>
   <include src="progress.md" optional />
 </panel>
-{% if mod == "cs3281" %}
 <panel header="**Knowledge gained**" minimized>
   <include src="knowledge.md" optional />
 </panel>
-{% else %}
+{% if mod == "cs3282" %}
 <panel header="**Observations** from external projects" minimized>
   <include src="observations.md" optional />
 </panel>
