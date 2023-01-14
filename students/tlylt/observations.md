@@ -1,6 +1,6 @@
-### Project: Foo
+### Project: [MDN Web Docs](https://github.com/mdn/content)
 
-Give an intro to the project here ...
+MDN Web Docs is an open-source, collaborative project that documents web technologies including CSS, HTML, JavaScript, and Web APIs. Alongside detailed reference documentation, we provide extensive learning resources for students and beginners getting started with web development.
 
 ### My Contributions
 
