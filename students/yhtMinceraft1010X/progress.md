@@ -48,3 +48,4 @@
 |------|-----------|-----------------------------------------------------------------------------------------------------------------------|
 | 1    | RepoSense | Merged PR: [Change git log author regex type](https://github.com/reposense/RepoSense/pull/1855)                       |
 | 1    | RepoSense | Reviewed PR: [Add date range validation to sinceDate and untilDate](https://github.com/reposense/RepoSense/pull/1850) |
+| 1 | RepoSense | Reviewed PR: [Remove authorship tag validation regex](https://github.com/reposense/RepoSense/pull/1857) |
