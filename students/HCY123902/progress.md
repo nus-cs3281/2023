@@ -21,7 +21,7 @@
 | Date | Achievements |
 | ---- | ------------ |
 | 2021/12/12 | Merged PR: [[#1595] Add release branch usage and hot patching instructions #1596](https://github.com/reposense/RepoSense/pull/1596) |
-| 2021/2/4 | Reviewed PR: [[#1539] Fix console error when doing individual merge group #1618](https://github.com/reposense/RepoSense/pull/1618) |
+| 2022/2/4 | Reviewed PR: [[#1539] Fix console error when doing individual merge group #1618](https://github.com/reposense/RepoSense/pull/1618) |
 | 2022/2/2 | Reviewed PR: [[#1638] Replace parseInt with Math.floor for contribution bars #1639](https://github.com/reposense/RepoSense/pull/1639) |
 | 2022/2/2 | Reviewed PR: [[#1540] Remove Cypress.wait() at the start of cypress tests #1643](https://github.com/reposense/RepoSense/pull/1643) |
 | 2022/3/23 | Made Release: [RepoSense v2.1](https://github.com/reposense/RepoSense/releases/tag/v2.1) |
