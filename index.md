@@ -31,7 +31,6 @@ pageNav: 2
         ['WU QIRUI', 'hhdqirui'],
         ['Qiu Jiasheng, Jason', 'jasonqiu212'],
         ['Kevin Foong Wei Tong', 'kevin9foong'],
-        ['Gujar Parth Shailesh', 'parth-io'],
         ['Neo Wei Qing', 'weiquu']
     ]}
 ] %}
