@@ -20,7 +20,7 @@ pageNav: 2
         ['CHAN JUN DA', 'chan-j-d', 'A2', 'B2', 'C2'],
         ['HUANG CHENGYU', 'HCY123902', 'A1', 'B1', 'C1'],
         ['TAY YI HSUEN', 'yhtMinceraft1010X', 'A1', 'B1', 'C1'],
-        ['Zhou Jiahao', 'Zhou-Jiahao-1998', 'A1', 'B1', 'C1']
+        ['Zhou Jiahao', 'Zhoukerrr', 'A1', 'B1', 'C1']
     ]},
     {name: 'TEAMMATES', students: [
         ['FANG JUNWEI, SAMUEL', 'samuelfangjw', 'A2', 'B2', 'C2'],
