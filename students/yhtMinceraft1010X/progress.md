@@ -53,3 +53,4 @@
 | 2 | RepoSense | Reviewed PR: [Switch to package-lock.json and npm ci](https://github.com/reposense/RepoSense/pull/1863)              |
 | 2 | RepoSense | Reviewed PR: [Fix badges with correct class names](https://github.com/reposense/RepoSense/pull/1864)                 |
 | 2 | RepoSense | Created Release: [RepoSense v2.4](https://github.com/reposense/RepoSense/releases/tag/v2.4)                          |
+| 3 | RepoSense | Merged PR: [Docs: Fix broken contributor links](https://github.com/reposense/RepoSense/pull/1861) |
