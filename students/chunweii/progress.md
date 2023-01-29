@@ -15,6 +15,12 @@
 | Week | Project   | Achievements                                                                                                          |
 |------|-----------|-----------------------------------------------------------------------------------------------------------------------|
 | 1    | CATcher | Opened issue #1106 [Electron builder fails for macOS 12](https://github.com/CATcher-org/CATcher/issues/1106)            |
+| 1    | CATcher | Reviewed PR #1110 [Fix Referenced error](https://github.com/CATcher-org/CATcher/pull/1110)            |
 | 2    | CATcher | Merged PR #1113 [Fix Error [ERR_REQUIRE_ESM]](https://github.com/CATcher-org/CATcher/pull/1113) |
 | 2    | CATcher | Reviewed PR #1134 [Add tool tip to indicate purpose of file button](https://github.com/CATcher-org/CATcher/pull/1134)  |
 | 2    | gavv/httpexpect | Started working on issue #162 [Improve usage checks in Request and Websocket](https://github.com/gavv/httpexpect/issues/162) |
+| 3    | gavv/httpexpect | Merged PR #230 [Implement usage check for Expect in Request and Websocket](https://github.com/gavv/httpexpect/pull/230) |
+| 3    | CATcher | Reviewed PR #1137 [Upgrade to Angular 10](https://github.com/CATcher-org/CATcher/pull/1137)   |
+| 3    | WATcher | Reviewed PR #60 [Provide better messages for invalid repositories](https://github.com/CATcher-org/WATcher/pull/60) |
+| 4    | CATcher | Reviewed PR #1140 [Remove Electron from GitHub actions](https://github.com/CATcher-org/CATcher/pull/1140)  |
+| 4    | gavv/httpexpect | Started working on issue #244 [Lazy reading of response body](https://github.com/gavv/httpexpect/issues/244) |
