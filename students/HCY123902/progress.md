@@ -4,6 +4,7 @@
 | ---- | ------------ |
 | 2021/7/1 | Reviewed PR: [[#1493] DevOps Guide: move from Wiki to DG #1548](https://github.com/reposense/RepoSense/pull/1548) |
 | 2021/7/1 | Reviewed PR: [[#382, #1568] Make annotation tagged author appear in report #1554](https://github.com/reposense/RepoSense/pull/1554) |
+| 2021/7/1 | Submitted Issue: [Update documentation website to use MarkBind v3 #1557](https://github.com/reposense/RepoSense/issues/1557) |
 | 2021/7/16 | Reviewed PR: [[#937] Make all tests throw generic Exception #1566](https://github.com/reposense/RepoSense/pull/1566) |
 | 2021/7/21 | Reviewed PR: [Fix missing space and use of raw types #1569](https://github.com/reposense/RepoSense/pull/1569) |
 | 2021/8/22 | Reviewed PR: [[#1563, #1579] Tests: allow a fresh clone for some test cases #1570](https://github.com/reposense/RepoSense/pull/1570) |
