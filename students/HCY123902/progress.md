@@ -55,4 +55,5 @@
 | 4 | Merged PR: [[#1848] Add instruction for debugging argument #1870](https://github.com/reposense/RepoSense/pull/1870) |
 | 4 | Reviewed PR: [[#1874] Use clearer author names in test template #1875](https://github.com/reposense/RepoSense/pull/1875) |
 | 4 | Reviewed PR: [Update authorship tags #15](https://github.com/reposense/testrepo-Alpha/pull/15) |
+| 4 | Reviewed PR: [Overwrite annotationTest.java with fakeAuthor #16](https://github.com/reposense/testrepo-Alpha/pull/16) |
 
