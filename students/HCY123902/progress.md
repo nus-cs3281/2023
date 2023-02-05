@@ -4,6 +4,7 @@
 | ---- | ------------ |
 | 2021/7/1 | Reviewed PR: [[#1493] DevOps Guide: move from Wiki to DG #1548](https://github.com/reposense/RepoSense/pull/1548) |
 | 2021/7/1 | Reviewed PR: [[#382, #1568] Make annotation tagged author appear in report #1554](https://github.com/reposense/RepoSense/pull/1554) |
+| 2021/7/1 | Submitted Issue: [Update documentation website to use MarkBind v3 #1557](https://github.com/reposense/RepoSense/issues/1557) |
 | 2021/7/16 | Reviewed PR: [[#937] Make all tests throw generic Exception #1566](https://github.com/reposense/RepoSense/pull/1566) |
 | 2021/7/21 | Reviewed PR: [Fix missing space and use of raw types #1569](https://github.com/reposense/RepoSense/pull/1569) |
 | 2021/8/22 | Reviewed PR: [[#1563, #1579] Tests: allow a fresh clone for some test cases #1570](https://github.com/reposense/RepoSense/pull/1570) |
@@ -42,8 +43,18 @@
 | Vacation week | Made Release: [RepoSense v2.3](https://github.com/reposense/RepoSense/releases/tag/v2.3) |
 | Vacation week | Reviewed PR: [[#1073] Use ES6+ way for string interpolation #1845](https://github.com/reposense/RepoSense/pull/1845) |
 | Vacation week | Reviewed PR: [[#1843] Fix authorship label LoC #1854](https://github.com/reposense/RepoSense/pull/1854) |
-| 1 | Reviewed PR: [[#1118] Modify regex and respective tests #1846](https://github.com/reposense/RepoSense/pull/1846); [[#1118] Remove authorship tag validation regex #1857](https://github.com/reposense/RepoSense/pull/1857) |
+| 1 | Reviewed PR: [[#1118] Modify regex and respective tests #1846](https://github.com/reposense/RepoSense/pull/1846) |
 | 1 | Reviewed PR: [[#1499] Declare vue prop types explicitly #1852](https://github.com/reposense/RepoSense/pull/1852) |
 | 1 | Responded to contributor queries: [Use less restrictive regex for author name in @@author tags #1118](https://github.com/reposense/RepoSense/issues/1118) |
 | 2 | Reviewed PR: [[#1118] Remove authorship tag validation regex #1857](https://github.com/reposense/RepoSense/pull/1857) |
 | 2 | Reviewed PR: [[#1771] Add tip on generating report via reposense-action #1858](https://github.com/reposense/RepoSense/pull/1858) |
+| 3 | Reviewed PR: [[#1865] Collapse file after scrolling through it in the Code Panel #1860](https://github.com/reposense/RepoSense/pull/1860) |
+| 3 | Reviewed PR: [Docs: Fix broken contributor links #1861](https://github.com/reposense/RepoSense/pull/1861) |
+| 3 | Reviewed PR: [[#1862] Fix badges with correct class names #1864](https://github.com/reposense/RepoSense/pull/1864) |
+| 3 | Reviewed PR: [[#1340] Deprecate use of window.toggleNext in zoom panel #1866](https://github.com/reposense/RepoSense/pull/1866) |
+| 3 | Reviewed PR: [[#968] Enforce Vue option order #1867](https://github.com/reposense/RepoSense/pull/1867) |
+| 4 | Merged PR: [[#1848] Add instruction for debugging argument #1870](https://github.com/reposense/RepoSense/pull/1870) |
+| 4 | Reviewed PR: [[#1874] Use clearer author names in test template #1875](https://github.com/reposense/RepoSense/pull/1875) |
+| 4 | Reviewed PR: [Update authorship tags #15](https://github.com/reposense/testrepo-Alpha/pull/15) |
+| 4 | Reviewed PR: [Overwrite annotationTest.java with fakeAuthor #16](https://github.com/reposense/testrepo-Alpha/pull/16) |
+
