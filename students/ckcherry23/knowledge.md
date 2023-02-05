@@ -1,42 +1,42 @@
-## Frontend
+### Frontend
 [//]: # (List the aspects you learned, and the resources you used to learn them, and a brief summary of each resource.)
-### JavaScript
+#### JavaScript
 * Dot notation vs bracket notation when accessing properties with variables
 * Scroll into view
 * Bounding rectangle
 
-### TypeScript
+#### TypeScript
 * JavaScript to TypeScript migration for type safety
 
-### Vue.js
+#### Vue.js
 * Vue rules
 * shorthand directives
 
-### Pug
+#### Pug
 * Pug overview
 * Indentation-based
 * Less noise as no closing tags required
 
-### Sass / CSS
+#### Sass / CSS
 * CSS++
 * `z-index` imported
 
-### Cypress
+#### Cypress
 * Tested newly added front-end features
 
 ---
-## Backend
+### Backend
 
-### Java
+#### Java
 * `transient`
 * Regular expressions
 
-### Git
+#### Git
 * `git log` options
 * Shallow cloning
 
 --- 
-## General
+### General
 1. Object parameter vs multiple parameters for constructors
 
 ---
