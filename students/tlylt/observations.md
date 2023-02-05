@@ -51,6 +51,7 @@ It's quite easy to start contributing to the project, as it can be done entirely
 
 #### What can be adopted by MarkBind
 
-
+- Automatic PR flaw detection (e.g. broken links, typos, etc.)
+- Establishing code owners and auto-assigning reviewers
 
 #### Suggested areas of improvement for the external project
