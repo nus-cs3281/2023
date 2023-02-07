@@ -18,7 +18,10 @@ Selected PRs:
 
 #### Medium-to-large scale
 
-TBD
+This includes PRs that are more complex and require more research and effort to complete.
+
+Selected PRs:
+- [move Web/API/Element/openOrClosedShadowRoot by tlylt · Pull Request #23989 · mdn/content](https://github.com/mdn/content/pull/23989)
 
 #### Summary
 Complete list of
@@ -53,5 +56,12 @@ It's quite easy to start contributing to the project, as it can be done entirely
 
 - Automatic PR flaw detection (e.g. broken links, typos, etc.)
 - Establishing code owners and auto-assigning reviewers
+- A dedicated documentation dashboard for writing documentation
 
 #### Suggested areas of improvement for the external project
+
+I think the project has merit in its own right, especially given the number of page views it gets. However, I think there are indeed areas of improvement that can be made.
+For example, the search functionality and UX is not as good as it could be. While the search input box gives immediate results in the form of a dropdown, if the search term is
+not found, the user will have to go to the dedicated search page, which shows a list of search results in plain text. This feels awkward, and I think I would be forced to search
+for the same term on Google instead. Another thing for improvement is the sidebar. The left sidebar of pages can be quite long and at times, it is not clear how the pages are structured.
+I think better categorization of the items in the sidebar would help.
