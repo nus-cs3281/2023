@@ -9,3 +9,7 @@
 | 4    | Opened PR: [Update Tips and Tricks documentation for raw / endraw tags (#2118)](https://github.com/MarkBind/markbind/pull/2118) |
 | 4    | Opened issue: [Incorrect display of raw / endraw tags as part of the `codeAndOutput.md` boilerplate (#2119)](https://github.com/MarkBind/markbind/issues/2119) |
 | 4    | Opened issue: [Incorrect display of `{{ '{{' }}` and `{{ '}}' }}` as part of the `codeAndOutput.md` boilerplate (#2120)](https://github.com/MarkBind/markbind/issues/2120) |
+| 4    | Discussion on PR: [Deprecate tipbox (#2121)](https://github.com/MarkBind/markbind/pull/2121) |
+| 4    | Reviewed PR: [Rephrase "Creating Custom Fragments" Section (#2122)](https://github.com/MarkBind/markbind/pull/2122) |
+| 4    | Reviewed PR: [Fix bug where dash cannot be highlighted in code blocks (#2125)](https://github.com/MarkBind/markbind/pull/2125) |
+| 4    | Opened PR: [Remove override of `title` in the init site (#2128)](https://github.com/MarkBind/markbind/pull/2128) |

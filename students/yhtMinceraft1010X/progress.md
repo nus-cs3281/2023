@@ -56,3 +56,5 @@
 | 3 | RepoSense | Merged PR: [Docs: Fix broken contributor links](https://github.com/reposense/RepoSense/pull/1861) |
 | 4 | RepoSense | Commented on PR: [Collapse file after scrolling through it in the Code Panel](https://github.com/reposense/RepoSense/pull/1860) |
 | 4 | RepoSense | Commented on PR: [Show merge commits in the report](https://github.com/reposense/RepoSense/pull/1882) |
+| 4 | RepoSense | Consolidated issues [#1286](https://github.com/reposense/RepoSense/issues/1286) and [#1720](https://github.com/reposense/RepoSense/issues/1720) into [#1886](https://github.com/reposense/RepoSense/issues/1886) |
+| 4 | RepoSense | Responded to issue [#1215](https://github.com/reposense/RepoSense/issues/1215) and created issue [#1887](https://github.com/reposense/RepoSense/issues/1887) |
