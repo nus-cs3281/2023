@@ -58,3 +58,7 @@
 | 4 | RepoSense | Commented on PR: [Show merge commits in the report](https://github.com/reposense/RepoSense/pull/1882) |
 | 4 | RepoSense | Consolidated issues [#1286](https://github.com/reposense/RepoSense/issues/1286) and [#1720](https://github.com/reposense/RepoSense/issues/1720) into [#1886](https://github.com/reposense/RepoSense/issues/1886) |
 | 4 | RepoSense | Responded to issue [#1215](https://github.com/reposense/RepoSense/issues/1215) and created issue [#1887](https://github.com/reposense/RepoSense/issues/1887) |
+| 5 | RepoSense | Merged PR: [Upgrade to Gradle 7.5.1](https://github.com/reposense/RepoSense/pull/1889) |
+| 5 | RepoSense | Merged PR: [Change header style for GitHub Issue and PR Templates](https://github.com/reposense/RepoSense/pull/1893) |
+| 5 | RepoSense | Merged PR: [Update minor versions of Node dependencies](https://github.com/reposense/RepoSense/pull/1895) |
+| 5 | RepoSense | Reviewed PR: [Fix concurrency issue with LOGGER_LIST](https://github.com/reposense/RepoSense/pull/1901) |

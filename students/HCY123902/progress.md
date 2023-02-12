@@ -57,4 +57,7 @@
 | 4 | Reviewed PR: [[#1874] Use clearer author names in test template #1875](https://github.com/reposense/RepoSense/pull/1875) |
 | 4 | Reviewed PR: [Update authorship tags #15](https://github.com/reposense/testrepo-Alpha/pull/15) |
 | 4 | Reviewed PR: [Overwrite annotationTest.java with fakeAuthor #16](https://github.com/reposense/testrepo-Alpha/pull/16) |
-
+| 5 | Discussed about issue during lecture: [Walk users through creating and deploying their first report #1430](https://github.com/reposense/RepoSense/issues/1430) |
+| 5 | Reviewed PR: [[#1877] Show merge commits in the report #1882](https://github.com/reposense/RepoSense/pull/1882) |
+| 5 | Reviewed PR: [[#1042] Include deletions in contributions #1883](https://github.com/reposense/RepoSense/pull/1883) |
+| 5 | Reviewed PR: [https://github.com/reposense/RepoSense/pull/1888](https://github.com/reposense/RepoSense/pull/1888) |

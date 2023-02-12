@@ -8,3 +8,5 @@
 | 4 | Reviewed PR: [Update Tips and Tricks documentation for raw / endraw tags #2118](https://github.com/MarkBind/markbind/pull/2118) |
 | 4 | Opened PR: [Update Question/Quiz component design #2131](https://github.com/MarkBind/markbind/pull/2131) |
 | 4 | Opened Issue: [Quiz component expanding when transitioning to next question #2126](https://github.com/MarkBind/markbind/issues/2126) |
+| 5 | Opened PR: [Tweak headings to match sidebar in documentation #2152](https://github.com/MarkBind/markbind/pull/2152)
+| 5 | Discussion on PR: [Update Question/Quiz component design #2131](https://github.com/MarkBind/markbind/pull/2131)
