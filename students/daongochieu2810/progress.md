@@ -37,4 +37,6 @@ Week | Achievements
 0 | Reviewed PR: [Instructor downloading session results: course/session details are repeated for each question](https://github.com/TEAMMATES/teammates/pull/11129)
 0 | Reviewed PR: [E2E tests for Audit Logs](https://github.com/TEAMMATES/teammates/pull/11095)
 3 | Reviewed PR: [Instructor Viewing Student Activities: Bug Fix and Enhancement](https://github.com/TEAMMATES/teammates/pull/12024)
-3 | Merged PR: [Add scheduled post processing step for student activity logs](https://github.com/TEAMMATES/teammates/pull/11857) 
+3 | Merged PR: [Add scheduled post processing step for student activity logs](https://github.com/TEAMMATES/teammates/pull/11857)  
+5 | Merged PR: [Add is migrated flag to datastore account](https://github.com/TEAMMATES/teammates/pull/12070)  
+5 | Merged PR: [Add isMigrated flag to course](https://github.com/TEAMMATES/teammates/pull/12063)
