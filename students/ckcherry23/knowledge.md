@@ -32,8 +32,8 @@ contain alphanumeric characters, `_` and `$`. On the contrary, bracket
 notation (eg. `objectName['propertyName']`) can use all UTF-8 characters 
 in the property name, or even variables that finally resolve to a string.
 This is useful when we will only know the property name during runtime, 
-as in this https://github.com/reposense/RepoSense/pull/1860, which uses 
-`this.$refs[file.path]` because the reference `file.path` is only 
+as in this [PR](https://github.com/reposense/RepoSense/pull/1860), which  
+uses `this.$refs[file.path]` because the reference `file.path` is only 
 resolved based on which file is being interacted with.
 
 #### TypeScript
@@ -69,7 +69,7 @@ the given selector.
 
 Pug is an HTML templating language for Node.js, It makes it easy to 
 write reusable HTML components with cleaner syntax. Such templating 
-ngines may be useful while working with data-driven web applications, 
+engines may be useful while working with data-driven web applications, 
 like RepoSense.
 
 Perhaps something unfortunate is that most online resources for Vue 
@@ -92,7 +92,7 @@ that made use of direct manipulation of DOM.
 
 #### Git
 
-`**git log**`
+**`git log`**
 
 For working on the [PR to include merge commits](https://github.com/reposense/RepoSense/pull/1882) 
 in the web dashboard, some backend changes were required as merge 
@@ -124,7 +124,7 @@ best way of initialising such objects with large number of attributes
 is. I was exploring the use of a single object parameter, as it makes 
 the code much cleaner. However, there is a tradeoff of whether it would 
 be type safe to just pass an object without any type as a parameter 
-into the function, yet I decided to continue with the method of using 
+into the function. Yet, I decided to continue with the method of using 
 an object argument. This issue of type safety could be mitigated in the
 future by checking that the object being passed in as the argument 
 implements the `UserType` interface, when migrating to TypeScript.
