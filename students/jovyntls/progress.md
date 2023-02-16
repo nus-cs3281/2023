@@ -19,3 +19,15 @@
 | 4    | Authored PR: [Migrate CodeBlockButtons plugins to TypeScript (#2135)](https://github.com/MarkBind/markbind/pull/2135) |
 | 4    | Reviewed PR: [Migrate MarkdownProcessor and related files to TS (#2111)](https://github.com/MarkBind/markbind/pull/2111) |
 | 4    | Discussion on issues: [Consider creating unified types for common variables (#2114)](https://github.com/MarkBind/markbind/issues/2114) |
+| 5    | Reviewed PR: [Migrate MarkdownProcessor and related files to TS (#2111)](https://github.com/MarkBind/markbind/pull/2111) |
+| 5    | Opened discussion issue: [How do we use milestones in PRs (and releases)? (#2142)](https://github.com/MarkBind/markbind/issues/2142) |
+| 5    | Discussion on issues: [The collapsed page nav appears in the print view (#2157)](https://github.com/MarkBind/markbind/issues/2157) |
+| 5    | Discussion on issues: [Explore development setup using Docker and VSCode (#2137)](https://github.com/MarkBind/markbind/issues/2137) |
+| 5    | Authored PR: [Migrate Plugin and PluginManager to TypeScript (#2133)](https://github.com/MarkBind/markbind/pull/2133) |
+| 5    | Authored PR: [Use @types/node at ^17.0.22 (#2158)](https://github.com/MarkBind/markbind/pull/2158) |
+| 5    | Reviewed PR: [Fix parsing for code highlight rules (#2138)](https://github.com/MarkBind/markbind/pull/2138) |
+| 5    | Reviewed PR: [Tweak headings to match sidebar in documentation (#2152)](https://github.com/MarkBind/markbind/pull/2152) |
+| 5    | Reviewed PR: [Update to webpack 5 (#2153)](https://github.com/MarkBind/markbind/pull/2152) |
+| 5    | Discussion on issues: [User Guide: Tweak heading to match site navigation menu (#2150)](https://github.com/MarkBind/markbind/issues/2150) |
+| 5    | Discussion on issues: [Support an easy syntax for pull quotes (#2155)](https://github.com/MarkBind/markbind/issues/2137) |
+| 6    | Discussion on issues: [Explore development setup using Docker and VSCode (#2137)](https://github.com/MarkBind/markbind/issues/2137) |

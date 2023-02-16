@@ -23,3 +23,4 @@
 | 1    | Authored PR (put on hold by request): [Instructor Viewing Student Activities: Bug Fix and Enhancement #12024](https://github.com/TEAMMATES/teammates/pull/12024) |
 | 3    | Reviewed PR: [Style page navigation menu items as links #12044](https://github.com/TEAMMATES/teammates/pull/12044)                                               |
 | 4    | Co-Authored PR: [Create frontend for Per Receiver Submission #12053](https://github.com/TEAMMATES/teammates/pull/12053)                                          |
+| 5    | Reviewed PR: [Navigation menu got collapsed #12057](https://github.com/TEAMMATES/teammates/pull/12057)                                                           |
