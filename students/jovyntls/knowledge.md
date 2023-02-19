@@ -154,3 +154,87 @@ While testing and debugging, I found many features of Chrome Devtools to be usef
 * Force a state on an element (e.g. hover, focus)
 * View the properties of an element, which can be queried and/or modified with JavaScript
 
+### Type Safety
+
+As MarkBind is undergoing a migration to TypeScript, a lot of files have to be adapted to a `.ts` format and many new types have to be created. 
+The migration uncovered some inconsistencies in how we process nodes, as adding types to our core package has allowed us to realise that methods are sometimes returning redundant or wrongly-typed outputs that are never used.
+
+### Types in TypeScript
+
+There are many method arguments and parameters that need to be typed but due to the many interactions between different classes and methods, we need to union, intersect or even assert types to ensure that the code can compile. 
+
+Some useful and possibly obscure TS syntaxes:
+
+**Intersection types: `&`**
+
+An intersection type combines several types into one. For instance, `DomElement & cheerio.Element` will have members of both `DomElement` and `cheerio.Element`.
+In the current migration, intersection types are particularly useful when handling `node` parameters as the type of `node`s needs to satisfy the `cheerio` APIs and 
+
+**Union types: `|`**
+
+A value that can be any one of several types is a union type. 
+Union can be used when a function may return different types (often `undefined`). 
+For example:
+```typescript
+function convertToCaps(str: string | undefined): string | undefined {
+  return str && str.toUpperCase();
+}
+```
+
+**Discriminating Unions**
+
+A type can be one of multiple types. For instance,
+
+```typescript
+type Red = {
+  code: '#FF0000'
+}
+
+type Blue = {
+  code: '#0000FF'
+}
+
+// Color will be either Red or Blue
+type Color = 
+  | Red
+  | Blue;
+```
+
+Discriminating unions could potentially be useful for typing `node` later on when we decide to unify the `node` types!
+This is especially so because currently `node` takes on various types, but there are some commonalities between each type (along with differences).
+
+### Accessing ambiguous object attributes in TypeScript
+
+Often, we may need to try to access attributes that may or may not exist on an object. 
+Some tricks that can help make code cleaner:
+
+**Non-null assertion: `!`**
+
+This asserts that a variable is not null, which stops compiler warnings.
+It can be used when we can confirm that the variable is not null through other means, and need to tell the compiler that we have done so.
+
+```typescript
+const word: string | null = "Hello";
+console.log(word.toLowerCase())  // Error: Object is possibly 'null'.ts(2531)
+console.log(word!.toLowerCase()) // Compiler doesn't complain for this!
+```
+
+**Check the presence of an optional variable: `?`**
+
+Suppose we have the following type: 
+
+```typescript
+type User = {
+  data?: {
+    email: string
+  }
+}
+```
+
+If we have a User object and we want to access the `email` attribute, we can access it using the `?` check:
+
+```typescript
+const emailAddress = user.data.email;   // Throws error because `user.data` may be undefined
+const emailAddress = user.data?.email;  // No error! Returns the email string or `undefined`
+```
+

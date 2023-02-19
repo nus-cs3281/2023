@@ -62,3 +62,5 @@
 | 5 | RepoSense | Merged PR: [Change header style for GitHub Issue and PR Templates](https://github.com/reposense/RepoSense/pull/1893) |
 | 5 | RepoSense | Merged PR: [Update minor versions of Node dependencies](https://github.com/reposense/RepoSense/pull/1895) |
 | 5 | RepoSense | Reviewed PR: [Fix concurrency issue with LOGGER_LIST](https://github.com/reposense/RepoSense/pull/1901) |
+| 6 | RepoSense | Merged PR: [Fix ESLint Indentation Level Options](https://github.com/reposense/RepoSense/pull/1896) |
+| 6 | RepoSense | Merged PR: [Consolidate OS jobs and tool versions in integration.yml](https://github.com/reposense/RepoSense/pull/1885) |

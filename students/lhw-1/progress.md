@@ -26,3 +26,7 @@
 | 5    | Merged PR: [Convert Template function to class (#2148)](https://github.com/MarkBind/markbind/pull/2148) |
 | 5    | Merged PR: [Update TypeScript Migration documentation on git hooks (#2151)](https://github.com/MarkBind/markbind/pull/2151) |
 | 5    | Discussion on issue: [Support an easy syntax for pull quotes (#2155)](https://github.com/MarkBind/markbind/issues/2155) |
+| 6    | Discussion on issue: [Node v19.6.0 incompatibility on Windows 10 (#2162)](https://github.com/MarkBind/markbind/issues/2162) |
+| 6    | Authored PR: [Clean up default init template (#2165)](https://github.com/MarkBind/markbind/pull/2165) |
+| 6    | Opened issue: [Remove empty `title` tags in generated tests (#2166)](https://github.com/MarkBind/markbind/issues/2166) |
+| 6    | Merged PR: [Migrate template to TypeScript (#2143)](https://github.com/MarkBind/markbind/pull/2143) |
