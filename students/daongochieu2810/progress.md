@@ -41,3 +41,4 @@ Week | Achievements
 5 | Merged PR: [Add is migrated flag to datastore account](https://github.com/TEAMMATES/teammates/pull/12070)  
 5 | Merged PR: [Add isMigrated flag to course](https://github.com/TEAMMATES/teammates/pull/12063)
 6 | Merged PR: [Add UsageStatistics entity and db](https://github.com/TEAMMATES/teammates/pull/12076)
+7 | Merged PR: [Update GetUsageStatisticsAction to include SQL entities](https://github.com/TEAMMATES/teammates/pull/12084)
