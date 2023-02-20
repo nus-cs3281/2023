@@ -72,3 +72,18 @@
 | 2    | Reviewed PR: [Testing getMinMaxPointErrors in FeedbackConstantSumQuestionDetails #12033](https://github.com/TEAMMATES/teammates/pull/12033) |
 | 3    | Reviewed PR: [Add stricter checks for potentially destructive question edits #12030](https://github.com/TEAMMATES/teammates/pull/12030) |
 | 3    | Reviewed PR: [Creating some Unit tests for FeedbackRubricQuestionDetails Class #12040](https://github.com/TEAMMATES/teammates/pull/12040) |
+| 5    | Reviewed PR: [Create frontend for Per Receiver Submission #12053](https://github.com/TEAMMATES/teammates/pull/12053) |
+| 5    | Reviewed PR: [Set generated app.admins field in build.properties to app_admin@gmail.com instead of app_admin #12054](https://github.com/TEAMMATES/teammates/pull/12054) |
+| 5    | Reviewed PR: [v9: Skeleton implementation #12056](https://github.com/TEAMMATES/teammates/pull/12056) |
+| 5    | Merged PR: [Student viewing rubric results: average doesn't match #12066](https://github.com/TEAMMATES/teammates/pull/12066) |
+| 5    | Reviewed PR: [Add is migrated flag to datastore account #12070](https://github.com/TEAMMATES/teammates/pull/12070) |
+| 6    | Merged PR: [Add accessibility tests workflow #12082](https://github.com/TEAMMATES/teammates/pull/12082) |
+| 6    | Reviewed PR: [Update Bootstrap library to 5.2 #12083](https://github.com/TEAMMATES/teammates/pull/12083) |
+| 6    | Reviewed PR: [Remove redundant InstructorRole Enum #12091](https://github.com/TEAMMATES/teammates/pull/12091) |
+| 6    | Reviewed PR: [Update Jetty library to 10 or 11 #12095](https://github.com/TEAMMATES/teammates/pull/12095) |
+| 6    | Reviewed PR: [User-friendliness: Fix margins on mobile #12096](https://github.com/TEAMMATES/teammates/pull/12096) |
+| 6    | Reviewed PR: [Update Angular to 14 and Node to 16 #12100](https://github.com/TEAMMATES/teammates/pull/12100) |
+| 6    | Merged PR: [Release V8.23.0 #12102](https://github.com/TEAMMATES/teammates/pull/12102) |
+| Recess | Reviewed PR: [Landmark questions in feedback sessions results page #12104](https://github.com/TEAMMATES/teammates/pull/12104) |
+| Recess | Reviewed PR: [User-friendliness: Make header dropdowns focusable #12105](https://github.com/TEAMMATES/teammates/pull/12105) |
+| Recess | Merged PR: [Tag all TEAMMATES pages with <main> #12108](https://github.com/TEAMMATES/teammates/pull/12108) |
