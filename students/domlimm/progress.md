@@ -23,3 +23,7 @@
 | 1    | Authored PR (put on hold by request): [Instructor Viewing Student Activities: Bug Fix and Enhancement #12024](https://github.com/TEAMMATES/teammates/pull/12024) |
 | 3    | Reviewed PR: [Style page navigation menu items as links #12044](https://github.com/TEAMMATES/teammates/pull/12044)                                               |
 | 4    | Co-Authored PR: [Create frontend for Per Receiver Submission #12053](https://github.com/TEAMMATES/teammates/pull/12053)                                          |
+| 5    | Reviewed PR: [Navigation menu got collapsed #12057](https://github.com/TEAMMATES/teammates/pull/12057)                                                           |
+| 6    | Reviewed PR: [Fixing Hot Spot and Vulnerability (Docker and Cipher Security) #12062](https://github.com/TEAMMATES/teammates/pull/12062)                          |
+| 6    | Merged PR: [Create Student, Instructor and User Entities for PostgreSQL Migration #12071](https://github.com/TEAMMATES/teammates/pull/12071)                     |
+| 6    | Reviewed PR: [Remove redundant InstructorRole Enum #12091](https://github.com/TEAMMATES/teammates/pull/12091)                                                    |
