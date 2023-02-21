@@ -57,4 +57,14 @@
 | 4 | Reviewed PR: [[#1874] Use clearer author names in test template #1875](https://github.com/reposense/RepoSense/pull/1875) |
 | 4 | Reviewed PR: [Update authorship tags #15](https://github.com/reposense/testrepo-Alpha/pull/15) |
 | 4 | Reviewed PR: [Overwrite annotationTest.java with fakeAuthor #16](https://github.com/reposense/testrepo-Alpha/pull/16) |
+| 5 | Discussed about issue during lecture: [Walk users through creating and deploying their first report #1430](https://github.com/reposense/RepoSense/issues/1430) |
+| 5 | Reviewed PR: [[#1877] Show merge commits in the report #1882](https://github.com/reposense/RepoSense/pull/1882) |
+| 5 | Reviewed PR: [[#1042] Include deletions in contributions #1883](https://github.com/reposense/RepoSense/pull/1883) |
+| 5 | Reviewed PR: [Bump http-cache-semantics from 4.1.0 to 4.1.1 in /frontend #1888](https://github.com/reposense/RepoSense/pull/1888) |
+| 5 | Merged PR for external project MDN: [Grammar fix in TextDecoder #24348](https://github.com/mdn/content/pull/24348) |
+| 5 | Authored PR for external project checkstyle: [Issue #7601: Add examples for JavadocType #12736](https://github.com/checkstyle/checkstyle/pull/12736) |
+| 6 | Merged PR for external project MDN: [Adjust the description for srcset of <source> element #24420](https://github.com/mdn/content/pull/24420)|
+| 5 | Merged PR for external project MDN: [Add a more detailed explanation of boolean in glossary #24350](https://github.com/mdn/content/pull/24350) |
+| 6 | Reviewed PR: [[#1756] Add JSON validation and migrate api.js to TypeScript #1903](https://github.com/reposense/RepoSense/pull/1903) |
+| 6 | Reviewed PR: [[#1904] Add ESLint support for TypeScript imports #1905](https://github.com/reposense/RepoSense/pull/1905) |
 
