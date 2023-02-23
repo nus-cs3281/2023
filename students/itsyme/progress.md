@@ -14,3 +14,4 @@
 | 6 | Reviewed PR: [Clean up default init template #2165](https://github.com/MarkBind/markbind/pull/2165)
 | 6 | Investigate Issue: [Quiz component expanding when transitioning to next question #2126](https://github.com/MarkBind/markbind/issues/2126) |
 | R | Opened PR [Fix Quiz expanding between questions #2184](https://github.com/MarkBind/markbind/pull/2184)
+| R | Investigate Issue: [Broken links detected for the deployment to devdocs #2179](https://github.com/MarkBind/markbind/issues/2179)
