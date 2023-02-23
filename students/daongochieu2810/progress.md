@@ -42,3 +42,5 @@ Week | Achievements
 5 | Merged PR: [Add isMigrated flag to course](https://github.com/TEAMMATES/teammates/pull/12063)
 6 | Merged PR: [Add UsageStatistics entity and db](https://github.com/TEAMMATES/teammates/pull/12076)
 7 | Merged PR: [Update GetUsageStatisticsAction to include SQL entities](https://github.com/TEAMMATES/teammates/pull/12084)
+7 | Merged PR: [Update CalculateUsageStatisticsAction to include SQL entities](https://github.com/TEAMMATES/teammates/pull/12109)
+7 | Reviewed PR: [Instructor viewing results of rubric questions: some students not shown in the stats table](https://github.com/TEAMMATES/teammates/pull/12123)
