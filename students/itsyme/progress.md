@@ -12,3 +12,5 @@
 | 5 | Discussion on PR: [Update Question/Quiz component design #2131](https://github.com/MarkBind/markbind/pull/2131)
 | 6 | Discussion on Issue: [Add some visual feedback when checking a \<question> with no radio options selected #2156](https://github.com/MarkBind/markbind/issues/2156)
 | 6 | Reviewed PR: [Clean up default init template #2165](https://github.com/MarkBind/markbind/pull/2165)
+| 6 | Investigate Issue: [Quiz component expanding when transitioning to next question #2126](https://github.com/MarkBind/markbind/issues/2126) |
+| R | Opened PR [Fix Quiz expanding between questions #2184](https://github.com/MarkBind/markbind/pull/2184)
