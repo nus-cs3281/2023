@@ -44,15 +44,15 @@
 | 14 December 2022 | RepoSense | Reviewed PR: [Use ES6+ way for string interpolation](https://github.com/reposense/RepoSense/pull/1845) |
 
 # CS3282 During-Sem Progress
-| Week | Project   | Achievements                                                                                                        |
-|------|-----------|---------------------------------------------------------------------------------------------------------------------|
-| 1    | RepoSense | Merged PR: [Change git log author regex type](https://github.com/reposense/RepoSense/pull/1855)                     |
+| Week | Project   | Achievements                                                                                                       |
+|------|-----------|--------------------------------------------------------------------------------------------------------------------|
+| 1    | RepoSense | Merged PR: [Change git log author regex type](https://github.com/reposense/RepoSense/pull/1855)                    |
 | 1    | RepoSense | Reviewed PR: [Add date range validation to sinceDate and untilDate](https://github.com/reposense/RepoSense/pull/1850) |
-| 1 | RepoSense | Reviewed PR: [Remove authorship tag validation regex](https://github.com/reposense/RepoSense/pull/1857)             |
-| 2 | RepoSense | Reviewed PR: [Codecov: specify threshold to be 0.3%](https://github.com/reposense/RepoSense/pull/1859)              |
-| 2 | RepoSense | Reviewed PR: [Switch to package-lock.json and npm ci](https://github.com/reposense/RepoSense/pull/1863)             |
-| 2 | RepoSense | Reviewed PR: [Fix badges with correct class names](https://github.com/reposense/RepoSense/pull/1864)                |
-| 2 | RepoSense | Created Release: [RepoSense v2.4](https://github.com/reposense/RepoSense/releases/tag/v2.4)                         |
+| 1 | RepoSense | Reviewed PR: [Remove authorship tag validation regex](https://github.com/reposense/RepoSense/pull/1857)            |
+| 2 | RepoSense | Reviewed PR: [Codecov: specify threshold to be 0.3%](https://github.com/reposense/RepoSense/pull/1859)             |
+| 2 | RepoSense | Reviewed PR: [Switch to package-lock.json and npm ci](https://github.com/reposense/RepoSense/pull/1863)            |
+| 2 | RepoSense | Reviewed PR: [Fix badges with correct class names](https://github.com/reposense/RepoSense/pull/1864)               |
+| 2 | RepoSense | Created Release: [RepoSense v2.4](https://github.com/reposense/RepoSense/releases/tag/v2.4)                        |
 | 3 | RepoSense | Merged PR: [Docs: Fix broken contributor links](https://github.com/reposense/RepoSense/pull/1861) |
 | 4 | RepoSense | Commented on PR: [Collapse file after scrolling through it in the Code Panel](https://github.com/reposense/RepoSense/pull/1860) |
 | 4 | RepoSense | Commented on PR: [Show merge commits in the report](https://github.com/reposense/RepoSense/pull/1882) |
@@ -64,3 +64,5 @@
 | 5 | RepoSense | Reviewed PR: [Fix concurrency issue with LOGGER_LIST](https://github.com/reposense/RepoSense/pull/1901) |
 | 6 | RepoSense | Merged PR: [Fix ESLint Indentation Level Options](https://github.com/reposense/RepoSense/pull/1896) |
 | 6 | RepoSense | Merged PR: [Consolidate OS jobs and tool versions in integration.yml](https://github.com/reposense/RepoSense/pull/1885) |
+| Recess | RepoSense | Reviewed PR: [Changing AuthorConfiguration.hasAuthorConfigFile into a local variable](https://github.com/reposense/RepoSense/pull/1910) |
+| Recess | RepoSense | Commented on PR: [Add TypeScript rules to ESLint](https://github.com/reposense/RepoSense/pull/1913) |

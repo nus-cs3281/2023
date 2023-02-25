@@ -62,9 +62,9 @@
 | 5 | Reviewed PR: [[#1042] Include deletions in contributions #1883](https://github.com/reposense/RepoSense/pull/1883) |
 | 5 | Reviewed PR: [Bump http-cache-semantics from 4.1.0 to 4.1.1 in /frontend #1888](https://github.com/reposense/RepoSense/pull/1888) |
 | 5 | Merged PR for external project MDN: [Grammar fix in TextDecoder #24348](https://github.com/mdn/content/pull/24348) |
-| 5 | Authored PR for external project checkstyle: [Issue #7601: Add examples for JavadocType #12736](https://github.com/checkstyle/checkstyle/pull/12736) |
 | 6 | Merged PR for external project MDN: [Adjust the description for srcset of <source> element #24420](https://github.com/mdn/content/pull/24420)|
-| 5 | Merged PR for external project MDN: [Add a more detailed explanation of boolean in glossary #24350](https://github.com/mdn/content/pull/24350) |
+| 6 | Merged PR for external project MDN: [Add a more detailed explanation of boolean in glossary #24350](https://github.com/mdn/content/pull/24350) |
 | 6 | Reviewed PR: [[#1756] Add JSON validation and migrate api.js to TypeScript #1903](https://github.com/reposense/RepoSense/pull/1903) |
 | 6 | Reviewed PR: [[#1904] Add ESLint support for TypeScript imports #1905](https://github.com/reposense/RepoSense/pull/1905) |
+| Recess Week | Merged PR for external project checkstyle: [Issue #7601: Add examples for JavadocType #12736](https://github.com/checkstyle/checkstyle/pull/12736) |
 
