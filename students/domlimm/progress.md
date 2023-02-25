@@ -27,3 +27,5 @@
 | 6    | Reviewed PR: [Fixing Hot Spot and Vulnerability (Docker and Cipher Security) #12062](https://github.com/TEAMMATES/teammates/pull/12062)                          |
 | 6    | Merged PR: [Create Student, Instructor and User Entities for PostgreSQL Migration #12071](https://github.com/TEAMMATES/teammates/pull/12071)                     |
 | 6    | Reviewed PR: [Remove redundant InstructorRole Enum #12091](https://github.com/TEAMMATES/teammates/pull/12091)                                                    |
+| R    | Reviewed PR: [Add Section and Team entity #12103](https://github.com/TEAMMATES/teammates/pull/12103)                                                             |
+| R    | Merged PR: [Create User DB Layer for v9 Migration #12110](https://github.com/TEAMMATES/teammates/pull/12110)                                                     |
