@@ -66,3 +66,5 @@
 | 6 | RepoSense | Merged PR: [Consolidate OS jobs and tool versions in integration.yml](https://github.com/reposense/RepoSense/pull/1885) |
 | Recess | RepoSense | Reviewed PR: [Changing AuthorConfiguration.hasAuthorConfigFile into a local variable](https://github.com/reposense/RepoSense/pull/1910) |
 | Recess | RepoSense | Commented on PR: [Add TypeScript rules to ESLint](https://github.com/reposense/RepoSense/pull/1913) |
+| Recess | RepoSense | Reviewed PR: [Make ReportGenerator and its corresponding Reporters non-static](https://github.com/reposense/RepoSense/pull/1916) |
+| Recess | SE-EDU (AB3) | Created Issue: [Jackson Dependency has vulnerable version](https://github.com/se-edu/addressbook-level3/issues/158) |

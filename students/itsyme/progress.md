@@ -16,3 +16,4 @@
 | R | Opened PR [Fix Quiz expanding between questions #2184](https://github.com/MarkBind/markbind/pull/2184)
 | R | Investigate Issue: [Broken links detected for the deployment to devdocs #2179](https://github.com/MarkBind/markbind/issues/2179)
 | R | Opened PR [Fix broken links in docs #2183](https://github.com/MarkBind/markbind/pull/2183)
+| R | Opened Issue [Quiz skipping questions when pressing next multiple times #2188](https://github.com/MarkBind/markbind/issues/2188)

@@ -66,5 +66,6 @@
 | 6 | Merged PR for external project MDN: [Add a more detailed explanation of boolean in glossary #24350](https://github.com/mdn/content/pull/24350) |
 | 6 | Reviewed PR: [[#1756] Add JSON validation and migrate api.js to TypeScript #1903](https://github.com/reposense/RepoSense/pull/1903) |
 | 6 | Reviewed PR: [[#1904] Add ESLint support for TypeScript imports #1905](https://github.com/reposense/RepoSense/pull/1905) |
+| 6 | Reviewed PR: [Add merge commit for unit test #18](https://github.com/reposense/testrepo-Alpha/pull/18) |
 | Recess Week | Merged PR for external project checkstyle: [Issue #7601: Add examples for JavadocType #12736](https://github.com/checkstyle/checkstyle/pull/12736) |
 
