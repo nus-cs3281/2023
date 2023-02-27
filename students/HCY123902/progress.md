@@ -62,8 +62,12 @@
 | 5 | Reviewed PR: [[#1042] Include deletions in contributions #1883](https://github.com/reposense/RepoSense/pull/1883) |
 | 5 | Reviewed PR: [Bump http-cache-semantics from 4.1.0 to 4.1.1 in /frontend #1888](https://github.com/reposense/RepoSense/pull/1888) |
 | 5 | Merged PR for external project MDN: [Grammar fix in TextDecoder #24348](https://github.com/mdn/content/pull/24348) |
+| 5 | Reviewed PR: [Change header style for GitHub Issue and PR Templates #1893](https://github.com/reposense/RepoSense/pull/1893) |
+| 5 | Reviewed PR: [[#1871] Update minor versions of Node dependencies #1895](https://github.com/reposense/RepoSense/pull/1895) |
+| 5 | Reviewed PR: [[#1815] Fix ESLint Indentation Level Options #1896](https://github.com/reposense/RepoSense/pull/1896) |
 | 6 | Merged PR for external project MDN: [Adjust the description for srcset of <source> element #24420](https://github.com/mdn/content/pull/24420)|
 | 6 | Merged PR for external project MDN: [Add a more detailed explanation of boolean in glossary #24350](https://github.com/mdn/content/pull/24350) |
+| 6 | Reviewed PR: [[#1758] Consolidate OS jobs and tool versions in integration.yml #1885](https://github.com/reposense/RepoSense/pull/1885) |
 | 6 | Reviewed PR: [[#1756] Add JSON validation and migrate api.js to TypeScript #1903](https://github.com/reposense/RepoSense/pull/1903) |
 | 6 | Reviewed PR: [[#1904] Add ESLint support for TypeScript imports #1905](https://github.com/reposense/RepoSense/pull/1905) |
 | 6 | Reviewed PR: [Add merge commit for unit test #18](https://github.com/reposense/testrepo-Alpha/pull/18) |
