@@ -68,3 +68,4 @@
 | Recess | RepoSense | Commented on PR: [Add TypeScript rules to ESLint](https://github.com/reposense/RepoSense/pull/1913) |
 | Recess | RepoSense | Reviewed PR: [Make ReportGenerator and its corresponding Reporters non-static](https://github.com/reposense/RepoSense/pull/1916) |
 | Recess | SE-EDU (AB3) | Created Issue: [Jackson Dependency has vulnerable version](https://github.com/se-edu/addressbook-level3/issues/158) |
+| 7 | RepoSense | Merged PR: [Gradle: remove unneeded commons-text dependency](https://github.com/reposense/RepoSense/pull/1918) |
