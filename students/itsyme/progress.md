@@ -8,3 +8,12 @@
 | 4 | Reviewed PR: [Update Tips and Tricks documentation for raw / endraw tags #2118](https://github.com/MarkBind/markbind/pull/2118) |
 | 4 | Opened PR: [Update Question/Quiz component design #2131](https://github.com/MarkBind/markbind/pull/2131) |
 | 4 | Opened Issue: [Quiz component expanding when transitioning to next question #2126](https://github.com/MarkBind/markbind/issues/2126) |
+| 5 | Opened PR: [Tweak headings to match sidebar in documentation #2152](https://github.com/MarkBind/markbind/pull/2152)
+| 5 | Discussion on PR: [Update Question/Quiz component design #2131](https://github.com/MarkBind/markbind/pull/2131)
+| 6 | Discussion on Issue: [Add some visual feedback when checking a \<question> with no radio options selected #2156](https://github.com/MarkBind/markbind/issues/2156)
+| 6 | Reviewed PR: [Clean up default init template #2165](https://github.com/MarkBind/markbind/pull/2165)
+| 6 | Investigate Issue: [Quiz component expanding when transitioning to next question #2126](https://github.com/MarkBind/markbind/issues/2126) |
+| R | Opened PR [Fix Quiz expanding between questions #2184](https://github.com/MarkBind/markbind/pull/2184)
+| R | Investigate Issue: [Broken links detected for the deployment to devdocs #2179](https://github.com/MarkBind/markbind/issues/2179)
+| R | Opened PR [Fix broken links in docs #2183](https://github.com/MarkBind/markbind/pull/2183)
+| R | Opened Issue [Quiz skipping questions when pressing next multiple times #2188](https://github.com/MarkBind/markbind/issues/2188)
