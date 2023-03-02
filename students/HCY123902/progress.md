@@ -72,3 +72,4 @@
 | 6 | Reviewed PR: [[#1904] Add ESLint support for TypeScript imports #1905](https://github.com/reposense/RepoSense/pull/1905) |
 | 6 | Reviewed PR: [Add merge commit for unit test #18](https://github.com/reposense/testrepo-Alpha/pull/18) |
 | Recess Week | Merged PR for external project checkstyle: [Issue #7601: Add examples for JavadocType #12736](https://github.com/checkstyle/checkstyle/pull/12736) |
+| 7 | Submitted Issue: [Handle merge commit with conflict resolution #1926](https://github.com/reposense/RepoSense/issues/1926) |
