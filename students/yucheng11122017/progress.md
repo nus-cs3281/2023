@@ -27,3 +27,4 @@
 | 7    | Reviewed PR: [Add default value for title tags](https://github.com/MarkBind/markbind/pull/2186)                                                 |
 | 7    | Merged PR: [Change format of nunjucks code and output](https://github.com/MarkBind/markbind/pull/2175)                                          |
 | 7    | Merged PR: [Support iconColor in box when light/seamless is used](https://github.com/MarkBind/markbind/pull/2178)                               |
+| 7    | Opened PR: [Contact form plugin](https://github.com/MarkBind/markbind/pull/2191)                                                                |
