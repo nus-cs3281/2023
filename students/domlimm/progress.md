@@ -29,3 +29,6 @@
 | 6    | Reviewed PR: [Remove redundant InstructorRole Enum #12091](https://github.com/TEAMMATES/teammates/pull/12091)                                                    |
 | R    | Reviewed PR: [Add Section and Team entity #12103](https://github.com/TEAMMATES/teammates/pull/12103)                                                             |
 | R    | Merged PR: [Create User DB Layer for v9 Migration #12110](https://github.com/TEAMMATES/teammates/pull/12110)                                                     |
+| 7    | Merged PR: [Create SQL Logic for Get User Actions #12136](https://github.com/TEAMMATES/teammates/pull/12136)                                                     |
+| 7    | Reviewed PR: [Resolve width issue for num scale question #12146](https://github.com/TEAMMATES/teammates/pull/12146)                                              |
+| 7    | Merged PR: [Add Unit Tests for UserDb methods #12163](https://github.com/TEAMMATES/teammates/pull/12163)                                                         |
