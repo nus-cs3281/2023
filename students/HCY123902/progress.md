@@ -73,3 +73,5 @@
 | 6 | Reviewed PR: [Add merge commit for unit test #18](https://github.com/reposense/testrepo-Alpha/pull/18) |
 | Recess Week | Merged PR for external project checkstyle: [Issue #7601: Add examples for JavadocType #12736](https://github.com/checkstyle/checkstyle/pull/12736) |
 | 7 | Submitted Issue: [Handle merge commit with conflict resolution #1926](https://github.com/reposense/RepoSense/issues/1926) |
+| 7 | Submitted Issue: [Tooltip of the collapse button occludes the next file title #1928](https://github.com/reposense/RepoSense/issues/1928) |
+| 7 | Submitted Issue: [Add dynamic positioning support for tooltip #1929](https://github.com/reposense/RepoSense/issues/1929) |
