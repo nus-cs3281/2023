@@ -18,3 +18,4 @@
 | R | Opened PR [Fix broken links in docs #2183](https://github.com/MarkBind/markbind/pull/2183)
 | R | Opened Issue [Quiz skipping questions when pressing next multiple times #2188](https://github.com/MarkBind/markbind/issues/2188)
 | 7 | Reviewed PR [Use boilerplate in UG index to standardize with rest of UG #2194](https://github.com/MarkBind/markbind/pull/2194)
+| 7 | Opened PR [Add shake effect when none selected in MCQ Question #2195](https://github.com/MarkBind/markbind/pull/2195)
