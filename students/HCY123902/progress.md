@@ -75,3 +75,5 @@
 | 7 | Submitted Issue: [Handle merge commit with conflict resolution #1926](https://github.com/reposense/RepoSense/issues/1926) |
 | 7 | Submitted Issue: [Tooltip of the collapse button occludes the next file title #1928](https://github.com/reposense/RepoSense/issues/1928) |
 | 7 | Submitted Issue: [Add dynamic positioning support for tooltip #1929](https://github.com/reposense/RepoSense/issues/1929) |
+| 8 | Reviewed PR: [[#1912] Refactor frontend code to minimize explicit any types #1914](https://github.com/reposense/RepoSense/pull/1914) |
+| 8 | Reviewed PR: [Test if ramp chart in zoom view shows selected period #1930](https://github.com/reposense/RepoSense/pull/1930) |
