@@ -32,3 +32,4 @@
 | 7    | Merged PR: [Create SQL Logic for Get User Actions #12136](https://github.com/TEAMMATES/teammates/pull/12136)                                                     |
 | 7    | Reviewed PR: [Resolve width issue for num scale question #12146](https://github.com/TEAMMATES/teammates/pull/12146)                                              |
 | 7    | Merged PR: [Add Unit Tests for UserDb methods #12163](https://github.com/TEAMMATES/teammates/pull/12163)                                                         |
+| 8    | Merged PR: [Update access visibility of HibernateUtils utility methods to private #12171](https://github.com/TEAMMATES/teammates/pull/12171)                     |
