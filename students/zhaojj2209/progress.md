@@ -77,13 +77,39 @@
 | 5    | Reviewed PR: [v9: Skeleton implementation #12056](https://github.com/TEAMMATES/teammates/pull/12056) |
 | 5    | Merged PR: [Student viewing rubric results: average doesn't match #12066](https://github.com/TEAMMATES/teammates/pull/12066) |
 | 5    | Reviewed PR: [Add is migrated flag to datastore account #12070](https://github.com/TEAMMATES/teammates/pull/12070) |
+| 6    | Submitted Issue: [User-friendliness Hero #12081](https://github.com/TEAMMATES/teammates/issues/12081) |
 | 6    | Merged PR: [Add accessibility tests workflow #12082](https://github.com/TEAMMATES/teammates/pull/12082) |
 | 6    | Reviewed PR: [Update Bootstrap library to 5.2 #12083](https://github.com/TEAMMATES/teammates/pull/12083) |
 | 6    | Reviewed PR: [Remove redundant InstructorRole Enum #12091](https://github.com/TEAMMATES/teammates/pull/12091) |
 | 6    | Reviewed PR: [Update Jetty library to 10 or 11 #12095](https://github.com/TEAMMATES/teammates/pull/12095) |
 | 6    | Reviewed PR: [User-friendliness: Fix margins on mobile #12096](https://github.com/TEAMMATES/teammates/pull/12096) |
+| 6    | Submitted Issue: [Release V8.23.0 #12097](https://github.com/TEAMMATES/teammates/issues/12097) |
 | 6    | Reviewed PR: [Update Angular to 14 and Node to 16 #12100](https://github.com/TEAMMATES/teammates/pull/12100) |
 | 6    | Merged PR: [Release V8.23.0 #12102](https://github.com/TEAMMATES/teammates/pull/12102) |
-| Recess | Reviewed PR: [Landmark questions in feedback sessions results page #12104](https://github.com/TEAMMATES/teammates/pull/12104) |
+| Recess | Reviewed PR: [Landmark questions in submit feedback page #12104](https://github.com/TEAMMATES/teammates/pull/12104) |
 | Recess | Reviewed PR: [User-friendliness: Make header dropdowns focusable #12105](https://github.com/TEAMMATES/teammates/pull/12105) |
-| Recess | Merged PR: [Tag all TEAMMATES pages with <main> #12108](https://github.com/TEAMMATES/teammates/pull/12108) |
+| Recess | Merged PR: [Tag all TEAMMATES pages with \<main\> #12108](https://github.com/TEAMMATES/teammates/pull/12108) |
+| Recess | Reviewed PR: [Refactor v9 unit tests #12111](https://github.com/TEAMMATES/teammates/pull/12111) |
+| Recess | Reviewed PR: [Instructor viewing results of rubric questions: some students not shown in the stats table #12123](https://github.com/TEAMMATES/teammates/pull/12123) |
+| Recess | Submitted Issue: [Instructor results page stats tables: differentiate students with same team and name #12125](https://github.com/TEAMMATES/teammates/issues/12125) |
+| Recess | Submitted Issue: [Release V8.23.1 #12126](https://github.com/TEAMMATES/teammates/issues/12126) |
+| Recess | Reviewed PR: [User-friendliness: Landmark questions in feedback sessions results page #12129](https://github.com/TEAMMATES/teammates/pull/12129) |
+| Recess | Reviewed PR: [Instructor edit session times: timing restrictions are not as expected #12133](https://github.com/TEAMMATES/teammates/pull/12133) |
+| Recess | Submitted Issue: [Release V8.23.2 #12134](https://github.com/TEAMMATES/teammates/issues/12134) |
+| 7    | Reviewed PR: [User-friendliness: Fix evaluee/recipient mobile text wrap #12139](https://github.com/TEAMMATES/teammates/pull/12139) |
+| 7    | Reviewed PR: [User-friendliness: Add label to text input for essay questions #12140](https://github.com/TEAMMATES/teammates/pull/12140) |
+| 7    | Reviewed PR: [User-friendliness: Add labels for MSQ checkboxes #12144](https://github.com/TEAMMATES/teammates/pull/12144) |
+| 7    | Reviewed PR: [User-friendliness: Add labels for MCQ question #12147](https://github.com/TEAMMATES/teammates/pull/12147) |
+| 7    | Reviewed PR: [User-friendliness: Add labels for numerical scale questions #12148](https://github.com/TEAMMATES/teammates/pull/12148) |
+| 7    | Reviewed PR: [User-friendliness: Add labels and groups to distribute points (options) question #12149](https://github.com/TEAMMATES/teammates/pull/12149) |
+| 7    | Reviewed PR: [User-friendliness: Add labels for distribute points by recipient questions #12150](https://github.com/TEAMMATES/teammates/pull/12150) |
+| 7    | Reviewed PR: [User-friendliness: Add labels and change "more info" button for team contribution questions #12153](https://github.com/TEAMMATES/teammates/pull/12153) |
+| 7    | Reviewed PR: [User-friendliness: Add labels to rubric questions #12155](https://github.com/TEAMMATES/teammates/pull/12155) |
+| 7    | Merged PR: [Refactor accessibility rule disabling logic #12162](https://github.com/TEAMMATES/teammates/pull/12162) |
+| 8    | Submitted Issue: [Lintspaces on Linux showing warnings instead of errors #12169](https://github.com/TEAMMATES/teammates/issues/12169) |
+| 8    | Merged PR: [Modify header and footer colours #12164](https://github.com/TEAMMATES/teammates/pull/12164) |
+| 8    | Reviewed PR: [Migrate gatekeeper #12166](https://github.com/TEAMMATES/teammates/pull/12166) |
+| 8    | Reviewed PR: [User-friendliness: Add label to rank recipients question #12167](https://github.com/TEAMMATES/teammates/pull/12167) |
+| 8    | Reviewed PR: [User-friendliness: Add labels to rank options questions #12172](https://github.com/TEAMMATES/teammates/pull/12172) |
+| 8    | Reviewed PR: [User-friendliness: Fix numerical scale question table in view responses page #12174](https://github.com/TEAMMATES/teammates/pull/12174)|
+| 8    | Reviewed PR: [User-friendliness: Fix dropdown caret overlap #12179](https://github.com/TEAMMATES/teammates/pull/12179)|
