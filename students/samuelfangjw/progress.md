@@ -44,7 +44,7 @@
 |6|Reviewed PR: [Create frontend for Per Receiver Submission #12053](https://github.com/TEAMMATES/teammates/pull/12053)|
 |6|Merged PR: [Remove redundant InstructorRole Enum #12091](https://github.com/TEAMMATES/teammates/pull/12091)|
 |6|Reviewed PR: [Update GetUsageStatisticsAction to include SQL entities #12084](https://github.com/TEAMMATES/teammates/pull/12084)|
-|Recess|Reviewed PR: [Tag all TEAMMATES pages with <main> #12108](https://github.com/TEAMMATES/teammates/pull/12108)|
+|Recess|Reviewed PR: [Tag all TEAMMATES pages with \<main\> #12108](https://github.com/TEAMMATES/teammates/pull/12108)|
 |Recess|Reviewed PR: [Migrate Course Action classes #12092](https://github.com/TEAMMATES/teammates/pull/12092)|
 |Recess|Reviewed PR: [Add Section and Team entity #12103](https://github.com/TEAMMATES/teammates/pull/12103)|
 |Recess|Reviewed PR: [Account request v9 migration #12107](https://github.com/TEAMMATES/teammates/pull/12107)|
