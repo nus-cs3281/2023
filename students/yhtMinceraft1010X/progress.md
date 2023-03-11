@@ -70,3 +70,4 @@
 | Recess | SE-EDU (AB3) | Created Issue: [Jackson Dependency has vulnerable version](https://github.com/se-edu/addressbook-level3/issues/158) |
 | 7 | RepoSense | Merged PR: [Gradle: remove unneeded commons-text dependency](https://github.com/reposense/RepoSense/pull/1918) |
 | 7 | RepoSense | Merged PR: [Consolidate Node.js installation source of truth](https://github.com/reposense/RepoSense/pull/1906) |
+| 8 | RepoSense | Reviewed PR: [Remove unnecessary test mode behavior in ConfigSystemTest](https://github.com/reposense/RepoSense/pull/1911) |
