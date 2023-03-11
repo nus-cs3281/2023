@@ -47,9 +47,9 @@ Resources:
 
 #### External Project Workflow
 
-[Contribution Guide](https://checkstyle.org/contributing.html)
-[Development Workflow](https://checkstyle.org/beginning_development.html)
-[Pull request template](https://github.com/checkstyle/checkstyle/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
+[Contribution Guide](https://checkstyle.org/contributing.html);
+[Development Workflow](https://checkstyle.org/beginning_development.html);
+[Pull request template](https://github.com/checkstyle/checkstyle/blob/master/.github/PULL_REQUEST_TEMPLATE.md);
 [Pull request rules](https://github.com/checkstyle/checkstyle/wiki/PR-rules)
 
 Workflow:
