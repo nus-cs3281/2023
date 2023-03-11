@@ -30,3 +30,10 @@
 | 6    | Authored PR: [Clean up default init template (#2165)](https://github.com/MarkBind/markbind/pull/2165) |
 | 6    | Opened issue: [Remove empty `title` tags in generated tests (#2166)](https://github.com/MarkBind/markbind/issues/2166) |
 | 6    | Merged PR: [Migrate template to TypeScript (#2143)](https://github.com/MarkBind/markbind/pull/2143) |
+| 6    | Reviewed PR: [Fix broken links in UG (#2173)](https://github.com/MarkBind/markbind/pull/2173) |
+| 6    | Reviewed PR: [Change format of nunjucks code and output (#2175)](https://github.com/MarkBind/markbind/pull/2175) |
+| R    | Authored PR: [Add default value for `title` tags (#2186)](https://github.com/MarkBind/markbind/pull/2186) |
+| R    | Discussion on issue: [Remove empty `title` tags in generated tests (#2166)](https://github.com/MarkBind/markbind/issues/2166) |
+| 7    | Discussion on PR: [Fix Quiz expanding between questions (#2184)](https://github.com/MarkBind/markbind/pull/2184) |
+| 7    | Discussion on issue: [Replace empty title tags in generated tests with default value (#2166)](https://github.com/MarkBind/markbind/issues/2166) |
+| 7    | Reviewed PR: [Support horizontal layout in code and output boilerplates (#2194)](https://github.com/MarkBind/markbind/pull/2194) |
