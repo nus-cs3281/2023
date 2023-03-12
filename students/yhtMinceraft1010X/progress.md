@@ -71,3 +71,4 @@
 | 7 | RepoSense | Merged PR: [Gradle: remove unneeded commons-text dependency](https://github.com/reposense/RepoSense/pull/1918) |
 | 7 | RepoSense | Merged PR: [Consolidate Node.js installation source of truth](https://github.com/reposense/RepoSense/pull/1906) |
 | 8 | RepoSense | Reviewed PR: [Remove unnecessary test mode behavior in ConfigSystemTest](https://github.com/reposense/RepoSense/pull/1911) |
+| 8 | RepoSense | Reviewed PR: [Update Cypress to v10](https://github.com/reposense/RepoSense/pull/1922) |
