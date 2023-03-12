@@ -21,3 +21,4 @@
 | 7 | Opened PR [Add shake effect when none selected in MCQ Question #2195](https://github.com/MarkBind/markbind/pull/2195)
 | 8 | Opened PR [Tweak sitenav design #2204](https://github.com/MarkBind/markbind/pull/2204)
 | 8 | Opened PR [Add examples for bootstrap #2205](https://github.com/MarkBind/markbind/pull/2205)
+| 8 | Opened PR [Add expand and collapse all buttons in site-nav #2206](https://github.com/MarkBind/markbind/pull/2206)
