@@ -19,3 +19,5 @@
 | R | Opened Issue [Quiz skipping questions when pressing next multiple times #2188](https://github.com/MarkBind/markbind/issues/2188)
 | 7 | Reviewed PR [Use boilerplate in UG index to standardize with rest of UG #2194](https://github.com/MarkBind/markbind/pull/2194)
 | 7 | Opened PR [Add shake effect when none selected in MCQ Question #2195](https://github.com/MarkBind/markbind/pull/2195)
+| 8 | Opened PR [Tweak sitenav design #2204](https://github.com/MarkBind/markbind/pull/2204)
+| 8 | Opened PR [Add examples for bootstrap #2205](https://github.com/MarkBind/markbind/pull/2205)
