@@ -15,3 +15,12 @@
 | 7      | Merged PR: [User-friendliness: Add labels and change "more info" button for team contribution questions #12153](https://github.com/TEAMMATES/teammates/pull/12153) |
 | 7      | Reviewed PR: [Instructor viewing results of rubric questions: missing space after checkbox #12151](https://github.com/TEAMMATES/teammates/pull/12151) |
 | 7      | Reviewed PR: [Refactor accessibility rule disabling logic #12162](https://github.com/TEAMMATES/teammates/pull/12162) |
+| 8      | Merged PR: [User-friendliness: Add label to rank recipients question #12167](https://github.com/TEAMMATES/teammates/pull/12167) |
+| 8      | Reviewed PR: [Modify header and footer colours #12164](https://github.com/TEAMMATES/teammates/pull/12164) |
+| 8      | Reviewed PR: [Add back per criterion averages to the stat table #12152](https://github.com/TEAMMATES/teammates/pull/12152) |
+| 8      | Merged PR: [ User-friendliness: Fix numerical scale question table in view responses page #12174](https://github.com/TEAMMATES/teammates/pull/12174) |
+| 8      | Merged PR: [User-friendliness: Fix dropdown caret overlap #12179](https://github.com/TEAMMATES/teammates/pull/12179) |
+| 8      | Reviewed PR: [Remove Bootstrap column style override #12180](https://github.com/TEAMMATES/teammates/pull/12180) |
+| 8      | Reviewed PR: [Removed raise edge image #12189](https://github.com/TEAMMATES/teammates/pull/12189) |
+| 8      | Reviewed PR: [Removed raise edge from home page, feature page #12192](https://github.com/TEAMMATES/teammates/pull/12192) |
+| 8      | Reviewed PR: [User-friendliness: Add labels to rubric questions #12155](https://github.com/TEAMMATES/teammates/pull/12155) |
