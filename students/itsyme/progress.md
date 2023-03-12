@@ -20,5 +20,5 @@
 | 7 | Reviewed PR [Use boilerplate in UG index to standardize with rest of UG #2194](https://github.com/MarkBind/markbind/pull/2194)
 | 7 | Opened PR [Add shake effect when none selected in MCQ Question #2195](https://github.com/MarkBind/markbind/pull/2195)
 | 8 | Opened PR [Tweak sitenav design #2204](https://github.com/MarkBind/markbind/pull/2204)
-| 8 | Opened PR [Add examples for bootstrap #2205](https://github.com/MarkBind/markbind/pull/2205)
+| 8 | Opened PR [Rephrase MarkBind Vue components and Bootstrap #2205](https://github.com/MarkBind/markbind/pull/2205)
 | 8 | Opened PR [Add expand and collapse all buttons in site-nav #2206](https://github.com/MarkBind/markbind/pull/2206)
