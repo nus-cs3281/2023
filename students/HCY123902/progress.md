@@ -75,5 +75,9 @@
 | 7 | Submitted Issue: [Handle merge commit with conflict resolution #1926](https://github.com/reposense/RepoSense/issues/1926) |
 | 7 | Submitted Issue: [Tooltip of the collapse button occludes the next file title #1928](https://github.com/reposense/RepoSense/issues/1928) |
 | 7 | Submitted Issue: [Add dynamic positioning support for tooltip #1929](https://github.com/reposense/RepoSense/issues/1929) |
+| 8 | Reviewed PR: [[#1912] Add TypeScript rules to ESLint #1913](https://github.com/reposense/RepoSense/pull/1913) |
 | 8 | Reviewed PR: [[#1912] Refactor frontend code to minimize explicit any types #1914](https://github.com/reposense/RepoSense/pull/1914) |
+| 8 | Reviewed PR: [[#1891] Update Cypress to v10 #1922](https://github.com/reposense/RepoSense/pull/1922) |
 | 8 | Reviewed PR: [Test if ramp chart in zoom view shows selected period #1930](https://github.com/reposense/RepoSense/pull/1930) |
+| 9 | Reviewed PR: [[#1936] Migrate store.js to TypeScript #1937](https://github.com/reposense/RepoSense/pull/1937) |
+| 9 | Submitted Issue: [Migrate Cypress to TypeScript #1946](https://github.com/reposense/RepoSense/issues/1946) |
