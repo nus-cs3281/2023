@@ -22,3 +22,5 @@
 | 8    | RepoSense | Submitted Issue: [Add missing CommitResultAggregratorTest #1932](https://github.com/reposense/RepoSense/pull/1932)                                                 |
 | 8    | RepoSense | Submitted Issue: [Link to DevOps guide is broken #1933](https://github.com/reposense/RepoSense/pull/1933)                                                          |
 | 8    | RepoSense | Merged PR (to fork): [Add DES skeleton code #1](https://github.com/sikai00/RepoSense/pull/1)                                                                       |
+| 8    | RepoSense | Reviewed PR (on fork): [Add cli wizard flag and optional, view and repo prompts #2](https://github.com/sikai00/RepoSense/pull/2)                                   |
+| 8    | RepoSense | Investigated Issue: [Add missing CommitResultAggregratorTest #1932](https://github.com/reposense/RepoSense/pull/1932)                                              |
