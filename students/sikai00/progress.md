@@ -24,3 +24,6 @@
 | 8    | RepoSense | Merged PR (to fork): [Add DES skeleton code #1](https://github.com/sikai00/RepoSense/pull/1)                                                                       |
 | 8    | RepoSense | Reviewed PR (on fork): [Add cli wizard flag and optional, view and repo prompts #2](https://github.com/sikai00/RepoSense/pull/2)                                   |
 | 8    | RepoSense | Investigated Issue: [Add missing CommitResultAggregratorTest #1932](https://github.com/reposense/RepoSense/pull/1932)                                              |
+| 9    | RepoSense | Merged PR: [Remove unnecessary test mode behavior in ConfigSystemTest #1911](https://github.com/reposense/RepoSense/pull/1911)                                     |
+| 9    | RepoSense | Merged PR: [Make ReportGenerator and its corresponding Reporters non-static #1916](https://github.com/reposense/RepoSense/pull/1916)                               |
+| 9    | RepoSense | Submitted Issue: [Make ErrorSummary non-static by removing singleton design pattern #1943](https://github.com/reposense/RepoSense/issues/1943)                     |
