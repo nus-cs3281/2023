@@ -22,3 +22,4 @@
 | 8 | Opened PR [Tweak sitenav design #2204](https://github.com/MarkBind/markbind/pull/2204)
 | 8 | Opened PR [Rephrase MarkBind Vue components and Bootstrap #2205](https://github.com/MarkBind/markbind/pull/2205)
 | 8 | Opened PR [Add expand and collapse all buttons in site-nav #2206](https://github.com/MarkBind/markbind/pull/2206)
+| 9 | Opened PR [Deprecate slots, attributes and syntax #2208](https://github.com/MarkBind/markbind/pull/2208)
