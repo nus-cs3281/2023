@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="MarkBind 4.1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="/2023/markbind/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/2023/markbind/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/2023/markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+    <link rel="stylesheet" href="/2023/markbind/css/octicons.css">
+    <link rel="stylesheet" href="/2023/markbind/material-icons/material-icons.css">
+    <link rel="stylesheet" href="/2023/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/2023/markbind/css/markbind.min.css"><script src="/2023/markbind/js/polyfill.min.js"></script>
+    <script src="/2023/markbind/js/vue.min.js"></script>
+    <script src="/2023/markbind/js/markbind.min.js"></script>
+    <script src="knowledge.page-vue-render.js"></script>
+    <script src="/2023/markbind/js/jquery.min.js"></script><link rel="stylesheet" href="/2023/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/2023/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    
+  <link rel="stylesheet" href="/2023/stylesheets/main.css">
+<link rel="icon" href="/2023/favicon.ico"></head>
+<script>
+  const baseUrl = '/2023'
+</script>
+<body >
+<div id="app" data-server-rendered="true"><header fixed=""><div placement="top" data-v-15113a2f><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-primary" data-v-15113a2f><div class="container-fluid" data-v-15113a2f><div class="navbar-left" data-v-15113a2f><a href="/2023/index.html" title="Home" class="navbar-brand" data-v-15113a2f>CS3281&amp;2-2023/Students</a></div> <div class="navbar-default" data-v-15113a2f><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-15113a2f> <li class="nav-link dropdown" data-v-2e98b3f0><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle" data-v-2e98b3f0>CS3281</a> <ul class="dropdown-menu" data-v-2e98b3f0> <li data-v-2e98b3f0><a href="/2023/index.html" class="dropdown-item" data-v-2e98b3f0>Students</a></li> <li data-v-2e98b3f0><a href="/2023/students/knowledge.html" class="dropdown-item" data-v-2e98b3f0>Knowledge</a></li> <li data-v-2e98b3f0><a href="https://nus-cs3281.github.io/2023-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByAuthors&amp;breakdown=false" class="dropdown-item" data-v-2e98b3f0>Code Dashboard</a></li></ul></li> <li class="nav-link dropdown" data-v-2e98b3f0><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle" data-v-2e98b3f0>CS3282</a> <ul class="dropdown-menu" data-v-2e98b3f0> <li data-v-2e98b3f0><a href="/2023/cs3282-index.html" class="dropdown-item" data-v-2e98b3f0>Students</a></li> <li data-v-2e98b3f0><a href="/2023/students/talksSchedule.html" class="dropdown-item" data-v-2e98b3f0>Lightning Talks</a></li></ul></li> <li data-v-15113a2f><a href="/2023/instructions.html" class="nav-link" data-v-15113a2f>Instructions</a></li> <li data-v-15113a2f><a href="https://nus-cs3281.github.io/website/" class="nav-link" data-v-15113a2f>CS3281&amp;2 Website <span data-v-15113a2f><span aria-hidden="true" class="glyphicon glyphicon-share-alt" data-v-15113a2f></span></span></a></li></ul></div> <ul class="navbar-nav navbar-right" data-v-15113a2f><li data-v-15113a2f><a href="https://github.com/nus-cs3281/2023" class="nav-link" data-v-15113a2f><span data-v-15113a2f><span aria-hidden="true" class="fab fa-github" data-v-15113a2f></span></span></a></li></ul></div></nav> <div class="lower-navbar-container" style="display:none;" data-v-15113a2f><!----> <!----></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><h3 id="frontend"><span id="frontend" class="anchor"></span>Frontend<a href="#frontend" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <h4 id="document-object-model"><span id="document-object-model" class="anchor"></span>Document Object Model<a href="#document-object-model" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p>The DOM represents the structure of a web document. Its APIs are designed
+to be independent of any programming language, and can be used to
+manipulate it in interesting ways.</p> <p><strong>Cross-browser support</strong></p> <p>While working on a <a href="https://github.com/reposense/RepoSense/pull/1860">PR to pin the file title</a>,
+an API that would have been useful to me is
+<code class="hljs inline no-lang">Element.scrollIntoViewIfNeeded()</code>, but since it was a non-standard
+feature that does not work on Firefox, I had to implement similar
+functionalities with <code class="hljs inline no-lang">Element.scrollIntoView()</code> and
+<code class="hljs inline no-lang">Element.getBoundingClientRect()</code>. This was a reminder that web
+developers must consider not only different screen sizes but also
+cross-browser compatibility while testing their work.</p> <h4 id="javascript"><span id="javascript" class="anchor"></span>JavaScript<a href="#javascript" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p>JavaScript is the most common scripting language used to access/modify
+DOM. Having done some web development work before, I had experience
+working with it before. Some interesting capabilities of JavaScript that
+I have used less commonly include the below:</p> <p><strong>Use of Dot notation vs Bracket notation when accessing properties:</strong></p> <p>The dot notation (eg. <code class="hljs inline no-lang">objectName.propertyName</code>) is the most common way
+to access properties cleanly. However, property identifiers can only
+contain alphanumeric characters, <code class="hljs inline no-lang">_</code> and <code class="hljs inline no-lang">$</code>. On the contrary, bracket
+notation (eg. <code class="hljs inline no-lang">objectName['propertyName']</code>) can use all UTF-8 characters
+in the property name, or even variables that finally resolve to a string.
+This is useful when we will only know the property name during runtime,
+as in this <a href="https://github.com/reposense/RepoSense/pull/1860">PR</a>, which<br>
+uses <code class="hljs inline no-lang">this.$refs[file.path]</code> because the reference <code class="hljs inline no-lang">file.path</code> is only
+resolved based on which file is being interacted with.</p> <h4 id="typescript"><span id="typescript" class="anchor"></span>TypeScript<a href="#typescript" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p>Since we heavily make use of OOP in our Java backend, it would make sense
+to have similar classes, interfaces and inheritance support in our
+frontend. Using TypeScript allows for this, along with static typing and
+type inference. Hence, was the decision to slowly migrate our codebase
+from JavaScipt to TypeScript. Because I haven’t used TypeScript before,
+I got to learn some basic concepts while working on
+<a href="https://github.com/reposense/RepoSense/pull/1852">my first PR</a>, when I
+defined classes to be used for declaring Vue prop types explicitly.</p> <h4 id="vue-js"><span id="vue-js" class="anchor"></span>Vue.js<a href="#vue-js" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p>I had used Vue.js with Vuetify components and
+<a href="https://vuejs.org/api/options-state.html">Options API</a> previously, which
+made it easier for me to get started with the RepoSense frontend.
+However, working on RepoSense helped me to get more familiar with the
+software engineering principles related to working with Vue.</p> <p><strong>Template refs</strong></p> <p>While Vue has a rendering model that abstracts away direct manipulation
+of the DOM, sometimes it is necessary to have access to the DOM to
+programmatically control an element. This is why Vue gives us access to
+<code class="hljs inline no-lang">$refs</code> . These <code class="hljs inline no-lang">ref</code>s are similar to <code class="hljs inline no-lang">document.querySelector('.element')</code>
+in JavaScript, but are more efficient since they give direct access to
+the element needed rather than returning the first element that matches
+the given selector.</p> <h4 id="pug-js-jade"><span id="pug-js-jade" class="anchor"></span>Pug.js (Jade)<a href="#pug-js-jade" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p>Pug is an HTML templating language for Node.js, It makes it easy to
+write reusable HTML components with cleaner syntax. Such templating
+engines may be useful while working with data-driven web applications,
+like RepoSense.</p> <p>Perhaps something unfortunate is that most online resources for Vue
+(and others) have their documentation given in HTML by default, with no
+option to toggle to Pug syntax. This makes it (comparatively) difficult
+to find good <a href="https://medium.com/@martinsOnuoha/building-vue-components-with-pug-stylus-564615ed289">resources to learn how Vue and Pug can be used together.</a></p> <h4 id="cypress"><span id="cypress" class="anchor"></span>Cypress<a href="#cypress" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p>Cypress is a web testing framework used for E2E testing. Unlike Selenium,
+it can opearte within the application itself. This gives Cypress high
+flexibility to access any of the objects in the app, including DOM
+objects, window, etc., similar to how we do in the code itself. I had
+written some Cypress tests to verify the newly added front-end features
+that made use of direct manipulation of DOM.</p> <hr> <h3 id="backend"><span id="backend" class="anchor"></span>Backend<a href="#backend" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <h4 id="git"><span id="git" class="anchor"></span>Git<a href="#git" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p><strong><code class="hljs inline no-lang">git log</code></strong></p> <p>For working on the <a href="https://github.com/reposense/RepoSense/pull/1882">PR to include merge commits</a>
+in the web dashboard, some backend changes were required as merge
+commits were not included in the generated report itself. Hence I had
+to look into the docs of git commands, specifically <code class="hljs inline no-lang">git log</code>, to
+understand what flags I could make use of to include all the desired
+commits in the report. Previously, we were using the <code class="hljs inline no-lang">--no-merges</code> flag
+to remove all merges from the report. However, simply removing this
+flag did not help in including all the merge commits in the new report.
+This may be because git continues to simplify “uninteresting” merges in
+the default mode. Finally, the use of <code class="hljs inline no-lang">--full-history</code> helped include
+all commits without merging any same content commits together. <code class="hljs inline no-lang">git log</code>
+also had to option to format its output with a <code class="hljs inline no-lang">&lt;format-string&gt;</code>, and
+this formatted output makes it easy for us to parse the results and
+generate our repository analysis reports.</p> <hr> <h3 id="general"><span id="general" class="anchor"></span>General<a href="#general" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>These are some of my learnings that do not fit into a single category
+from above, but are more general in nature.</p> <p><strong>Object parameter vs multiple parameters for constructors</strong></p> <p>While creating a <code class="hljs inline no-lang">User</code> object in TypeScript, many arguments (~10) had
+to be passed in to construct the object. This made me wonder what the
+best way of initialising such objects with large number of attributes
+is. I was exploring the use of a single object parameter, as it makes
+the code much cleaner. However, there is a tradeoff of whether it would
+be type safe to just pass an object without any type as a parameter
+into the function. Yet, I decided to continue with the method of using
+an object argument. This issue of type safety could be mitigated in the
+future by checking that the object being passed in as the argument
+implements the <code class="hljs inline no-lang">UserType</code> interface, when migrating to TypeScript.</p> <hr> <i id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true" class="fa fa-arrow-circle-up fa-lg d-print-none"></i></div> <nav id="page-nav" class="fixed-header-padding" data-v-e8c82f88><div class="nav-component slim-scroll" data-v-e8c82f88></div> <!----></nav></div> <footer><div class="text-center"><p>[<strong>This site was generated using <img src="https://markbind.org/favicon.ico" width="25"> <a href="https://markbind.org/">MarkBind 4.1.0</a></strong> on Tue, Mar 14, 2023, 3:14:54 AM UTC]<br> <span class="dimmed"><small><small>favicon.ico of this site was made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small></small></span></p></div></footer></div>
+</body><script src="/2023/markbind/js/bootstrap-utility.min.js"></script>
+<script>
+  MarkBind.setupWithSearch()
+</script>
+</html>
