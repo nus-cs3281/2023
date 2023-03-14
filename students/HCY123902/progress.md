@@ -79,5 +79,6 @@
 | 8 | Reviewed PR: [[#1912] Refactor frontend code to minimize explicit any types #1914](https://github.com/reposense/RepoSense/pull/1914) |
 | 8 | Reviewed PR: [[#1891] Update Cypress to v10 #1922](https://github.com/reposense/RepoSense/pull/1922) |
 | 8 | Reviewed PR: [Test if ramp chart in zoom view shows selected period #1930](https://github.com/reposense/RepoSense/pull/1930) |
+| 8 | Reviewed PR: [[#1934] Fix wrong author name for merged groups in Commits Panel #1935](https://github.com/reposense/RepoSense/pull/1935) |
 | 9 | Reviewed PR: [[#1936] Migrate store.js to TypeScript #1937](https://github.com/reposense/RepoSense/pull/1937) |
 | 9 | Submitted Issue: [Migrate Cypress to TypeScript #1946](https://github.com/reposense/RepoSense/issues/1946) |
