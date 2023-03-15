@@ -24,3 +24,4 @@
 | 8 | Opened PR [Add expand and collapse all buttons in site-nav #2206](https://github.com/MarkBind/markbind/pull/2206)
 | 9 | Opened PR [Deprecate slots, attributes and syntax #2208](https://github.com/MarkBind/markbind/pull/2208)
 | 9 | Opened Issue [Add transition stub to optimise testing speed in #2209](https://github.com/MarkBind/markbind/issues/2209)
+| 9 | Opened Issue [SiteNav dropdown buttons shift when scrollbar appears/disappears #2217](https://github.com/MarkBind/markbind/issues/2217)
