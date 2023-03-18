@@ -73,3 +73,5 @@
 | 8 | RepoSense | Reviewed PR: [Remove unnecessary test mode behavior in ConfigSystemTest](https://github.com/reposense/RepoSense/pull/1911)                                                                                       |
 | 8 | RepoSense | Reviewed PR: [Update Cypress to v10](https://github.com/reposense/RepoSense/pull/1922)                                                                                                                           |
 | 9 | RepoSense | Merged PR: [Upgrade Gradle to 7.6.1](https://github.com/reposense/RepoSense/pull/1919)                                                  |
+| 9 | RepoSense | Reviewed PR: [Update Cypress to v11](https://github.com/reposense/RepoSense/pull/1923) |
+| 9 | RepoSense | Created Issue: [Add descriptions to Gradle tasks](https://github.com/reposense/RepoSense/issues/1952) |
