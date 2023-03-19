@@ -1,10 +1,10 @@
 # CS3282 Semester Knowledge Gained
-## Koitlin
-Koitlin is a relatively newer programming language (July 2011) that runs on the JVM. It was designed to be interoperable with Java and supports most of the same features 
+## Kotlin
+Kotlin is a relatively newer programming language (July 2011) that runs on the JVM. It was designed to be interoperable with Java and supports most of the same features 
 that Java is known for, such as OOP programming paradigms like inheritance, polymorphism, etc. Being a newer language, it also aims to address some of the issues that Java 
 faces. The most prominent examples that I have encountered are the following
 - Null safety is built into the language compared to Java which helps avoid null pointer exceptions. Declaring a type with a '?' is equivalent to declaring an object as an `Optional` in Java.
-For example, a Koitlin declaration `s : String?` allows for the variable `s` to be a `null` while for `s : String`, attempting to assign `s = null` will automatically cause an exception. 
+For example, a Kotlin declaration `s : String?` allows for the variable `s` to be a `null` while for `s : String`, attempting to assign `s = null` will automatically cause an exception. 
   - This is opposed to Java where null safety requires us to use `Optional<T>` with the desired class which can make declarations somewhat cumbersome.
   - Similar to Java's `Optional` methods, the `String?` has equivalent methods. [Reference link](https://typealias.com/guides/java-optionals-and-kotlin-nulls/). 
 ```
@@ -13,14 +13,14 @@ Optional<String> s = Optional.of("test");
 s1.map(s -> "another string") 
 s1.ifPresent(System.out::println);
 
-// Koitlin
+// Kotlin
 s1 : String? = "test"
 s1.let{ "another string" }
 s1.also{ println(it) } 
 ```
-- Koitlin has better support for functional programming, including lambdas and higher order functions which are far more convenient 
+- Kotlin has better support for functional programming, including lambdas and higher order functions which are far more convenient 
 to deal with than the equivalent SAMs in Java.
-- Getters and setters are automatically implemented based on the attribute names in Koitlin. 
+- Getters and setters are automatically implemented based on the attribute names in Kotlin. 
 
 ## Android development in Android Studio
 Android Studio is an IDE extremely similar to IntelliJ with most of the same features but also supports additional features that help with Android app development.
@@ -66,7 +66,7 @@ For example, we can assert that a method is invoked with specific arguments, or 
 These are helpful for white-box testing to be sure that certain methods are invoked given certain conditions to prevent code from regressing. However, 
 we have to be careful with the use of mocking as it does not involve the actual dependencies that might have slightly different behavior.
 
-## MVP vs other pattern
+## MVP vs MVC
 Model View Presenter (MVP) is a different architectural pattern from Model View Controller (MVC) for the use of separation of concerns between business and UI layers.
 They generally help to make testing easier and hide data access. [Source for information and additional reading](https://www.baeldung.com/mvc-vs-mvp-pattern). 
 
