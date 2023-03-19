@@ -9,3 +9,10 @@
 | 7    | Merged PR: [[#12081] User-friendliness: Add labels for numerical scale questions #12148](https://github.com/TEAMMATES/teammates/pull/12148) |
 | 7    | Merged PR: [[#12081] User-friendliness: Add labels for distribute points by recipient questions #12150](https://github.com/TEAMMATES/teammates/pull/12150) |
 | 7    | Reviewed PR: [[#12081] User-friendliness: Add labels and groups to distribute points (options) question #12149](https://github.com/TEAMMATES/teammates/pull/12149) |
+| 8    | Merged PR: [[#12081] User-friendliness: Add labels to rubric questions #12155](https://github.com/TEAMMATES/teammates/pull/12155) |
+| 8    | Merged PR: [[#12081] User-friendliness: Add labels to rank options questions #12172](https://github.com/TEAMMATES/teammates/pull/12172) |
+| 8    | Reviewed PR: [[#12067] Inconsistent spacing in headings of rubric question statistics #12187](https://github.com/TEAMMATES/teammates/pull/12187) |
+| 8    | Merged PR: [[#12081] User-friendliness: Display card header content in column format for mobile #12197](https://github.com/TEAMMATES/teammates/pull/12197) |
+| 9    | Merged PR: [[#12081] User-friendliness: Make rubric question response table mobile responsive #12201](https://github.com/TEAMMATES/teammates/pull/12201) |
+| 9    | Reviewed PR: [[#12081] User-friendliness: Change white text on info background #12200](https://github.com/TEAMMATES/teammates/pull/12200) |
+| 9    | Merged PR: [[#12081] User-friendliness: Make submit feedback rubric table cell clickable #12205](https://github.com/TEAMMATES/teammates/pull/12205) |
