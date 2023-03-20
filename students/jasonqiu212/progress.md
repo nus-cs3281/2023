@@ -16,3 +16,7 @@
 | 9    | Merged PR: [[#12081] User-friendliness: Make rubric question response table mobile responsive #12201](https://github.com/TEAMMATES/teammates/pull/12201) |
 | 9    | Reviewed PR: [[#12081] User-friendliness: Change white text on info background #12200](https://github.com/TEAMMATES/teammates/pull/12200) |
 | 9    | Merged PR: [[#12081] User-friendliness: Make submit feedback rubric table cell clickable #12205](https://github.com/TEAMMATES/teammates/pull/12205) |
+| 9    | Merged PR: [[#12081] Minimise modal margin for mobile #12225](https://github.com/TEAMMATES/teammates/pull/12225) |
+| 10   | Reviewed PR: [[#12081] Fix remaining accessibility tests #12223](https://github.com/TEAMMATES/teammates/pull/12223) |
+| 10   | Merged PR: [[#12081] Modify question headers for instructor #12228](https://github.com/TEAMMATES/teammates/pull/12228) |
+| 10   | Created issue: [Extension Confirm Modal: Misplaced submit buttons on mobile #12230](https://github.com/TEAMMATES/teammates/pull/12230) |
