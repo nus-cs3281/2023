@@ -7,14 +7,17 @@ footer:
 {% macro print_row(student) %}
 <tr>
 <td style="width:150px; height:175px">
-<img src="{{ baseUrl }}/students/{{ student[1] }}/photo.png" height="150" /><br>
+<img src="{{ baseUrl }}/students/{{ student[1] }}/photo.png" width="150" /><br>
 </td>
 <td valign="top" style="border: 1px solid black; padding:5px">
 
-****{{ student[0] }}**** [Topic: <span style="float:right;">Delivery: `1` `2` `3` `4` `5` | Usefulness: `1` `2` `3` `4` `5`]</span><br>
-<div><md>{{ criteria }}</md></div>
-Comments:
-
+****{{ student[0] }}**** <sub>Delivery: `1` `2` `3` `4` `5` | Usefulness: `1` `2` `3` `4` `5`</sub><br>
+<md><sub>{{ criteria }} | Comments:</sub></md>
+<br>.
+<br>.
+<br>.
+<br>.
+<br>.
 </td>
 </tr>
 {% endmacro %}
@@ -57,7 +60,7 @@ Comments:
 
 {{ page_break }}
 
-## Round C (week 11, 12)
+## Round C (week ~~11, 12~~ 10, 11)
 
 {% set criteria%}:far-square: slides visual-enough | :far-square: no visual clutter | :far-square: key slides stand out | :far-square: _assertion-evidence_ style used (if applicable) | :far-square: no excessive jargons :far-square: meaningful animations | :far-square: demo not too late | :far-square: PUNCH, WIIFY, Roadmap, Key Points, Last Slide etc.{% endset %}
 
