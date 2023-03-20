@@ -12,7 +12,7 @@ Of course, as I became slowly more familiar with Vue.js and the Vue components, 
 
 ### Nunjucks
 
-Nunjucks is a templating engine for JavaScript, developed by Mozilla. I encountered a need to investigate Nunjucks further when I was working on a issue with the `raw` and `endraw` tags in MarkBind, which was a way to work around the double curly braces being processed as a Nunjucks variable. While I did not fully learn Nunjucks during this investigation, I nevertheless managed to learn about how variables are processed in Nunjucks, and how the Nunjucks syntax works.
+Nunjucks is a templating engine for JavaScript, developed by Mozilla. I encountered a need to investigate Nunjucks further when I was working on a issue with the `{{ '{{' }} raw {{ '}}' }}` and `{{ '{{' }} endraw {{ '}}' }}` tags in MarkBind, which was a way to work around the double curly braces (`{{ '{{' }}` and `{{ '}}' }}`) being processed as a Nunjucks variable. While I did not fully learn Nunjucks during this investigation, I nevertheless managed to learn about how variables are processed in Nunjucks, and how the Nunjucks syntax works.
 
 The resources I used consist of:
 - [Nunjucks Documentation](https://mozilla.github.io/nunjucks/templating.html#autoescaping): This was the primary resource I consulted to learn more about the behavior of Nunjucks and the available syntax.
