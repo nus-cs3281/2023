@@ -24,3 +24,12 @@
 | 8      | Reviewed PR: [Removed raise edge image #12189](https://github.com/TEAMMATES/teammates/pull/12189) |
 | 8      | Reviewed PR: [Removed raise edge from home page, feature page #12192](https://github.com/TEAMMATES/teammates/pull/12192) |
 | 8      | Reviewed PR: [User-friendliness: Add labels to rubric questions #12155](https://github.com/TEAMMATES/teammates/pull/12155) |
+| 9      | Reviewed PR: [User-friendliness: Display card header content in column format for mobile #12197](https://github.com/TEAMMATES/teammates/pull/12197) |
+| 9      | Merged PR: [User-friendliness: Change white text on info background #12200](https://github.com/TEAMMATES/teammates/pull/12200) |
+| 9      | Researched Issue: [Raise-edge image should be removed #12186](https://github.com/TEAMMATES/teammates/issues/12186) |
+| 9      | Reviewed PR: [Remove raised-edge from home and features page #12193](https://github.com/TEAMMATES/teammates/pull/12193) |
+| 9      | Reviewed PR: [Fix duplicate IDs in codebase #12206](https://github.com/TEAMMATES/teammates/pull/12206) |
+| 9      | Merged PR: [User-friendliness: Fix feedback path dropdown #12207](https://github.com/TEAMMATES/teammates/pull/12207) |
+| 9      | Merged PR: [User-friendliness: Fix custom visibility options #12209](https://github.com/TEAMMATES/teammates/pull/12209) |
+| 9      | Merged PR: [User-friendliness: Fix screen reader issue for question description #12219](https://github.com/TEAMMATES/teammates/pull/12219) |
+| 9      | Merged PR: [User-friendliness: Add labels to input for essay question (instructor edit sessions page) #12220](https://github.com/TEAMMATES/teammates/pull/12220) |
