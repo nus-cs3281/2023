@@ -1,11 +1,25 @@
-### Project: Foo
+### Project: httpexpect
 
-Give an intro to the project here ...
+According to the [project readme](https://github.com/gavv/httpexpect), httpexpect is for "concise, declarative, and easy to use end-to-end HTTP and REST API testing for Go (golang)". It allows users to incrementally build HTTP requests to test on a chain, and then inspect the response payload recursively. It also supports testing of WebSockets. This project has about 2.1k stars as of March 2023, even though there are not many PRs and issues now.
 
 ### My Contributions
 
-Give a description of your contributions, including links to relevant PRs
+I made a total of 3 pull requests.
+
+1. [PR 230](https://github.com/gavv/httpexpect/pull/230): Implement usage check for Expect in Request and Websocket. This PR fixes [issue 162](https://github.com/gavv/httpexpect/issues/162). Before this PR, there was no checks if the user of this testing library called `Expect()` more than once for a single http request, or if the user tries to edit the request after calling `Expect()`. This should not be allowed, because calling `Expect()` would mean that the http request would be sent. This PR will fix this problem by explicitly checking that users do not violate such rules. The PR also adds a sentence in the documentation that warns users about these rules. Unit tests are also added to ensure the correctness of my new code.
+2. [PR 266](https://github.com/gavv/httpexpect/pull/266): Add lazy reading of response body. This PR fixes [issue 244](https://github.com/gavv/httpexpect/issues/244). This PR is important for the implementation of EventSource support (a.k.a. Event Stream, a.k.a. Server-Sent Events). Before the PR, the response body is read entirely and closed during the creation of a `Response`. This PR will ensure that the entire body is not read inside the constructor, but instead read it only on demand when it is needed for the first time. New tests are added and existing tests are changed to align with the new changes. No documentation changes are needed because it does not affect the behaviour of `Response` for now.
+3. [PR 342](https://github.com/gavv/httpexpect/pull/342): Support infinite responses in bodyWrapper. This PR fixes [issue 245](https://github.com/gavv/httpexpect/issues/245). This PR is also important for the implementation of EventSource support. It could be seen as a continuation from the previous PR I made. `bodyWrapper` is an internal wrapper that is used by the `Response` to enable reading the response body several times. Before the PR, when `bodyWrapper` is constructed, it will read the entire body and cache it into memory, and close the reader. This PR will change the behaviour of the `bodyWrapper` such that it will read bytes from the reader only when some function is called to read a portion of the body. The content is then cached into a Go slice (a resizable array). To support infinite-length responses, it is possible to disable caching of the body in memory. This PR made big changes, including to the behaviour of functions like `Rewind()` and `GetBody()` in `bodyWrapper`, so the tests for `bodyWrapper` have to be changed significantly. Similar to PR 266, no documentation changes are needed because it does not affect any external behaviour.
 
 ### My Learning Record
 
-Give tools/technologies you learned here. Include resources you used, and a brief summary of the resource.
+- **End-to-end testing** can be done by using this library. Testers can write simple code in Go and run them in order to test their http services from the client's perspective.
+- **Go** is the language used in this project. It is a simple language to learn, and it is used widely to write server code. It also has built-in concurrency support.
+- The **code review** by Victor Gaydov ([@gavv](https://github.com/gavv)), the maintainer of the repository, was fast and very meticulous. I was impressed by the quality of the PR reviews. I think that maintainers of open-source projects, including NUS-OSS projects like CATcher/WATcher can do these to become a better code reviewer:
+    - Be quick to respond. Gaydov typically responds within 2 - 3 days after I open the PR or request his review.
+    - Check the code style. Even if the code works, it should be easily understood by other readers and consistent with existing coding practices.
+    - Be clear in the comments. Gaydov writes detailed and clear review comments on problematic lines of code.
+    - Use tags like `ready for review` or `needs revision` to easily sort PRs based on their status.
+    - Use github bots to check for stale PRs or PRs that needs a rebase (because of merge conflicts with the master branch)
+    - Enforce a high code coverage. Make sure every line is tested.
+- A good **documentation** would make a project more user-friendly. httpexpect is well documented, with very clear examples of usage and friendly comments within the code. This includes documentation for developers, as seen in [HACKING.md](https://github.com/gavv/httpexpect/blob/master/HACKING.md). Because of good documentation, I found it easy to get started working on this project. I think CATcher, and especially WATcher, can benefit from improved documentation.
+- **Tests** are very important when writing code. Gaydov always enforces the maximum code coverage possible, with the current code coverage being 95%. In contrast, CATcher's code coverage is a mere 54%, and most of the time, we do not ask for tests in PRs, or delay it to a future PR. Even worse, WATcher does not have a code coverage checker and there are not many tests in it either. I believe CATcher/WATcher can do better and write more tests to improve code coverage and reduce bugs, though I concede that writing tests for Angular frontend is not as straightforward as writing tests for a http end-to-end testing library in Go.
