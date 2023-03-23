@@ -40,7 +40,7 @@
 | 29 July 2022     | RepoSense | Responded to Issue: [Continuous Integration for macos-10.15 is always cancelled](https://github.com/reposense/RepoSense/issues/1817) |
 | 29 July 2022     | RepoSense | Reviewed PR: [Ignore case when comparing author name](https://github.com/reposense/RepoSense/pull/1814)                              |
 | 9 August 2022    | RepoSense | Reviewed PR: [Actions: remove Ubuntu 18.04 runner](https://github.com/reposense/RepoSense/pull/1823)                                 |
-| 5 September 2022 | RepoSense | Reviewed PR: [lfs bugfix branch ](https://github.com/reposense/RepoSense/pull/1826)                                                  | 
+| 5 September 2022 | RepoSense | Reviewed PR: [Fix git clone exception when cloning lfs files](https://github.com/reposense/RepoSense/pull/1826)                      | 
 | 14 December 2022 | RepoSense | Reviewed PR: [Use ES6+ way for string interpolation](https://github.com/reposense/RepoSense/pull/1845)                               |
 
 # CS3282 During-Sem Progress
@@ -78,3 +78,4 @@
 | 10 | RepoSense | Merged PR: [Remove Gradle wrapper version definition](https://github.com/reposense/RepoSense/pull/1951) |
 | 10 | RepoSense | Reviewed PR: [Update Node version to 16](https://github.com/reposense/RepoSense/pull/1956) |
 | 10 | RepoSense | Reviewed PR: [Update Cypress to v12](https://github.com/reposense/RepoSense/pull/1924) |
+| 10 | RepoSense | Reviewed PR: [Gradle: change serveTestReportInBackground workingDir](https://github.com/reposense/RepoSense/pull/1925) |
