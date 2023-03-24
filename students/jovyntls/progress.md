@@ -20,6 +20,14 @@
 | 6    | Discussion on issues: [Add release-drafter (#2172)](https://github.com/MarkBind/markbind/issues/2172) |
 | 6    | Discussion on issues: [Broken links introduced in UG (#2167)](https://github.com/MarkBind/markbind/issues/2167) |
 | 6    | Closed issue: [Minimized view of a panel should not center contents (#697)](https://github.com/MarkBind/markbind/issues/697) |
+| Rec  | Updated issue description: [Fully adapt core package and associated tests to TypeScript (#1913)](https://github.com/MarkBind/markbind/issues/1913) |
+| Rec  | Discussion on issues: [Provide good examples of MarkBind usage (#659)](https://github.com/MarkBind/markbind/issues/659) |
+| 7    | Opened issue: [Linebreaks within tags breaks some components (#2190)](https://github.com/MarkBind/markbind/issues/2190) |
+| 7    | Proposed design: [Consider creating unified types for common variables (#2114)](https://github.com/MarkBind/markbind/issues/2114) |
+| 8    | Discussion on issues: [Use more informative formatting in search results (#257)](https://github.com/MarkBind/markbind/issues/257) |
+| 8    | Discussion on issues: [Reduce the need to use blank lines to indicate markdown text (#500)](https://github.com/MarkBind/markbind/issues/500) |
+| 8    | Discussion on issues: [Deprecation of slots, attributes and syntax (#1854)](https://github.com/MarkBind/markbind/issues/1854) |
+| 8    | Discussion on issues: [Linebreaks within tags breaks some components (#2190)](https://github.com/MarkBind/markbind/issues/2190) |
 
 ## Implementation work
 
@@ -32,6 +40,11 @@
 | 5    | Authored PR: [Use @types/node at ^17.0.22 (#2158)](https://github.com/MarkBind/markbind/pull/2158) |
 | 6    | Authored PR: [Migrate includePanelProcessor to TypeScript (#2160)](https://github.com/MarkBind/markbind/pull/2160) |
 | 6    | Authored PR: [Migrate Page/index.js to TypeScript (#2169))](https://github.com/MarkBind/markbind/pull/2169) |
+| Rec  | Authored PR: [Integrate TS classes in core package (#2176))](https://github.com/MarkBind/markbind/pull/2176) |
+| Rec  | Authored PR: [Fix handling of empty segment includes (#2180))](https://github.com/MarkBind/markbind/pull/2180) |
+| 7    | Opened PR: [Migrate core/src/html tests to TypeScript (#2192))](https://github.com/MarkBind/markbind/pull/2192) |
+| 8    | Opened PR: [Migrate default plugins to TS (#2199)](https://github.com/MarkBind/markbind/pull/2199) |
+| 8    | Opened PR: [Add unified Node type (#2201)](https://github.com/MarkBind/markbind/pull/2201) |
 
 ## PR Reviews
 
@@ -54,4 +67,12 @@
 | 6    | Reviewed PR: [Update headings to match sidebar (#2152)](https://github.com/MarkBind/markbind/pull/2152) |
 | 6    | Reviewed PR: [Change scroll top button to component (#2170)](https://github.com/MarkBind/markbind/pull/2170) |
 | 6    | Reviewed PR: [Migrate Layout File to TypeScript (#2164)](https://github.com/MarkBind/markbind/pull/2164) |
+| Rec  | Reviewed PR: [Support iconColor in box when light/seamless is used (#2178)](https://github.com/MarkBind/markbind/pull/2178) |
+| Rec  | Reviewed PR: [Change format of nunjucks code and output (#2175)](https://github.com/MarkBind/markbind/pull/2175) |
+| Rec  | Reviewed PR: [Create alternative syntax for frontmatter (#2145)](https://github.com/MarkBind/markbind/pull/2145) |
+| 7    | Reviewed PR: [Contact form plugin (#2191)](https://github.com/MarkBind/markbind/pull/2191) |
+| 7    | Reviewed PR: [Fix Quiz expanding between questions (#2184)](https://github.com/MarkBind/markbind/pull/2184) |
+| 8    | Reviewed PR: [Add shake effect when none selected in MCQ Question (#2195)](https://github.com/MarkBind/markbind/pull/2195) |
+| 8    | Reviewed PR: [Add examples for bootstrap (#2205)](https://github.com/MarkBind/markbind/pull/2205) |
+| 8    | Reviewed PR: [Contact form plugin (#2191)](https://github.com/MarkBind/markbind/pull/2191) |
 

@@ -62,9 +62,29 @@
 | 5 | Reviewed PR: [[#1042] Include deletions in contributions #1883](https://github.com/reposense/RepoSense/pull/1883) |
 | 5 | Reviewed PR: [Bump http-cache-semantics from 4.1.0 to 4.1.1 in /frontend #1888](https://github.com/reposense/RepoSense/pull/1888) |
 | 5 | Merged PR for external project MDN: [Grammar fix in TextDecoder #24348](https://github.com/mdn/content/pull/24348) |
-| 5 | Authored PR for external project checkstyle: [Issue #7601: Add examples for JavadocType #12736](https://github.com/checkstyle/checkstyle/pull/12736) |
+| 5 | Reviewed PR: [Change header style for GitHub Issue and PR Templates #1893](https://github.com/reposense/RepoSense/pull/1893) |
+| 5 | Reviewed PR: [[#1871] Update minor versions of Node dependencies #1895](https://github.com/reposense/RepoSense/pull/1895) |
+| 5 | Reviewed PR: [[#1815] Fix ESLint Indentation Level Options #1896](https://github.com/reposense/RepoSense/pull/1896) |
 | 6 | Merged PR for external project MDN: [Adjust the description for srcset of <source> element #24420](https://github.com/mdn/content/pull/24420)|
-| 5 | Merged PR for external project MDN: [Add a more detailed explanation of boolean in glossary #24350](https://github.com/mdn/content/pull/24350) |
+| 6 | Merged PR for external project MDN: [Add a more detailed explanation of boolean in glossary #24350](https://github.com/mdn/content/pull/24350) |
+| 6 | Reviewed PR: [[#1758] Consolidate OS jobs and tool versions in integration.yml #1885](https://github.com/reposense/RepoSense/pull/1885) |
 | 6 | Reviewed PR: [[#1756] Add JSON validation and migrate api.js to TypeScript #1903](https://github.com/reposense/RepoSense/pull/1903) |
 | 6 | Reviewed PR: [[#1904] Add ESLint support for TypeScript imports #1905](https://github.com/reposense/RepoSense/pull/1905) |
-
+| 6 | Reviewed PR: [Add merge commit for unit test #18](https://github.com/reposense/testrepo-Alpha/pull/18) |
+| Recess Week | Merged PR for external project checkstyle: [Issue #7601: Add examples for JavadocType #12736](https://github.com/checkstyle/checkstyle/pull/12736) |
+| 7 | Submitted Issue: [Handle merge commit with conflict resolution #1926](https://github.com/reposense/RepoSense/issues/1926) |
+| 7 | Submitted Issue: [Tooltip of the collapse button occludes the next file title #1928](https://github.com/reposense/RepoSense/issues/1928) |
+| 7 | Submitted Issue: [Add dynamic positioning support for tooltip #1929](https://github.com/reposense/RepoSense/issues/1929) |
+| 8 | Reviewed PR: [[#1912] Add TypeScript rules to ESLint #1913](https://github.com/reposense/RepoSense/pull/1913) |
+| 8 | Reviewed PR: [[#1912] Refactor frontend code to minimize explicit any types #1914](https://github.com/reposense/RepoSense/pull/1914) |
+| 8 | Reviewed PR: [[#1891] Update Cypress to v10 #1922](https://github.com/reposense/RepoSense/pull/1922) |
+| 8 | Reviewed PR: [Test if ramp chart in zoom view shows selected period #1930](https://github.com/reposense/RepoSense/pull/1930) |
+| 8 | Reviewed PR: [[#1934] Fix wrong author name for merged groups in Commits Panel #1935](https://github.com/reposense/RepoSense/pull/1935) |
+| 9 | Reviewed PR: [[#1891] Update Cypress to v11 #1923](https://github.com/reposense/RepoSense/pull/1923) |
+| 9 | Reviewed PR: [[#1936] Migrate store.js to TypeScript #1937](https://github.com/reposense/RepoSense/pull/1937) |
+| 9 | Reviewed PR: [[#1936] Migrate app.vue to TypeScript #1938](https://github.com/reposense/RepoSense/pull/1938) |
+| 9 | Reviewed PR: [[#1537] Show authors for merged groups in Code Panel #1939](https://github.com/reposense/RepoSense/pull/1939) |
+| 9 | Submitted Issue: [Migrate Cypress to TypeScript #1946](https://github.com/reposense/RepoSense/issues/1946) |
+| 9 | Reviewed PR: [Remove Gradle wrapper version definition #1951](https://github.com/reposense/RepoSense/pull/1951) |
+| 10 | Reviewed PR: [[#1891] Update Cypress to v12 #1924](https://github.com/reposense/RepoSense/pull/1924) |
+| 10 | Reviewed PR: [[#1945] Enforce stricter formatting rules for TypeScript files #1957](https://github.com/reposense/RepoSense/pull/1957) |
