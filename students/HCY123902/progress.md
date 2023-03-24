@@ -87,4 +87,7 @@
 | 9 | Submitted Issue: [Migrate Cypress to TypeScript #1946](https://github.com/reposense/RepoSense/issues/1946) |
 | 9 | Reviewed PR: [Remove Gradle wrapper version definition #1951](https://github.com/reposense/RepoSense/pull/1951) |
 | 10 | Reviewed PR: [[#1891] Update Cypress to v12 #1924](https://github.com/reposense/RepoSense/pull/1924) |
+| 10 | Reviewed PR: [[#1872] Update Node version to 16 #1956](https://github.com/reposense/RepoSense/pull/1956) |
 | 10 | Reviewed PR: [[#1945] Enforce stricter formatting rules for TypeScript files #1957](https://github.com/reposense/RepoSense/pull/1957) |
+| 10 | Submitted Iusse: [Modify screenshots to include new changes in RepoSense report #1962](https://github.com/reposense/RepoSense/issues/1962) |
+
