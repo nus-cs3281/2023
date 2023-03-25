@@ -26,3 +26,5 @@
 | 9 | Opened Issue [Add transition stub to optimise testing speed in #2209](https://github.com/MarkBind/markbind/issues/2209)
 | 9 | Opened Issue [SiteNav dropdown buttons shift when scrollbar appears/disappears #2217](https://github.com/MarkBind/markbind/issues/2217)
 | 9 | Reviewed PR [Migrate default plugins to TS #2199](https://github.com/MarkBind/markbind/pull/2199)
+| 10 | Merged PR [Deprecate slots, attributes and syntax #2208](https://github.com/MarkBind/markbind/pull/2208)
+| 10 | Opened PR [Deprecate theme attribute in site config JSON #2235](https://github.com/MarkBind/markbind/pull/2235)
