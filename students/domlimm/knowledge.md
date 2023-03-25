@@ -18,6 +18,27 @@ What helped me through this was the [Angular docs](https://angular.io/guide/inpu
 
 ### Testing
 
+#### Spy-es/Spies
+
+I have used `spy` before. Ironically, I never knew how to use it properly till I had to write tests on the work done.
+
+I was struggling to figure how to pass a check in a method of this object, let's define object as A. Object A has a method, `a()`, that has a condition in it `if b(...)`.
+
+Method `b()` belongs to object A. I could not set this condition to be true when I was writing the test. However, spy did the trick!
+
+All I had to do was write this powerful line of code:
+
+```java
+A spyA = spy(A.class);
+doReturn(true).when(spyA).b(...);
+```
+
+And it worked! Sounds pretty trivial and silly I know... But Today I Learned (TIL)!
+
+Spying on an object allows us to dig deep into its methods and intentionally set the outcome of what we expect a variable/object or method outcome to be, we are in control and we define the result.
+
+Here is a good read on [spies](https://www.baeldung.com/mockito-spy). Love baeldung!
+
 #### E2E
 
 // TODO

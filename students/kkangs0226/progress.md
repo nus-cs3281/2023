@@ -6,12 +6,15 @@
 | ---- | ------------ |
 | 07 Sep 2021 | Submitted Issue: [Remove / update deprecated Window.event #772](https://github.com/CATcher-org/CATcher/issues/772) |
 | 07 Sep 2021 | Submitted Issue: [Follow recommended practice for ViewChild #773](https://github.com/CATcher-org/CATcher/issues/773) |
+| 24 Jul 2022 | Commented in Issue: [Comments on current Proof of Concept implementation #22](https://github.com/CATcher-org/WATcher/issues/22) |
 | 23 Oct 2022 | Submitted Issue: [Update scripts to use new CATcher-specific separators for issue templates #1025](https://github.com/CATcher-org/CATcher/issues/1025) |
 
 ### PRs
 
 | Date | Achievements |
 | ---- | ------------ |
+| 22 Jul 2021 | Merged PR: [Docs: Unify duplicate info about release management #11](https://github.com/CATcher-org/catcher-org.github.io/pull/11) |
+| 22 Jul 2021 | Merged PR: [DG: Add info about Pull Request Templates #12](https://github.com/CATcher-org/catcher-org.github.io/pull/12) |
 | 13 Aug 2021 | Merged PR: [Update CATcher to V3.3.8 #759](https://github.com/CATcher-org/CATcher/pull/759) |
 | 20 Sep 2021 | Merged PR: [Upgrade to Angular 8.0 #774](https://github.com/CATcher-org/CATcher/pull/774) |
 | 28 Sep 2022 | Merged PR: [Update CATcher to V3.4.3 #1001](https://github.com/CATcher-org/CATcher/pull/1001) |
@@ -37,6 +40,7 @@
 | 14 Sep 2021 | Reviewed PR: [Fix Display for Dropdown Label Text #777](https://github.com/CATcher-org/CATcher/pull/777) |
 | 14 Dec 2021 | Reviewed PR: [Add confirmation dialog for cancelling edit #850](https://github.com/CATcher-org/CATcher/pull/850) |
 | 20 Jan 2022 | Reviewed PR: [Remove deprecation for Window.event #863](https://github.com/CATcher-org/CATcher/pull/863) |
+| 05 Jun 2022 | Reviewed PR: [Write documentation on creating custom CATcher sessions #19](https://github.com/CATcher-org/catcher-org.github.io/pull/19) |
 | 09 Jul 2022 | Reviewed PR: [Fix #940 Deprecation - Update Codecov Action #942](https://github.com/CATcher-org/CATcher/pull/942) |
 | 09 Jul 2022 | Reviewed PR: [Standardise MAX_ITEMS_PER_PAGE in github service #946](https://github.com/CATcher-org/CATcher/pull/946) |
 | 20 Aug 2022 | Reviewed PR: [Add custom error message for failed validation #951](https://github.com/CATcher-org/CATcher/pull/951) |
@@ -87,6 +91,7 @@
 | 2 | Submitted Issue: [UI Improvements for when there are too many users #52](https://github.com/CATcher-org/WATcher/issues/52) |
 | 2 | Submitted Issue: [Set up Github Actions for Setup builds & tests #56](https://github.com/CATcher-org/WATcher/issues/56) |
 | 4 | Submitted Issue: [Angular Upgrade #68](https://github.com/CATcher-org/WATcher/issues/68) |
+| 5 | Submitted Issue: [UI bug for label component #80](https://github.com/CATcher-org/WATcher/issues/80) |
 
 ### PR - CATcher
 
@@ -95,7 +100,8 @@
 | 2 | Merged PR: [Fix Referenced error #1110](https://github.com/CATcher-org/CATcher/pull/1110) |
 | 3 | Merged PR: [Upgrade to Angular 10 #1137](https://github.com/CATcher-org/CATcher/pull/1137) |
 | 3 | Merged PR: [Remove Electron from GitHub actions #1140](https://github.com/CATcher-org/CATcher/pull/1140) |
-| 4 | Submitted PR: [Fix lint warnings due to Deprecation of async & flatMap #1143](https://github.com/CATcher-org/CATcher/pull/1143) |
+| 4 | Merged PR: [Fix lint warnings due to Deprecation of async & flatMap #1143](https://github.com/CATcher-org/CATcher/pull/1143) |
+| 7 | Merged PR: [Fix typo under Project Management in DG #28](https://github.com/CATcher-org/catcher-org.github.io/pull/28) |
 
 ### PR - WATcher
 
@@ -110,8 +116,15 @@
 | 2 | Reviewed PR: [Fix Error [ERR_REQUIRE_ESM] #1113](https://github.com/CATcher-org/CATcher/pull/1113) |
 | 2 | Reviewed PR: [Add tool tip to indicate purpose of file button #1134](https://github.com/CATcher-org/CATcher/pull/1134) |
 | 2 | Reviewed PR: [Refactor cancel dialog confirmation check to service #1135](https://github.com/CATcher-org/CATcher/pull/1135) |
+| 2 | Reviewed PR: [Add devcontainer support #22](https://github.com/CATcher-org/catcher-org.github.io/pull/22) |
+| 2 | Reviewed PR: [Update Setting up Guide to date #24](https://github.com/CATcher-org/catcher-org.github.io/pull/24) |
+| 2 | Reviewed PR: [Update instructions to set up custom session in DG #26](https://github.com/CATcher-org/catcher-org.github.io/pull/26) |
 | 3 | Reviewed PR: [Merge V3.4.4 #1026](https://github.com/CATcher-org/CATcher/pull/1026) |
 | 3 | Reviewed PR: [Branch fix label #1139](https://github.com/CATcher-org/CATcher/pull/1139) |
+| 6 | Reviewed PR: [Update documentation on parsing format #27](https://github.com/CATcher-org/catcher-org.github.io/pull/27) |
+| 6 | Reviewed PR: [Remove electron dependencies #1145](https://github.com/CATcher-org/CATcher/pull/1145) |
+| 7 | Reviewed PR: [Update version for package.json #1146](https://github.com/CATcher-org/CATcher/pull/1146) |
+| 7 | Reviewed PR: [Merge new Release v3.4.5 to branch #1149](https://github.com/CATcher-org/CATcher/pull/1149) |
 
 
 ### PR Reviews - WATcher
@@ -122,3 +135,10 @@
 | 3 | Reviewed PR: [Add logging for services #59](https://github.com/CATcher-org/WATcher/pull/59) |
 | 3 | Reviewed PR: [Modify card view to move milestone flag position #61](https://github.com/CATcher-org/WATcher/pull/61) |
 | 4 | Reviewed PR: [Rename loggingService to logger #67](https://github.com/CATcher-org/WATcher/pull/67) |
+| 5 | Reviewed PR: [Fix uncaught httpError arising from promise #70](https://github.com/CATcher-org/WATcher/pull/70) |
+| 5 | Reviewed PR: [Remove unused code in IssuesViewerComponent #71](https://github.com/CATcher-org/WATcher/pull/71) |
+| 6 | Reviewed PR: [Enable linting in Github workflow #81](https://github.com/CATcher-org/WATcher/pull/81) |
+| 6 | Reviewed PR: [Add show and hide labels menu #82](https://github.com/CATcher-org/WATcher/pull/82) |
+| 7 | Reviewed PR: [Create release for WATcher v0.0.2 #88](https://github.com/CATcher-org/WATcher/pull/88) |
+| 7 | Reviewed PR: [Fix wrong octicon displayed for closed PR #89](https://github.com/CATcher-org/WATcher/pull/89) |
+| 7 | Reviewed PR: [68 upgrade angular version #84](https://github.com/CATcher-org/WATcher/pull/84) |

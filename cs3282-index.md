@@ -7,20 +7,20 @@ pageNav: 2
 
 {% set projects = [
     {name: 'CATcher', students: [
-        ['KANG SU MIN', 'kkangs0226', 'A2', 'B2', 'C2'],
-        ['Lee Chun Wei', 'chunweii', 'A1', 'B1', 'C1']
+        ['KANG SU MIN', 'kkangs0226', 'A2', 'B2', 'C1'],
+        ['Lee Chun Wei', 'chunweii', 'A1', 'B1', 'C2']
     ]},
     {name: 'MarkBind', students: [
         ['KOH RAYSON', 'raysonkoh', 'A2', 'B2', 'C2'],
         ['LIU YONGLIANG', 'tlylt', 'A1', 'B1', 'C1'],
-        ['ONG JUN XIONG', 'ong6', 'A2', 'B2', 'C2'],
+        ['ONG JUN XIONG', 'ong6', 'A2', 'B2', 'C1'],
         ['Jovyn Tan Li Shyan', 'jovyntls', 'A2', 'B2', 'C2']
     ]},
     {name: 'RepoSense', students: [
         ['CHAN JUN DA', 'chan-j-d', 'A2', 'B2', 'C2'],
         ['HUANG CHENGYU', 'HCY123902', 'A1', 'B1', 'C1'],
         ['TAY YI HSUEN', 'yhtMinceraft1010X', 'A1', 'B1', 'C1'],
-        ['Zhou Jiahao', 'Zhoukerrr', 'A1', 'B1', 'C1']
+        ['Zhou Jiahao', 'Zhoukerrr', 'A1', 'B1', 'C2']
     ]},
     {name: 'TEAMMATES', students: [
         ['FANG JUNWEI, SAMUEL', 'samuelfangjw', 'A2', 'B2', 'C2'],
