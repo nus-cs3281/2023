@@ -1,3 +1,4 @@
+Summary: Flagging out and resolving issues relating to mobile friendliness and user accessibility
 | Week | Achievements                                                                                                                |
 |------|-----------------------------------------------------------------------------------------------------------------------------|
 | 2 to 4 | Co-authored PR: [Onboarding Task: Support Request](https://github.com/weiquu/teammates/pull/3) |
@@ -33,3 +34,13 @@
 | 9      | Merged PR: [User-friendliness: Fix custom visibility options #12209](https://github.com/TEAMMATES/teammates/pull/12209) |
 | 9      | Merged PR: [User-friendliness: Fix screen reader issue for question description #12219](https://github.com/TEAMMATES/teammates/pull/12219) |
 | 9      | Merged PR: [User-friendliness: Add labels to input for essay question (instructor edit sessions page) #12220](https://github.com/TEAMMATES/teammates/pull/12220) |
+| 10     | Reviewed PR: [Minimise modal margin for mobile #12225](https://github.com/TEAMMATES/teammates/pull/12225) |
+| 10     | Closed issue: [Page menu in the instructor help page is not working #12233](https://github.com/TEAMMATES/teammates/issues/12233) |
+| 10     | Reviewed PR: [Fix remaining accessibility tests #12223](https://github.com/TEAMMATES/teammates/pull/12223) |
+| 10     | Merged PR: [User-friendliness: Fix instructor edit sessions page MCQ and MSQ #12236](https://github.com/TEAMMATES/teammates/pull/12236) |
+| 10     | Reviewed PR: [Instructor help page: Page not scrolling to the right section #12224](https://github.com/TEAMMATES/teammates/pull/12224) |
+| 10     | Reviewed PR: [Fix scrolling mechanism when user click on scroll down button #12243](https://github.com/TEAMMATES/teammates/pull/12243) |
+| 10     | Reviewed PR: [Instructor help page: page not scrolling to content when anchor links used #12239](https://github.com/TEAMMATES/teammates/pull/12239) |
+| 10     | Merged PR: [User-friendliness: Change feedback path dropdowns to column format on mobile #12250](https://github.com/TEAMMATES/teammates/pull/12250) |
+| 10     | Merged PR: [User-friendliness: Fix visibility dropdown overflow #12251](https://github.com/TEAMMATES/teammates/pull/12251) |
+| 10     | Merged PR: [User-friendliness: Add labels to instructor edit sessions page questions #12254](https://github.com/TEAMMATES/teammates/pull/12254) |
