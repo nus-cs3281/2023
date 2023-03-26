@@ -28,3 +28,4 @@
 | 9 | Reviewed PR [Migrate default plugins to TS #2199](https://github.com/MarkBind/markbind/pull/2199)
 | 10 | Merged PR [Deprecate slots, attributes and syntax #2208](https://github.com/MarkBind/markbind/pull/2208)
 | 10 | Opened PR [Deprecate theme attribute in site config JSON #2235](https://github.com/MarkBind/markbind/pull/2235)
+| 10 | Opened Issue [CI Test for Windows failing sometimes on tests with setTimeout #2238](https://github.com/MarkBind/markbind/issues/2238)
