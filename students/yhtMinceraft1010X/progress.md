@@ -79,3 +79,4 @@
 | 10 | RepoSense | Reviewed PR: [Update Node version to 16](https://github.com/reposense/RepoSense/pull/1956)                                                                                                                       |
 | 10 | RepoSense | Reviewed PR: [Update Cypress to v12](https://github.com/reposense/RepoSense/pull/1924)                                                                                                                           |
 | 10 | RepoSense | Merged PR: [Gradle: change serveTestReportInBackground workingDir](https://github.com/reposense/RepoSense/pull/1925)                                                                                             |
+| 10 | RepoSense | Reviewed PR: [Update action after transfer](https://github.com/reposense/reposense-action/pull/5) |
