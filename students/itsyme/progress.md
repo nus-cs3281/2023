@@ -15,7 +15,7 @@
 | 6 | Investigate Issue: [Quiz component expanding when transitioning to next question #2126](https://github.com/MarkBind/markbind/issues/2126) |
 | R | Opened PR [Fix Quiz expanding between questions #2184](https://github.com/MarkBind/markbind/pull/2184)
 | R | Investigate Issue: [Broken links detected for the deployment to devdocs #2179](https://github.com/MarkBind/markbind/issues/2179)
-| R | Opened PR [Fix broken links in docs #2183](https://github.com/MarkBind/markbind/pull/2183)
+| R | Opened PR [Add tags to links in docs #2183](https://github.com/MarkBind/markbind/pull/2183)
 | R | Opened Issue [Quiz skipping questions when pressing next multiple times #2188](https://github.com/MarkBind/markbind/issues/2188)
 | 7 | Reviewed PR [Use boilerplate in UG index to standardize with rest of UG #2194](https://github.com/MarkBind/markbind/pull/2194)
 | 7 | Opened PR [Add shake effect when none selected in MCQ Question #2195](https://github.com/MarkBind/markbind/pull/2195)
@@ -29,3 +29,5 @@
 | 10 | Merged PR [Deprecate slots, attributes and syntax #2208](https://github.com/MarkBind/markbind/pull/2208)
 | 10 | Opened PR [Deprecate theme attribute in site config JSON #2235](https://github.com/MarkBind/markbind/pull/2235)
 | 10 | Opened Issue [CI Test for Windows failing sometimes on tests with setTimeout #2238](https://github.com/MarkBind/markbind/issues/2238)
+| 11 | Merged PR [Add tags to links in docs #2183](https://github.com/MarkBind/markbind/pull/2183)
+| 11 | Opened PR [Fix typo in Dropdown.spec.js #2243](https://github.com/MarkBind/markbind/pull/2243)
