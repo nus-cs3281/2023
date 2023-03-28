@@ -31,3 +31,6 @@
 | 10 | Opened Issue [CI Test for Windows failing sometimes on tests with setTimeout #2238](https://github.com/MarkBind/markbind/issues/2238)
 | 11 | Merged PR [Add tags to links in docs #2183](https://github.com/MarkBind/markbind/pull/2183)
 | 11 | Opened PR [Fix typo in Dropdown.spec.js #2243](https://github.com/MarkBind/markbind/pull/2243)
+| 11 | Merged PR [Fix typo in Dropdown.spec.js #2243](https://github.com/MarkBind/markbind/pull/2243)
+| 11 | Opened PR [Disable tests that fail in CI occasionally #2244](https://github.com/MarkBind/markbind/pull/2244)
+| 11 | Merged PR [Deprecate theme attribute in site config JSON #2235](https://github.com/MarkBind/markbind/pull/2235)
