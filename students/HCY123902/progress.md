@@ -90,4 +90,6 @@
 | 10 | Reviewed PR: [[#1872] Update Node version to 16 #1956](https://github.com/reposense/RepoSense/pull/1956) |
 | 10 | Reviewed PR: [[#1945] Enforce stricter formatting rules for TypeScript files #1957](https://github.com/reposense/RepoSense/pull/1957) |
 | 10 | Submitted Iusse: [Modify screenshots to include new changes in RepoSense report #1962](https://github.com/reposense/RepoSense/issues/1962) |
-
+| 11 | Reviewed PR: [[#1936] Migrate c-summary.vue to TypeScript #1953](https://github.com/reposense/RepoSense/pull/1953) |
+| 11 | Reviewed PR: [[#1959] Missing contribution bar for merged groups after refresh #1960](https://github.com/reposense/RepoSense/pull/1960) |
+| 11 | Reviewed PR: [[#1963] Migrate c-zoom.vue to TypeScript #1965](https://github.com/reposense/RepoSense/pull/1965) |
