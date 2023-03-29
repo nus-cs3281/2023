@@ -34,3 +34,4 @@
 | 11 | Merged PR [Fix typo in Dropdown.spec.js #2243](https://github.com/MarkBind/markbind/pull/2243)
 | 11 | Opened PR [Disable tests that fail in CI occasionally #2244](https://github.com/MarkBind/markbind/pull/2244)
 | 11 | Merged PR [Deprecate theme attribute in site config JSON #2235](https://github.com/MarkBind/markbind/pull/2235)
+| 11 | Reviewed PR [Update examples for CLI Commands in UG #2247](https://github.com/MarkBind/markbind/pull/2247)
