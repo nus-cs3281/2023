@@ -24,7 +24,7 @@ PRs merged:
   - Identified the cause of the bug and implemented a fix that changes the least amount of code that fits with the design. 
 
 Issues created:
-- Code quality issue delating to `DialogUtil::showAlertDialog`
+- Code quality issue relating to `DialogUtil::showAlertDialog`
   - [Code Quality: Update various implementations of AlertDialog.Builder to use DialogUtil methods #5151](https://github.com/commons-app/apps-android-commons/issues/5151)
   - [Code quality (UploadActivity): Use DialogUtil method instead of re-implementing in showInfoAlert #5148](https://github.com/commons-app/apps-android-commons/issues/5148)
 - [[Bug]: Duplicate filename notification completely replaces image-found-on-internet warning #5180](https://github.com/commons-app/apps-android-commons/issues/5180)
