@@ -8,6 +8,22 @@ As of March 2023, Ockam has a total of 3K stars of Github, 203 OSS contributors 
 
 [Project website](https://github.com/build-trust/ockam)
 
+### External Project Workflow
+
+The workflow for contributing to Ockam is pretty standard as far as open-source projects goes. A few things that I noticed that were really great were that the project maintainers were very helpful and the PRs were being reviewed quickly (often in less than 1 week's time).
+
+1. Find an issue to work on, ideally issues that are tagged `good-first-issues`.
+2. Work on fixing the bug
+    - If there are any setup issues, the Ockam team has set up a [discussion forum](https://github.com/build-trust/ockam/discussions/1642) to help troubleshoot any issues.
+3. Accept the [Ockam Contributor License Agreement](https://github.com/build-trust/ockam-contributors/blob/main/CLA.md)
+4. Craft proper commit messages.
+    - Each commit should have a `type` and `scope`. It should be organized as `type(scope): <subject>`. For example `feat(rust): ...` or `refactor(elixer): ...`.
+5. Work with PR reviewer to get the PR approved.
+
+Resources:
+
+- [Contributing Guide](https://github.com/build-trust/.github/blob/main/CONTRIBUTING.md#contributing-to-ockam-on-github)
+
 ### My Contributions
 
 I contributed mainly to the enhancement of the Ockam CLI.
