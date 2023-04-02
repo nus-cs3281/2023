@@ -18,6 +18,19 @@
 
 # CS3281 Semester's Progress
 
+## Summary
+
+I was assigned to work on the v9-migration from noSQL to SQL of TEAMMATES.
+
+The tasks that I have done range from
+
+- Creating entities.
+- Writing up the DB functionalities of the respective entities.
+- Adding the business/logic layers of the respective entities.
+- Migrating the endpoints i.e., Actions.
+
+Aside from the above, I have worked on a few other frontend related tasks, reviewed PRs and manage issues of new contributors.
+
 | Week | Achievements                                                                                                                                                     |
 | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1    | Authored PR (put on hold by request): [Instructor Viewing Student Activities: Bug Fix and Enhancement #12024](https://github.com/TEAMMATES/teammates/pull/12024) |
@@ -42,3 +55,6 @@
 | 10   | Merged PR: [Fix Typo in Naming of DB Tables #12232](https://github.com/TEAMMATES/teammates/pull/12232)                                                           |
 | 10   | Merged PR: [Migrate Get Instructor Privilege Action #12245](https://github.com/TEAMMATES/teammates/pull/12245)                                                   |
 | 11   | Reviewed PR: [Fix/removed extra space form links #12270](https://github.com/TEAMMATES/teammates/pull/12270)                                                      |
+| 11   | Reviewed PR: [Instructor home page: Fix alignment of "Add New Course" button #12284](https://github.com/TEAMMATES/teammates/pull/12284)                          |
+| 11   | Reviewed PR: [Part of #12284 above; #12295](https://github.com/TEAMMATES/teammates/pull/12295)                                                                   |
+| 11   | Reviewed PR: [Students viewing submission form: Some answered essay questions are not shown in green #12316](https://github.com/TEAMMATES/teammates/pull/12316)  |
