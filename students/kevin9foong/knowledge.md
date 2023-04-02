@@ -35,7 +35,7 @@ Compared to React, Angular has more built in functionality such as debouncing fu
 * Through writing and testing my featurs extensively, I've realised the importance of testing in preventing and identifying bugs.
 For example, by writing tests for the various FeedbackSession actions I've migrated, I've discovered bugs that were previously undetected and merged into the main branch. For example, since the various entitys' toString() method were invoking each other, it caused a cyclic infinite loop which would have crashed the application if pushed into production.
 
-Additionally, I discovered many hard to detect bugs such as the parameter ordering being incorrect and CriteriaAPI bugs where Join needs to be explicitly indicated first that have been previously merged. This would not have been possible without good testing practice.
+* Additionally, I discovered other hard to detect bugs such as incorrect parameter orderings and CriteriaAPI bugs where the wrong key was being referenced and where Join needs to be explicitly indicated first that have been previously merged. This would not have been possible without good testing practice.
 
 * Writing tests for regression and ensuring tests pass even if test data is changed.
 I've learnt that regression testing is extremely important. Especially when there is collective effort in performing migration work and there are many changes, we need to ensure new changes don't break existing functionality.
