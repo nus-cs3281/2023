@@ -1,3 +1,12 @@
+## Summary
+
+During my CS3281 journey, I worked on:
+* Creating a admin support dashboard for new emails from scratch.
+* Migrating TEAMMATES from its previous GCP Datastore dependency to PostgreSQL as part of TEAMMATES v9.
+* Finding and fixing various hard-to-find bugs via testing.
+* Raising and guiding other (open-sourced) developers to improve TEAMMATES.
+* Giving suggestions and implementing upgrades to TEAMMATES (in terms of performance, code quality etc) whilst doing the migrations.
+
 ## Weekly progress
 
 | Week | Achievements |
