@@ -1,3 +1,7 @@
+## Summary
+
+During my journey in CS3281, I have mainly contributed to the CATcher documentation update, WATcher Angular version upgrade while submitting and fixing various UIX-related bugs along the way.
+
 Week | Projects | Achievements |
 ---- | -------- | -------------|
 | 1 | CATcher | Opened Issue [Issues while setting up the dev environment](https://github.com/CATcher-org/CATcher/issues/1107) |
