@@ -118,3 +118,17 @@ Below are some wonderful resources that have helped me along the way:
 - Baeldung's take on Hibernate [here](https://www.baeldung.com/learn-jpa-hibernate)
 - Official Documentation of Hibernate [here](https://docs.jboss.org/hibernate/orm/6.1/userguide/html_single/Hibernate_User_Guide.html), literally the bible but I find some examples to be quite bare and the rest of the resources here and have helped me tremendously!
 - The man himself Thorben Janssen! Over [here](https://thorben-janssen.com/tutorials/)
+
+# Miscellaneous
+
+## Large Modifications to a Live System
+
+Have to credit my teammate, Kevin, for bringing up this point.
+
+This semestral project, v9-migration - moving from NoSQL to SQL, could be detrimental to a live system that relies on huge chunks of data to function if not done with caution.
+
+In order for the team to carefully perform such a huge operation, a migrated check on the documents (previously NoSQL) is done before paving the way for an endpoint to take when called for.
+
+This allows us to work independently on migrating the relevant parts of this live system, dual DB as said by my mentors, without affecting the current state that the hundreds of thousands users see.
+
+In my opinion, it is really neat!
