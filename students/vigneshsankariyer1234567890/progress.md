@@ -21,4 +21,7 @@
 | 10 | CATcher | Opened PR [Add spinners to indicate if edited information in issue has been persisted #1172](https://github.com/CATcher-org/CATcher/pull/1172) |
 | 10 | WATcher | Created Issue [Add Issues Dashboard access by URL #94](https://github.com/CATcher-org/WATcher/issues/94) |
 | 10 | WATcher | Created Issue [Node 16.0.0 causes frequent recompiles #99](https://github.com/CATcher-org/WATcher/issues/99) |
-| 10 | WATcher | Created Issue [Unable to switch repo when invalid repo is given #101](https://github.com/CATcher-org/WATcher/issues/101)
+| 10 | WATcher | Created Issue [Unable to switch repo when invalid repo is given #101](https://github.com/CATcher-org/WATcher/issues/101) |
+| 11 | WATcher | Opened PR [Remove electron from WATcher](https://github.com/CATcher-org/WATcher/pull/113) |
+| 11 | WATcher | Investigated Issue [Issues/PRs not reloaded before data gets fetched when changing repository from header #100](https://github.com/CATcher-org/WATcher/issues/100) |
+| 11 | WATcher | Opened PR [Clear Issues before fetching and populating IssuesDataTable](https://github.com/CATcher-org/WATcher/pull/114) |
