@@ -80,5 +80,16 @@
 | 8 | Reviewed PR: [[#1891] Update Cypress to v10 #1922](https://github.com/reposense/RepoSense/pull/1922) |
 | 8 | Reviewed PR: [Test if ramp chart in zoom view shows selected period #1930](https://github.com/reposense/RepoSense/pull/1930) |
 | 8 | Reviewed PR: [[#1934] Fix wrong author name for merged groups in Commits Panel #1935](https://github.com/reposense/RepoSense/pull/1935) |
+| 9 | Reviewed PR: [[#1891] Update Cypress to v11 #1923](https://github.com/reposense/RepoSense/pull/1923) |
 | 9 | Reviewed PR: [[#1936] Migrate store.js to TypeScript #1937](https://github.com/reposense/RepoSense/pull/1937) |
+| 9 | Reviewed PR: [[#1936] Migrate app.vue to TypeScript #1938](https://github.com/reposense/RepoSense/pull/1938) |
+| 9 | Reviewed PR: [[#1537] Show authors for merged groups in Code Panel #1939](https://github.com/reposense/RepoSense/pull/1939) |
 | 9 | Submitted Issue: [Migrate Cypress to TypeScript #1946](https://github.com/reposense/RepoSense/issues/1946) |
+| 9 | Reviewed PR: [Remove Gradle wrapper version definition #1951](https://github.com/reposense/RepoSense/pull/1951) |
+| 10 | Reviewed PR: [[#1891] Update Cypress to v12 #1924](https://github.com/reposense/RepoSense/pull/1924) |
+| 10 | Reviewed PR: [[#1872] Update Node version to 16 #1956](https://github.com/reposense/RepoSense/pull/1956) |
+| 10 | Reviewed PR: [[#1945] Enforce stricter formatting rules for TypeScript files #1957](https://github.com/reposense/RepoSense/pull/1957) |
+| 10 | Submitted Iusse: [Modify screenshots to include new changes in RepoSense report #1962](https://github.com/reposense/RepoSense/issues/1962) |
+| 11 | Reviewed PR: [[#1936] Migrate c-summary.vue to TypeScript #1953](https://github.com/reposense/RepoSense/pull/1953) |
+| 11 | Reviewed PR: [[#1959] Missing contribution bar for merged groups after refresh #1960](https://github.com/reposense/RepoSense/pull/1960) |
+| 11 | Reviewed PR: [[#1963] Migrate c-zoom.vue to TypeScript #1965](https://github.com/reposense/RepoSense/pull/1965) |

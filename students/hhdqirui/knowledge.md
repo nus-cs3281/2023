@@ -1,7 +1,26 @@
-### Tool/Technology 1
+# Angular 
+- Components are the main building blocks of Angular applications. Each component contains an HTML which specifies the template, a CSS which specifies the style, a TypeScript which specifies the behaviour of the component, and possibly a module file which specifies the modules used by the component.
+- Each Angular component has a lifecycle. The lifecycle starts when Angular instantiates the component class and reders the component view. There are multiple lifecycle hook methods that can be used in our application to respond to lifecycle events. For example, `ngDoCheck` allows developers the customise change-detection, meaning when there is a change to the component, this method will detect the changes and perform some operation specified by the developers. 
+- In Angular applications, we can pass data between parent and child components using `@Input()` and `@Output()` decorators. More specifically, in the child component, we can decorate the property with `@Input()` and in the parent component template, we can use property binding to bind the property of the child component to the property of the parent component using the square bracket, `[]`. In this way, data can be passed from the parent to the child. Conversly, to send the data from the child to the parent, we can use the `@Output()` decorator and an `EventEmitter`. The parent component template the normal bracket, `()`, for event binding. When we trigger the `EventEmitter` to emit the event, the event will be passed to the parent component along with the data.
+- Apart from property binding and event binding, there is also two-way binding which uses `[()]`. Using two-way binding can listen for events and update values simultaneously between the parent and child components.
+- Angular has directives which are classes that add additional behaviour to elements in Angular applications. For example, some of the most commonly used directives, `ngIf`, `ngFor`, (which are structural directives) allows developers to write if-else statement logics and for loops in the templates, so that we do not have to write repeated codes.
 
-List the aspects you learned, and the resources you used to learn them, and a brief summary of each resource.
+Recourses: Angular documentation
 
-### Tool/Technology 2
+# RxJs
+- HTTP responses to the frontend is is the form of RxJs `Observable`. Upon receiving the HTTP responses as `Observable`, we can call the `subscribe` method to manipulate the HTTP response. We can also call the `pipe` method to add more custom methods for manipulation. For example, we can pass in some custom `finalize` method into the `pipe` method to specify the end operation. 
+- HTTP responses received as `Observable` is asynchronous. This means the code is not executed sequentially. The line of code right after the `subsribe` method may be executed first. This is also a reason why it is desirable to pass in `finalize` methods.
+- In the scenario where we want to manage multiple `Observable` and synchronise them, we can use `forkJoin` from RxJs. `forkJoin` taks in an array of `Observable` and process them one by one. In this way, we would not need to worry about the synchronisation between each `Observable`.
 
-...
+# Docker
+- Docker is a tool that is used to automate the deployment of applications in containers so that applications can work efficiently in different environments. TEAMMATES uses docker to deploy sub-services which include Apache Solr, Google Datastore, and PostgreSQL. Using docker can ease the environment setup for all developers.
+- Different applications are packaged as an image which can be downloaded by developers. Developers can then start the start a container based on the image.
+- Multiple services/applications can be started with one command line. Configuration of the difference services/applications is specified inside the `docker-compose.yml` file. 
+- Specifically, to access the docker container, we can access through the specified port number. For example, when the port is configured as `5432:2345`, it means inside the container, the application expose the port 5432 and docker will connect the exposed port to the port outside the container which is port 2345. Therefore, applications outside the docker will just need to access port 2345 to access the container application.
+
+# Hibernate
+- Hibernate ORM (object-relational mapping) is an ORM tool for converting data between a relational database and the heap of an object-oriented programming language. 
+- With Hibernate ORM, developers do not need to write plain SQL query to query the database. Instead, developers can call built-in Hibernate methods to perform database operations, such as create get, join, update, delete, and etc. This could also help prevent SQL injection attack.
+- To trun a Java class into a database entity, we can make use of the Hibernate ORM annotation to specify the class is an entity or a table in the database by using `@Enity`, `@Table`, and the fields inside the class are the columns of the table by using `@Id`, `@Column`, etc.
+- Hibernate ORM can also perform join operation. Developers will just need to use the Hibernate mapping annotation, such as `@OneToMany`, `@ManyToOne`, etc. When fetching the entities from the database, Hibernate will also fetch the associated entities without developers explicitly doing so.
+- Session-per-request model: Hibernate's `Session` object is not thread-safe, so we should not be sharing a session across multiple threads. On the other hand, creating a new session for each database operation is expensive. Session-per-request model can help alleviate the problem where all database operations to be performed in a single request are wrapped in one transaction. A request can be seen as one atomic unit of operation.

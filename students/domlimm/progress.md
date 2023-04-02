@@ -33,3 +33,12 @@
 | 7    | Reviewed PR: [Resolve width issue for num scale question #12146](https://github.com/TEAMMATES/teammates/pull/12146)                                              |
 | 7    | Merged PR: [Add Unit Tests for UserDb methods #12163](https://github.com/TEAMMATES/teammates/pull/12163)                                                         |
 | 8    | Merged PR: [Update access visibility of HibernateUtils utility methods to private #12171](https://github.com/TEAMMATES/teammates/pull/12171)                     |
+| 8    | Merged PR: [Get Account and Accounts actions #12176](https://github.com/TEAMMATES/teammates/pull/12176)                                                          |
+| 9    | Merged PR: [Migrate DeleteAccountAction #12184](https://github.com/TEAMMATES/teammates/pull/12184)                                                               |
+| 9    | Reviewed PR: [Remove raised-edge from home and features page #12193](https://github.com/TEAMMATES/teammates/pull/12193)                                          |
+| 9    | Merged PR: [Migrate Reset Account Action #12204](https://github.com/TEAMMATES/teammates/pull/12204)                                                              |
+| 10   | Merged PR: [Migrate Get Instructors Action #12210](https://github.com/TEAMMATES/teammates/pull/12210)                                                            |
+| 10   | Merged PR: [Migrate Get Student and Students Action #12211](https://github.com/TEAMMATES/teammates/pull/12211)                                                   |
+| 10   | Merged PR: [Fix Typo in Naming of DB Tables #12232](https://github.com/TEAMMATES/teammates/pull/12232)                                                           |
+| 10   | Merged PR: [Migrate Get Instructor Privilege Action #12245](https://github.com/TEAMMATES/teammates/pull/12245)                                                   |
+| 11   | Reviewed PR: [Fix/removed extra space form links #12270](https://github.com/TEAMMATES/teammates/pull/12270)                                                      |

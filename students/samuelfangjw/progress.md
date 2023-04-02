@@ -60,6 +60,7 @@
 |6|Reviewed PR: [Update GetUsageStatisticsAction to include SQL entities #12084](https://github.com/TEAMMATES/teammates/pull/12084)|
 |6|Reviewed PR: [Update Angular to 14 and Node to 16 #12100](https://github.com/TEAMMATES/teammates/pull/12100)|
 |Recess|Reviewed PR: [Tag all TEAMMATES pages with \<main\> #12108](https://github.com/TEAMMATES/teammates/pull/12108)|
+|Recess|Reviewed PR: [Migrate Course Action classes #12092](https://github.com/TEAMMATES/teammates/pull/12092)|
 |Recess|Reviewed PR: [Add Section and Team entity #12103](https://github.com/TEAMMATES/teammates/pull/12103)|
 |Recess|Reviewed PR: [Account request v9 migration #12107](https://github.com/TEAMMATES/teammates/pull/12107)|
 |Recess|Reviewed PR: [Update CalculateUsageStatisticsAction to include SQL entities #12109](https://github.com/TEAMMATES/teammates/pull/12109)|
@@ -92,3 +93,46 @@
 |8|Reviewed PR: [Add back per criterion averages to the stat table #12152](https://github.com/TEAMMATES/teammates/pull/12152)|
 |8|Reviewed PR: [Migrate GetNotificationsAction #12178](https://github.com/TEAMMATES/teammates/pull/12178)|
 |8|Reviewed PR: [Get Account and Accounts actions #12176](https://github.com/TEAMMATES/teammates/pull/12176)|
+|8|Reviewed PR: [Remove Bootstrap column style override #12180](https://github.com/TEAMMATES/teammates/pull/12180)|
+|8|Reviewed PR: [Migrate email generator #12175](https://github.com/TEAMMATES/teammates/pull/12175)|
+|8|Reviewed PR: [[#12182][#12068] student viewing results: the spinner keeps going until the user clicks on the page #12183](https://github.com/TEAMMATES/teammates/pull/12183)|
+|8|Submitted Issue: [Release V8.24.0 #12185](https://github.com/TEAMMATES/teammates/issues/12185)|
+|8|Merged PR: [Release V8.24.0 #12188](https://github.com/TEAMMATES/teammates/pull/12188)|
+|8|Reviewed PR: [Update MarkNotificationAsReadAction logic for unmigrated accounts #12190](https://github.com/TEAMMATES/teammates/pull/12190)|
+|8|Reviewed PR: [Inconsistent spacing in headings of rubric question statistics #12187](https://github.com/TEAMMATES/teammates/pull/12187)|
+|8|Reviewed PR: [Add simple workflow to vet pull requests #12196](https://github.com/TEAMMATES/teammates/pull/12196)|
+|8|Reviewed PR: [Migrate DeleteAccountAction #12184](https://github.com/TEAMMATES/teammates/pull/12184)|
+|8|Reviewed PR: [Instructor adding a new session: stray X in the form UI #12191](https://github.com/TEAMMATES/teammates/pull/12191)|
+|8|Merged PR: [Migrate data bundle #12199](https://github.com/TEAMMATES/teammates/pull/12199)|
+|8|Reviewed PR: [Remove raised-edge from home and features page #12193](https://github.com/TEAMMATES/teammates/pull/12193)|
+|9|Reviewed PR: [Update FeedbackSession entity and add methods for FeedbackQuestion use #12202](https://github.com/TEAMMATES/teammates/pull/12202)|
+|9|Merged PR: [Migrate get instructor action #12203](https://github.com/TEAMMATES/teammates/pull/12203)|
+|9|Reviewed PR: [Fix PR checking workflow permissions #12215](https://github.com/TEAMMATES/teammates/pull/12215)|
+|9|Reviewed PR: [Migrate GetFeedbackQuestionAction #12208](https://github.com/TEAMMATES/teammates/pull/12208)|
+|9|Reviewed PR: [Migrate CreateFeedbackQuestionAction #12217](https://github.com/TEAMMATES/teammates/pull/12217)|
+|9|Reviewed PR: [Migrate GetFeedbackSessionAction #12212](https://github.com/TEAMMATES/teammates/pull/12212)|
+|9|Reviewed PR: [Migrate Reset Account Action #12204](https://github.com/TEAMMATES/teammates/pull/12204)|
+|9|Reviewed PR: [Fix ChromeDriver setup for E2E tests #12216](https://github.com/TEAMMATES/teammates/pull/12216)|
+|9|Reviewed PR: [Migrate Get Instructors Action #12210](https://github.com/TEAMMATES/teammates/pull/12210)|
+|10|Reviewed PR: [Migrate Get Student and Students Action #12211](https://github.com/TEAMMATES/teammates/pull/12211)|
+|10|Reviewed PR: [Migrate PublishFeedbackSessionAction #12213](https://github.com/TEAMMATES/teammates/pull/12213)|
+|10|Submitted Issue: [Release V8.25.0 #12227](https://github.com/TEAMMATES/teammates/issues/12227)|
+|10|Reviewed PR: [Fix Typo in Naming of DB Tables #12232](https://github.com/TEAMMATES/teammates/pull/12232)|
+|10|Merged PR: [Release V8.25.0 #12235](https://github.com/TEAMMATES/teammates/pull/12235)|
+|10|Reviewed PR: [Add unit tests for SubmitFeedbackResponsesAction #12234](https://github.com/TEAMMATES/teammates/pull/12234)|
+|10|Reviewed PR: [Migrate *JoinEmailWorkerAction classes #12229](https://github.com/TEAMMATES/teammates/pull/12229)|
+|10|Reviewed PR: [Instructor help page: Page not scrolling to the right section #12224](https://github.com/TEAMMATES/teammates/pull/12224)|
+|10|Reviewed PR: [User-friendliness: Add accessibility tests, fix submit feedback/view responses pages #12240](https://github.com/TEAMMATES/teammates/pull/12240)|
+|10|Reviewed PR: [Migrate UnpublishFeedbackSessionAction #12214](https://github.com/TEAMMATES/teammates/pull/12214)|
+|10|Reviewed PR: [Migrate Get Instructor Privilege Action #12245](https://github.com/TEAMMATES/teammates/pull/12245)|
+|10|Merged PR: [Add getSectionName and getTeamName methods to User #12247](https://github.com/TEAMMATES/teammates/pull/12247)|
+|10|Merged PR: [Add published email sent field to feedback sessions #12248](https://github.com/TEAMMATES/teammates/pull/12248)|
+|10|Reviewed PR: [Instructors editing session dates: disable calendar popup if the form is not in edit mode #12253](https://github.com/TEAMMATES/teammates/pull/12253)|
+|10|Reviewed PR: [Migrate get feedback responses action #12252](https://github.com/TEAMMATES/teammates/pull/12252)|
+|11|Reviewed PR: [Add user-friendliness documentation #12261](https://github.com/TEAMMATES/teammates/pull/12261)|
+|11|Reviewed PR: [Modify accessibility tests workflow to rerun failed tests once #12272](https://github.com/TEAMMATES/teammates/pull/12272)|
+|11|Reviewed PR: [Migrate RestoreFeedbackSessionAction #12257](https://github.com/TEAMMATES/teammates/pull/12257)|
+|11|Reviewed PR: [Migrate create feedback session action #12255](https://github.com/TEAMMATES/teammates/pull/12255)|
+|11|Reviewed PR: [Migrate BinFeedbackSessionAction #12256](https://github.com/TEAMMATES/teammates/pull/12256)|
+|11|Submitted Issue: [Modified session timing modal does not use updated session name #12307](https://github.com/TEAMMATES/teammates/issues/12307)|
+|11|Submitted Issue: [Add session: time picker constraint not applied correctly #12308](https://github.com/TEAMMATES/teammates/issues/12308)|
