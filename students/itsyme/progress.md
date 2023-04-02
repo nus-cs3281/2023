@@ -2,7 +2,7 @@
 
 I mainly work on the front-end of MarkBind, bringing new Vue components to production, improving current Vue components and improving the UI of MarkBind.
 
-Relevant more notable PRs:
+Relevant PRs:
 - [Fix search bar to include frontmatter keywords #2056](https://github.com/MarkBind/markbind/pull/2056)
 - [Update Question/Quiz component design #2131](https://github.com/MarkBind/markbind/pull/2131)
 - [Fix Quiz expanding between questions #2184](https://github.com/MarkBind/markbind/pull/2184)
