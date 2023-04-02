@@ -1,5 +1,27 @@
+## Weekly progress
+
 | Week | Achievements |
 | ---- | ------------ |
-| 1 to 4 | Work on the [Onboarding task](https://github.com/cedricongjh/teammates/commits/cedric/api-integration). I worked on creating the admin support dashboard to view support requests and implemented power user functionality for the admin such as sorting, searching tracking ID, highlighting of searched terms and optimizing the UI's performance via debouncing. |
-| 3 | Raised issue [#12020](https://github.com/TEAMMATES/teammates/issues/12020) to improve future developer ease of onboarding, responded to open-source devs and provided some assistance on how to fix the issue. Issue has been closed. | 
-| 5 | Worked on database migration of AccountRequest entity to support TEAMMATES v9 | 
+| 1 to 4 |
+Familiarised myself with TEAMMATES. Recognised the GCP services being used and its various features. I reported some issues to improve the new developer experience such as the below issue #12020.
+Worked on the [Onboarding task](https://github.com/cedricongjh/teammates/commits/cedric/api-integration). I worked on the planning of features, designing UI wireframe, creating the admin support dashboard to view support requests and implemented power user functionality for the admin such as sorting, searching tracking ID, highlighting of searched terms and optimizing the UI's performance via debouncing. |
+| 5-6 | Worked on database migration of AccountRequest entity to support TEAMMATES v9. Created SQL entities, discussed database layer implemnentation and used Criteria API and wrote > 10 IT and Database unit tests to test functionality. [AccountRequest PR](https://github.com/TEAMMATES/teammates/pull/12107) |
+| 7-8 | Migrated 4 actions for AccountRequests over a single PR [#12141](https://github.com/TEAMMATES/teammates/pull/12141). I discussed with my mentor Hieu and suggested splitting certain Exceptions into each layer for cleaner code (e.g., InvalidOperationError being a logic exception instead of a web layer exception). |
+| 9 | Migrated GetFeedbackSessionAction in [PR #12212](https://github.com/TEAMMATES/teammates/pull/12212), wrote >8 unit tests to cover the full suite of behavior. |
+| 10 | Migrated CreateFeedbackSessionAction in [PR #12255](https://github.com/TEAMMATES/teammates/pull/12255), refactored code based on good SWE practice using polymorphism to improve code quality.
+ Migrated DeleteFeedbackSessionAction and fixed an undetected bug that has been previously merged which caused infinite loop (crash) when the action is invoked, debugged HibernateUtil not clearing and added utility in [PR #12226](https://github.com/TEAMMATES/teammates/pull/12226). |
+| 11 | Migrated several actions including writing unit/integration tests [PR #12258](https://github.com/TEAMMATES/teammates/pull/12258), [PR #12303](https://github.com/TEAMMATES/teammates/pull/12303), [PR #12304](https://github.com/TEAMMATES/teammates/pull/12304). Identified and fixed undetected bugs with DeadlineExtension CriteriaAPI causing fetching to fail that have been previously merged in [PR #12326](https://github.com/TEAMMATES/teammates/pull/12326). |
+| 12 | |
+| 13 | |
+
+## Issues raised
+| Date | Achievements |
+| Week 2 | Identified and raised some typos found in GitHub page. Issue fixed. |
+| Week 3 | Raised [Issue #12020](https://github.com/TEAMMATES/teammates/issues/12020) to improve future developer ease of onboarding, responded to open-source devs and provided assistance on how to fix the issue. Issue has been fixed and closed. |
+## PR Reviews
+| Date | Review |
+| Week 9 | [PR #12191](https://github.com/TEAMMATES/teammates/pull/12191) Verified frontend issue has been resolved and looked at source code. |
+| Week 9-11 | [PR #12256](https://github.com/TEAMMATES/teammates/pull/12256),[PR #12273](https://github.com/TEAMMATES/teammates/pull/12273), [PR #12256](https://github.com/TEAMMATES/teammates/pull/12273) |
+
+## Misc
+Regular maintenance work for TEAMMATES
