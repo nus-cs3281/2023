@@ -26,10 +26,13 @@ During my CS3281 journey, I worked on:
 
 ## Issues raised
 | Week | Achievements |
+| ---- | ------------ |
 | 2 | Identified and raised some typos found in GitHub page. Issue fixed. |
 | 3 | Raised [Issue #12020](https://github.com/TEAMMATES/teammates/issues/12020) to improve future developer ease of onboarding, responded to open-source devs and provided assistance on how to fix the issue. Issue has been fixed and closed. |
+
 ## PR Reviews
 | Week | Review |
+| ---- | ------------ |
 | 9 | [PR #12191](https://github.com/TEAMMATES/teammates/pull/12191) Verified frontend issue has been resolved and looked at source code. |
 | 9-11 | [PR #12256](https://github.com/TEAMMATES/teammates/pull/12256),[PR #12273](https://github.com/TEAMMATES/teammates/pull/12273), [PR #12256](https://github.com/TEAMMATES/teammates/pull/12273) |
 
