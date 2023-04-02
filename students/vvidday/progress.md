@@ -1,3 +1,9 @@
+## Summary
+I am mainly working on the frontend of RepoSense, with contributions relating to bug fixes, code refactoring and testing.
+
+The main deliverable of this semester is the completion of the epic issue [Migrate entire frontend to TypeScript #1936](https://github.com/reposense/RepoSense/issues/1936), which involves migrating the entire frontend (`.js` and `.vue` files) to TypeScript, as well as some related DevOps tasks (e.g. setting up linting for TypeScript).
+
+## PRs
 | Week | Project            | Achievements                                                                                                                                         |
 |------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 3    | RepoSense          | Reviewed PR: [[#1865] Collapse file after scrolling through it in the Code Panel](https://github.com/reposense/RepoSense/pull/1860)                  |
@@ -18,3 +24,12 @@
 | 9    | RepoSense          | Merged PR: [[#1912] Add TypeScript rules to ESLint](https://github.com/reposense/RepoSense/pull/1913)                                                |
 | 9    | RepoSense          | Created Issue: [Migrate entire frontend to TypeScript](https://github.com/reposense/RepoSense/issues/1936)                                           |
 | 9    | RepoSense          | Investigated & Created Issue: [Enforce stricter formatting rules for TypeScript files in ESLint](https://github.com/reposense/RepoSense/issues/1945) |
+| 9-11 | RepoSense          | Merged PRs: [[#1891] Update Cypress to v10/v11/v12](https://github.com/reposense/RepoSense/pull/1922)                                                |
+| 10   | RepoSense          | Merged PR: [[#1936] Migrate store.js to TypeScript](https://github.com/reposense/RepoSense/pull/1937)                                                |
+| 10   | RepoSense          | Merged PR: [[#1936] Migrate app.vue to TypeScript](https://github.com/reposense/RepoSense/pull/1938)                                                 |
+| 10   | RepoSense          | Created Issue: [Use syntax coloring for code blocks in docs](https://github.com/reposense/RepoSense/issues/1958)                                     |
+| 10   | RepoSense          | Merged PR: [[#1945] Enforce stricter formatting rules for TypeScript files](https://github.com/reposense/RepoSense/pull/1957)                        |
+| 10   | RepoSense          | Reviewed PR: [[#1715] Add RepoSense CLI Wizard Walkthrough](https://github.com/reposense/RepoSense/pull/1950)                                        |
+| 10   | RepoSense          | Reviewed PR: [[#1872] Update Node version to 16](https://github.com/reposense/RepoSense/pull/1956)                                                   |
+| 11   | RepoSense          | Reviewed PR: [[#1963] Migrate c-zoom.vue to TypeScript](https://github.com/reposense/RepoSense/pull/1965)                                            |
+| 11   | RepoSense          | Reviewed PR: [[#1959] Missing contribution bar for merged groups after refresh](https://github.com/reposense/RepoSense/pull/1960)                    |

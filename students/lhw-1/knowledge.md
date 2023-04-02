@@ -12,7 +12,7 @@ Of course, as I became slowly more familiar with Vue.js and the Vue components, 
 
 ### Nunjucks
 
-Nunjucks is a templating engine for JavaScript, developed by Mozilla. I encountered a need to investigate Nunjucks further when I was working on a issue with the `{ raw } { endraw }` tags in MarkBind, which was a way to work around the double curly braces `{{ }}` being processed as a Nunjucks variable. While I did not fully learn Nunjucks during this investigation, I nevertheless managed to learn about how variables are processed in Nunjucks, and how the Nunjucks syntax works. 
+Nunjucks is a templating engine for JavaScript, developed by Mozilla. I encountered a need to investigate Nunjucks further when I was working on a issue with the `{{ '{{' }} raw {{ '}}' }}` and `{{ '{{' }} endraw {{ '}}' }}` tags in MarkBind, which was a way to work around the double curly braces (`{{ '{{' }}` and `{{ '}}' }}`) being processed as a Nunjucks variable. While I did not fully learn Nunjucks during this investigation, I nevertheless managed to learn about how variables are processed in Nunjucks, and how the Nunjucks syntax works.
 
 The resources I used consist of:
 - [Nunjucks Documentation](https://mozilla.github.io/nunjucks/templating.html#autoescaping): This was the primary resource I consulted to learn more about the behavior of Nunjucks and the available syntax.
@@ -30,10 +30,10 @@ The resources I used consist of:
 
 ### Static Site Generators ("Competitor Analysis")
 
-While working on the templates and the CLI aspects of MarkBind, I found that I needed to be at least familiar with how other Static Site generators do things. I ended up spending quite a bit of time looking into 5 of our "competitors" (though they do fulfill different niches) in particular: Hugo, Gatsby, Jekyll, Docusaurus, MKDocs. 
+While working on the templates and the CLI aspects of MarkBind, I found that I needed to be at least familiar with how other Static Site generators do things. I ended up spending quite a bit of time looking into 5 of our "competitors" (though they do fulfill different niches) in particular: Hugo, Gatsby, Jekyll, Docusaurus, MKDocs.
 
 What I learnt from their documentations (and subsequently trying them out myself to generate sites) is difficult to list, as it mainly involves learning about the available features as well as how they tackled certain issues. However, some of the comments I have left on MarkBind issues do showcase parts of my learnings:
-- [This comment on Issue #2166](https://github.com/MarkBind/markbind/issues/2166#issuecomment-1464909988) regarding how empty `title` tags are handled in different static site generators 
+- [This comment on Issue #2166](https://github.com/MarkBind/markbind/issues/2166#issuecomment-1464909988) regarding how empty `title` tags are handled in different static site generators
 - [This comment on Issue #2214](https://github.com/MarkBind/markbind/issues/2214#issuecomment-1474242306) regarding the differences between "Quick Start", "Feature Overview", and "Tutorial" for some of the other static site generators
 
 The resources I used mainly consist of the documentations for each of the static site generators:
