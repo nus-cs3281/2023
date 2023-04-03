@@ -25,3 +25,6 @@
 | 11 | WATcher | Opened PR [Remove electron from WATcher](https://github.com/CATcher-org/WATcher/pull/113) |
 | 11 | WATcher | Investigated Issue [Issues/PRs not reloaded before data gets fetched when changing repository from header #100](https://github.com/CATcher-org/WATcher/issues/100) |
 | 11 | WATcher | Opened PR [Clear Issues before fetching and populating IssuesDataTable](https://github.com/CATcher-org/WATcher/pull/114) |
+| 12 | WATcher | Investigated Issue [Issues not showing for some repositories #107](https://github.com/CATcher-org/WATcher/issues/107) |
+| 12 | WATcher | Opened PR [Add additional card to show unassigned issues #118](https://github.com/CATcher-org/WATcher/pull/118) |
+| 12 | WATcher | Reviewed PR [[#111] Modularizing issues and PRs as components #116](https://github.com/CATcher-org/WATcher/pull/116) |
