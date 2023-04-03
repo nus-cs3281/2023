@@ -27,8 +27,7 @@
 |5|Reviewed PR: [[#12048] v9: Skeleton implementation](https://github.com/TEAMMATES/teammates/pull/12056)|
 |5|Authored PR: [Create Notification Entity for PostgreSQL migration #12061](https://github.com/TEAMMATES/teammates/pull/12061)|
 |5|Authored PR: [Create notification DB layer for v9 migration #12075](https://github.com/TEAMMATES/teammates/pull/12075)|
-|5|Authored PR: [Create SQL logic for CreateNotificationAction and add relevant tests for v9 migration #12077
-](https://github.com/TEAMMATES/teammates/pull/12077)|
+|5|Authored PR: [Create SQL logic for CreateNotificationAction and add relevant tests for v9 migration #12077](https://github.com/TEAMMATES/teammates/pull/12077)|
 |6|Reviewed PR: [Create Student, Instructor and User Entities for PostgreSQL Migration #12071](https://github.com/TEAMMATES/teammates/issues/12071)|
 |6|Reviewed PR: [[#12048] V9: temporarily disable liquibase migrations](https://github.com/TEAMMATES/teammates/pull/12072)|
 |6|Reviewed PR: [Add UsageStatistics entity and db #12076](https://github.com/TEAMMATES/teammates/pull/12076)|
