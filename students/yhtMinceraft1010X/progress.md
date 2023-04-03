@@ -40,27 +40,43 @@
 | 29 July 2022     | RepoSense | Responded to Issue: [Continuous Integration for macos-10.15 is always cancelled](https://github.com/reposense/RepoSense/issues/1817) |
 | 29 July 2022     | RepoSense | Reviewed PR: [Ignore case when comparing author name](https://github.com/reposense/RepoSense/pull/1814)                              |
 | 9 August 2022    | RepoSense | Reviewed PR: [Actions: remove Ubuntu 18.04 runner](https://github.com/reposense/RepoSense/pull/1823)                                 |
-| 5 September 2022 | RepoSense | Reviewed PR: [lfs bugfix branch ](https://github.com/reposense/RepoSense/pull/1826)                                                  | 
-| 14 December 2022 | RepoSense | Reviewed PR: [Use ES6+ way for string interpolation](https://github.com/reposense/RepoSense/pull/1845) |
+| 5 September 2022 | RepoSense | Reviewed PR: [Fix git clone exception when cloning lfs files](https://github.com/reposense/RepoSense/pull/1826)                      | 
+| 14 December 2022 | RepoSense | Reviewed PR: [Use ES6+ way for string interpolation](https://github.com/reposense/RepoSense/pull/1845)                               |
 
 # CS3282 During-Sem Progress
-| Week | Project   | Achievements                                                                                                        |
-|------|-----------|---------------------------------------------------------------------------------------------------------------------|
-| 1    | RepoSense | Merged PR: [Change git log author regex type](https://github.com/reposense/RepoSense/pull/1855)                     |
-| 1    | RepoSense | Reviewed PR: [Add date range validation to sinceDate and untilDate](https://github.com/reposense/RepoSense/pull/1850) |
-| 1 | RepoSense | Reviewed PR: [Remove authorship tag validation regex](https://github.com/reposense/RepoSense/pull/1857)             |
-| 2 | RepoSense | Reviewed PR: [Codecov: specify threshold to be 0.3%](https://github.com/reposense/RepoSense/pull/1859)              |
-| 2 | RepoSense | Reviewed PR: [Switch to package-lock.json and npm ci](https://github.com/reposense/RepoSense/pull/1863)             |
-| 2 | RepoSense | Reviewed PR: [Fix badges with correct class names](https://github.com/reposense/RepoSense/pull/1864)                |
-| 2 | RepoSense | Created Release: [RepoSense v2.4](https://github.com/reposense/RepoSense/releases/tag/v2.4)                         |
-| 3 | RepoSense | Merged PR: [Docs: Fix broken contributor links](https://github.com/reposense/RepoSense/pull/1861) |
-| 4 | RepoSense | Commented on PR: [Collapse file after scrolling through it in the Code Panel](https://github.com/reposense/RepoSense/pull/1860) |
-| 4 | RepoSense | Commented on PR: [Show merge commits in the report](https://github.com/reposense/RepoSense/pull/1882) |
+| Week | Project   | Achievements                                                                                                                                                                                                     |
+|------|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1    | RepoSense | Merged PR: [Change git log author regex type](https://github.com/reposense/RepoSense/pull/1855)                                                                                                                  |
+| 1    | RepoSense | Reviewed PR: [Add date range validation to sinceDate and untilDate](https://github.com/reposense/RepoSense/pull/1850)                                                                                            |
+| 1 | RepoSense | Reviewed PR: [Remove authorship tag validation regex](https://github.com/reposense/RepoSense/pull/1857)                                                                                                          |
+| 2 | RepoSense | Reviewed PR: [Codecov: specify threshold to be 0.3%](https://github.com/reposense/RepoSense/pull/1859)                                                                                                           |
+| 2 | RepoSense | Reviewed PR: [Switch to package-lock.json and npm ci](https://github.com/reposense/RepoSense/pull/1863)                                                                                                          |
+| 2 | RepoSense | Reviewed PR: [Fix badges with correct class names](https://github.com/reposense/RepoSense/pull/1864)                                                                                                             |
+| 2 | RepoSense | Created Release: [RepoSense v2.4](https://github.com/reposense/RepoSense/releases/tag/v2.4)                                                                                                                      |
+| 3 | RepoSense | Merged PR: [Docs: Fix broken contributor links](https://github.com/reposense/RepoSense/pull/1861)                                                                                                                |
+| 4 | RepoSense | Commented on PR: [Collapse file after scrolling through it in the Code Panel](https://github.com/reposense/RepoSense/pull/1860)                                                                                  |
+| 4 | RepoSense | Commented on PR: [Show merge commits in the report](https://github.com/reposense/RepoSense/pull/1882)                                                                                                            |
 | 4 | RepoSense | Consolidated issues [#1286](https://github.com/reposense/RepoSense/issues/1286) and [#1720](https://github.com/reposense/RepoSense/issues/1720) into [#1886](https://github.com/reposense/RepoSense/issues/1886) |
-| 4 | RepoSense | Responded to issue [#1215](https://github.com/reposense/RepoSense/issues/1215) and created issue [#1887](https://github.com/reposense/RepoSense/issues/1887) |
-| 5 | RepoSense | Merged PR: [Upgrade to Gradle 7.5.1](https://github.com/reposense/RepoSense/pull/1889) |
-| 5 | RepoSense | Merged PR: [Change header style for GitHub Issue and PR Templates](https://github.com/reposense/RepoSense/pull/1893) |
-| 5 | RepoSense | Merged PR: [Update minor versions of Node dependencies](https://github.com/reposense/RepoSense/pull/1895) |
-| 5 | RepoSense | Reviewed PR: [Fix concurrency issue with LOGGER_LIST](https://github.com/reposense/RepoSense/pull/1901) |
-| 6 | RepoSense | Merged PR: [Fix ESLint Indentation Level Options](https://github.com/reposense/RepoSense/pull/1896) |
-| 6 | RepoSense | Merged PR: [Consolidate OS jobs and tool versions in integration.yml](https://github.com/reposense/RepoSense/pull/1885) |
+| 4 | RepoSense | Responded to issue [#1215](https://github.com/reposense/RepoSense/issues/1215) and created issue [#1887](https://github.com/reposense/RepoSense/issues/1887)                                                     |
+| 5 | RepoSense | Merged PR: [Upgrade to Gradle 7.5.1](https://github.com/reposense/RepoSense/pull/1889)                                                                                                                           |
+| 5 | RepoSense | Merged PR: [Change header style for GitHub Issue and PR Templates](https://github.com/reposense/RepoSense/pull/1893)                                                                                             |
+| 5 | RepoSense | Merged PR: [Update minor versions of Node dependencies](https://github.com/reposense/RepoSense/pull/1895)                                                                                                        |
+| 5 | RepoSense | Reviewed PR: [Fix concurrency issue with LOGGER_LIST](https://github.com/reposense/RepoSense/pull/1901)                                                                                                          |
+| 6 | RepoSense | Merged PR: [Fix ESLint Indentation Level Options](https://github.com/reposense/RepoSense/pull/1896)                                                                                                              |
+| 6 | RepoSense | Merged PR: [Consolidate OS jobs and tool versions in integration.yml](https://github.com/reposense/RepoSense/pull/1885)                                                                                          |
+| Recess | RepoSense | Reviewed PR: [Changing AuthorConfiguration.hasAuthorConfigFile into a local variable](https://github.com/reposense/RepoSense/pull/1910)                                                                          |
+| Recess | RepoSense | Commented on PR: [Add TypeScript rules to ESLint](https://github.com/reposense/RepoSense/pull/1913)                                                                                                              |
+| Recess | RepoSense | Reviewed PR: [Make ReportGenerator and its corresponding Reporters non-static](https://github.com/reposense/RepoSense/pull/1916)                                                                                 |
+| Recess | SE-EDU (AB3) | Created Issue: [Jackson Dependency has vulnerable version](https://github.com/se-edu/addressbook-level3/issues/158)                                                                                              |
+| 7 | RepoSense | Merged PR: [Gradle: remove unneeded commons-text dependency](https://github.com/reposense/RepoSense/pull/1918)                                                                                                   |
+| 7 | RepoSense | Merged PR: [Consolidate Node.js installation source of truth](https://github.com/reposense/RepoSense/pull/1906)                                                                                                  |
+| 8 | RepoSense | Reviewed PR: [Remove unnecessary test mode behavior in ConfigSystemTest](https://github.com/reposense/RepoSense/pull/1911)                                                                                       |
+| 8 | RepoSense | Reviewed PR: [Update Cypress to v10](https://github.com/reposense/RepoSense/pull/1922)                                                                                                                           |
+| 9 | RepoSense | Merged PR: [Upgrade Gradle to 7.6.1](https://github.com/reposense/RepoSense/pull/1919)                                                                                                                           |
+| 9 | RepoSense | Reviewed PR: [Update Cypress to v11](https://github.com/reposense/RepoSense/pull/1923)                                                                                                                           |
+| 9 | RepoSense | Created Issue: [Add descriptions to Gradle tasks](https://github.com/reposense/RepoSense/issues/1952)                                                                                                            |
+| 10 | RepoSense | Merged PR: [Remove Gradle wrapper version definition](https://github.com/reposense/RepoSense/pull/1951)                                                                                                          |
+| 10 | RepoSense | Reviewed PR: [Update Node version to 16](https://github.com/reposense/RepoSense/pull/1956)                                                                                                                       |
+| 10 | RepoSense | Reviewed PR: [Update Cypress to v12](https://github.com/reposense/RepoSense/pull/1924)                                                                                                                           |
+| 10 | RepoSense | Merged PR: [Gradle: change serveTestReportInBackground workingDir](https://github.com/reposense/RepoSense/pull/1925)                                                                                             |
+| 10 | RepoSense | Reviewed PR: [Update action after transfer](https://github.com/reposense/reposense-action/pull/5) |

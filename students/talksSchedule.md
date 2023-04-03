@@ -60,7 +60,7 @@ footer:
 
 {{ page_break }}
 
-## Round C (week 11, 12)
+## Round C (week ~~11, 12~~ 10, 11)
 
 {% set criteria%}:far-square: slides visual-enough | :far-square: no visual clutter | :far-square: key slides stand out | :far-square: _assertion-evidence_ style used (if applicable) | :far-square: no excessive jargons :far-square: meaningful animations | :far-square: demo not too late | :far-square: PUNCH, WIIFY, Roadmap, Key Points, Last Slide etc.{% endset %}
 

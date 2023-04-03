@@ -17,3 +17,41 @@ I would like to touch on the more interesting aspects of Java's implementation o
 - - For greedy, the matcher "eats" the entire input before attempting to match. If there is no match, the matcher backs off the input string by one character and tries again until a match is found or no more characters are left.
 - - For reluctant, the matcher starts off at the beginning of the input string, "eating" one character at a time to look for a match. It stops the moment a match is found or there is no more characters left to "eat".
 - Possessive quantifiers starts with the entire input and never "tracks back" even if doing so allows the match to succeed.
+
+### Git Clone Bare
+
+This clones only the `.git` subfolder, and makes it the main directory cloned.
+
+### Git Shallow Clone
+
+This allows us to pull down only the latest commits and not the entire repo history. This can be achieved by specifying depth. The benefit of doing shallow clone is that we can clone faster due to fewer files being cloned. In RepoSense's case, we utilize `--shallow-since` flag, as it fits our use case better than `--depth` flag.
+
+### Synchronization
+
+Communication via threads happens primarily through sharing access to fields and the objects reference fields refer to. However, this introduces new kinds of errors in thread interference and memory consistency errors.
+
+Thread interference happens when two operations running in different threads, and acting on the same data interleaves.
+
+Memory consistency errors occurs when different threads have inconsistent views of what should be the same data.
+
+- Requires the happens-before relationship which is simply a guarantee that memory writes by one specific statement are visible to another statement.
+
+Java provides synchronization as a tool to prevent these new forms of errors. It is an action that creates a happens-before relationship.
+
+- Synchronized methods:
+- - It becomes not possible for two invocations of synchronized methods on the same object to interleave by blocking all other threads first.
+- - When a synchronized method exits, it automatically establishes a happens-before relationship with any subsequent invocation of a synchronized method for the _same object_. This ensures that the changes to the state of the object are visible to all threads.
+- - Constructors cannot be synchronized as it does not make sense, since only the thread that creates an object should have access to it while it is being constructed.
+- - `final` fields cannot be modified after the object is constructed, so it can be safely read through non-synchronized methods.
+
+- Intrinsic/monitor lock
+- - Enforces exclusive access to an object's state and establishing happens-before relationship which are essential to visibility.
+- - Every object has an intrinsic lock associated with it. A thread that needs exclusive and consistent access to an object's fields has to acquire (and said to own) the object's intrinsic lock before accessing them, and release the lock when it is done with them. No other threads can acquire the same lock during this time.
+- - For static synchronized methods, the thread acquires the intrinsic lock for the `Class` object associated with the class.
+
+- Synchronized blocks
+- - Allows us to synchronize only some instructions within a method. Requires a monitor object to be passed to the synchronized block, most commonly _this_ parameter. Class object is used in place of _this_ for static synchronized blocks
+
+- Reentrant synchronization
+- - Threads cannot acquire a lock owned by a thread. However, a thread can acquire (again) a lock it already owns.
+- - Happens in a situation where synchronized code directly or indirectly invokes a method that also contains synchronized code, and both sets of code use the same lock.

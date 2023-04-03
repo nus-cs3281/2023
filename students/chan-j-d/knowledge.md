@@ -1,3 +1,92 @@
+# CS3282 Semester Knowledge Gained
+## Kotlin
+Kotlin is a relatively newer programming language (July 2011) that runs on the JVM. It was designed to be interoperable with Java and supports most of the same features 
+that Java is known for, such as OOP programming paradigms like inheritance, polymorphism, etc. Being a newer language, it also aims to address some of the issues that Java 
+faces. The most prominent examples that I have encountered are the following
+- Null safety is built into the language compared to Java which helps avoid null pointer exceptions. Declaring a type with a '?' is equivalent to declaring an object as an `Optional` in Java.
+For example, a Kotlin declaration `s : String?` allows for the variable `s` to be a `null` while for `s : String`, attempting to assign `s = null` will automatically cause an exception. 
+  - This is opposed to Java where null safety requires us to use `Optional<T>` with the desired class which can make declarations somewhat cumbersome.
+  - Similar to Java's `Optional` methods, the `String?` has equivalent methods. [Reference link](https://typealias.com/guides/java-optionals-and-kotlin-nulls/). 
+```
+// Java
+Optional<String> s = Optional.of("test");
+s1.map(s -> "another string") 
+s1.ifPresent(System.out::println);
+
+// Kotlin
+s1 : String? = "test"
+s1.let{ "another string" }
+s1.also{ println(it) } 
+```
+- Kotlin has better support for functional programming, including lambdas and higher order functions which are far more convenient 
+to deal with than the equivalent SAMs in Java.
+- Getters and setters are automatically implemented based on the attribute names in Kotlin. 
+
+## Android development in Android Studio
+Android Studio is an IDE extremely similar to IntelliJ with most of the same features but also supports additional features that help with Android app development.
+- Virtual Machine simulation: Able to simulate various android devices at varying levels of Android SDK levels in order to build and run an app as if I was using it on my own device.
+  - There are limitations to this as it seems there are certain bugs that only occur on the real devices in which the VM simulation is another to test.
+  - Each individual SDK level has to be installed and they are quite large (usually a few GB) 
+- Debug mode in VM simulation: Similar to IntelliJ's debug mode, there is one that works together with the Virtual Android phone that can be used for testing.
+
+## Mockito
+Mockito is an open source Java-based mocking framework used for testing Java applications. THey help to create fake objects of a class or interface
+to help with testing classes in isolation. A standard use case would look something like this:
+
+```
+class TestClass {
+  void methodToTest(ClassWithInt classWithInt) {
+    if (classWithInt.getInt() > 0) {
+      positiveResult();
+    } else {
+      negativeResult();
+    }
+  }
+}
+
+class TestClassTest {
+  @mock // creates a 'fake object'
+  ClassWithInt mockedInput
+  
+  void test() {
+    TestClass testObject = new TestClass();
+    `when`(mockedInput.getInt()).thenReturn(1); // causes the mocked object to return 1 on this method call
+    testObject.methodToTest(mockedInput); // runs the method once
+    verify(testObject).positiveResult(); // checks if the method positiveResult is run as expected
+    
+    `when`(mockedInput.getInt()).thenReturn(-1); // note now the mock returns a negative integer
+    testObject.methodToTest(mockedInput);
+    verify(testObject).negativeResult();    
+  }
+}
+```
+Above, I described a simple use case for Mockito in mocking. The `@mock`, `when` and `verify` are Mockito imports. There are many other features to help with mocking and testing these mocks. 
+For example, we can assert that a method is invoked with specific arguments, or a method is invoked n number of times, where n could be 0.
+
+These are helpful for white-box testing to be sure that certain methods are invoked given certain conditions to prevent code from regressing. However, 
+we have to be careful with the use of mocking as it does not involve the actual dependencies that might have slightly different behavior.
+
+## MVP vs MVC
+Model View Presenter (MVP) is a different architectural pattern from Model View Controller (MVC) for the use of separation of concerns between business and UI layers.
+They generally help to make testing easier and hide data access. [Source for information and additional reading](https://www.baeldung.com/mvc-vs-mvp-pattern). 
+
+MVC:
+- Model: The model handles the state of the system and contains the logic of how the different parts affect each other.
+- View: Renders the UI for the user to view. Usually updated by Model.
+- Controller: Based on user responses, the Controller uses Model to make the appropriate updates.
+
+A common pitfall of MVC then becomes that the View module becomes a single class that is tightly coupled with Model and makes it extremely hard to test in isolation.
+
+MVP:
+- Model: Similar, handles the state of the system and contains logic of how different aspects of the internal model affect each other.
+- View: Responible for rendering UI for the user to view. When interacted with, it communicates these in the form of 'user events' to the Presenter.
+- Presenter: Receives user events from View and updates Model with the user events. After Model updates its internal state, it sends these 'state change events' to the Presenter which then updates View.
+
+In this design, it is much easier to separately test View and Model with mocks for Presenter. Similarly, Presenter can also be tested, albeit slightly more difficult.
+However, Presenter has more responsibilities than its 'equivalent' in Controller as it has to control both Model updates and how to then present these state changes to View.
+
+# Previous knowledge gained
+
 ## FileSystems, Bash and CMD
 ### Specifying File Paths in Command Line Arguments 
 General:
