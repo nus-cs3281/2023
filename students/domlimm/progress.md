@@ -20,6 +20,12 @@
 
 ## Summary
 
+**Onboarding Task**
+
+Worked on a mini project, Per Receiver Submission, still a work in progress.
+
+**Rest of the Semester**
+
 I was assigned to work on the v9-migration from noSQL to SQL of TEAMMATES.
 
 The tasks that I have done range from
@@ -29,7 +35,7 @@ The tasks that I have done range from
 - Adding the business/logic layers of the respective entities.
 - Migrating the endpoints i.e., Actions.
 
-Aside from the above, I have worked on a few other frontend related tasks, reviewed PRs and manage issues of new contributors.
+Aside from the above, I have worked on a few other frontend related tasks, reviewed PRs and attend and manage to new contributors.
 
 | Week | Achievements                                                                                                                                                     |
 | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
