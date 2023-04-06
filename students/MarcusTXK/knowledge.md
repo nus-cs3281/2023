@@ -6,7 +6,7 @@
 
 ### Gradle
 
-Gradle is a build tool designed specifically to meet the requirements of building Java applications. Once it’s setup, building an application is as simple as running a single command on the command line. Gradle performs well and is also useful for managing the dependencies via its advanced dependency management system.
+Gradle is a build tool designed specifically to meet the requirements of building Java applications. Once it’s set up, building an application is as simple as running a single command on the command line. Gradle performs well and is also useful for managing dependencies via its advanced dependency management system.
 
 Learned about Gradle through a really [helpful tutorial](https://tomgregory.com/gradle-tutorial-for-complete-beginners/).
 
@@ -18,7 +18,7 @@ Some interesting bugs were encountered when attempting to use pipes in batch fil
 
 ### Codecov
 
-As I explored Codecov to determine why it would intermitently fail for github actions, I developed a greater appreciation for the role of code coverage analysis in ensuring software quality. I found its integration with popular CI/CD platforms to be seamless, making it easier to track and improve code coverage across projects. The visualization tools, such as the sunburst graph and diff coverage reports, were especially helpful in identifying areas that needed more testing attention. Furthermore, learning about Codecov's ability to enforce coverage thresholds and generate pull request comments reinforced the importance of maintaining high-quality test suites.
+As I explored Codecov to determine why it would intermittently fail for GitHub actions, I developed a greater appreciation for the role of code coverage analysis in ensuring software quality. I found its integration with popular CI/CD platforms to be seamless, making it easier to track and improve code coverage across projects. The visualization tools, such as the sunburst graph and diff coverage reports, were especially helpful in identifying areas that needed more testing attention. Furthermore, learning about Codecov's ability to enforce coverage thresholds and generate pull request comments reinforced the importance of maintaining high-quality test suites.
 
 ## Frontend
 
@@ -28,7 +28,7 @@ Vue is a progressive JavaScript framework that simplifies the creation of respon
 
 ### Pug
 
-Pug is a templating engine that integrates well with vue, allowing for cleaner and more concise HTML code with the use of whitespace and indentation for structure. By removing the need for closing tags, Pug attempts to make code more readable and organized. Its support for variables, mixins, and inheritance facilitates code reusability and modular design, improving the overall structure and readability of templates.
+Pug is a templating engine that integrates well with Vue, allowing for cleaner and more concise HTML code with the use of whitespace and indentation for structure. By removing the need for closing tags, Pug attempts to make code more readable and organized. Its support for variables, mixins, and inheritance facilitates code reusability and modular design, improving the overall structure and readability of templates.
 
 ### Cypress
 
@@ -38,15 +38,15 @@ Cypress is an end-to-end testing framework that simplifies the process of writin
 
 ### Bloch’s Builder Pattern
 
-Bloch’s Builder pattern is a design pattern that simplifies object instantiation in Java, particularly for classes with numerous constructor parameters, as it simplifies the process of object instantiation while maintaining immutability and improving readbility. This was a particularly usedful design pattern when refactoring the `CliArguments.java` class, as it had a large number of contructor parameters, and also required flexible construction as some of the fields were optional. The pattern facilitates immutability and reduces the risk of introducing errors in complex Java classes.
+Bloch’s Builder pattern is a design pattern that simplifies object instantiation in Java, particularly for classes with numerous constructor parameters, as it simplifies the process of object instantiation while maintaining immutability and improving readability. This was a particularly useful design pattern when refactoring the `CliArguments.java` class, as it had a large number of constructor parameters, and also required flexible construction as some of the fields were optional. The pattern facilitates immutability and reduces the risk of introducing errors in complex Java classes.
 
 ### Polymorphism
 
-Polymorphism is a core object-oriented programming concept in Java that allows objects to adopt multiple forms and behaviors based on their context. It promotes code cleanliness, extensibility, and reduces coupling between components, resulting in more flexible and modular applications that can evolve and scale easily. By leveraging polymorphism, I was able to reduce the amount of logic in the main method of `RepoSense.java`, by utilising `RunConfigurationDecider` to return the appropriate `RunConfiguration` based on the `CliArguments`, where the config can be from `getRepoConfigurations()`.
+Polymorphism is a core object-oriented programming concept in Java that allows objects to adopt multiple forms and behaviors based on their context. It promotes code cleanliness, extensibility, and reduces coupling between components, resulting in more flexible and modular applications that can evolve and scale easily. By leveraging polymorphism, I was able to reduce the amount of logic in the main method of `RepoSense.java`, by utilizing `RunConfigurationDecider` to return the appropriate `RunConfiguration` based on the `CliArguments`, where the config can be from `getRepoConfigurations()`.
 
 ### Discrete Event Simulator (DES)
 
-Discrete event simulator (DES) is a method used to model real world systems that can be decomposed into a set of logically separate processes that autonomously progress through time. This was a design that was well suited for deisgning a CLI Wizard, as it allows for mainting of a deque of prompts that can be show to the user, while also allowing addition of new prompts into the deque depending on the user's responses.
+Discrete event simulator (DES) is a method used to model real-world systems that can be decomposed into a set of logically separate processes that autonomously progress through time. This was a design that was well suited for designing a CLI Wizard, as it allows for maintaining of a deque of prompts that to be shown to the user, while also allowing the addition of new prompts into the deque depending on the user's responses.
 
 ## Misc
 
@@ -56,11 +56,11 @@ In RepoSense, a variety of git commands are utilized to get information about th
 
 `git shortlog` - Summarizes `git log` output, where each commit will be grouped by author and title. This is used in RepoSense to easily count the commits by the users.
 
-`git grep` - A powerful tool that looks for specified patterns in the tracked files in the work tree, blobs registered in the index file, or blobs in given tree objects. Patterns are lists of one or more search expressions separated by newline characters. An empty string as search expression matches all lines. Utilised to write Reposense scripts to perform environmental checks for all files tracked by git, to ensure they end with a newline, no prohibited line endings (`\r\n`) are present and no trailing whitespaces are present. Used [git docs](https://git-scm.com/docs/git-grep) to learn how to use `git grep` properly and what its various flags do.
+`git grep` - A powerful tool that looks for specified patterns in the tracked files in the work tree, blobs registered in the index file, or blobs in given tree objects. Patterns are lists of one or more search expressions separated by newline characters. An empty string as search expression matches all lines. Utilized to write Reposense scripts to perform environmental checks for all files tracked by git, to ensure they end with a newline, no prohibited line endings (`\r\n`) are present and no trailing whitespaces are present. Used [git docs](https://git-scm.com/docs/git-grep) to learn how to use `git grep` properly and what its various flags do.
 
-`.mailmap` - If the file .mailmap exists at the toplevel of the repository, it can be used to map author and committer names and email addresses to canonical real names and email addresses. This is useful to map multiple authors and commenters and provides a way to share the mapping with all other users of the repository. Used [git docs](https://git-scm.com/docs/git-grep) to learn how to configure git mailmap properly.
+`.mailmap` - If the file .mailmap exists at the top-level of the repository, it can be used to map author and committer names and email addresses to canonical real names and email addresses. This is useful to map multiple authors and commenters and provides a way to share the mapping with all other users of the repository. Used [git docs](https://git-scm.com/docs/git-grep) to learn how to configure git mailmap properly.
 
 ### URL Shortening
 
-Researched about intresting solutions for free url shortening, looking into 3 main ways to do it. Read about an in-depth writeup in [the
+Researched interesting solutions for free URL shortening, looking into 3 main ways to do it. Read about an in-depth writeup in [the
 Github issue here](https://github.com/reposense/RepoSense/issues/1898).
