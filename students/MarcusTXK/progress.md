@@ -1,3 +1,24 @@
+## Summary
+
+I worked on DevOps, frontend and backend features for RepoSense. A summary of key PR contributions are:
+
+DevOps:
+
+- Updated gradle to use `npm ci` and updated git ignores
+- Updated gradle tasks and added batch scripts for checking
+
+Frontend:
+
+- Added Vue Router and ability to embed widgets
+- Fixed a medium priority bug where contribution bars for merged groups dissapear after refreshing + Added cypress tests to prevent this from going undetected again
+- Added backward navigability, where users can click back to return to previous views after modiying their input
+
+Backend:
+
+- Refactored `RepoSense.java` class to better utilize Polymorphism shift decision logic for run configurations into `RunConfigurationDecider` and Updated `CliArguments` to utlize the Builder pattern
+- Co-Authoered RepoSense Cli Wizard for new users to more easily use RepoSense
+- Investigated and added dcoumentation on additonal options to merge/map git-users
+
 | Week | Project   | Achievements                                                                                                                                             |
 | ---- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1    | RepoSense | Merged PR: [[#452] Add date range validation to sinceDate and untilDate #1850](https://github.com/reposense/RepoSense/pull/1850)                         |
