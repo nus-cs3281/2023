@@ -97,3 +97,4 @@
 | 12 | Reviewed PR: [[#1966] Add cypress test for merged groups contribution bars #1970](https://github.com/reposense/RepoSense/pull/1970) |
 | 12 | Submitted Issue: [Duplication between the User Interface and class #1973](https://github.com/reposense/RepoSense/issues/1973) |
 | 12 | Reviewed PR: [[#1936] Migrate c-summary-charts to TypeScript #1976](https://github.com/reposense/RepoSense/pull/1976) |
+| 12 | Reviewed PR: [[#1971] Add Vue router #1974](https://github.com/reposense/RepoSense/pull/1974) |
