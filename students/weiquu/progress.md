@@ -44,3 +44,13 @@ Summary: Flagging out and resolving issues relating to mobile friendliness and u
 | 10     | Merged PR: [User-friendliness: Change feedback path dropdowns to column format on mobile #12250](https://github.com/TEAMMATES/teammates/pull/12250) |
 | 10     | Merged PR: [User-friendliness: Fix visibility dropdown overflow #12251](https://github.com/TEAMMATES/teammates/pull/12251) |
 | 10     | Merged PR: [User-friendliness: Add labels to instructor edit sessions page questions #12254](https://github.com/TEAMMATES/teammates/pull/12254) |
+| 11     | Merged PR: [User-friendliness: Fix distribute points options question #12266](https://github.com/TEAMMATES/teammates/pull/12266) |
+| 11     | Reviewed PR: [Fix/Removed extra space from links #12270](https://github.com/TEAMMATES/teammates/pull/12270) |
+| 11     | Reviewed PR: [Add user-friendliness documentation #12261](https://github.com/TEAMMATES/teammates/pull/12261) |
+| 11     | Reviewed PR: [Fix rubric question overflow for instructors edit session page #12263](https://github.com/TEAMMATES/teammates/pull/12263) |
+| 11     | Reviewed PR: [Instructor home page: Fix alignment of "Add New Course" button #12284](https://github.com/TEAMMATES/teammates/pull/12284) |
+| 11     | Reviewed PR: [Instructor home page: Fix alignment of "Add New Course" button #12295](https://github.com/TEAMMATES/teammates/pull/12295) |
+| 11     | Reviewed PR: [Fix rank recipients question mobile spacing #12299](https://github.com/TEAMMATES/teammates/pull/12299) |
+| 11     | Reviewed PR: [Fix rank options question on instructor edit session page #12306](https://github.com/TEAMMATES/teammates/pull/12306) |
+| 11     | Merged PR: [User-friendliness: Fix all remaining sortable table headers #12325](https://github.com/TEAMMATES/teammates/pull/12325) |
+| 11     | Created issue: [Refactoring of sortable tables #12329](https://github.com/TEAMMATES/teammates/issues/12329) |

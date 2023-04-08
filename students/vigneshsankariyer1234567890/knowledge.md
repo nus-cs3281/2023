@@ -18,4 +18,7 @@ Another key point is how React and Angular differentiate in providing context (s
 
 ### RxJS
 
+I also picked up RxJS along the way, which was Angular's answer to creating reactive components. RxJS essentially deals with asynchronous pipe/filter, publisher/subscriber behavior which allows values to change and other components or functions to subscribe to these changes. This works considering Angular's Change Detection strategy which I will explain later.
+
+In comparison, React introduced and adopted hooks to encapsulate the behavior of having to rerender. React does this by operating on a Virtual DOM, and appropriately rerendering components and their children in patches when a change was detected. On the other hand, Angular does not have any abstraction to operate and rerender components whose state have changed. Instead, Angular uses a Change Detection Strategy which can be configured by the user (either onPush or Default). Angular Change Detection works by using Zone.js and activating after every async action performed. CD traversal starts at the root component (usually App) and works its way down the component tree updating the DOM as needed. What's happening under the hood is that browser events are registered into Zone.js - Angular's mechanism for orchestrating async events - which emits changes after initial template bindings are created.
 ...

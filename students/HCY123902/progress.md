@@ -93,3 +93,11 @@
 | 11 | Reviewed PR: [[#1936] Migrate c-summary.vue to TypeScript #1953](https://github.com/reposense/RepoSense/pull/1953) |
 | 11 | Reviewed PR: [[#1959] Missing contribution bar for merged groups after refresh #1960](https://github.com/reposense/RepoSense/pull/1960) |
 | 11 | Reviewed PR: [[#1963] Migrate c-zoom.vue to TypeScript #1965](https://github.com/reposense/RepoSense/pull/1965) |
+| 12 | Reviewed PR: [[#1936] Migrate c-authorship to TypeScript #1969](https://github.com/reposense/RepoSense/pull/1969) |
+| 12 | Reviewed PR: [[#1966] Add cypress test for merged groups contribution bars #1970](https://github.com/reposense/RepoSense/pull/1970) |
+| 12 | Submitted Issue: [Duplication between the User Interface and class #1973](https://github.com/reposense/RepoSense/issues/1973) |
+| 12 | Reviewed PR: [[#1936] Migrate c-summary-charts to TypeScript #1976](https://github.com/reposense/RepoSense/pull/1976) |
+| 12 | Reviewed PR: [[#1971] Add Vue router #1974](https://github.com/reposense/RepoSense/pull/1974) |
+| 12 | Reviewed PR: [[#1982] Restore the correct sort within groups by when visiting by url](https://github.com/reposense/RepoSense/pull/1983) |
+| 12 | Reviewed PR: [[#1984] Fix CheckedFileTypes unable to be set as empty #1985](https://github.com/reposense/RepoSense/pull/1985) |
+| 12 | Submitted Issue: [Glob filter automatically reset after the second refresh #1987](https://github.com/reposense/RepoSense/issues/1987) |

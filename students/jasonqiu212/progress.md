@@ -1,3 +1,7 @@
+### CS3281 Progress
+
+Summary: Raising and resolving issues related to user accessibility and mobile friendliness
+
 | Week | Achievements                                                                                                   |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
 | 1-4  | Co-authored PR: [Onboarding Task Submission: Support Request](https://github.com/jasonqiu212/teammates/pull/6) |
@@ -25,3 +29,6 @@
 | 11   | Merged PR: [[#12081] Fix rubric question overflow for instructors edit session page #12263](https://github.com/TEAMMATES/teammates/pull/12263) |
 | 11   | Reviewed PR: [[#12081] Add user-friendliness documentation #12261](https://github.com/TEAMMATES/teammates/pull/12261) |
 | 11   | Reviewed PR: [[#12081] User-friendliness: Fix distribute points options question #12266](https://github.com/TEAMMATES/teammates/pull/12266) |
+| 11   | Merged PR: [[#12081] Fix rank options question on instructor edit session page #12306](https://github.com/TEAMMATES/teammates/pull/12306) |
+| 11   | Merged PR: [[#12081] Fix rank recipients question mobile spacing #12299](https://github.com/TEAMMATES/teammates/pull/12299) |
+| 11   | Reviewed PR: [[#10986] Show loading message below response loading spinner #12321](https://github.com/TEAMMATES/teammates/pull/12321) |
