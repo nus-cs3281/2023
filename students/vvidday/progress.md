@@ -1,9 +1,8 @@
 ## Summary
 I am mainly working on the frontend of RepoSense, with contributions relating to bug fixes, code refactoring and testing.
 
-The main deliverable of this semester is the completion of the epic issue [Migrate entire frontend to TypeScript #1936](https://github.com/reposense/RepoSense/issues/1936), which involves migrating the entire frontend (`.js` and `.vue` files) to TypeScript, as well as some related DevOps tasks (e.g. setting up linting for TypeScript).
+The main deliverable of this semester is the completion of the epic issue [Migrate entire frontend to TypeScript #1936](https://github.com/reposense/RepoSense/issues/1936), which involves migrating the entire frontend (`.js` and `.vue` files) to TypeScript. Additionally, I worked on some frontend related DevOps tasks, such as setting up and configuring linting for TypeScript, as well as updating/migrating frontend dependencies.
 
-## PRs
 | Week | Project            | Achievements                                                                                                                                         |
 |------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 3    | RepoSense          | Reviewed PR: [[#1865] Collapse file after scrolling through it in the Code Panel](https://github.com/reposense/RepoSense/pull/1860)                  |
@@ -33,3 +32,9 @@ The main deliverable of this semester is the completion of the epic issue [Migra
 | 10   | RepoSense          | Reviewed PR: [[#1872] Update Node version to 16](https://github.com/reposense/RepoSense/pull/1956)                                                   |
 | 11   | RepoSense          | Reviewed PR: [[#1963] Migrate c-zoom.vue to TypeScript](https://github.com/reposense/RepoSense/pull/1965)                                            |
 | 11   | RepoSense          | Reviewed PR: [[#1959] Missing contribution bar for merged groups after refresh](https://github.com/reposense/RepoSense/pull/1960)                    |
+| 12   | RepoSense          | Merged PR: [[#1936] Migrate c-summary.vue to TypeScript](https://github.com/reposense/RepoSense/pull/1953)                                           |
+| 12   | RepoSense          | Reviewed PR: [[#1966] Add cypress test for merged groups contribution bars](https://github.com/reposense/RepoSense/pull/1970)                        |
+| 12   | RepoSense          | Reviewed PR: [[#1971] Add Vue router](https://github.com/reposense/RepoSense/pull/1974)                                                              |
+| 12   | RepoSense          | Reviewed PR: [[#1984] Fix CheckedFileTypes unable to be set as empty](https://github.com/reposense/RepoSense/pull/1985)                              |
+| 12   | RepoSense          | Reviewed PR: [[#1004] Standardize fonts for consistency across panels](https://github.com/reposense/RepoSense/pull/1979)                             |
+| 12   | RepoSense          | Discussion on Issue: [Changing global functions to modular imports](https://github.com/reposense/RepoSense/issues/1977)                              |
