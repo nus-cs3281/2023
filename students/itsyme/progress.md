@@ -74,3 +74,5 @@ Relevant PRs:
 | 12 | Merged PR [Update expanded siteNav description #2263](https://github.com/MarkBind/markbind/pull/2263)
 | 12 | Merged PR [Update Breadcrumb icons #2265](https://github.com/MarkBind/markbind/pull/2265)
 | 12 | Investigate Issue [Add transition stub to optimise testing speed in #2209](https://github.com/MarkBind/markbind/issues/2209)
+| 12 | Opened PR [Fix broken links in migratingNodeJs #2275](https://github.com/MarkBind/markbind/pull/2275)
+| 12 | Opened PR [Add intra-site link instructions to docs #2276](https://github.com/MarkBind/markbind/pull/2276)
