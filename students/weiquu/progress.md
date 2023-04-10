@@ -54,3 +54,13 @@ Summary: Flagging out and resolving issues relating to mobile friendliness and u
 | 11     | Reviewed PR: [Fix rank options question on instructor edit session page #12306](https://github.com/TEAMMATES/teammates/pull/12306) |
 | 11     | Merged PR: [User-friendliness: Fix all remaining sortable table headers #12325](https://github.com/TEAMMATES/teammates/pull/12325) |
 | 11     | Created issue: [Refactoring of sortable tables #12329](https://github.com/TEAMMATES/teammates/issues/12329) |
+| 12     | Created issue: [Instructor students page: accessibility issue for course summary headers #12333](https://github.com/TEAMMATES/teammates/issues/12333) |
+| 12     | Created issue: [Instructor courses page: fix copy instructors from other courses modal checkbox #12334](https://github.com/TEAMMATES/teammates/issues/12334) |
+| 12     | Created issue: [Instructor sessions page: fix copy questions modal checkbox #12335](https://github.com/TEAMMATES/teammates/issues/12335)
+| 12     | Created issue: [Instructor courses page: fix margin of copy instructors from other courses modal on mobile #12344](https://github.com/TEAMMATES/teammates/issues/12344) |
+| 12     | Created issue: [Instructor courses page: other actions dropdown cut off #12345](https://github.com/TEAMMATES/teammates/issues/12345) |
+| 12     | Reviewed PR: [Fix copy questions modal checkbox #12347](https://github.com/TEAMMATES/teammates/pull/12347) |
+| 12     | Reviewed PR: [Fix copy questions modal checkbox #12348](https://github.com/TEAMMATES/teammates/pull/12348) |
+| 12     | Merged PR: [Migrate RegenerateInstructorKeyAction #12341](https://github.com/TEAMMATES/teammates/pull/12341/) |
+| 12     | Reviewed PR: [Instructor results page stats tables: differentiate students with same team and name #12249](https://github.com/TEAMMATES/teammates/pull/12249)
+| 12     | Merged PR: [Migrate RegenerateStudentKeyAction #12350](https://github.com/TEAMMATES/teammates/pull/12350) |
