@@ -2,14 +2,23 @@
 
 ### Summary
 
-I am currently (and mainly) working on the CLI, logging, and template aspects of MarkBind.
+Over the past semester (AY22/23 Semester 2), I have worked on various aspects of the user-oriented aspects of MarkBind, including CLI, template, and logging. Some of the notable features that I have worked on are:
+
+- Improvements on the current CLI (PRs [#2218](https://github.com/MarkBind/markbind/pull/2218), [#2248](https://github.com/MarkBind/markbind/pull/2248))
+- Revamp of MarkBind template (PRs [#2128](https://github.com/MarkBind/markbind/pull/2128), [#2165](https://github.com/MarkBind/markbind/pull/2165), [#2186](https://github.com/MarkBind/markbind/pull/2186), [#2225](https://github.com/MarkBind/markbind/pull/2225), [#2248](https://github.com/MarkBind/markbind/pull/2248))
+- Logging-related improvements (PR [#2053](https://github.com/MarkBind/markbind/pull/2053))
+- Refactoring various parts of the CLI-related codebase (PRs [#2148](https://github.com/MarkBind/markbind/pull/2148), [#2239](https://github.com/MarkBind/markbind/pull/2239))
+
+### Progress Overview
+
+I am currently (and mainly) working on the CLI, template, and logging aspects of MarkBind.
 
 Relevant Authored PRs:
 - [Include repeated attributes warning for panel elements (#2053)](https://github.com/MarkBind/markbind/pull/2053)
 - [Remove override of `title` in the init site (#2128)](https://github.com/MarkBind/markbind/pull/2128)
 - [Convert Template function to class (#2148)](https://github.com/MarkBind/markbind/pull/2148)
 - [Clean up default init template (#2165)](https://github.com/MarkBind/markbind/pull/2165)
-- [Add default value for `title` tags (#2186)](https://github.com/MarkBind/markbind/pull/2186)
+- [Remove empty `title` tags in generated tests (#2186)](https://github.com/MarkBind/markbind/pull/2186)
 - [Update `deploy` command to build site concurrently (#2218)](https://github.com/MarkBind/markbind/pull/2218)
 - [Update default template with UG links and useful information (#2225)](https://github.com/MarkBind/markbind/pull/2225)
 - [Refactor cli/index.js (#2239)](https://github.com/MarkBind/markbind/pull/2239)
