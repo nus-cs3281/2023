@@ -82,3 +82,4 @@ Documentation PRs:
 | 12 | Opened PR [Fix broken links in migratingNodeJs #2275](https://github.com/MarkBind/markbind/pull/2275)
 | 12 | Opened PR [Add intra-site link instructions to docs #2276](https://github.com/MarkBind/markbind/pull/2276)
 | 13 | Reviewed PR [Refactor initSite method in Site/index.js #2267](https://github.com/MarkBind/markbind/pull/2267)
+| 13 | Merged PR [Add intra-site link instructions to docs #2276](https://github.com/MarkBind/markbind/pull/2276)
