@@ -58,3 +58,4 @@
 | 11    | Reviewed PR: [Refactor cli/index.js #2239](https://github.com/MarkBind/markbind/pull/2239) |
 | 11    | Reviewed PR: [Fix typo in Dropdown.spec.js #2243](https://github.com/MarkBind/markbind/pull/2243) |
 | 11    | Reviewed PR: [Clean up & standardise TypeScript conventions #2234](https://github.com/MarkBind/markbind/pull/2234) |
+| 13    | Reviewed PR: [Migrate Site/index.js to TypeScript #2270](https://github.com/MarkBind/markbind/pull/2270) |
