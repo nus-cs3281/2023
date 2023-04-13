@@ -80,5 +80,25 @@
 | 8 | Reviewed PR: [[#1891] Update Cypress to v10 #1922](https://github.com/reposense/RepoSense/pull/1922) |
 | 8 | Reviewed PR: [Test if ramp chart in zoom view shows selected period #1930](https://github.com/reposense/RepoSense/pull/1930) |
 | 8 | Reviewed PR: [[#1934] Fix wrong author name for merged groups in Commits Panel #1935](https://github.com/reposense/RepoSense/pull/1935) |
+| 9 | Reviewed PR: [[#1891] Update Cypress to v11 #1923](https://github.com/reposense/RepoSense/pull/1923) |
 | 9 | Reviewed PR: [[#1936] Migrate store.js to TypeScript #1937](https://github.com/reposense/RepoSense/pull/1937) |
+| 9 | Reviewed PR: [[#1936] Migrate app.vue to TypeScript #1938](https://github.com/reposense/RepoSense/pull/1938) |
+| 9 | Reviewed PR: [[#1537] Show authors for merged groups in Code Panel #1939](https://github.com/reposense/RepoSense/pull/1939) |
 | 9 | Submitted Issue: [Migrate Cypress to TypeScript #1946](https://github.com/reposense/RepoSense/issues/1946) |
+| 9 | Reviewed PR: [Remove Gradle wrapper version definition #1951](https://github.com/reposense/RepoSense/pull/1951) |
+| 10 | Reviewed PR: [[#1891] Update Cypress to v12 #1924](https://github.com/reposense/RepoSense/pull/1924) |
+| 10 | Reviewed PR: [[#1872] Update Node version to 16 #1956](https://github.com/reposense/RepoSense/pull/1956) |
+| 10 | Reviewed PR: [[#1945] Enforce stricter formatting rules for TypeScript files #1957](https://github.com/reposense/RepoSense/pull/1957) |
+| 10 | Submitted Iusse: [Modify screenshots to include new changes in RepoSense report #1962](https://github.com/reposense/RepoSense/issues/1962) |
+| 11 | Reviewed PR: [[#1936] Migrate c-summary.vue to TypeScript #1953](https://github.com/reposense/RepoSense/pull/1953) |
+| 11 | Reviewed PR: [[#1959] Missing contribution bar for merged groups after refresh #1960](https://github.com/reposense/RepoSense/pull/1960) |
+| 11 | Reviewed PR: [[#1963] Migrate c-zoom.vue to TypeScript #1965](https://github.com/reposense/RepoSense/pull/1965) |
+| 12 | Reviewed PR: [[#1936] Migrate c-authorship to TypeScript #1969](https://github.com/reposense/RepoSense/pull/1969) |
+| 12 | Reviewed PR: [[#1966] Add cypress test for merged groups contribution bars #1970](https://github.com/reposense/RepoSense/pull/1970) |
+| 12 | Submitted Issue: [Duplication between the User Interface and class #1973](https://github.com/reposense/RepoSense/issues/1973) |
+| 12 | Reviewed PR: [[#1936] Migrate c-summary-charts to TypeScript #1976](https://github.com/reposense/RepoSense/pull/1976) |
+| 12 | Reviewed PR: [[#1971] Add Vue router #1974](https://github.com/reposense/RepoSense/pull/1974) |
+| 12 | Reviewed PR: [[#1982] Restore the correct sort within groups by when visiting by url](https://github.com/reposense/RepoSense/pull/1983) |
+| 12 | Reviewed PR: [[#1984] Fix CheckedFileTypes unable to be set as empty #1985](https://github.com/reposense/RepoSense/pull/1985) |
+| 12 | Submitted Issue: [Glob filter automatically reset after the second refresh #1987](https://github.com/reposense/RepoSense/issues/1987) |
+| 13 | Reviewed PR: [[#1004] Standardize fonts for consistency across panels #1979](https://github.com/reposense/RepoSense/pull/1979) |

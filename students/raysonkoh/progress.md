@@ -43,3 +43,19 @@
 | Recess    | Discussed issue: [Explore using Turborepo to improve build system #1984](https://github.com/MarkBind/markbind/issues/1984) |
 | 7    | Discussed issue: [Consider creating unified types for common variables #2114](https://github.com/MarkBind/markbind/issues/2114) |
 | 7    | Reviewed PR: [Migrate core/src/html tests to TypeScript #2192](https://github.com/MarkBind/markbind/pull/2192) |
+| 9    | Reviewed PR: [Fix bug where markdown does not render correctly when including a fragment that is variable #2207](https://github.com/MarkBind/markbind/pull/2207) |
+| 9    | Discussed issue: [Consider creating unified types for common variables #2114](https://github.com/MarkBind/markbind/issues/2114) |
+| 9    | Reviewed PR: [Migrate core/src/html tests to TypeScript #2192](https://github.com/MarkBind/markbind/pull/2192) |
+| 9    | Reviewed PR: [Create unified types for nodes #2201](https://github.com/MarkBind/markbind/pull/2201) |
+| 9    | Reviewed PR: [Refactor core package to use Node types #2221](https://github.com/MarkBind/markbind/pull/2221) |
+| 9    | Reviewed PR: [Fix panel transition abruptly snapping to the end #2200](https://github.com/MarkBind/markbind/pull/2200) |
+| 10    | Reviewed PR: [Migrate default plugins to TypeScript #2199](https://github.com/MarkBind/markbind/pull/2199) |
+| 10    | Created issue: [Give some basic examples to illustrate content processing flow in devdocs #2229](https://github.com/MarkBind/markbind/issues/2229) |
+| 10    | Reviewed PR: [Migrate core/src/lib/markdown-it to TypeScript #2226](https://github.com/MarkBind/markbind/pull/2226) |
+| 10    | Reviewed PR: [Migrate plugin tests to Typescript #2213](https://github.com/MarkBind/markbind/pull/2213) |
+| 10    | Reviewed PR: [Migrate non-default plugins to TypeScript #2230](https://github.com/MarkBind/markbind/pull/2230) |
+| 11    | Reviewed PR: [Deprecate theme attribute in site config JSON #2235](https://github.com/MarkBind/markbind/pull/2235) |
+| 11    | Reviewed PR: [Refactor cli/index.js #2239](https://github.com/MarkBind/markbind/pull/2239) |
+| 11    | Reviewed PR: [Fix typo in Dropdown.spec.js #2243](https://github.com/MarkBind/markbind/pull/2243) |
+| 11    | Reviewed PR: [Clean up & standardise TypeScript conventions #2234](https://github.com/MarkBind/markbind/pull/2234) |
+| 13    | Reviewed PR: [Migrate Site/index.js to TypeScript #2270](https://github.com/MarkBind/markbind/pull/2270) |

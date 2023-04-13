@@ -18,18 +18,55 @@
 
 # CS3281 Semester's Progress
 
-| Week | Achievements                                                                                                                                                     |
-| ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1    | Authored PR (put on hold by request): [Instructor Viewing Student Activities: Bug Fix and Enhancement #12024](https://github.com/TEAMMATES/teammates/pull/12024) |
-| 3    | Reviewed PR: [Style page navigation menu items as links #12044](https://github.com/TEAMMATES/teammates/pull/12044)                                               |
-| 4    | Co-Authored PR: [Create frontend for Per Receiver Submission #12053](https://github.com/TEAMMATES/teammates/pull/12053)                                          |
-| 5    | Reviewed PR: [Navigation menu got collapsed #12057](https://github.com/TEAMMATES/teammates/pull/12057)                                                           |
-| 6    | Reviewed PR: [Fixing Hot Spot and Vulnerability (Docker and Cipher Security) #12062](https://github.com/TEAMMATES/teammates/pull/12062)                          |
-| 6    | Merged PR: [Create Student, Instructor and User Entities for PostgreSQL Migration #12071](https://github.com/TEAMMATES/teammates/pull/12071)                     |
-| 6    | Reviewed PR: [Remove redundant InstructorRole Enum #12091](https://github.com/TEAMMATES/teammates/pull/12091)                                                    |
-| R    | Reviewed PR: [Add Section and Team entity #12103](https://github.com/TEAMMATES/teammates/pull/12103)                                                             |
-| R    | Merged PR: [Create User DB Layer for v9 Migration #12110](https://github.com/TEAMMATES/teammates/pull/12110)                                                     |
-| 7    | Merged PR: [Create SQL Logic for Get User Actions #12136](https://github.com/TEAMMATES/teammates/pull/12136)                                                     |
-| 7    | Reviewed PR: [Resolve width issue for num scale question #12146](https://github.com/TEAMMATES/teammates/pull/12146)                                              |
-| 7    | Merged PR: [Add Unit Tests for UserDb methods #12163](https://github.com/TEAMMATES/teammates/pull/12163)                                                         |
-| 8    | Merged PR: [Update access visibility of HibernateUtils utility methods to private #12171](https://github.com/TEAMMATES/teammates/pull/12171)                     |
+## Summary
+
+**Onboarding Task**
+
+Worked on a mini project, Per Receiver Submission, still a work in progress.
+
+**Rest of the Semester**
+
+I was assigned to work on the v9-migration from noSQL to SQL of TEAMMATES.
+
+The tasks that I have done range from
+
+- Creating entities.
+- Writing up the DB functionalities of the respective entities.
+- Adding the business/logic layers of the respective entities.
+- Migrating the endpoints i.e., Actions.
+
+Aside from the above, I have worked on a few other frontend related tasks, reviewed PRs and attend and manage to new contributors.
+
+| Week | Achievements                                                                                                                                                                  |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | Authored PR (put on hold by request): [Instructor Viewing Student Activities: Bug Fix and Enhancement #12024](https://github.com/TEAMMATES/teammates/pull/12024)              |
+| 3    | Reviewed PR: [Style page navigation menu items as links #12044](https://github.com/TEAMMATES/teammates/pull/12044)                                                            |
+| 4    | Co-Authored PR: [Create frontend for Per Receiver Submission #12053](https://github.com/TEAMMATES/teammates/pull/12053)                                                       |
+| 5    | Reviewed PR: [Navigation menu got collapsed #12057](https://github.com/TEAMMATES/teammates/pull/12057)                                                                        |
+| 6    | Reviewed PR: [Fixing Hot Spot and Vulnerability (Docker and Cipher Security) #12062](https://github.com/TEAMMATES/teammates/pull/12062)                                       |
+| 6    | Merged PR: [Create Student, Instructor and User Entities for PostgreSQL Migration #12071](https://github.com/TEAMMATES/teammates/pull/12071)                                  |
+| 6    | Reviewed PR: [Remove redundant InstructorRole Enum #12091](https://github.com/TEAMMATES/teammates/pull/12091)                                                                 |
+| R    | Reviewed PR: [Add Section and Team entity #12103](https://github.com/TEAMMATES/teammates/pull/12103)                                                                          |
+| R    | Merged PR: [Create User DB Layer for v9 Migration #12110](https://github.com/TEAMMATES/teammates/pull/12110)                                                                  |
+| 7    | Merged PR: [Create SQL Logic for Get User Actions #12136](https://github.com/TEAMMATES/teammates/pull/12136)                                                                  |
+| 7    | Reviewed PR: [Resolve width issue for num scale question #12146](https://github.com/TEAMMATES/teammates/pull/12146)                                                           |
+| 7    | Merged PR: [Add Unit Tests for UserDb methods #12163](https://github.com/TEAMMATES/teammates/pull/12163)                                                                      |
+| 8    | Merged PR: [Update access visibility of HibernateUtils utility methods to private #12171](https://github.com/TEAMMATES/teammates/pull/12171)                                  |
+| 8    | Merged PR: [Get Account and Accounts actions #12176](https://github.com/TEAMMATES/teammates/pull/12176)                                                                       |
+| 9    | Merged PR: [Migrate DeleteAccountAction #12184](https://github.com/TEAMMATES/teammates/pull/12184)                                                                            |
+| 9    | Reviewed PR: [Remove raised-edge from home and features page #12193](https://github.com/TEAMMATES/teammates/pull/12193)                                                       |
+| 9    | Merged PR: [Migrate Reset Account Action #12204](https://github.com/TEAMMATES/teammates/pull/12204)                                                                           |
+| 10   | Merged PR: [Migrate Get Instructors Action #12210](https://github.com/TEAMMATES/teammates/pull/12210)                                                                         |
+| 10   | Merged PR: [Migrate Get Student and Students Action #12211](https://github.com/TEAMMATES/teammates/pull/12211)                                                                |
+| 10   | Merged PR: [Fix Typo in Naming of DB Tables #12232](https://github.com/TEAMMATES/teammates/pull/12232)                                                                        |
+| 10   | Merged PR: [Migrate Get Instructor Privilege Action #12245](https://github.com/TEAMMATES/teammates/pull/12245)                                                                |
+| 10   | Authored PR: [Migrate Delete Student/Students Action #12241](https://github.com/TEAMMATES/teammates/pull/12241)                                                               |
+| 11   | Reviewed PR: [Fix/removed extra space form links #12270](https://github.com/TEAMMATES/teammates/pull/12270)                                                                   |
+| 11   | Reviewed PR: [Instructor home page: Fix alignment of "Add New Course" button #12284](https://github.com/TEAMMATES/teammates/pull/12284)                                       |
+| 11   | Reviewed PR: [Part of #12284 above; #12295](https://github.com/TEAMMATES/teammates/pull/12295)                                                                                |
+| 11   | Reviewed PR: [Students viewing submission form: Some answered essay questions are not shown in green #12316](https://github.com/TEAMMATES/teammates/pull/12316)               |
+| 11   | Reviewed PR: [Admin logs page: Fix overflow of "Clear all" button #12298](https://github.com/TEAMMATES/teammates/pull/12298)                                                  |
+| 11   | Authored PR: [Submit Feedback Responses Action #12322](https://github.com/TEAMMATES/teammates/pull/12322)                                                                     |
+| 11   | Reviewed PR: [Student submitting fewer responses than allowed: don't consider the question as 'not fully answered' #12323](https://github.com/TEAMMATES/teammates/pull/12323) |
+| 11   | Authored PR: [Get Courses Action #12331](https://github.com/TEAMMATES/teammates/pull/12331)                                                                                   |
+| 12   | Reviewed PR: [Admin logs page: Extension of query start/end time is not reflected in search range #12342](https://github.com/TEAMMATES/teammates/pull/12342)                  |

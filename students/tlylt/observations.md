@@ -22,6 +22,10 @@ This includes PRs that are more complex and require more research and effort to 
 
 Selected PRs:
 - [move Web/API/Element/openOrClosedShadowRoot by tlylt · Pull Request #23989 · mdn/content](https://github.com/mdn/content/pull/23989)
+- [Add more examples to illustrate CSS var() usage by tlylt · Pull Request #23860 · mdn/content](https://github.com/mdn/content/pull/23860)
+
+Selected Issues:
+- [inaccurate example on the :not() page · Issue #24277 · mdn/content](https://github.com/mdn/content/issues/24277)
 
 #### Summary
 Complete list of
@@ -33,6 +37,8 @@ Complete list of
 #### Reflection
 Tools/technologies I learned:
 - All things web related (HTML, CSS, JavaScript, DOM, HTTP, etc.)
+
+It's also a first for me to actually read the HTML and CSS formal specifications, and I have to say being precise and defining standards is not easy!
 
 Resources:
 - [MDN Web Docs](https://developer.mozilla.org/en-US/)
@@ -65,3 +71,43 @@ For example, the search functionality and UX is not as good as it could be. Whil
 not found, the user will have to go to the dedicated search page, which shows a list of search results in plain text. This feels awkward, and I think I would be forced to search
 for the same term on Google instead. Another thing for improvement is the sidebar. The left sidebar of pages can be quite long and at times, it is not clear how the pages are structured.
 I think better categorization of the items in the sidebar would help.
+
+### Project 2: [Dendron](https://github.com/dendronhq/dendron)
+
+> Dendron is an open-source, local-first, markdown-based, note-taking tool. It's a personal knowledge management solution (PKM) built specifically for developers and integrates natively with IDEs like VS Code and VSCodium.
+
+### My Contributions
+
+A list of some of my involvements in the project:
+- [Issues · dendronhq/dendron](https://github.com/dendronhq/dendron/issues?q=is%3Aopen+involves%3A%40me+sort%3Aupdated-desc)
+- [(Not merged) enhance(create): show error when applying template but no template found by tlylt · Pull Request #3881 · dendronhq/dendron](https://github.com/dendronhq/dendron/pull/3881)
+
+I also participated in the project Discord server and helped answer questions from new users for a short period of time.
+
+### My Learning Record
+
+#### Reflection
+Tools/technologies I learned:
+- VS Code extension development
+
+Even though I did not dive deep into the codebase and contribute further (due to the fact that the project team decided to pivot to a different direction as the tool did not get to product-market fit), I did learn a lot about the project. I am impressed by the amount of work that has been put into the project, and the documentation is very well-written and detailed. I also adopted the tool for my own personal use since then.
+
+I think the silver lining of this experience is that I have a better understanding of how VS Code extensions work, and I am now more aware of what it takes to build and maintain a large-scale project. For example, some of the events that the project team holds are quite interesting and perhaps we should consider doing something similar for our projects:
+- [Dendron Greenhouse](https://wiki.dendron.so/notes/PqtlCsRPWBjKp3RR/)
+  - > In Greenhouse talks, Dendron community members share the fruits of their learning. This may include showcasing workflows, tooling setups, systems, and other topics in personal knowledge management, but also anything that the speaker has in-depth knowledge of that may be of interest to the wider community.
+- [New User Tuesdays](https://wiki.dendron.so/notes/JkX8ODMH9oO45LGicNRIy/)
+  - >  The Dendron team highlights commonly used features and open the floor to community Q&A in the Dendron Discord.
+- [CROP Event](https://wiki.dendron.so/notes/tayowNP4tMvcqH7AraoQ4/)
+  - > A CROP (Community Request ) is an issue that is submitted and voted on by the community.
+
+Resources:
+- [Your First Extension](https://code.visualstudio.com/api/get-started/your-first-extension)
+
+#### Project Workflow
+The project is well-documented, with a dedicated developer guide and details on how to get started contributing. 
+To highlight some of the useful inclusions in the developer guide:
+- RFCs (Request for Comments) for major changes
+- Package level architecture, development guidelines, cookbook, etc.
+- References, FAQs, and troubleshooting
+
+[Contributing Guide](https://docs.dendron.so/)
