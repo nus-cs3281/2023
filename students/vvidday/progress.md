@@ -1,3 +1,8 @@
+## Summary
+I am mainly working on the frontend of RepoSense, with contributions relating to bug fixes, code refactoring and testing.
+
+The main deliverable of this semester is the completion of the epic issue [Migrate entire frontend to TypeScript #1936](https://github.com/reposense/RepoSense/issues/1936), which involves migrating the entire frontend (`.js` and `.vue` files) to TypeScript. Additionally, I worked on some frontend related DevOps tasks, such as setting up and configuring linting for TypeScript, as well as updating/migrating frontend dependencies.
+
 | Week | Project            | Achievements                                                                                                                                         |
 |------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 3    | RepoSense          | Reviewed PR: [[#1865] Collapse file after scrolling through it in the Code Panel](https://github.com/reposense/RepoSense/pull/1860)                  |
