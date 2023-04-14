@@ -1,4 +1,4 @@
-Summary: Flagging out and resolving issues relating to mobile friendliness and user accessibility
+Summary: Flagged out and resolved issues relating to mobile friendliness and user accessibility across Teammates. Also helped out in the V9 migration in the last few weeks.
 | Week | Achievements                                                                                                                |
 |------|-----------------------------------------------------------------------------------------------------------------------------|
 | 2 to 4 | Co-authored PR: [Onboarding Task: Support Request](https://github.com/weiquu/teammates/pull/3) |
@@ -64,3 +64,6 @@ Summary: Flagging out and resolving issues relating to mobile friendliness and u
 | 12     | Merged PR: [Migrate RegenerateInstructorKeyAction #12341](https://github.com/TEAMMATES/teammates/pull/12341/) |
 | 12     | Reviewed PR: [Instructor results page stats tables: differentiate students with same team and name #12249](https://github.com/TEAMMATES/teammates/pull/12249)
 | 12     | Merged PR: [Migrate RegenerateStudentKeyAction #12350](https://github.com/TEAMMATES/teammates/pull/12350) |
+| 13     | Merged PR: [Migrate GetRegkeyValidityAction #12357](https://github.com/TEAMMATES/teammates/pull/12357) |
+| 13     | Reviewed PR: [Admin logs page: Fix overflow of "Clear all" button #12298](https://github.com/TEAMMATES/teammates/pull/12298) |
+| 13     | Reviewed PR: [Student submitting fewer responses than allowed: don't consider the question as 'not fully answered' #12323](https://github.com/TEAMMATES/teammates/pull/12323) |
