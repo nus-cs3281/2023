@@ -16,6 +16,22 @@ In Angular, we use `Output` for sending data to parent and `Input` for sending d
 
 What helped me through this was the [Angular docs](https://angular.io/guide/inputs-outputs) on this exact matter, it was a perfect read! It starts off with the introduction of Input and Output, and was surprised it's said to be like a pattern. This page was really well written as it goes straight to the subject and it takes a step by step approach with sufficient amount of examples.
 
+## Services
+
+Working on the onboarding task (Per Receiver Submission project), I have learned how Angular, a frontend framework, communicates with the backend that uses Java EE.
+
+For the frontend to send a HTTP request to TEAMMATES server, we have to make use of a library/dependency to handle this action. Similar to packages used in React apps such as Fetch API, Axios, etc.
+
+TEAMMATES makes use of [Injectable](https://angular.io/api/core/Injectable) as part of Angular's core package to create a service. In this case, a service to an entity class. An injectable service is created and in it consists of functions that work with HTTP requests e.g., A method to get entities, that calls another service, the custom written HTTP service.
+
+Angular recommends to make use of services for tasks that do not involve the view or application logic. These services are mainly used to communicate with the backend server. Here is a guide on [Introduction to services and dependency injection](https://angular.io/guide/architecture-services#introduction-to-services-and-dependency-injection).
+
+While working with HTTP requests, we need to handle the operations that are involved with each request sent. TEAMMATES backend uses a [RESTful API architectural style](https://teammates.github.io/teammates/design.html#architecture). These RESTful endpoints mainly involve asynchronous operations.
+
+To work with such operations, we use [Observables](https://angular.io/guide/observables-in-angular) to ensure we resolve or reject them properly. Observables are part of the [RxJS library](https://rxjs.dev/guide/observable).
+
+With Observables, we are able to not only handle the basic outcomes of calling these RESTful APIs, but we are able to chain each response that is returned to us and make use of it to perform further operations.
+
 # Testing
 
 I have never written tests of this extent. Aside from CS4218 which I am currently reading, the work done in TEAMMATES has really helped me to improve the way I write tests, and fully understand the importance of tests.
@@ -97,13 +113,71 @@ Another thing to highlight is the data persistency that Hibernate promises.
 
 > Hibernate is a standard implementation of the Java Persistence API (JPA) specification.
 
-An example on persistency is...
+An evident example on persistency is...
 
 For example, we have a Person that we would like to update his/her name. Since we have written Person class in an OOP fashion as mentioned above, we could simply just update the name via the setter of the `name` attribute by `person.setName("NewName");`, and that's it!
 
 You might ask, "How about telling your database above this person's name change?".
 
 Hibernate does this behind the scenes for you! This is all thanks to JPA.
+
+Also with the help of unit tests between the Logic and Db Layers, I was able to guarantee that this worked.
+
+## Cascade Types (Delete)
+
+In SQL systems, when we delete a parent entity that references to a child entity or a list of child entities, all the child entites get deleted along with it.
+
+To do this in Hibernate, we can make use of a few different types of annotation, each has its own specific use.
+
+### Specifying `cascade = CascadeType.REMOVE` when declaring the association between 2 entities, parent and child
+
+```java
+@OneToMany(mappedBy = "parent", cascade = CascadeType.REMOVE)
+private List<Child> children = new ArrayList<>();
+```
+
+This snippet says many child entities belong to one and only 1 parent. When we delete this parent entity, we'd want to also cascade this deletion/removal onto all of the child entities linked to this parent.
+
+This is the go-to for a simple cascade removal operation.
+
+### Specifying `orphanRemoval = true` when declaring the association between 2 entities, parent and child
+
+Firstly, this is very similar as to what we have above.
+
+```java
+@OneToOne(mappedBy = "parent", orphanRemoval = true)
+private Child child;
+```
+
+The difference is that `orphanRemoval` acts on the address of the parent entity. In other words, when we have a single child entity that references to a parent entity and we happen to use the setter method of this attribute `child`.
+
+I.e., Doing this.
+
+```java
+parent.setChild(null);
+```
+
+Hibernate will automatically detach the child entity from the parent entity and when a child entity is left alone without a parent, orphaned in this case, Hibernate will remove this child entity from the database.
+
+### Using `@OnDelete(action = OnDeleteAction.CASCADE)`
+
+I found this out when I was figuring how to remove an entity that does not have any association/relationship to the current entity except a 'reference' like this:
+
+```java
+public class SomeClass {
+    private ClassWeDelete classWeDelete;
+}
+```
+
+This means that there is no purpose in keeping an entity of SomeClass when it only makes sense if an entity `classWeDelete` exists. It really does sound as if it's overlapping with the above two scenarios.
+
+But again, the key here is that there is no form of association/relation between these two different entities.
+
+Here are some resources that helped me on understanding this:
+
+- From [Hibernate Docs](https://docs.jboss.org/hibernate/orm/6.1/userguide/html_single/Hibernate_User_Guide.html#pc-cascade-on-delete)
+- From [Baeldung](https://www.baeldung.com/jpa-cascade-remove-vs-orphanremoval)
+- From [Stackoverflow](https://stackoverflow.com/questions/4329577/how-does-jpa-orphanremoval-true-differ-from-the-on-delete-cascade-dml-clause)
 
 ## Conclusion
 
@@ -132,3 +206,11 @@ In order for the team to carefully perform such a huge operation, a migrated che
 This allows us to work independently on migrating the relevant parts of this live system, dual DB as said by my mentors, without affecting the current state that the hundreds of thousands users see.
 
 In my opinion, it is really neat!
+
+## A good follow-up after submitting a PR
+
+Through the PRs that I have submitted, I learned that we should always set it as a draft first and look at the PR from the reviewer's perspective to ensure that we did not miss out anything or if there is any section of code that can be further improved on.
+
+A helpful part of the UI for a PR in GitHub is the `Files Changed` tab. This allows us to get a full overview of the changes that were made, additions or deletions, to each file.
+
+This can definitely go a long way, especially when we have a large PR.
