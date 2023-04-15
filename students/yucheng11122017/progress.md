@@ -127,3 +127,5 @@ Reviews and discussions:
 | 12   | Merged PR: [Add tip on solving merge conflicts in functional tests](https://github.com/MarkBind/markbind/pull/2261)                                      |
 | 12   | Merged PR: [Add documentation on migrating node.js](https://github.com/MarkBind/markbind/pull/2256)                                                      |
 | 13   | Merged PR: [Replace set-output with github_output](https://github.com/MarkBind/markbind/pull/2259)                                                       |
+| 13   | Opened PR: [Upgrade setup-node to v3 from v2](https://github.com/MarkBind/markbind-action/pull/13)                                                       |
+| 13   | Merged PR: [Upgrade setup-node to v3 from v2](https://github.com/MarkBind/markbind-action/pull/13)                                                       |
