@@ -16,6 +16,9 @@ are much more efficient than methods to render strings:
 When using a method, it is always run whenever the component is detecting changes. However, for pipes, they are only run
 when the input of the pipe, in this case `name`, is changed.
 
+[Here](https://medium.com/angular-in-depth/tiny-angular-pipe-to-make-any-function-memoizable-f6c8fa917f2f) is a medium article that
+dives more into the benefits of using pipes.
+
 ## Angular Template
 ES6 template literals and nested string interpolation aren't supported in Angular:
 
@@ -131,6 +134,9 @@ Having both of these types of tests are necessary in a big system like TEAMMATES
 are working on its own, while integration testing ensures that they work together. With good unit testing, we can be certain that any issues in integration
 testing is most likely due to the interaction between the components, rather than the component itself, making debugging easier. The tests together ensures that no
 breaking changes are introduced to the system, and is thus essential in a live system like TEAMMATES.
+
+[Here](https://www.softwaretestinghelp.com/the-difference-between-unit-integration-and-functional-testing/) is an article that summarises the differences between
+unit testing, integration testing and 
 
 ### OOP patterns
 
@@ -285,6 +291,8 @@ of the entire file, and also its various dependencies.
 I've learnt the use of interactive rebase, and how I can use it to rewrite my commit history. This is particularly useful when I would like to remove
 commits that are unncesary (for instance commits like `fix checkstyle`), and create a more meaningful commit chain for my PRs. Although the commits are
 squashed in the end when merged, I find that it is important especially for larger PRs to keep a meaningful commit history, to make it easier on reviewers.
+
+[Here](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase) is an article by atlassian that provides more details about the rebase command.
 
 ## Github CLI
 Prior to this module, I've never used the github CLI, sticking with just `git` commands. However, I found it very useful to use the CLI, especially when reviewing
