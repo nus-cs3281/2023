@@ -282,7 +282,11 @@ allowing for more extensible code.
 ## Migrations
 Observing how the migration from datastore to postgresql is carried out for a live system used by users worldwide, with no impact to them is pretty amazing to me.
 Our dualDB approach, where we still query the datastore for courses that are not migrated yet, ensures that functionalities are still avaliabile for the users,
-even when we make huge changes to the system.
+even when we make huge changes to the system. This is also known as a trickle migration.
+
+[Here](https://www.talend.com/resources/understanding-data-migration-strategies-best-practices/) is an article I came across when searching up on
+the types of migration strategies used.
+
 ## Github web editor
 Credits to Samuel for this, but I was previously unaware that github had a web editor. By pressing `.` on PRs, it opens the web editor which is
 extremely useful for reviewing PRs, especially those that make changes to large files, so that we can easily view the changes made with the context
