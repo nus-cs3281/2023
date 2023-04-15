@@ -2,14 +2,23 @@
 
 ### Summary
 
-I am currently (and mainly) working on the CLI, logging, and template aspects of MarkBind.
+Over the past semester (AY22/23 Semester 2), I have worked on various aspects of the user-oriented aspects of MarkBind, including CLI, template, and logging. Some of the notable features that I have worked on are:
+
+- Improvements on the current CLI (PRs [#2218](https://github.com/MarkBind/markbind/pull/2218), [#2248](https://github.com/MarkBind/markbind/pull/2248))
+- Revamp of MarkBind template (PRs [#2128](https://github.com/MarkBind/markbind/pull/2128), [#2165](https://github.com/MarkBind/markbind/pull/2165), [#2186](https://github.com/MarkBind/markbind/pull/2186), [#2225](https://github.com/MarkBind/markbind/pull/2225), [#2248](https://github.com/MarkBind/markbind/pull/2248))
+- Logging-related improvements (PR [#2053](https://github.com/MarkBind/markbind/pull/2053))
+- Refactoring various parts of the CLI-related codebase (PRs [#2148](https://github.com/MarkBind/markbind/pull/2148), [#2239](https://github.com/MarkBind/markbind/pull/2239))
+
+### Progress Overview
+
+I am currently (and mainly) working on the CLI, template, and logging aspects of MarkBind.
 
 Relevant Authored PRs:
 - [Include repeated attributes warning for panel elements (#2053)](https://github.com/MarkBind/markbind/pull/2053)
 - [Remove override of `title` in the init site (#2128)](https://github.com/MarkBind/markbind/pull/2128)
 - [Convert Template function to class (#2148)](https://github.com/MarkBind/markbind/pull/2148)
 - [Clean up default init template (#2165)](https://github.com/MarkBind/markbind/pull/2165)
-- [Add default value for `title` tags (#2186)](https://github.com/MarkBind/markbind/pull/2186)
+- [Remove empty `title` tags in generated tests (#2186)](https://github.com/MarkBind/markbind/pull/2186)
 - [Update `deploy` command to build site concurrently (#2218)](https://github.com/MarkBind/markbind/pull/2218)
 - [Update default template with UG links and useful information (#2225)](https://github.com/MarkBind/markbind/pull/2225)
 - [Refactor cli/index.js (#2239)](https://github.com/MarkBind/markbind/pull/2239)
@@ -33,6 +42,8 @@ Relevant Authored PRs:
 - [Migrate template to TypeScript (#2143)](https://github.com/MarkBind/markbind/pull/2143)
 - [Update TypeScript Migration documentation on git hooks (#2151)](https://github.com/MarkBind/markbind/pull/2151)
 - [Migrate Site/index.js to TypeScript (#2210)](https://github.com/MarkBind/markbind/pull/2210)
+- [Fix live server issue with lazy loading from CLI refactor (#2266)](https://github.com/MarkBind/markbind/pull/2266)
+- [Refactor initSite method in Site/index.js (#2267)](https://github.com/MarkBind/markbind/pull/2267)
 
 Relevant Issues opened:
 - [Incorrect display of raw / endraw tags as part of the `codeAndOutput.md` boilerplate (#2119)](https://github.com/MarkBind/markbind/issues/2119)
@@ -88,6 +99,14 @@ Relevant Issues opened:
 | 11   | Reviewed PR: [Remove includes with variables (#2252)](https://github.com/MarkBind/markbind/pull/2252) |
 | 11   | Reviewed PR: [Standardise size of tabgroup buttons in tabset to match that of non-tabgroup buttons. (#2202)](https://github.com/MarkBind/markbind/pull/2202) |
 | 11   | Merged PR: [Update default template with UG links and useful information (#2225)](https://github.com/MarkBind/markbind/pull/2225) |
+| 12   | Reviewed PR: [Add tip on solving merge conflicts in functional tests (#2261)](https://github.com/MarkBind/markbind/pull/2261) |
+| 12   | Reviewed PR: [Update Breadcrumb icons (#2265)](https://github.com/MarkBind/markbind/pull/2265) |
+| 12   | Merged PR: [Refactor cli/index.js (#2239)](https://github.com/MarkBind/markbind/pull/2239) |
+| 12   | Reviewed PR: [Update expanded siteNav description (#2263)](https://github.com/MarkBind/markbind/pull/2263) |
+| 12   | Authored PR: [Fix live server issue with lazy loading from CLI refactor (#2266)](https://github.com/MarkBind/markbind/pull/2266) |
+| 12   | Authored PR: [Refactor initSite method in Site/index.js (#2267)](https://github.com/MarkBind/markbind/pull/2267) |
+| 12   | Merged PR: [Fix live server issue with lazy loading from CLI refactor (#2266)](https://github.com/MarkBind/markbind/pull/2266) |
+| 12   | Merged PR: [Generate .gitignore on init command (#2248)](https://github.com/MarkBind/markbind/pull/2248) |
 
 ### Issues / Discussions
 
@@ -125,3 +144,4 @@ Relevant Issues opened:
 | 11   | Opened issue: [CI Test Failure for MacOS (#2251)](https://github.com/MarkBind/markbind/issues/2251) |
 | 11   | Discussion on issue: [Consider re-organizing the current default template (#2214)](https://github.com/MarkBind/markbind/issues/2214) |
 | 11   | Opened issue: [Add a set of tutorials for MarkBind (#2257)](https://github.com/MarkBind/markbind/issues/2257) |
+| 12   | Discussion on issue: [Add more unit tests for core package (#2106)](https://github.com/MarkBind/markbind/issues/2106) |
