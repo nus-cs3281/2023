@@ -28,6 +28,32 @@
 | 8    | Discussion on issues: [Reduce the need to use blank lines to indicate markdown text (#500)](https://github.com/MarkBind/markbind/issues/500) |
 | 8    | Discussion on issues: [Deprecation of slots, attributes and syntax (#1854)](https://github.com/MarkBind/markbind/issues/1854) |
 | 8    | Discussion on issues: [Linebreaks within tags breaks some components (#2190)](https://github.com/MarkBind/markbind/issues/2190) |
+| 8    | Proposed designs: [Add expand and collapse all buttons in site-nav (#2206)](https://github.com/MarkBind/markbind/pull/2206) |
+| 9    | Discussion on issues: [Markdown not working in includes with hash (#2211)](https://github.com/MarkBind/markbind/issues/2211) |
+| 9    | Opened discussion issue: [Consider allowing plugins to access convertRelativeLinks (#2212)](https://github.com/MarkBind/markbind/issues/2212) |
+| 9    | Discussion on issues: [Consider re-organizing the current default template (#2214)](https://github.com/MarkBind/markbind/issues/2214) |
+| 9    | Discussion on PR: [Add breadcrumbs (#2193)](https://github.com/MarkBind/markbind/pull/2193) |
+| 9    | Opened issue: [Includes/src overrides frontmatter (#2215)](https://github.com/MarkBind/markbind/issues/2215) |
+| 9    | Discussion on issue: [Broken links detected for the deployment to devdocs (#2179)](https://github.com/MarkBind/markbind/issues/2179) |
+| 10   | Discussion on issue: [Reduce vertical space usage at the bottom of panels (#2222)](https://github.com/MarkBind/markbind/issues/2222) |
+| 10   | Discussion on PR: [Refactor core package to use Node types (#2221)](https://github.com/MarkBind/markbind/pull/2221#discussion_r1141666352) |
+| 10   | Opened issue: [Inconsistent behaviour of minimising panels on mobile (#2228)](https://github.com/MarkBind/markbind/issues/2228) |
+| 10   | Discussion on issue: [Improve broken link reporting (#1418)](https://github.com/MarkBind/markbind/issues/1418) |
+| 10   | Discussion on issue: [Investigate and list what needs to be done for Vue 3 migration (#2084)](https://github.com/MarkBind/markbind/issues/2084) |
+| 10   | Opened issue: [Fully deprecate theme attribute in site config JSON (#2232)](https://github.com/MarkBind/markbind/issues/2232) |
+| 10   | Discussion on issue: [Deprecate add-class (#1894)](https://github.com/MarkBind/markbind/issues/1894) |
+| 11   | Opened issue: [Dev guide: Add example of a .ts plugin (#2240)](https://github.com/MarkBind/markbind/issues/2240) |
+| 11   | Opened issue (TEAMMATES): [Docs: Upgrade to latest MarkBind version (#12271)](https://github.com/TEAMMATES/teammates/issues/12271) |
+| 11   | Discussion on issue: [Generate sensible .gitignore when running markbind init (#1782)](https://github.com/MarkBind/markbind/issues/1782) |
+| 11   | Discussion on PR: [Clean up & standardise TypeScript conventions (#2234)](https://github.com/MarkBind/markbind/pull/2234#issuecomment-1487883301) |
+| 11   | Discussion on issue: [Make it easier to move to a popover (#2253)](https://github.com/MarkBind/markbind/issues/2253) |
+| 11   | Discussion on issue: [Add an announcement component (#2241)](https://github.com/MarkBind/markbind/issues/2241) |
+| 12   | Opened good-first-issue: [UG/DG: Add code block copy buttons (#2262)](https://github.com/MarkBind/markbind/issues/2262) |
+| 12   | Discussion on issue: [Add a set of tutorials for MarkBind (#2257)](https://github.com/MarkBind/markbind/issues/2257) |
+| 13   | Opened issue: [Refactor methods implemented using Site.prototype (#2280)](https://github.com/MarkBind/markbind/issues/2280) |
+| 13   | Discussion on issue: [Setup Code Coverage (#1755)](https://github.com/MarkBind/markbind/issues/1755) |
+| 13   | Discussion on issue: [Add documentation on migrating Node.js (#2246)](https://github.com/MarkBind/markbind/issues/2246) |
+| 13   | Discussion on issue: [Improve popover location when the trigger spans multiple lines (#1688)](https://github.com/MarkBind/markbind/issues/1688) |
 
 ## Implementation work
 
@@ -39,12 +65,17 @@
 | 5    | Authored PR: [Migrate Plugin and PluginManager to TypeScript (#2133)](https://github.com/MarkBind/markbind/pull/2133) |
 | 5    | Authored PR: [Use @types/node at ^17.0.22 (#2158)](https://github.com/MarkBind/markbind/pull/2158) |
 | 6    | Authored PR: [Migrate includePanelProcessor to TypeScript (#2160)](https://github.com/MarkBind/markbind/pull/2160) |
-| 6    | Authored PR: [Migrate Page/index.js to TypeScript (#2169))](https://github.com/MarkBind/markbind/pull/2169) |
-| Rec  | Authored PR: [Integrate TS classes in core package (#2176))](https://github.com/MarkBind/markbind/pull/2176) |
-| Rec  | Authored PR: [Fix handling of empty segment includes (#2180))](https://github.com/MarkBind/markbind/pull/2180) |
-| 7    | Opened PR: [Migrate core/src/html tests to TypeScript (#2192))](https://github.com/MarkBind/markbind/pull/2192) |
-| 8    | Opened PR: [Migrate default plugins to TS (#2199)](https://github.com/MarkBind/markbind/pull/2199) |
-| 8    | Opened PR: [Add unified Node type (#2201)](https://github.com/MarkBind/markbind/pull/2201) |
+| 6    | Authored PR: [Migrate Page/index.js to TypeScript (#2169)](https://github.com/MarkBind/markbind/pull/2169) |
+| Rec  | Authored PR: [Integrate TS classes in core package (#2176)](https://github.com/MarkBind/markbind/pull/2176) |
+| Rec  | Authored PR: [Fix handling of empty segment includes (#2180)](https://github.com/MarkBind/markbind/pull/2180) |
+| 7    | Authored PR: [Migrate core/src/html tests to TypeScript (#2192)](https://github.com/MarkBind/markbind/pull/2192) |
+| 8    | Authored PR: [Migrate default plugins to TS (#2199)](https://github.com/MarkBind/markbind/pull/2199) |
+| 8    | Authored PR: [Add unified Node type (#2201)](https://github.com/MarkBind/markbind/pull/2201) |
+| 9    | Authored PR: [Refactor core package to use Node types (#2221)](https://github.com/MarkBind/markbind/pull/2221) |
+| 10   | Authored PR: [Migrate non-default plugins to TS (#2230)](https://github.com/MarkBind/markbind/pull/2230/) |
+| 10   | Authored PR: [Migrate default plugin tests to TS (#2213)](https://github.com/MarkBind/markbind/pull/2213) |
+| 11   | Authored PR: [Clean up & standardise TypeScript conventions (#2234)](https://github.com/MarkBind/markbind/pull/2234) |
+| 13   | Authored PR: [Migrate Site/index.js to TypeScript](https://github.com/MarkBind/markbind/pull/2270) |
 
 ## PR Reviews
 
@@ -75,4 +106,31 @@
 | 8    | Reviewed PR: [Add shake effect when none selected in MCQ Question (#2195)](https://github.com/MarkBind/markbind/pull/2195) |
 | 8    | Reviewed PR: [Add examples for bootstrap (#2205)](https://github.com/MarkBind/markbind/pull/2205) |
 | 8    | Reviewed PR: [Contact form plugin (#2191)](https://github.com/MarkBind/markbind/pull/2191) |
+| 9    | Reviewed PR: [Fix Quiz expanding between questions (#2184)](https://github.com/MarkBind/markbind/pull/2184) |
+| 9    | Reviewed PR: [Tweak sitenav design (#2184)](https://github.com/MarkBind/markbind/pull/2204) |
+| 9    | Reviewed PR: [Deprecate slots, attributes and syntax (#2208)](https://github.com/MarkBind/markbind/pull/2208/files) |
+| 9    | Reviewed PR: [Migrate Layout File to TypeScript (#2164)](https://github.com/MarkBind/markbind/pull/2164) |
+| 10   | Reviewed PR: [Update default template with UG links (#2225)](https://github.com/MarkBind/markbind/pull/2225) |
+| 10   | Reviewed PR: [Update deploy command to build site concurrently (#2218)](https://github.com/MarkBind/markbind/pull/2218) |
+| 10   | Reviewed PR: [Migrate Layout File to TypeScript (#2164)](https://github.com/MarkBind/markbind/pull/2164) |
+| 10   | Reviewed PR: [Migrate core/src/lib/markdown-it to TypeScript (#2226)](https://github.com/MarkBind/markbind/pull/2226) |
+| 10   | Reviewed PR: [Add breadcrumbs (#2193)](https://github.com/MarkBind/markbind/pull/2193) |
+| 10   | Reviewed PR: [Deprecate slots, attributes and syntax (#2208)](https://github.com/MarkBind/markbind/pull/2208) |
+| 10   | Reviewed PR: [Migrate core/src/lib/markdown-it to TypeScript (#2231)](https://github.com/MarkBind/markbind/pull/2231) |
+| 10   | Reviewed PR: [Upgrade lerna to version 6.5.1 (#2196)](https://github.com/MarkBind/markbind/pull/2196) |
+| 11   | Reviewed PR: [Add breadcrumbs (#2193)](https://github.com/MarkBind/markbind/pull/2193) |
+| 11   | Reviewed PR: [Deprecate theme attribute in site config JSON (#2235)](https://github.com/MarkBind/markbind/pull/2235) |
+| 11   | Reviewed PR: [[WIP] Add Toast plugin (#2237)](https://github.com/MarkBind/markbind/pull/2237) |
+| 11   | Reviewed PR: [Migrate Layout File to TypeScript (#2164)](https://github.com/MarkBind/markbind/pull/2164) |
+| 11   | Reviewed PR: [Update default template with UG links (#2225)](https://github.com/MarkBind/markbind/pull/2225) |
+| 11   | Reviewed PR: [Refactor cli/index.js (#2239)](https://github.com/MarkBind/markbind/pull/2239) |
+| 11   | Reviewed PR: [Add CollapseExpandButtons component for SiteNav (#2206)](https://github.com/MarkBind/markbind/pull/2206) |
+| 11   | Reviewed PR: [Add documentation on migrating node.js (#2256)](https://github.com/MarkBind/markbind/pull/2256) |
+| 12   | Reviewed PR: [Remove jQuery (#2130)](https://github.com/MarkBind/markbind/pull/2130) |
+| 12   | Reviewed PR: [Generate .gitignore on init command (#2248)](https://github.com/MarkBind/markbind/pull/2248) |
+| 12   | Reviewed PR: [Replace set-output (#10)](https://github.com/MarkBind/markbind-action/pull/10) |
+| 12   | Reviewed PR: [Add documentation on migrating node.js (#2256)](https://github.com/MarkBind/markbind/pull/2256) |
+| 12   | Reviewed PR: [Refactor initSite method in Site/index.js (#2267)](https://github.com/MarkBind/markbind/pull/2267) |
+| 12   | Reviewed PR: [Remove line numbers from code block (#2269)](https://github.com/MarkBind/markbind/pull/2269) |
+| 13   | Reviewed PR: [Update release note format to align with GitHub generated list (#2254)](https://github.com/MarkBind/markbind/pull/2254) |
 

@@ -32,3 +32,5 @@ Summary: Raising and resolving issues related to user accessibility and mobile f
 | 11   | Merged PR: [[#12081] Fix rank options question on instructor edit session page #12306](https://github.com/TEAMMATES/teammates/pull/12306) |
 | 11   | Merged PR: [[#12081] Fix rank recipients question mobile spacing #12299](https://github.com/TEAMMATES/teammates/pull/12299) |
 | 11   | Reviewed PR: [[#10986] Show loading message below response loading spinner #12321](https://github.com/TEAMMATES/teammates/pull/12321) |
+| 12   | Reviewed PR: [[#12308] Add session: time picker constraint not applied correctly #12352](https://github.com/TEAMMATES/teammates/pull/12352) |
+| 12   | Merged PR: [[#12048] Migrate SearchInstructorsAction #12340](https://github.com/TEAMMATES/teammates/pull/12340) |

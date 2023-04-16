@@ -82,3 +82,4 @@
 | 10 | RepoSense | Reviewed PR: [Update action after transfer](https://github.com/reposense/reposense-action/pull/5) |
 | 12 | RepoSense | Reviewed PR: [Refactor CliArguments and subclasses to better utilize polymorphism](https://github.com/reposense/RepoSense/pull/1942) |
 | 12 | RepoSense | Reviewed PR: [Allow multiple repos in one row for author-config.csv](https://github.com/reposense/RepoSense/pull/1961) |
+| Reading | RepoSense | Opened Gradle issues [#1994](https://github.com/reposense/RepoSense/issues/1994) and [#1995](https://github.com/reposense/RepoSense/issues/1995) |
