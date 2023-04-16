@@ -219,12 +219,12 @@ Below are the findings for the 4 available inheritance strategies in [Hibernate]
 - Each table defines all persistent states of the class, including the inherited state.
 - If we want to use polymorphic associations (eg An association to the superclass of our hierarchy), we need to use union subclass mapping. This requires multiple `UNION` queries, be aware of performance implications of a large class hierarchy. Also, not all database systems support `UNION ALL`. [PostgreSQL81Dialect](https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/dialect/PostgreSQL81Dialect.html) supports `UNION ALL`.
 
----
-
 Some resources I used to help me work out the different inheritance strategies
 
 - Directly from the [Hibernate documentation](https://docs.jboss.org/hibernate/orm/6.1/userguide/html_single/Hibernate_User_Guide.html#entity-inheritance)
 - From [Baeldung](https://www.baeldung.com/hibernate-inheritance). This was slightly out of date compared to the Hibernate docs
+
+---
 
 ## Conclusion
 
