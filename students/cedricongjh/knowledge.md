@@ -8,9 +8,11 @@ Although I was previously aware of the use of pipes, I was not aware of the perf
 are much more efficient than methods to render strings:
 
 ```javascript
+{% raw %}
 <h1>{{ name.toLowerCase() }}</h1>
 
 <h1>{{ name | lowercase }}</h1>
+{% endraw %}
 ```
 
 When using a method, it is always run whenever the component is detecting changes. However, for pipes, they are only run
@@ -23,7 +25,9 @@ dives more into the benefits of using pipes.
 ES6 template literals and nested string interpolation aren't supported in Angular:
 
 ```javascript
+{% raw %}
 <div>{{ `(${text})`) }}</div>
+{% endraw %}
 ```
 
 This was something that I learnt from an open source contributor in [this](https://github.com/TEAMMATES/teammates/pull/12249) PR.
