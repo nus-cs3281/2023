@@ -9,7 +9,7 @@ NUSMods is the official course catalogue, module search and timetable builder fo
 |                                                                                                              |     |
 | ------------------------------------------------------------------------------------------------------------ | --- |
 | Merged PR: [Change ModuleLessonConfig value to array](https://github.com/nusmodifications/nusmods/pull/3420) |
-| ~~Merged PR:~~ [Add support for Timetable for TAs](https://github.com/nusmodifications/nusmods/pull/3434)    |
+| Merged PR: [Add support for Timetable for TAs](https://github.com/nusmodifications/nusmods/pull/3434)        |
 |                                                                                                              |
 
 ## My Learning Record
