@@ -1,6 +1,12 @@
 ### CS3281 Progress
 
-Summary: Raising and resolving issues related to user accessibility and mobile friendliness
+Summary:
+
+- Raised and resolved issues related to user accessibility and mobile friendliness
+- Helping out with `v9-migration` from noSQL to SQL
+    - Migrating search
+    - Migrating actions
+    - Adding functionalities to db and logic layers of respective entities
 
 | Week | Achievements                                                                                                   |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -34,3 +40,5 @@ Summary: Raising and resolving issues related to user accessibility and mobile f
 | 11   | Reviewed PR: [[#10986] Show loading message below response loading spinner #12321](https://github.com/TEAMMATES/teammates/pull/12321) |
 | 12   | Reviewed PR: [[#12308] Add session: time picker constraint not applied correctly #12352](https://github.com/TEAMMATES/teammates/pull/12352) |
 | 12   | Merged PR: [[#12048] Migrate SearchInstructorsAction #12340](https://github.com/TEAMMATES/teammates/pull/12340) |
+| 13   | Reviewed PR: [[#12277] Instructor home page: Remove links to video tour #12378](https://github.com/TEAMMATES/teammates/pull/12378) |
+| 13   | Answered help request: [Help Request: Unable to log into admin dashboard #12377](https://github.com/TEAMMATES/teammates/discussions/12377) |
