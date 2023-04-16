@@ -67,3 +67,4 @@ Summary: Flagged out and resolved issues relating to mobile friendliness and use
 | 13     | Merged PR: [Migrate GetRegkeyValidityAction #12357](https://github.com/TEAMMATES/teammates/pull/12357) |
 | 13     | Reviewed PR: [Admin logs page: Fix overflow of "Clear all" button #12298](https://github.com/TEAMMATES/teammates/pull/12298) |
 | 13     | Reviewed PR: [Student submitting fewer responses than allowed: don't consider the question as 'not fully answered' #12323](https://github.com/TEAMMATES/teammates/pull/12323) |
+| 13     | Created issue: [Instructor edit feedback session page: missing indication for tooltip #12383](https://github.com/TEAMMATES/teammates/issues/12383) |
