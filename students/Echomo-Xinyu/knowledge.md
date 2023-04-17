@@ -17,6 +17,10 @@ The [TypeScript tutorial](https://www.typescriptlang.org/docs/handbook/intro.htm
 
 The [Official Angular Start Guide](https://angular.io/start) provides a walk-through of building a shopping website with Angular which involves component, service, data management and transfer -- essentially everything needed for a basic website. It is a fun experience and the guide is very clear and helpful.
 
+### Angular Upgrade
+
+In WATcher, I drafted PRs to upgrade Angular version from 8 to 10. While following the instructions by the [official guide](https://update.angular.io/), I worked with various problems along the way: outdated versions of certain dependency, linting errors, wrong modifier and manual upgrade of certain new imports after merge, and managed to solve them accordingly.
+
 ### Tool/GitHub Actions + Markbind
 
 During rendering the [WATcher-docs website](https://catcher-org.github.io/WATcher-docs/), I read about Github Actions and they would be triggered upon pull requests or change to specified branches. I have also read about [markbind documentation](https://markbind.org/userGuide/deployingTheSite.html) to understand how we may deploy a website written with markbind using GitHub Actions.
