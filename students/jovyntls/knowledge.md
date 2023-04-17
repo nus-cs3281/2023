@@ -238,3 +238,25 @@ const emailAddress = user.data.email;   // Throws error because `user.data` may 
 const emailAddress = user.data?.email;  // No error! Returns the email string or `undefined`
 ```
 
+### Strict mode in JavaScript
+
+Strict mode can be invoked using `'use strict'` at the start of a JS file (applies to the entire script), or at the start of a function (applies to the _individual function_). 
+The contents of JS modules are automatically in strict mode.
+
+Strict mode changes both syntax and runtime behaviour, generally in the following ways: 
+
+* changes converting mistakes into errors (as syntax errors or at runtime)
+* changes simplifying how variable references are resolved
+* changes simplifying eval and arguments
+* changes making it easier to write "secure" JavaScript
+* changes anticipating future ECMAScript evolution.
+
+In a nutshell, strict mode helps us write more secure JS that may be compatible with future versions of EMCAScript. 
+It also helps to catch mistakes by not ignoring exceptions.
+
+It's also worth noting that we shouldn't add `'use strict'` to every function body, because it won't be stripped out in minified JS (and thus wastes bytes).
+
+Resources
+- [List of changes in strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode#changes_in_strict_mode)
+- [Should I 'use strict' for every javascript function I write?](https://stackoverflow.com/questions/34301881/should-i-use-strict-for-every-single-javascript-function-i-write)
+

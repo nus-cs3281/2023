@@ -1,7 +1,7 @@
 ## CS3282 Pre-Sem Progress
 
-| Date        | Achievements                                                                                                                             |
-|-------------|------------------------------------------------------------------------------------------------------------------------------------------|
+|Date|Achievements|
+|----|------------|
 | 18 May 2022 | Reviewed PR: [Admin page header tabs do not fit header at certain screen sizes #11799](https://github.com/TEAMMATES/teammates/pull/11799) |
 | 22 May 2022 | Reviewed PR: [Update instructor help page #11795](https://github.com/TEAMMATES/teammates/pull/11795) |
 | 4 June 2022 | Reviewed PR: [team contribution questions: force submissions to be zero-sum #11827](https://github.com/TEAMMATES/teammates/pull/11827) |
@@ -59,31 +59,127 @@
 | 16 November 2022 | Reviewed PR: [Instructors reminding non-submitters: instructors are considered non-submitters even if there are no questions for instructors #11989](https://github.com/TEAMMATES/teammates/pull/11989) |
 | 16 November 2022 | Reviewed PR: [Add test in student course details page. #11990](https://github.com/TEAMMATES/teammates/pull/11990) |
 | 16 November 2022 | Reviewed PR: [Student submitting fewer responses than allowed: show empty responses at the bottom when reloading the submission page #11995](https://github.com/TEAMMATES/teammates/pull/11995) |
+| 6 December 2022 | Reviewed PR: [Diagrams in the developer documentation are not being displayed #11998](https://github.com/TEAMMATES/teammates/pull/11998) |
 | 6 December 2022 | Reviewed PR: [Student: Enhance UX when submitting response for a feedback question #11942](https://github.com/TEAMMATES/teammates/pull/11942) |
 | 17 December 2022 | Reviewed PR: [Improve UX of Progress Bars #12008](https://github.com/TEAMMATES/teammates/pull/12008) |
 
 ## CS3282 Progress
 
-| Week | Achievements                                                                                                                |
-|------|-----------------------------------------------------------------------------------------------------------------------------|
+|Week|Achievements|
+|----|------------|
 | 2    | Reviewed PR: [Create Unit Tests for FeedbackConstantSumQuestionDetails class #12019](https://github.com/TEAMMATES/teammates/pull/12019) |
 | 2    | Reviewed PR: [Create Unit Tests for FeedbackRubricQuestionDetails class #12025](https://github.com/TEAMMATES/teammates/pull/12025) |
 | 2    | Reviewed PR: [Fix team members cannot see responses received by team issue and add relevant tests #12032](https://github.com/TEAMMATES/teammates/pull/12032) |
 | 2    | Reviewed PR: [Testing getMinMaxPointErrors in FeedbackConstantSumQuestionDetails #12033](https://github.com/TEAMMATES/teammates/pull/12033) |
 | 3    | Reviewed PR: [Add stricter checks for potentially destructive question edits #12030](https://github.com/TEAMMATES/teammates/pull/12030) |
-| 3    | Reviewed PR: [Creating some Unit tests for FeedbackRubricQuestionDetails Class #12040](https://github.com/TEAMMATES/teammates/pull/12040) |
+| 3    | Reviewed PR: [Create Unit tests for FeedbackRubricQuestionDetails Class #12040](https://github.com/TEAMMATES/teammates/pull/12040) |
+| 4    | Reviewed PR: [Instructor copying sessions: preserve time when auto-changing dates #12051](https://github.com/TEAMMATES/teammates/pull/12051) |
 | 5    | Reviewed PR: [Create frontend for Per Receiver Submission #12053](https://github.com/TEAMMATES/teammates/pull/12053) |
 | 5    | Reviewed PR: [Set generated app.admins field in build.properties to app_admin@gmail.com instead of app_admin #12054](https://github.com/TEAMMATES/teammates/pull/12054) |
 | 5    | Reviewed PR: [v9: Skeleton implementation #12056](https://github.com/TEAMMATES/teammates/pull/12056) |
 | 5    | Merged PR: [Student viewing rubric results: average doesn't match #12066](https://github.com/TEAMMATES/teammates/pull/12066) |
 | 5    | Reviewed PR: [Add is migrated flag to datastore account #12070](https://github.com/TEAMMATES/teammates/pull/12070) |
+| 6    | Submitted Issue: [User-friendliness Hero #12081](https://github.com/TEAMMATES/teammates/issues/12081) |
 | 6    | Merged PR: [Add accessibility tests workflow #12082](https://github.com/TEAMMATES/teammates/pull/12082) |
 | 6    | Reviewed PR: [Update Bootstrap library to 5.2 #12083](https://github.com/TEAMMATES/teammates/pull/12083) |
+| 6    | Reviewed PR: [User-friendliness: Fix margins on mobile #12088](https://github.com/TEAMMATES/teammates/pull/12088) |
 | 6    | Reviewed PR: [Remove redundant InstructorRole Enum #12091](https://github.com/TEAMMATES/teammates/pull/12091) |
 | 6    | Reviewed PR: [Update Jetty library to 10 or 11 #12095](https://github.com/TEAMMATES/teammates/pull/12095) |
 | 6    | Reviewed PR: [User-friendliness: Fix margins on mobile #12096](https://github.com/TEAMMATES/teammates/pull/12096) |
+| 6    | Submitted Issue: [Release V8.23.0 #12097](https://github.com/TEAMMATES/teammates/issues/12097) |
 | 6    | Reviewed PR: [Update Angular to 14 and Node to 16 #12100](https://github.com/TEAMMATES/teammates/pull/12100) |
 | 6    | Merged PR: [Release V8.23.0 #12102](https://github.com/TEAMMATES/teammates/pull/12102) |
-| Recess | Reviewed PR: [Landmark questions in feedback sessions results page #12104](https://github.com/TEAMMATES/teammates/pull/12104) |
+| Recess | Reviewed PR: [Landmark questions in submit feedback page #12104](https://github.com/TEAMMATES/teammates/pull/12104) |
 | Recess | Reviewed PR: [User-friendliness: Make header dropdowns focusable #12105](https://github.com/TEAMMATES/teammates/pull/12105) |
-| Recess | Merged PR: [Tag all TEAMMATES pages with <main> #12108](https://github.com/TEAMMATES/teammates/pull/12108) |
+| Recess | Merged PR: [Tag all TEAMMATES pages with \<main\> #12108](https://github.com/TEAMMATES/teammates/pull/12108) |
+| Recess | Reviewed PR: [Refactor v9 unit tests #12111](https://github.com/TEAMMATES/teammates/pull/12111) |
+| Recess | Reviewed PR: [Instructor viewing results of rubric questions: some students not shown in the stats table #12123](https://github.com/TEAMMATES/teammates/pull/12123) |
+| Recess | Submitted Issue: [Instructor results page stats tables: differentiate students with same team and name #12125](https://github.com/TEAMMATES/teammates/issues/12125) |
+| Recess | Submitted Issue: [Release V8.23.1 #12126](https://github.com/TEAMMATES/teammates/issues/12126) |
+| Recess | Reviewed PR: [User-friendliness: Landmark questions in feedback sessions results page #12129](https://github.com/TEAMMATES/teammates/pull/12129) |
+| Recess | Reviewed PR: [Instructor edit session times: timing restrictions are not as expected #12133](https://github.com/TEAMMATES/teammates/pull/12133) |
+| Recess | Submitted Issue: [Release V8.23.2 #12134](https://github.com/TEAMMATES/teammates/issues/12134) |
+| 7    | Reviewed PR: [User-friendliness: Fix evaluee/recipient mobile text wrap #12139](https://github.com/TEAMMATES/teammates/pull/12139) |
+| 7    | Reviewed PR: [User-friendliness: Add label to text input for essay questions #12140](https://github.com/TEAMMATES/teammates/pull/12140) |
+| 7    | Reviewed PR: [User-friendliness: Add labels for MSQ checkboxes #12144](https://github.com/TEAMMATES/teammates/pull/12144) |
+| 7    | Reviewed PR: [User-friendliness: Add labels for MCQ question #12147](https://github.com/TEAMMATES/teammates/pull/12147) |
+| 7    | Reviewed PR: [User-friendliness: Add labels for numerical scale questions #12148](https://github.com/TEAMMATES/teammates/pull/12148) |
+| 7    | Reviewed PR: [User-friendliness: Add labels and groups to distribute points (options) question #12149](https://github.com/TEAMMATES/teammates/pull/12149) |
+| 7    | Reviewed PR: [User-friendliness: Add labels for distribute points by recipient questions #12150](https://github.com/TEAMMATES/teammates/pull/12150) |
+| 7    | Reviewed PR: [User-friendliness: Add labels and change "more info" button for team contribution questions #12153](https://github.com/TEAMMATES/teammates/pull/12153) |
+| 7    | Reviewed PR: [User-friendliness: Add labels to rubric questions #12155](https://github.com/TEAMMATES/teammates/pull/12155) |
+| 7    | Merged PR: [Refactor accessibility rule disabling logic #12162](https://github.com/TEAMMATES/teammates/pull/12162) |
+| 8    | Submitted Issue: [Lintspaces on Linux showing warnings instead of errors #12169](https://github.com/TEAMMATES/teammates/issues/12169) |
+| 8    | Merged PR: [Modify header and footer colours #12164](https://github.com/TEAMMATES/teammates/pull/12164) |
+| 8    | Reviewed PR: [Migrate gatekeeper #12166](https://github.com/TEAMMATES/teammates/pull/12166) |
+| 8    | Reviewed PR: [User-friendliness: Add label to rank recipients question #12167](https://github.com/TEAMMATES/teammates/pull/12167) |
+| 8    | Reviewed PR: [User-friendliness: Add labels to rank options questions #12172](https://github.com/TEAMMATES/teammates/pull/12172) |
+| 8    | Reviewed PR: [User-friendliness: Fix numerical scale question table in view responses page #12174](https://github.com/TEAMMATES/teammates/pull/12174) |
+| 8    | Reviewed PR: [User-friendliness: Fix dropdown caret overlap #12179](https://github.com/TEAMMATES/teammates/pull/12179) |
+| 8    | Reviewed PR: [Remove Bootstrap column style override #12180](https://github.com/TEAMMATES/teammates/pull/12180) |
+| 8    | Reviewed PR: [Instructor home page: redundant padding #12181](https://github.com/TEAMMATES/teammates/pull/12181) |
+| 8    | Merged PR: [[#12182][#12068] student viewing results: the spinner keeps going until the user clicks on the page #12183](https://github.com/TEAMMATES/teammates/pull/12183) |
+| 8    | Merged PR: [Remove Bootstrap column style override #12180](https://github.com/TEAMMATES/teammates/pull/12180) |
+| 8    | Reviewed PR: [removed raise edge image #12189](https://github.com/TEAMMATES/teammates/pull/12189) |
+| 8    | Submitted Issue: [Add simple workflow to vet pull requests #12194](https://github.com/TEAMMATES/teammates/issues/12194) |
+| 8    | Merged PR: [Add pull request workflow #12195](https://github.com/TEAMMATES/teammates/pull/12195) |
+| 9    | Reviewed PR: [User-friendliness: Display card header content in column format for mobile #12197](https://github.com/TEAMMATES/teammates/pull/12197) |
+| 9    | Reviewed PR: [User-friendliness: Change white text on info background #12200](https://github.com/TEAMMATES/teammates/pull/12200) |
+| 9    | Reviewed PR: [Add simple workflow to vet pull requests #12196](https://github.com/TEAMMATES/teammates/pull/12196) |
+| 9    | Reviewed PR: [User-friendliness: Make rubric question response table mobile responsive #12201](https://github.com/TEAMMATES/teammates/pull/12201) |
+| 9    | Reviewed PR: [User-friendliness: Make submit feedback rubric table cell clickable #12205](https://github.com/TEAMMATES/teammates/pull/12205) |
+| 9    | Merged PR: [Add simple workflow to vet pull requests #12196](https://github.com/TEAMMATES/teammates/pull/12196) |
+| 9    | Reviewed PR: [Fix duplicate IDs in codebase #12206](https://github.com/TEAMMATES/teammates/pull/12206) |
+| 9    | Reviewed PR: [User-friendliness: Fix feedback path dropdown #12207](https://github.com/TEAMMATES/teammates/pull/12207) |
+| 9    | Merged PR: [Fix duplicate IDs in codebase #12206](https://github.com/TEAMMATES/teammates/pull/12206) |
+| 9    | Merged PR: [Fix PR checking workflow permissions #12215](https://github.com/TEAMMATES/teammates/pull/12215) |
+| 9    | Reviewed PR: [User-friendliness: Fix custom visibility options #12209](https://github.com/TEAMMATES/teammates/pull/12209) |
+| 9    | Reviewed PR: [User-friendliness: Fix screen reader issue for question description #12219](https://github.com/TEAMMATES/teammates/pull/12219) |
+| 9    | Reviewed PR: [User-friendliness: Add labels to input for essay question (instructor edit sessions page) #12220](https://github.com/TEAMMATES/teammates/pull/12220) |
+| 10    | Merged PR: [Fix ChromeDriver setup for E2E tests #12216](https://github.com/TEAMMATES/teammates/pull/12216) |
+| 10    | Reviewed PR: [Minimise modal margin for mobile #12225](https://github.com/TEAMMATES/teammates/pull/12225) |
+| 10    | Reviewed PR: [Fix remaining accessibility tests #12223](https://github.com/TEAMMATES/teammates/pull/12223) |
+| 10    | Reviewed PR: [Add unit tests for SubmitFeedbackResponsesAction #12234](https://github.com/TEAMMATES/teammates/pull/12234) |
+| 10    | Merged PR: [Fix remaining accessibility tests #12223](https://github.com/TEAMMATES/teammates/pull/12223) |
+| 10    | Reviewed PR: [User-friendliness: Fix instructor edit sessions page MCQ and MSQ #12236](https://github.com/TEAMMATES/teammates/pull/12236) |
+| 10    | Reviewed PR: [Instructor help page: Page not scrolling to the right section #12224](https://github.com/TEAMMATES/teammates/pull/12224) |
+| 10    | Reviewed PR: [Modify question headers for instructor #12228](https://github.com/TEAMMATES/teammates/pull/12228) |
+| 10    | Reviewed PR: [Instructor help page: page not scrolling to content when anchor links used #12239](https://github.com/TEAMMATES/teammates/pull/12239) |
+| 10    | Reviewed PR: [User-friendliness: Add accessibility tests, fix submit feedback/view responses pages #12240](https://github.com/TEAMMATES/teammates/pull/12240) |
+| 10    | Reviewed PR: [Fix scrolling mechanism when user click on scroll down button. #12243](https://github.com/TEAMMATES/teammates/pull/12243) |
+| 10    | Merged PR: [User-friendliness: Add accessibility tests, fix submit feedback/view responses pages #12240](https://github.com/TEAMMATES/teammates/pull/12240) |
+| 10    | Reviewed PR: [User-friendliness: Change feedback path dropdowns to column format on mobile #12250](https://github.com/TEAMMATES/teammates/pull/12250) |
+| 10    | Reviewed PR: [User-friendliness: Add labels to instructor edit sessions page questions #12254](https://github.com/TEAMMATES/teammates/pull/12254) |
+| 10    | Reviewed PR: [User-friendliness: Fix visibility dropdown overflow #12251](https://github.com/TEAMMATES/teammates/pull/12251) |
+| 10    | Reviewed PR: [Instructors editing session dates: disable calendar popup if the form is not in edit mode #12253](https://github.com/TEAMMATES/teammates/pull/12253) |
+| 11    | Submitted Issue: [Features page: Enlarge pictures on mobile #12262](https://github.com/TEAMMATES/teammates/issues/12262) |
+| 11    | Submitted Issue: [About page: Remove extra space from links #12264](https://github.com/TEAMMATES/teammates/issues/12264) |
+| 11    | Reviewed PR: [Wrap buttons vertically in mobile for instructor edit sessions page #12260](https://github.com/TEAMMATES/teammates/pull/12260) |
+| 11    | Submitted Issue: [Modify minimum page height to factor in footer height #12265](https://github.com/TEAMMATES/teammates/issues/12265) |
+| 11    | Submitted Issue: [Instructor getting started page: Fix scroll to top #12267](https://github.com/TEAMMATES/teammates/issues/12267) |
+| 11    | Submitted Issue: [Make instructor getting started page more prominent #12268](https://github.com/TEAMMATES/teammates/issues/12268) |
+| 11    | Submitted Issue: [Instructor edit sessions page: Fix add question button overflow #12269](https://github.com/TEAMMATES/teammates/issues/12269) |
+| 11    | Reviewed PR: [Add user-friendliness documentation #12261](https://github.com/TEAMMATES/teammates/pull/12261) |
+| 11    | Reviewed PR: [User-friendliness: Fix distribute points options question #12266](https://github.com/TEAMMATES/teammates/pull/12266) |
+| 11    | Reviewed PR: [fix/removed extra space form links #12270](https://github.com/TEAMMATES/teammates/pull/12270) |
+| 11    | Reviewed PR: [Fix rubric question overflow for instructors edit session page #12263](https://github.com/TEAMMATES/teammates/pull/12263) |
+| 11    | Merged PR: [Add user-friendliness documentation #12261](https://github.com/TEAMMATES/teammates/pull/12261) |
+| 11    | Submitted Issue: [Instructor edit sessions page: Fix preview sessions button overflow #12275](https://github.com/TEAMMATES/teammates/issues/12275) |
+| 11    | Merged PR: [Modify accessibility tests workflow to rerun failed tests once #12272](https://github.com/TEAMMATES/teammates/pull/12272) |
+| 11    | Submitted Issue: [Instructor edit session page: Fix custom visibility table overflow #12276](https://github.com/TEAMMATES/teammates/issues/12276) |
+| 11    | Submitted Issue: [Instructor home page: Remove links to video tour #12277](https://github.com/TEAMMATES/teammates/issues/12277) |
+| 11    | Submitted Issue: [Instructor home page: Fix alignment of "Add New Course" button #12278](https://github.com/TEAMMATES/teammates/issues/12278) |
+| 11    | Submitted Issue: [Instructor home page: Improve display of card header on mobile #12279](https://github.com/TEAMMATES/teammates/issues/12279) |
+| 11    | Submitted Issue: [Instructor courses page: Improve display of create course card header #12280](https://github.com/TEAMMATES/teammates/issues/12280) |
+| 11    | Submitted Issue: [Instructor sessions page: Fix deleted feedback sessions table overflow #12281](https://github.com/TEAMMATES/teammates/issues/12281) |
+| 11    | Submitted Issue: [Instructor sessions page: Fix create feedback session card header #12282](https://github.com/TEAMMATES/teammates/issues/12282) |
+| 11    | Submitted Issue: [Instructor view session results (course-wide): Add separate button to download results by question #12283](https://github.com/TEAMMATES/teammates/issues/12283) |
+| 11    | Submitted Issue: [Instructor view session results (course-wide): Improve accessibility of grouped responses #12285](https://github.com/TEAMMATES/teammates/issues/12285) |
+| 11    | Submitted Issue: [Instructor course enroll page: Fix enroll table header scroll on mobile #12286](https://github.com/TEAMMATES/teammates/issues/12286) |
+| 11    | Submitted Issue: [Student home page: Add hide/remove course feature #12287](https://github.com/TEAMMATES/teammates/issues/12287) |
+| 11    | Submitted Issue: [Admin notifications page: Fix notifications table overflow #12288](https://github.com/TEAMMATES/teammates/issues/12288) |
+| 11    | Submitted Issue: [Usage statistics and logs page: Improve date/time input on mobile #12289](https://github.com/TEAMMATES/teammates/issues/12289) |
+| 11    | Submitted Issue: [Instructor view session results (course-wide): Improve display of no-response card header #12290](https://github.com/TEAMMATES/teammates/issues/12290) |
+| 11    | Submitted Issue: [Admin logs page: Fix overflow of "Clear all" button #12291](https://github.com/TEAMMATES/teammates/issues/12291) |
+| 11    | Submitted Issue: [Admin logs page: Fix display of logs table on mobile #12292](https://github.com/TEAMMATES/teammates/issues/12292) |
+| 11    | Submitted Issue: [Admin logs page: Extension of query start/end time is not reflected in search range #12293](https://github.com/TEAMMATES/teammates/issues/12293) |
