@@ -1,3 +1,18 @@
+## Summary
+
+I mainly worked on backend features for RepoSense. A summary of key PR contributions are:
+
+Backend:
+- Removed authorship tag validation regex, to make RepoSense conform less towards GitHub's ID specification.
+- Made RepoSense less reliant on static variables across various classes, to better follow object-oriented principles.
+- Investigated and prepared a working parallelized version of `systemtest`. Reported on the feasibility of the parallelization effort.
+- Implemented a CLI wizard for new RepoSense users to lower the effort needed to start using RepoSense.
+- Removed unnecessary test mode behavior through validating the JSON output produced.
+- Implemented feature to allow multiple repository's location to be specified in a single row in `author-config.csv`.
+
+DevOps:
+- Updated GitHub Actions workflow to use GitHub environmental files instead of using soon-to-be deprecated set-output.
+
 | Week | Project   | Achievements                                                                                                                                                       |
 | ---- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 2    | RepoSense | Merged PR: [Remove authorship tag validation regex #1857](https://github.com/reposense/RepoSense/pull/1857)                                                        |
@@ -27,3 +42,19 @@
 | 9    | RepoSense | Merged PR: [Remove unnecessary test mode behavior in ConfigSystemTest #1911](https://github.com/reposense/RepoSense/pull/1911)                                     |
 | 9    | RepoSense | Merged PR: [Make ReportGenerator and its corresponding Reporters non-static #1916](https://github.com/reposense/RepoSense/pull/1916)                               |
 | 9    | RepoSense | Submitted Issue: [Make ErrorSummary non-static by removing singleton design pattern #1943](https://github.com/reposense/RepoSense/issues/1943)                     |
+| 9    | RepoSense | Submitted Issue: [Add missing CommitResultAggregatorTest #1932](https://github.com/reposense/RepoSense/issues/1932)                     |
+| 9    | RepoSense | Opened PR (pending merge): [Make ErrorSummary non-static by removing singleton design pattern #1943](https://github.com/reposense/RepoSense/pull/1943)                     |
+| 9    | RepoSense | Merged PR (to fork): [Add UntilPrompt #3](https://github.com/sikai00/RepoSense/pull/3)                                                                       |
+| 10   | RepoSense | Opened PR (pending merge): [Add RepoSense CLI Wizard Walkthrough #1950](https://github.com/reposense/RepoSense/pull/1950)                     |
+| 10   | RepoSense | Opened PR (pending merge): [Allow multiple repos in one row for author-config.csv #1961](https://github.com/reposense/RepoSense/pull/1961)                     |
+| 10    | RepoSense | Reviewed PR: [Refactor CliArguments and subclasses for polymorphism #1942](https://github.com/reposense/RepoSense/pull/1942)                                               |
+| 10    | RepoSense | Reviewed PR: [Remove Gradle wrapper version definition #1951](https://github.com/reposense/RepoSense/pull/1951)                                               |
+| 11    | RepoSense | Merged PR (to fork): [Add documentation for init command #4](https://github.com/sikai00/RepoSense/pull/4)                                                                       |
+| 11    | RepoSense | Merged PR (to fork): [Reorganise file structure #5](https://github.com/sikai00/RepoSense/pull/5)                                                                       |
+| 11    | RepoSense | Submitted Issue: [Surge.sh previews are no longer working #1964](https://github.com/reposense/RepoSense/issues/1964)                     |
+| 11    | RepoSense | Submitted Issue: [Use GitHub environmental files instead of using soon-to-be deprecated set-output #1967](https://github.com/reposense/RepoSense/issues/1967)                     |
+| 12    | RepoSense | Submitted Issue: [Formatting of granting write access on GitHub subsection is broken #1972](https://github.com/reposense/RepoSense/issues/1972)                     |
+| 12    | RepoSense | Concluded PR with report: [Backend: Parallelize System Tests #1900](https://github.com/reposense/RepoSense/pull/1900)                               |
+| 13    | RepoSense | Merged PR: [Allow multiple repos in one row for author-config.csv #1961](https://github.com/reposense/RepoSense/pull/1961)                               |
+| 13    | RepoSense | Reviewed PR: [Update how logger output is recorded #1978](https://github.com/reposense/RepoSense/pull/1978)                                               |
+| 13    | RepoSense | Opened PR (pending merge): [Use GitHub environmental files instead of using soon-to-be deprecated set-output #1992](https://github.com/reposense/RepoSense/pull/1992)                     |
