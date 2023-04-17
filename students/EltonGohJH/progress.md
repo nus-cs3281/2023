@@ -1,25 +1,12 @@
 ### Summary
-1. Investigated various issues, including:
-    - Alternative syntax for frontmatter
-    - Node incompatibility
-    - Backslash issues in include paths
-    - Vue 3 migration
-    - Scroll spying
-    - Id collision with markdown headings
-    - Explore using Turborepo to improve build system
-2. Authored and merged numerous PRs, focusing on:
-    - Updating webpack
-    - Upgrading lerna
-    - Improving anchor navigation with scroll margin top
-    - Migrating core packages to TypeScript
-    - Fixing backslash not working on non-Windows machines
-3. Reviewed PRs, focusing on:
-    - Supporting horizontal layout in code and output boilerplates
-    - Updating the deploy command
-    - Refactoring core package to use Node types
-4. Conducted extensive work on Vue 3 migration, including:
-    - Investigating requirements
-    - Creating a work-in-progress PR
+Over the semester, I worked on various aspects of Markbind such as Devops, new feature and bug fixes.
+Some of the notable issues I worked on include:
+- [Alternative syntax for frontmatter #1851](https://github.com/MarkBind/markbind/issues/1851)
+- [Update webpack 4 to webpack 5 #2153](https://github.com/MarkBind/markbind/pull/2153)
+- [Upgrade lerna to version 6.5.1 #2196](https://github.com/MarkBind/markbind/pull/2196)
+- [Fixing a couple of scrolling related issues #1953](https://github.com/MarkBind/markbind/pull/1953)
+- Also attempting to migrate Markbind to Vue 3, but it is still a work in progress.
+
 
 | Week | Achievements                                                                                                                                                                                                                                                                                                            |
 |------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -43,3 +30,4 @@
 | 11   | Merged PR: [Update anchor navigation with scroll margin top #1953](https://github.com/MarkBind/markbind/pull/1953)                                                                                                                                                                                                      |
 | 11   | Investigate Issues (issues fixed in #1953): [id collision with markdown headings will result in incorrect anchor scrolling effect #1915](https://github.com/MarkBind/markbind/issues/1915), [Scroll spying is not working if the heading has an inline include #1638](https://github.com/MarkBind/markbind/issues/1638) |
 | 11   | Authored PR: [Fix backslash not working on non-windows machine #2255](https://github.com/MarkBind/markbind/pull/2255)                                                                                                                                                                                                   |
+| 12   | Merged PR: [Fix backslash not working on non-windows machine #2255](https://github.com/MarkBind/markbind/pull/2255)                                                                                                                                                                                                     |
