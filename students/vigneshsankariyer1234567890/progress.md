@@ -39,3 +39,4 @@ Over the past semester (AY22/23 Semester 2), I have worked on various aspects of
 | 12 | WATcher | Investigated Issue [Issues not showing for some repositories #107](https://github.com/CATcher-org/WATcher/issues/107) |
 | 12 | WATcher | Opened PR [Add additional card to show unassigned issues #118](https://github.com/CATcher-org/WATcher/pull/118) |
 | 12 | WATcher | Reviewed PR [[#111] Modularizing issues and PRs as components #116](https://github.com/CATcher-org/WATcher/pull/116) |
+| 13 | CATcher | Reviewed PR [Migrate bug reporting phase to playwright #1186](https://github.com/CATcher-org/CATcher/pull/1186) |
