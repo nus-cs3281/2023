@@ -102,3 +102,13 @@ TEAMMATES uses [Apache Solr](https://solr.apache.org/guide/8_11/) to support ful
 
 - Fetch a remote PR into local repository: `git fetch upstream pull/XXX/head:prXXX` (Credits to Wei Qing!)
   - Before: I always add a remote to the fork, then pull from the fork, which is quite troublesome
+- Interactive Rebase: `git rebase -i <base>`
+  - Pros:
+    - Maintains clean and linear history
+    - Avoids adding redundant merge commit
+  - Cons: Need to be careful to not rewrite history by force pushing
+
+Resources:
+
+- [git rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
+- [Merging vs. Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
