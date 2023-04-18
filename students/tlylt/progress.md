@@ -112,7 +112,9 @@
 | Date        | Achievements                                                                                                           |
 |-------------|------------------------------------------------------------------------------------------------------------------------|
 | RepoSense   | Merged PR: [Add tip on generating report via reposense-action #1858](https://github.com/reposense/RepoSense/pull/1858) |
+| RepoSense   | Merged PR: [Update action after transfer #5](https://github.com/reposense/reposense-action/pull/5)                     |
 | 03 Jan 2023 | Merged PR: [Create onboarding bootcamp #2063](https://github.com/MarkBind/markbind/pull/2063)                          |
+| 14 Jan 2023 | Merged PR: [Add toc for print #2069](https://github.com/MarkBind/markbind/pull/2069)                                   |
 
 ### Issues Raised
 
@@ -126,7 +128,54 @@
 
 ### PR Reviews
 
-| Date        | Achievements                                                                                                    |
-|-------------|-----------------------------------------------------------------------------------------------------------------|
-| 21 Jan 2023 | Reviewed PR: [Migrate vue-components README #2104](https://github.com/MarkBind/markbind/pull/2104)              |
-| 16 Jan 2023 | Reviewed PR: [Update placement of Onboarding in dev docs #2086](https://github.com/MarkBind/markbind/pull/2086) |
+| Date        | Achievements                                                                                                                                               |
+|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 06 Apr 2023 | Reviewed PR: [Generate .gitignore on init command #2248](https://github.com/MarkBind/markbind/pull/2248)                                                   |
+| 28 Mar 2023 | Reviewed PR: [Disable flaky quiz and scroll-to-top button tests #2244](https://github.com/MarkBind/markbind/pull/2244)                                     |
+| 29 Mar 2023 | Reviewed PR: [Clean up & standardise TypeScript conventions #2234](https://github.com/MarkBind/markbind/pull/2234)                                         |
+| 24 Mar 2023 | Reviewed PR: [Upgrade to use node 16 #2233](https://github.com/MarkBind/markbind/pull/2233)                                                                |
+| 25 Mar 2023 | Reviewed PR: [Migrate non-default plugins to TypeScript #2230](https://github.com/MarkBind/markbind/pull/2230)                                             |
+| 19 Mar 2023 | Reviewed PR: [Fix wrong link in typescript docs in DG #2227](https://github.com/MarkBind/markbind/pull/2227)                                               |
+| 20 Mar 2023 | Reviewed PR: [Update default template with UG links and useful information #2225](https://github.com/MarkBind/markbind/pull/2225)                          |
+| 17 Mar 2023 | Reviewed PR: [Add missing slots-info modal to pages in UG #2223](https://github.com/MarkBind/markbind/pull/2223)                                           |
+| 17 Mar 2023 | Reviewed PR: [Rephrase MarkBind Vue components and Bootstrap #2205](https://github.com/MarkBind/markbind/pull/2205)                                        |
+| 12 Mar 2023 | Reviewed PR: [Tweak sitenav design #2204](https://github.com/MarkBind/markbind/pull/2204)                                                                  |
+| 28 Mar 2023 | Reviewed PR: [Standardise size of tabgroup buttons in tabset to match that of non-tabgroup buttons. #2202](https://github.com/MarkBind/markbind/pull/2202) |
+| 15 Mar 2023 | Reviewed PR: [Create unified types for nodes #2201](https://github.com/MarkBind/markbind/pull/2201)                                                        |
+| 17 Mar 2023 | Reviewed PR: [Migrate default plugins to TypeScript #2199](https://github.com/MarkBind/markbind/pull/2199)                                                 |
+| 08 Mar 2023 | Reviewed PR: [Document cyclical error in include in UG #2198](https://github.com/MarkBind/markbind/pull/2198)                                              |
+| 06 Mar 2023 | Reviewed PR: [Upgrade lerna to version 6.5.1 #2196](https://github.com/MarkBind/markbind/pull/2196)                                                        |
+| 10 Mar 2023 | Reviewed PR: [Add shake effect for none selected in MCQ #2195](https://github.com/MarkBind/markbind/pull/2195)                                             |
+| 07 Mar 2023 | Reviewed PR: [Support horizontal layout in code and output boilerplates #2194](https://github.com/MarkBind/markbind/pull/2194)                             |
+| 06 Mar 2023 | Reviewed PR: [Contact form plugin #2191](https://github.com/MarkBind/markbind/pull/2191)                                                                   |
+| 15 Mar 2023 | Reviewed PR: [Remove empty `title` tags in generated tests #2186](https://github.com/MarkBind/markbind/pull/2186)                                          |
+| 25 Mar 2023 | Reviewed PR: [Add tags to links in docs #2183](https://github.com/MarkBind/markbind/pull/2183)                                                             |
+| 20 Feb 2023 | Reviewed PR: [Fix handling of empty segment includes #2180](https://github.com/MarkBind/markbind/pull/2180)                                                |
+| 20 Feb 2023 | Reviewed PR: [Fix broken links in UG #2173](https://github.com/MarkBind/markbind/pull/2173)                                                                |
+| 19 Feb 2023 | Reviewed PR: [Add release-drafter #2172](https://github.com/MarkBind/markbind/pull/2172)                                                                   |
+| 12 Mar 2023 | Reviewed PR: [Change scroll top button to component #2170](https://github.com/MarkBind/markbind/pull/2170)                                                 |
+| 14 Feb 2023 | Reviewed PR: [Add details to the release process in devGuide #2168](https://github.com/MarkBind/markbind/pull/2168)                                        |
+| 28 Feb 2023 | Reviewed PR: [Clean up default init template #2165](https://github.com/MarkBind/markbind/pull/2165)                                                        |
+| 12 Feb 2023 | Reviewed PR: [Use @types/node at ^17.0.22 #2158](https://github.com/MarkBind/markbind/pull/2158)                                                           |
+| 12 Feb 2023 | Reviewed PR: [Update webpack 4 to webpack 5 #2153](https://github.com/MarkBind/markbind/pull/2153)                                                         |
+| 10 Feb 2023 | Reviewed PR: [Update TypeScript Migration documentation on git hooks #2151](https://github.com/MarkBind/markbind/pull/2151)                                |
+| 09 Feb 2023 | Reviewed PR: [Convert Template function to class #2148](https://github.com/MarkBind/markbind/pull/2148)                                                    |
+| 31 Mar 2023 | Reviewed PR: [Create alternative syntax for frontmatter #2145](https://github.com/MarkBind/markbind/pull/2145)                                             |
+| 07 Feb 2023 | Reviewed PR: [add yucheng11122017 as a contributor for code #2139](https://github.com/MarkBind/markbind/pull/2139)                                         |
+| 12 Feb 2023 | Reviewed PR: [Fix parsing for code highlight rules #2138](https://github.com/MarkBind/markbind/pull/2138)                                                  |
+| 05 Feb 2023 | Reviewed PR: [Migrate CodeBlockButtons plugins to TypeScript #2135](https://github.com/MarkBind/markbind/pull/2135)                                        |
+| 05 Feb 2023 | Reviewed PR: [Update Typescript migration documentation for Merging #2134](https://github.com/MarkBind/markbind/pull/2134)                                 |
+| 05 Feb 2023 | Reviewed PR: [Remove jquery #2130](https://github.com/MarkBind/markbind/pull/2130)                                                                         |
+| 12 Feb 2023 | Reviewed PR: [Remove override of `title` in the init site #2128](https://github.com/MarkBind/markbind/pull/2128)                                           |
+| 01 Feb 2023 | Reviewed PR: [Fix misaligned block in UG #2127](https://github.com/MarkBind/markbind/pull/2127)                                                            |
+| 31 Jan 2023 | Reviewed PR: [Update bug-report template #2123](https://github.com/MarkBind/markbind/pull/2123)                                                            |
+| 01 Feb 2023 | Reviewed PR: [Rephrase "Creating Custom Fragments" Section #2122](https://github.com/MarkBind/markbind/pull/2122)                                          |
+| 06 Feb 2023 | Reviewed PR: [Update Tips and Tricks documentation for raw / endraw tags #2118](https://github.com/MarkBind/markbind/pull/2118)                            |
+| 27 Jan 2023 | Reviewed PR: [Migrate scriptAndStyleTagProcessor to Typescript #2113](https://github.com/MarkBind/markbind/pull/2113)                                      |
+| 01 Feb 2023 | Reviewed PR: [Migrate codeBlockButton plugins to TypeScript #2112](https://github.com/MarkBind/markbind/pull/2112)                                         |
+| 26 Jan 2023 | Reviewed PR: [Fix broken link in UG #2110](https://github.com/MarkBind/markbind/pull/2110)                                                                 |
+| 24 Jan 2023 | Reviewed PR: [add lhw-1 as a contributor for code #2108](https://github.com/MarkBind/markbind/pull/2108)                                                   |
+| 24 Jan 2023 | Reviewed PR: [add c00kie123 as a contributor for doc #2107](https://github.com/MarkBind/markbind/pull/2107)                                                |
+| 21 Jan 2023 | Reviewed PR: [Migrate vue-components README #2104](https://github.com/MarkBind/markbind/pull/2104)                                                         |
+| 16 Jan 2023 | Reviewed PR: [Update placement of Onboarding in dev docs #2086](https://github.com/MarkBind/markbind/pull/2086)                                            |
+| 26 Jan 2023 | Reviewed PR: [Add <page-nav-print /> to allow printing #2069](https://github.com/MarkBind/markbind/pull/2069)                                              |

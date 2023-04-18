@@ -1,11 +1,11 @@
 ## Summary
 
 During my CS3281 journey, I worked on:
-* Creating a admin support dashboard for new emails from scratch.
 * Migrating TEAMMATES from its previous GCP Datastore dependency to PostgreSQL as part of TEAMMATES v9.
 * Finding and fixing various hard-to-find bugs via testing.
 * Raising and guiding other (open-sourced) developers to improve TEAMMATES.
-* Giving suggestions and implementing upgrades to TEAMMATES (in terms of performance, code quality etc) whilst doing the migrations.
+* Proposing suggestions and implementing upgrades to TEAMMATES (in terms of performance, code quality etc) whilst doing the migrations.
+* Creating a admin support dashboard for new emails from scratch.
 
 ## Weekly progress
 
@@ -21,20 +21,21 @@ During my CS3281 journey, I worked on:
 | 10 | Migrated DeleteFeedbackSessionAction and fixed an undetected bug that has been previously merged which caused infinite loop (crash) when the action is invoked, debugged HibernateUtil not clearing and added utility in [PR #12226](https://github.com/TEAMMATES/teammates/pull/12226). |
 | 11 | Migrated several actions including writing unit/integration tests [PR #12258](https://github.com/TEAMMATES/teammates/pull/12258), [PR #12303](https://github.com/TEAMMATES/teammates/pull/12303), [PR #12304](https://github.com/TEAMMATES/teammates/pull/12304). |
 | 11 | Identified and fixed undetected bugs with DeadlineExtension CriteriaAPI causing fetching to fail that have been previously merged in [PR #12326](https://github.com/TEAMMATES/teammates/pull/12326). |
-| 12 | |
+| 12 | Migrated UpdateFeedbackSessionAction: Overhauled the EmailGeneration class to fit the new DB schema, updated architectural tests and refactored behavior of methods [PR #12360](https://github.com/TEAMMATES/teammates/pull/12360) |
 | 13 | |
 
 ## Issues raised
 | Week | Achievements |
 | ---- | ------------ |
 | 2 | Identified and raised some typos found in GitHub page. Issue fixed. |
-| 3 | Raised [Issue #12020](https://github.com/TEAMMATES/teammates/issues/12020) to improve future developer ease of onboarding, responded to open-source devs and provided assistance on how to fix the issue. Issue has been fixed and closed. |
+| 3 | Raised [Issue #12020](https://github.com/TEAMMATES/teammates/issues/12020) to improve future developer ease of onboarding. Responded to open-source devs and provided assistance on how to fix the issue. Issue fixed. |
 
 ## PR Reviews
 | Week | Review |
 | ---- | ------------ |
 | 9 | [PR #12191](https://github.com/TEAMMATES/teammates/pull/12191) Verified frontend issue has been resolved and looked at source code. |
 | 9-11 | [PR #12256](https://github.com/TEAMMATES/teammates/pull/12256),[PR #12273](https://github.com/TEAMMATES/teammates/pull/12273), [PR #12256](https://github.com/TEAMMATES/teammates/pull/12273) |
+| 12 | [PR #12342](https://github.com/TEAMMATES/teammates/pull/12342) |
 
 ## Misc
-* Regular maintenance work for TEAMMATES
+* Regular maintenance work for TEAMMATES (Looking through PRs, checking statuses etc)

@@ -36,6 +36,8 @@
 | 11   | Submitted Issue: [Remove electron from catcher documentation #1182](https://github.com/CATcher-org/CATcher/issues/1182) |
 | 12   | Reviewed PR: [Add spinners to indicate if edited information in issue has been persisted #1172](https://github.com/CATcher-org/CATcher/pull/1172) |
 | 12   | Reviewed PR: [Custom undo and redo stack in comment editor #1164](https://github.com/CATcher-org/CATcher/pull/1164) |
+| 13   | Reviewed PR: [Migrate Login page e2e test to Playwright #1185](https://github.com/CATcher-org/CATcher/pull/1185) |
+| 13   | Submitted Issue: [Replace Protractor with Playwright in CATcher documentations #1187](https://github.com/CATcher-org/CATcher/issues/1187) |
 
 ## WATcher
 
@@ -56,6 +58,9 @@
 | 11 | Reviewed PR: [Better error messages #104](https://github.com/CATcher-org/WATcher/pull/104) |
 | 12 | Reviewed PR: [119 fix datatable inefficiency #120](https://github.com/CATcher-org/WATcher/pull/120) |
 | 12 | Reviewed PR: [68 upgrade angular to v10 and node to v14 #105](https://github.com/CATcher-org/WATcher/pull/105) |
+| 13 | Submitted Issue: [New logo for WATcher #136](https://github.com/CATcher-org/WATcher/issues/136) |
+| 13 | Submitted Issue: [Issues are not sorted by date updated correctly #137](https://github.com/CATcher-org/WATcher/issues/137) |
+| 13 | Reviewed PR: [Modularization and abstraction of filter related components #129](https://github.com/CATcher-org/WATcher/pull/129) |
 
 ## CATcher documentations
 
@@ -67,6 +72,13 @@
 | 4 | Reviewed PR: [Update documentation site's MarkBind version #21](https://github.com/CATcher-org/catcher-org.github.io/pull/21) |
 | 11 | Merged PR: [Update contributor list #29](https://github.com/CATcher-org/catcher-org.github.io/pull/29) |
 
+## WATcher documentations
+
+| Week | Achievements |
+| ---- | ------------ |
+| 13   | Submitted Issue: [Add dev container support #8](https://github.com/CATcher-org/WATcher-docs/issues/8) |
+| 13   | Submitted Issue: [Improvements to About Us page #9](https://github.com/CATcher-org/WATcher-docs/issues/9) |
+
 ## External Project [(gavv/httpexpect)](https://github.com/gavv/httpexpect)
 
 | Week | Achievements                                                                                                          |
@@ -76,4 +88,4 @@
 | 4    | Started working on issue #244 [Lazy reading of response body](https://github.com/gavv/httpexpect/issues/244) |
 | 5    | Merged PR #266 [Add lazy reading of response body](https://github.com/gavv/httpexpect/pull/266) |
 | 10   | Started working on issue #245 [Support infinite responses in bodyWrapper](https://github.com/gavv/httpexpect/issues/245) |
-| -    | Pending approval PR #342 [Support infinite responses in bodyWrapper](https://github.com/gavv/httpexpect/pull/342) |
+| 12    | Merged PR #342 [Support infinite responses in bodyWrapper](https://github.com/gavv/httpexpect/pull/342) |
