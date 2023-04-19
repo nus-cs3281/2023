@@ -54,6 +54,7 @@
 | 13   | Discussion on issue: [Setup Code Coverage (#1755)](https://github.com/MarkBind/markbind/issues/1755) |
 | 13   | Discussion on issue: [Add documentation on migrating Node.js (#2246)](https://github.com/MarkBind/markbind/issues/2246) |
 | 13   | Discussion on issue: [Improve popover location when the trigger spans multiple lines (#1688)](https://github.com/MarkBind/markbind/issues/1688) |
+| 13   | Opened good-first-issue: [Remove unused renameSlot method (#2284)](https://github.com/MarkBind/markbind/issues/2284) |
 
 ## Implementation work
 
@@ -75,7 +76,7 @@
 | 10   | Authored PR: [Migrate non-default plugins to TS (#2230)](https://github.com/MarkBind/markbind/pull/2230/) |
 | 10   | Authored PR: [Migrate default plugin tests to TS (#2213)](https://github.com/MarkBind/markbind/pull/2213) |
 | 11   | Authored PR: [Clean up & standardise TypeScript conventions (#2234)](https://github.com/MarkBind/markbind/pull/2234) |
-| 13   | Authored PR: [Migrate Site/index.js to TypeScript](https://github.com/MarkBind/markbind/pull/2270) |
+| 13   | Authored PR: [Migrate Site/index.js to TypeScript (#2270)](https://github.com/MarkBind/markbind/pull/2270) |
 
 ## PR Reviews
 
@@ -133,4 +134,7 @@
 | 12   | Reviewed PR: [Refactor initSite method in Site/index.js (#2267)](https://github.com/MarkBind/markbind/pull/2267) |
 | 12   | Reviewed PR: [Remove line numbers from code block (#2269)](https://github.com/MarkBind/markbind/pull/2269) |
 | 13   | Reviewed PR: [Update release note format to align with GitHub generated list (#2254)](https://github.com/MarkBind/markbind/pull/2254) |
+| 13   | Reviewed PR: [Remove un-used renameSlot method (#2286)](https://github.com/MarkBind/markbind/pull/2286) |
+| 13   | Reviewed PR: [Add CI check to spot warnings when building docs (#2287)](https://github.com/MarkBind/markbind/pull/2287) |
+| 13   | Reviewed PR: [add bibhu107 as a contributor for code #2289](https://github.com/MarkBind/markbind/pull/2289) |
 

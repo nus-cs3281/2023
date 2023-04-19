@@ -59,7 +59,7 @@ Here is a good read on [spies](https://www.baeldung.com/mockito-spy). Love baeld
 
 ## Integration Tests
 
-My mentor said something that will have me remember for life - "We should not use mocks for Integration Tests.". This was a 'Today I Learned' fully moment.
+My mentor said something that will have me remember for life - "We should not use mocks for Integration Tests.". This was a 'Today I Learned' moment.
 
 # Hibernate
 
@@ -179,6 +179,53 @@ Here are some resources that helped me on understanding this:
 - From [Baeldung](https://www.baeldung.com/jpa-cascade-remove-vs-orphanremoval)
 - From [Stackoverflow](https://stackoverflow.com/questions/4329577/how-does-jpa-orphanremoval-true-differ-from-the-on-delete-cascade-dml-clause)
 
+## Inheritance Strategies
+
+As mentioned above, Hibernate as a framework works with OOP heavily. To start off, in order to model the relationship between entities, we need to define the java classes in an OOP fashion. Hibernate as an Object Relational Mapping tool does the heavylifting for us - we just need to tell it what we want in the OOP 'language' that Hibernate interprets really well in.
+
+I picked this up when I was tasked to design the parent-child relationship for the User's entity (in this [PR #12071](https://github.com/TEAMMATES/teammates/pull/12071)). `User` is the parent entity that has child entities i.e., These child entities extend this parent `User` class.
+
+When considering which strategy to use, there were other factors to consider - performance, scalability, maintainability.
+
+These were what I found during the research of the 4 inheritance strategies that Hibernate provides.
+
+---
+
+Below are the findings for the 4 available inheritance strategies in [Hibernate](https://docs.jboss.org/hibernate/orm/6.1/userguide/html_single/Hibernate_User_Guide.html#entity-inheritance):
+
+### MappedSuperclass
+
+- Not scalable. If we use this, ancestors cannot contain associations with other entities.
+- Each DB table contains both base and sub classes properties.
+
+### Single Table
+
+- Performant (polymorphic query performance) as only 1 table needs to be accessed when querying parent entities. Best performance among the other strategies.
+- However, can no longer use NOT NULL constraints on subclass entity properties. I think this means that the identifying attributes of the rows of subclasses can be nullable?
+- For our case of Student/Instructor IS-A User, we will only have 1 table in the DB, i.e., User, with all the fields combined. This means Single Table is out of our options? Student is a User but it shouldn't have Instructor attributes/data.
+- Could use discriminator values which is used to differentiate between rows belonging to separate subclass types.
+
+### Joined Table aka Table-per-subclass mapping strategy
+
+- TLDR: An inherited state is retrieved by joining with the table of the superclass.
+- Great because the PK of User appears in its child classes, e.g., In Student/Instructor.
+- Performance issues as retrieving entities requires joins between the tables, expensive for large number of records. Number of joins is higher when we query parent class as it will join with every single related child.
+- Discriminator column not required. But each subclass must declare a table column holding the object identifier (which is kind of what we want as each subclass table contains the FKs to the base class, User; PKs of sub class tables are also FKs to the superclass table PK. If `@PKJoinCol` not set, the PK/FK cols are assumed to have the same names as the PK cols of primary table of the superclass).
+- When using polymorphic queries, base class table must be joined with all subclass tables to fetch every associated subclass instance.
+
+### Table per Class
+
+- Performance issue because we union in the background when we query the base class i.e., User.
+- Each table defines all persistent states of the class, including the inherited state.
+- If we want to use polymorphic associations (eg An association to the superclass of our hierarchy), we need to use union subclass mapping. This requires multiple `UNION` queries, be aware of performance implications of a large class hierarchy. Also, not all database systems support `UNION ALL`. [PostgreSQL81Dialect](https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/dialect/PostgreSQL81Dialect.html) supports `UNION ALL`.
+
+Some resources I used to help me work out the different inheritance strategies
+
+- Directly from the [Hibernate documentation](https://docs.jboss.org/hibernate/orm/6.1/userguide/html_single/Hibernate_User_Guide.html#entity-inheritance)
+- From [Baeldung](https://www.baeldung.com/hibernate-inheritance). This was slightly out of date compared to the Hibernate docs
+
+---
+
 ## Conclusion
 
 Hibernate does provide way more than the above but let's look forward to what else we can learn in the future tasks!
@@ -197,7 +244,7 @@ Below are some wonderful resources that have helped me along the way:
 
 ## Large Modifications to a Live System
 
-Have to credit my teammate, Kevin, for bringing up this point.
+Crediting my teammate, Kevin, for bringing up this point.
 
 This semestral project, v9-migration - moving from NoSQL to SQL, could be detrimental to a live system that relies on huge chunks of data to function if not done with caution.
 
@@ -214,3 +261,39 @@ Through the PRs that I have submitted, I learned that we should always set it as
 A helpful part of the UI for a PR in GitHub is the `Files Changed` tab. This allows us to get a full overview of the changes that were made, additions or deletions, to each file.
 
 This can definitely go a long way, especially when we have a large PR.
+
+## A different view when looking at a PR
+
+Crediting my mentor, Samuel, for introducing this.
+
+When looking at a Pull Request on GitHub, tapping on the `.` key on our keyboard brings us to another page - [GitHub's built-in Visual Studio Code in the web browser](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor). Extremely cool stuff!
+
+## GitHub CLI
+
+Prior to reviewing PRs in TEAMMATES, I haven't really experienced any trouble with pulling the branch I am reviewing locally.
+
+I faced troubles in doing so when reviewing my first TEAMMATE's PR. The reason was that this branch in the PR resides in the developer's own fork.
+
+The process was different as to what I have always been in when reviewing a PR - was a remote branch that resides in the same repository and not a fork.
+
+My first go-to solution to this was to add the developer's fork as a remote repository for me to track locally by using (some parts of this [guide](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/) helped!):
+
+```git
+git remote add ANY_FORK_NAME FORK_URL
+git fetch ANY_FORK_NAME
+git checkout BRANCH_IN_PR
+```
+
+This worked fine! But at one point, I could not get this working.
+
+I spent quite awhile to search on why but to no avail.
+
+There was a suggestion on Stackoverflow that proposed others to use the [GitHub CLI](https://cli.github.com/).
+
+This was a plug-and-play tool, especially developing on Windows some setup could be rather cumbersome. All I had to do was visit the link above and install this CLI. Next, it was just a single line command...
+
+```git
+gh pr checkout PR_NUMBER
+```
+
+This was a **_life saver_**! Checking out to the developer's branch in his/her fork and reviewing a PR now have never been simpler!

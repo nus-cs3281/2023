@@ -1,9 +1,9 @@
-### Angular
-## Context
+## Angular
+### Context
 Having worked on CATcher for IWM last summer, I've gained familiarity with Angular. Working on TEAMMATES, I've deepened my knowledge
 of the framework, and there were two new things that I've picked up about Angular.
 
-## Pipes
+### Pipes
 Although I was previously aware of the use of pipes, I was not aware of the performance aspect. In particular, using pipes
 are much more efficient than methods to render strings:
 
@@ -21,7 +21,7 @@ when the input of the pipe, in this case `name`, is changed.
 [Here](https://medium.com/angular-in-depth/tiny-angular-pipe-to-make-any-function-memoizable-f6c8fa917f2f) is a medium article that
 dives more into the benefits of using pipes.
 
-## Angular Template
+### Angular Template
 ES6 template literals and nested string interpolation aren't supported in Angular:
 
 ```javascript
@@ -32,14 +32,14 @@ ES6 template literals and nested string interpolation aren't supported in Angula
 
 This was something that I learnt from an open source contributor in [this](https://github.com/TEAMMATES/teammates/pull/12249) PR.
 
-### Hibernate
-## Context
+## Hibernate
+### Context
 Prior to taking CS3281, I've only used Java in CS2030S, CS2040S and of course CS2103T, never on a live system used by actual users.
 This was hence my first experience in writing a Java backend, and I'm glad that I got the opportunity, and I am confident that 
 I'm now able to work on backend systems with Hibernate, from defining database tables, specifying entity relations, and writing queries.
 The following are a few aspects of Hibernate I'd like to highlight.
 
-## Entities
+### Entities
 In Hibernate, each class created by the developer creates a corresponding table in the database. (with some exceptions, I'll get to that later) A typical Hibernate entity looks like this:
 
 ```java
@@ -65,7 +65,7 @@ A database table corresponding to the class will be created, with columns `id` a
 
 There are numerous annotations, and Thorben Janssen's [guide](https://thorben-janssen.com/key-jpa-hibernate-annotations/) gives a in depth overview of the most essential ones.
 
-## Entity lifecycle
+### Entity lifecycle
 Once the entities are defined, we can perform create, update and delete operations, and these effects will be persisted to the database.
 
 For instance, when we have a `Student` class with a `name` field, and we would like to update it, we simply call the field's setter, `student.setName("newName");` to update the student's name. 
@@ -74,7 +74,7 @@ Hibernate will persist the changes to the database automatically, without the de
 
 There's a great guide on the entity lifecycle [here](https://thorben-janssen.com/entity-lifecycle-model/)
 
-## Inheritance
+### Inheritance
 Inheritance is a key feature of OOP languages such as Java, and is also supported by Hibernate. 
 
 There are a few different ways that inherited entities are mapped to database tables.
@@ -119,14 +119,14 @@ each subclass will have its own table, and when querying, it is joined with the 
 
 Baeldung's [guide](https://www.baeldung.com/hibernate-inheritance) on inheritance strategies was extremely helpful to me in understanding the differences between them, and the tradeoffs one needs to consider when choosing among them.
 
-### Testing
+## Testing
 
-## Context
+### Context
 Prior to working on TEAMMATES, the only exposure to software testing I had was in CS2103T. Working on the migration to postgresql involved writing tests, and
 through that I've gained a slightly better understanding of the different types of tests, and a much greater appreciation of the importance of tests. When 
 migrating the system to postgres, having the old test cases provided us with some reassurance that the changes we made to the system would not impact the 
 existing functionalities, which is absolutely essential for a live system.
-## Unit vs Integration testing
+### Unit vs Integration testing
 Unit testing is testing individual components, in isolation. For components with dependancies, these dependancies are mocked to ensure that any errors
 would be due to bugs in the component itself, and not its underlying dependancies. An example of this in TEAMMATES would be that when doing unit testing
 for the logic layer, which depends on the database layer, we mock the database layer. 
@@ -142,9 +142,9 @@ breaking changes are introduced to the system, and is thus essential in a live s
 [Here](https://www.softwaretestinghelp.com/the-difference-between-unit-integration-and-functional-testing/) is an article that summarises the differences between
 unit testing, integration testing and 
 
-### OOP patterns
+## OOP patterns
 
-## Builder pattern
+### Builder pattern
 The builder pattern is useful when a class has many fields that are optional upon instantiation.
 Imagine a Java class that has 3 fields:
 
@@ -213,7 +213,7 @@ We can then create `Foo`, with a b or c being optional without having to create 
 Foo foo = new Foo.FooBuilder().setA("string").setC(100).build();
 ```
 
-## Factory pattern
+### Factory pattern
 The factory pattern should be used when an object needs to be created, but the object to be created is dependant on criteria.
 The creation logic should then be encapsulated in a factory method.
 
@@ -281,9 +281,9 @@ This way, the creation logic is able to be reused throughout the application, an
 allowing for more extensible code.
 [Here](https://sergeyzhuk.me/2017/05/22/when-to-factory/) is a great article on why the factory method is useful.
 
-### Misc
+## Misc
 
-## Migrations
+### Migrations
 Observing how the migration from datastore to postgresql is carried out for a live system used by users worldwide, with no impact to them is pretty amazing to me.
 Our dualDB approach, where we still query the datastore for courses that are not migrated yet, ensures that functionalities are still avaliabile for the users,
 even when we make huge changes to the system. This is also known as a trickle migration.
@@ -291,18 +291,18 @@ even when we make huge changes to the system. This is also known as a trickle mi
 [Here](https://www.talend.com/resources/understanding-data-migration-strategies-best-practices/) is an article I came across when searching up on
 the types of migration strategies used.
 
-## Github web editor
+### Github web editor
 Credits to Samuel for this, but I was previously unaware that github had a web editor. By pressing `.` on PRs, it opens the web editor which is
 extremely useful for reviewing PRs, especially those that make changes to large files, so that we can easily view the changes made with the context
 of the entire file, and also its various dependencies.
-## Git interactive rebase
+### Git interactive rebase
 I've learnt the use of interactive rebase, and how I can use it to rewrite my commit history. This is particularly useful when I would like to remove
 commits that are unncesary (for instance commits like `fix checkstyle`), and create a more meaningful commit chain for my PRs. Although the commits are
 squashed in the end when merged, I find that it is important especially for larger PRs to keep a meaningful commit history, to make it easier on reviewers.
 
 [Here](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase) is an article by atlassian that provides more details about the rebase command.
 
-## Github CLI
+### Github CLI
 Prior to this module, I've never used the github CLI, sticking with just `git` commands. However, I found it very useful to use the CLI, especially when reviewing
 PRs, as it allowed me to checkout someone's branch with just one command, which github provides on the review page, rather than having to add their remote repo,
 fetching their branches and then checking out the branch. 
