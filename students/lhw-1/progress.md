@@ -5,9 +5,9 @@
 Over the past semester (AY22/23 Semester 2), I have worked on various aspects of the user-oriented aspects of MarkBind, including CLI, template, and logging. Some of the notable features that I have worked on are:
 
 - Improvements on the current CLI (PRs [#2218](https://github.com/MarkBind/markbind/pull/2218), [#2248](https://github.com/MarkBind/markbind/pull/2248))
-- Revamp of MarkBind template (PRs [#2128](https://github.com/MarkBind/markbind/pull/2128), [#2165](https://github.com/MarkBind/markbind/pull/2165), [#2186](https://github.com/MarkBind/markbind/pull/2186), [#2225](https://github.com/MarkBind/markbind/pull/2225), [#2248](https://github.com/MarkBind/markbind/pull/2248))
+- Revamp of MarkBind template (PRs [#2128](https://github.com/MarkBind/markbind/pull/2128), [#2165](https://github.com/MarkBind/markbind/pull/2165), [#2186](https://github.com/MarkBind/markbind/pull/2186), [#2225](https://github.com/MarkBind/markbind/pull/2225), [#2248](https://github.com/MarkBind/markbind/pull/2248), [#2278](https://github.com/MarkBind/markbind/pull/2278))
 - Logging-related improvements (PR [#2053](https://github.com/MarkBind/markbind/pull/2053))
-- Refactoring various parts of the CLI-related codebase (PRs [#2148](https://github.com/MarkBind/markbind/pull/2148), [#2239](https://github.com/MarkBind/markbind/pull/2239))
+- Refactoring various parts of the CLI-related codebase (PRs [#2148](https://github.com/MarkBind/markbind/pull/2148), [#2239](https://github.com/MarkBind/markbind/pull/2239), [#2267](https://github.com/MarkBind/markbind/pull/2267))
 
 ### Progress Overview
 
@@ -24,6 +24,8 @@ Relevant Authored PRs:
 - [Refactor cli/index.js (#2239)](https://github.com/MarkBind/markbind/pull/2239)
 - [Update examples for CLI Commands in UG (#2247)](https://github.com/MarkBind/markbind/pull/2247)
 - [Generate .gitignore on init command (#2248)](https://github.com/MarkBind/markbind/pull/2248)
+- [Fix minor UI issues with default.md (#2278)](https://github.com/MarkBind/markbind/pull/2278)
+- [Update DG to be consistent with default template (#2288)](https://github.com/MarkBind/markbind/pull/2288)
 
 Relevant Issues opened:
 - [Explore testing outputs and warnings from the logger (#2099)](https://github.com/MarkBind/markbind/issues/2099)
@@ -33,6 +35,7 @@ Relevant Issues opened:
 - [Consider re-organizing the current default template (#2214)](https://github.com/MarkBind/markbind/issues/2214)
 - [Allow `deploy` command to modify `baseUrl` (#2249)](https://github.com/MarkBind/markbind/issues/2249)
 - [Automatically generate `baseUrl` when deploying from a git repository (#2250)](https://github.com/MarkBind/markbind/issues/2250)
+- [Consider replacing the default favicon for conversion (#2279)](https://github.com/MarkBind/markbind/issues/2279)
 
 I also have contributed (and am still contributing) to various other aspects of MarkBind, including the TypeScript migration, components, and bug fixes.
 
@@ -107,6 +110,11 @@ Relevant Issues opened:
 | 12   | Authored PR: [Refactor initSite method in Site/index.js (#2267)](https://github.com/MarkBind/markbind/pull/2267) |
 | 12   | Merged PR: [Fix live server issue with lazy loading from CLI refactor (#2266)](https://github.com/MarkBind/markbind/pull/2266) |
 | 12   | Merged PR: [Generate .gitignore on init command (#2248)](https://github.com/MarkBind/markbind/pull/2248) |
+| 13   | Merged PR: [Refactor initSite method in Site/index.js (#2267)](https://github.com/MarkBind/markbind/pull/2267) |
+| 13   | Authored PR: [Fix minor UI issues with default.md (#2278)](https://github.com/MarkBind/markbind/pull/2278) |
+| 13   | Authored PR: [Update DG to be consistent with default template (#2288)](https://github.com/MarkBind/markbind/pull/2288) |
+| 13   | Merged PR: [Fix minor UI issues with default.md (#2278)](https://github.com/MarkBind/markbind/pull/2278) |
+| 13   | Merged PR: [Update DG to be consistent with default template (#2288)](https://github.com/MarkBind/markbind/pull/2288) |
 
 ### Issues / Discussions
 
@@ -145,3 +153,5 @@ Relevant Issues opened:
 | 11   | Discussion on issue: [Consider re-organizing the current default template (#2214)](https://github.com/MarkBind/markbind/issues/2214) |
 | 11   | Opened issue: [Add a set of tutorials for MarkBind (#2257)](https://github.com/MarkBind/markbind/issues/2257) |
 | 12   | Discussion on issue: [Add more unit tests for core package (#2106)](https://github.com/MarkBind/markbind/issues/2106) |
+| 13   | Discussion on issue: [Markbind init --convert improvements (#1866)](https://github.com/MarkBind/markbind/issues/1866) |
+| 13   | Opened issue: [Consider replacing the default favicon for conversion (#2279)](https://github.com/MarkBind/markbind/issues/2279) |
