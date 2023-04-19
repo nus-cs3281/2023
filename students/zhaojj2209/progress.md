@@ -183,3 +183,23 @@
 | 11    | Submitted Issue: [Admin logs page: Fix overflow of "Clear all" button #12291](https://github.com/TEAMMATES/teammates/issues/12291) |
 | 11    | Submitted Issue: [Admin logs page: Fix display of logs table on mobile #12292](https://github.com/TEAMMATES/teammates/issues/12292) |
 | 11    | Submitted Issue: [Admin logs page: Extension of query start/end time is not reflected in search range #12293](https://github.com/TEAMMATES/teammates/issues/12293) |
+| 11    | Reviewed PR: [Instructor home page: Fix alignment of "Add New Course" button #12295](https://github.com/TEAMMATES/teammates/pull/12295) |
+| 11    | Reviewed PR: [Fix rank recipients question mobile spacing #12299](https://github.com/TEAMMATES/teammates/pull/12299) |
+| 11    | Reviewed PR: [Fix rank options question on instructor edit session page #12306](https://github.com/TEAMMATES/teammates/pull/12306) |
+| 11    | Submitted Issue: [Release V8.26.0 #12317](https://github.com/TEAMMATES/teammates/issues/12317) |
+| 11    | Reviewed PR: [User-friendliness: Fix all remaining sortable table headers #12325](https://github.com/TEAMMATES/teammates/pull/12325) |
+| 11    | Merged PR: [Release V8.26.0 #12330](https://github.com/TEAMMATES/teammates/pull/12330) |
+| 12    | Merged PR: [Migrate UpdateInstructorPrivilegeAction #12343](https://github.com/TEAMMATES/teammates/pull/12343) |
+| 12    | Reviewed PR: [fix copy questions modal checkbox #12348](https://github.com/TEAMMATES/teammates/pull/12348) |
+| 12    | Reviewed PR: [Instructor: support previewing results as a student #12351](https://github.com/TEAMMATES/teammates/pull/12351) |
+| 12    | Reviewed PR: [[#10623] Update development, troubleshooting, and process documentation #12358](https://github.com/TEAMMATES/teammates/pull/12358) |
+| 13    | Reviewed PR: [Show loading message below response loading spinner #12321](https://github.com/TEAMMATES/teammates/pull/12321) |
+| 13    | Submitted Issue: [Enhance Pull Request Template #12361](https://github.com/TEAMMATES/teammates/issues/12361) |
+| 13    | Reviewed PR: [Instructor courses page: fix copy instructors from other courses modal checkbox #12369](https://github.com/TEAMMATES/teammates/pull/12369) |
+| 13    | Merged PR: [Enhance Pull Request Template #12370](https://github.com/TEAMMATES/teammates/pull/12370) |
+| 13    | Reviewed PR: [Student submitting fewer responses than allowed: don't consider the question as 'not fully answered' #12323](https://github.com/TEAMMATES/teammates/pull/12323) |
+| 13    | Reviewed PR: [Admin logs page: Fix overflow of "Clear all" button #12298](https://github.com/TEAMMATES/teammates/pull/12298) |
+| 13    | Submitted Issue: [Release V8.27.0 #12376](https://github.com/TEAMMATES/teammates/issues/12376) |
+| 13    | Submitted Issue: [PR template causing PR checker to automatically pass #12380](https://github.com/TEAMMATES/teammates/issues/12380) |
+| 13    | Merged PR: [PR template causing PR checker to automatically pass #12381](https://github.com/TEAMMATES/teammates/pull/12381) |
+| 13    | Merged PR: [Release V8.27.0 #12382](https://github.com/TEAMMATES/teammates/pull/12382) |

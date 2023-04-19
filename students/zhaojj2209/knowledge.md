@@ -33,6 +33,15 @@ Through TEAMMATES, I have learnt to use tests effectively in various scenarios, 
 Resources:
 - [Jasmine Tutorial](https://jasmine.github.io/tutorials/your_first_suite)
 
+#### Mobile-friendliness
+
+Mobile-friendliness is the practice of making websites easier to use on mobile devices. One major component of mobile-friendliness is mobile-responsiveness, which is the practice of making websites adapt to different screen sizes (mobile/tablet/desktop). This is commonly done by making use of breakpoints available in UI libraries (in TEAMMATES' case, Bootstrap). Other mobile-friendliness considerations include making interactive components spaced apart so that they are easy to tap on mobile, and avoiding placing elements on extreme corners as it makes tapping more difficult on mobile.
+
+While I have had prior experience with mobile-responsive design, it was nonetheless a challenge to flag out all the mobile-friendliness issues in TEAMMATES and figure out the best way to fix them. This skill is best picked up with constant exposure and practice.
+
+Resources:
+- [Responsive design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+
 ### Backend
 
 #### Google Cloud Datastore
@@ -54,6 +63,15 @@ Objects in Java can be serialized into a stream of bytes so that it can be saved
 Resources:
 - [Java Serialization tutorial](https://docs.oracle.com/javase/tutorial/jndi/objects/serial.html)
 
+#### Hibernate
+
+Hibernate is an object-relational mapping (ORM) tool that allows Java applications to connect to relational databases by providing a mapping between the relational database model and Java's object model. By using Hibernate, database operations can be done by calling Hibernate's API instead of manually constructing SQL queries. Annotations are used to denote the relationships between tables/entities.
+
+In order to use Hibernate effectively, one must be familiar with the Hibernate entity lifecycle so as to determine whether an entity is properly saved into the database.
+
+Resources:
+- [Hibernate tutorial](https://howtodoinjava.com/series/hibernate-tutorials/)
+
 ### End-to-End Testing
 
 #### Selenium
@@ -70,3 +88,23 @@ In designing E2E tests, I learnt about the Page Object Model, where all code rel
 
 Resources:
 - [Selenium tutorial](https://www.selenium.dev/documentation/webdriver/getting_started/first_script/)
+
+### Accessibility
+
+Accessibility (or a11y) is the practice of making a website easier to use for people with various disabilities (auditory, visual, etc). The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) serve to standardise accessibility rules for all websites.
+
+In order to conduct an accessibility review on the TEAMMATES website as well as teach the CS3281 students, I learnt to make use of screen readers (VoiceOver on Mac and NVDA on Windows) to navigate the website. I also condensed the WCAG guidelines into a list of recommended best practices, including but not limited to: adding labels for all form inputs, interactive elements should be present in the tabbing order/visible to screen readers, correct headings hierarchy.
+
+Resources:
+- [How to do an accessibility review](https://web.dev/how-to-review/)
+- [Accessibility tutorial](https://www.w3schools.com/accessibility/index.php)
+- [A11y checklist](https://www.a11yproject.com/checklist/)
+
+#### Accessibility Testing
+
+Axe-core is an accessibility testing library that helps to automate some aspects of accessibility testing, by automatically flagging out parts of the website that violates WCAG guidelines. The axe-core API for Selenium Java was used for accessibility testing in TEAMMATES.
+
+Note that while automated accessibility testing can help to flag out certain issues in the website, some aspects of accessibility testing still has to be done via manual review (e.g. tabbing order, whether the tags are used correctly semantics-wise).
+
+Resources:
+- [axe-core-maven-html-selenium](https://github.com/dequelabs/axe-core-maven-html/blob/develop/selenium/README.md)
