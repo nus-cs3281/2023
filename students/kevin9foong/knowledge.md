@@ -195,6 +195,7 @@ Also, I've learnt many shortcuts to improve my developer workflow.
 * Ctrl + P for file search
 * opt + click for multi-cursor etc
 * And many more
+
 #### Terminal and keyboard shortcuts
 
 * To delete words and navigate quickly (opt + backspace, opt + arrow keys)
