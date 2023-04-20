@@ -12,6 +12,13 @@ Compared to React, Angular has more built in functionality such as debouncing fu
 ### Presentation-Logic-Data Layering
 * I learnt more about writing well abstracted code and in how to structure a backend system by splitting the system into distinct layers for each responsibility. I was also able to discuss of how to improve and abstract responsibilities with my mentors to improve the software architecture of TEAMMATES.
 
+### Exception wrapping
+* I learnt and implemented the practice of exception wrapping (related to the above layering concept) to abstract lower level details from higher level components.
+
+For example, I delegated the DB layer be responsible only for database operations. Exceptions thrown during the primitive DB layer operations are wrapped in the logic layer into relevant logic layer exceptions so as to abstract away the details of data access from the rest of the application.
+
+I referred to this online guide by [Jenkov on Exception Wrapping](https://jenkov.com/tutorials/java-exception-handling/exception-wrapping.html).
+
 ### How to ensure product stays live even during migration
 * Working on a product which serves live users every month, I learnt how we can migrate from the existing GCP Datastore product to PGSQL while still serving actual users (without downtime). This can be done through implementing logic in code to check if the entity has been migrated yet, allowing the code to be able to serve users throughout the migration process.
 
@@ -31,7 +38,13 @@ Compared to React, Angular has more built in functionality such as debouncing fu
 
 * I've learnt how to effectively use Mockito to mock lower layer and third party dependencies, use spies to ensure certain methods are invoked etc to isolate a specific unit to be under test.
 
+For example, I used mocks and spies to isolate my software under test into units. Then, using Mockito, I was able to verify that methods were invoked for a number of times with specific arguments etc.
+
 * Applying concepts learnt in CS2103T, I focused on testing areas which have the highest likelihood of bugs, this allowed me to discover bugs in my own and others' code and be able to fix and resolve them.
+
+* Utility of static analyzers in detecting bugs
+
+Through my CS3281 journey, I also realized how static analyzers such as pmd are not only able to enforce coding standards, but are also very effective in finding where potential bugs are. For example, pmd highlighted areas where null was possible and allowed me to discover and fix several bugs.
 
 ### Architecture testing with ArchUnit
 * Prior to CS3281, I was unaware of the existence of Architectural tests.
@@ -53,12 +66,17 @@ I've learnt that regression testing is extremely important. Especially when ther
 ### OSS project maintenance
 * I gained new experience learning to work with open-sourced devs from across the world. I helped guide and provide technical support and feedback and raised issues.
 
-### SWE best practices
+* Also, from TEAMMATES, I have learnt how tools such as Github Actions can be used to maintain a large-scale project, such as using the OSS-bot for regular maintenance updates and suggestions.
+
+### SWE/Project management best practices
 * I learnt of the importance of splitting PRs across smaller PRs so reviewers could review code easier.
 As a reviewer and someone writing PRs, I've grown across the weeks as shown by splitting the PRs into smaller PRs for easier reviews. Though this might seem like a small tweak, I believe that my experience in CS3281 has made me better as a team player and software engineer.
 
 * I learnt some SWE practices and proposed changes to make the code quality better.
 For example, I discussed with my mentors of best practices and refactored functions that existed solely to throw an exception vs returning a boolean. I learnt and discussed different SWE ideas and did research such as [considering which SWE practice is best](https://codereview.stackexchange.com/questions/11724/is-it-better-practice-to-have-void-method-throw-an-exception-or-to-have-the-meth).
+
+* Communication skills
+I learnt of the importance of keeping the entire team updated with what each member is doing and the importance of sprint planning and standup meetings. For example, having regularly procedures for updates allows the team to better understand what everyone is doing and prevents potential duplicate/missing work. During CS3282, I hope to recommend and practice having standup meetings with my teammates.
 
 ## Improving my fluency with using SWE tooling
 ### Debugger

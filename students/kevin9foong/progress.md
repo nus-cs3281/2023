@@ -21,8 +21,7 @@ During my CS3281 journey, I worked on:
 | 10 | Migrated DeleteFeedbackSessionAction and fixed an undetected bug that has been previously merged which caused infinite loop (crash) when the action is invoked, debugged HibernateUtil not clearing and added utility in [PR #12226](https://github.com/TEAMMATES/teammates/pull/12226). |
 | 11 | Migrated several actions including writing unit/integration tests [PR #12258](https://github.com/TEAMMATES/teammates/pull/12258), [PR #12303](https://github.com/TEAMMATES/teammates/pull/12303), [PR #12304](https://github.com/TEAMMATES/teammates/pull/12304). |
 | 11 | Identified and fixed undetected bugs with DeadlineExtension CriteriaAPI causing fetching to fail that have been previously merged in [PR #12326](https://github.com/TEAMMATES/teammates/pull/12326). |
-| 12 | Migrated UpdateFeedbackSessionAction: Overhauled the EmailGeneration class to fit the new DB schema, updated architectural tests and refactored behavior of methods [PR #12360](https://github.com/TEAMMATES/teammates/pull/12360) |
-| 13 | |
+| 12 & 13 | Migrated UpdateFeedbackSessionAction: Overhauled the EmailGeneration class to fit the new DB schema, updated architectural tests and refactored behavior of methods [PR #12360](https://github.com/TEAMMATES/teammates/pull/12360) |
 
 ## Issues raised
 | Week | Achievements |
@@ -34,8 +33,8 @@ During my CS3281 journey, I worked on:
 | Week | Review |
 | ---- | ------------ |
 | 9 | [PR #12191](https://github.com/TEAMMATES/teammates/pull/12191) Verified frontend issue has been resolved and looked at source code. |
-| 9-11 | [PR #12256](https://github.com/TEAMMATES/teammates/pull/12256),[PR #12273](https://github.com/TEAMMATES/teammates/pull/12273), [PR #12256](https://github.com/TEAMMATES/teammates/pull/12273) |
-| 12 | [PR #12342](https://github.com/TEAMMATES/teammates/pull/12342) |
+| 9-13 | PR reviews of migration works by Hieu [PR #12256](https://github.com/TEAMMATES/teammates/pull/12256),[PR #12257](https://github.com/TEAMMATES/teammates/pull/12257), [PR #12273](https://github.com/TEAMMATES/teammates/pull/12273), [PR #12256](https://github.com/TEAMMATES/teammates/pull/12273) |
+| 12 | [PR #12342](https://github.com/TEAMMATES/teammates/pull/12342) Verify admin logs query start/end time fixed |
 
 ## Misc
 * Regular maintenance work for TEAMMATES (Looking through PRs, checking statuses etc)
