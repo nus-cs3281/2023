@@ -57,6 +57,33 @@ However, it is not a good practice to force a commit for each transaction as it 
 
 #### Eager and Lazy loading concept
 
+I've also learnt that in Hibernate, eager loading means that related entities are loaded from the database along with the main entity, while lazy loading means that related entities are only loaded when they are explicitly accessed. Here are some examples:
+
+* Eager loading:
+
+```
+@Entity
+public class DeadlineExtension {
+    @ManyToOne(fetch = FetchType.EAGER)
+    private FeedbackSession feedbackSession;
+    // ...
+}
+```
+In this example, the FeedbackSession entity is eagerly loaded along with the DeadlineExtension entity, meaning that whenever a DeadlineExtension is fetched from the database, its FeedbackSession is also fetched.
+
+* Lazy loading:
+
+```
+@Entity
+public class DeadlineExtension {
+    @ManyToOne(fetch = FetchType.LAZY) // this is the default we are using in TEAMMATES
+    private FeedbackSession feedbackSession;
+    // ...
+}
+```
+
+In this example, the FeedbackSession entity is lazily loaded, meaning that it is not fetched from the database until it is explicitly accessed. This can help improve performance by reducing the number of database queries made during the application's lifecycle.
+
 #### Optimizing queries with SQL and abstracting SQL with Criteria API
 
 I have also learnt how to use CriteriaAPI to create SQL queries and even write dynamic queries to reduce the number of queries needed to fetch a large number of records based on dynamic selection predicates.
@@ -121,7 +148,7 @@ I have learnt how to analyse the written code to find places with higher cycloma
 
 Through my CS3281 journey, I also realized how static analyzers such as pmd are not only able to enforce coding standards, but are also very effective in finding where potential bugs are. For example, pmd highlighted areas where null was possible and allowed me to discover and fix several bugs.
 
-### Architecture testing with ArchUnit
+#### Architecture testing with ArchUnit
 
 Prior to CS3281, I was unaware of the existence of Architectural tests.
 
