@@ -105,3 +105,5 @@
 | 12 | Submitted Issue: [Glob filter automatically reset after the second refresh #1987](https://github.com/reposense/RepoSense/issues/1987) |
 | 12 | Discussion about issue: [Link to all types of first timer issues in DG #1981](https://github.com/reposense/RepoSense/issues/1981) |
 | 13 | Reviewed PR: [[#1004] Standardize fonts for consistency across panels #1979](https://github.com/reposense/RepoSense/pull/1979) |
+| 13 | Reviewed PR: [Refactor ArgsParser::parse method #1991](https://github.com/reposense/RepoSense/pull/1991) |
+| Reading Week | Reviewed PR: [[#1894] Add embeddable ramp widget #1988](https://github.com/reposense/RepoSense/pull/1988) |
