@@ -1,12 +1,35 @@
+## Summary
+
+### 2021
+- Synchronize role updates with privilege updates
+- Continuation of Performance Hero project
+  - Prevent premature fetch copy course
+  - Prevent users from joining binned courses
+- Weekly PR reviews
+### 2022
+- Remove archive courses feature (onhold due to v9-migration)
+- Feedback session logs
+  - Combine the instructor audit page and result tracking page
+  - Add scheduled post processing step for student activity logs (onhold due to v9-migration)
+    - This is a big PR due to the addition of new cron job and a lot of post processing steps, as well as all the relevant unit tests, integration tests and E2E tests
+- Weekly PR reviews
+### 2023
+- V9 Migration
+  - Add `isMigrated` flag for Account and Course
+  - Migrate entities/actions/logic/DBs related to feedback sessions and usage statistics
+  - Add unit tests and integration tests for migrated classes
+  - Review V9 migration PRs, mostly from Kevin who also works on migrating feedback sessions classes
+
+## Details
+
 Week | Achievements
 ---- | ------------
 0 | Merged PR: [Add unit tests for FeedbackRankQuestionDetails and FeedbackTextResponseDetails classes #1501](https://github.com/TEAMMATES/teammates/pull/10868)
 0 | Merged PR: [Update instructor's privileges as the role is updated](https://github.com/TEAMMATES/teammates/pull/11258)
 0 | Merged PR: [Prevent premature fetch copy course](https://github.com/TEAMMATES/teammates/pull/11378)
 0 | Merged PR: [Prevent users from joining binned courses](https://github.com/TEAMMATES/teammates/pull/11814)
-0 | Merged PR: [Automate sending email to instructors about existing email](https://github.com/TEAMMATES/teammates/pull/11821)
 0 | Merged PR: [Combine instructor audit page and result tracking page](https://github.com/TEAMMATES/teammates/pull/11845)
-0 | Merged PR: [Remove archive courses feature](https://github.com/TEAMMATES/teammates/pull/11896)
+0 | Onhold PR: [Remove archive courses feature](https://github.com/TEAMMATES/teammates/pull/11896)
 0 | Reviewed PR: [Fix unusual feedback path causing an assertion failure when downloading results](https://github.com/TEAMMATES/teammates/pull/11932)
 0 | Reviewed PR: [Instructor: support copying of instructors from existing courses](https://github.com/TEAMMATES/teammates/pull/11849)
 0 | Reviewed PR: [Admin: Give a way to remove unregistered instructors and their data](https://github.com/TEAMMATES/teammates/pull/11582)
@@ -40,7 +63,7 @@ Week | Achievements
 1 | Reviewed PR: [v9: Skeleton implementation](https://github.com/TEAMMATES/teammates/pull/12056)
 2 | Reviewed PR: [Add Section and Team entity](https://github.com/TEAMMATES/teammates/pull/12103)
 3 | Reviewed PR: [Instructor Viewing Student Activities: Bug Fix and Enhancement](https://github.com/TEAMMATES/teammates/pull/12024)
-3 | Merged PR: [Add scheduled post processing step for student activity logs](https://github.com/TEAMMATES/teammates/pull/11857)  
+3 | Onhold PR: [Add scheduled post processing step for student activity logs](https://github.com/TEAMMATES/teammates/pull/11857)  
 5 | Merged PR: [Add is migrated flag to datastore account](https://github.com/TEAMMATES/teammates/pull/12070)  
 5 | Merged PR: [Add isMigrated flag to course](https://github.com/TEAMMATES/teammates/pull/12063)
 6 | Merged PR: [Add UsageStatistics entity and db](https://github.com/TEAMMATES/teammates/pull/12076)
