@@ -10,14 +10,15 @@ DevOps:
 Frontend:
 
 - Added Vue Router and ability to embed widgets
-- Fixed a medium priority bug where contribution bars for merged groups disappear after refreshing + Added cypress tests to prevent this from going undetected again
-- Added backward navigability, where users can click back to return to previous views after modifying their input
+- Fixed several medium priority bugs + Added cypress tests to prevent this from going undetected again
+- Made a draft PR for backward navigability, where users can click back to return to previous views after modifying their input
 
 Backend:
 
 - Refactored `RepoSense.java` class to better utilize Polymorphism shift decision logic for run configurations into `RunConfigurationDecider` and Updated `CliArguments` to utilize the Builder pattern
 - Co-Authored RepoSense Cli Wizard for new users to more easily use RepoSense
 - Investigated and added documentation on additional options to merge/map git-users
+- Updated LogManager to behaviour to prevent missing logs and fix possible concurrency issues
 
 | Week | Project   | Achievements                                                                                                                                             |
 | ---- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -36,18 +37,24 @@ Backend:
 | 7    | RepoSense | Reviewed PR: [Upgrade Gradle to 7.6.1 #1919](https://github.com/reposense/RepoSense/pull/1919)                                                           |
 | 7    | RepoSense | Merged PR: [[#1788] Additonal options to merge/map git-users #1920](https://github.com/reposense/RepoSense/pull/1920)                                    |
 | 7    | RepoSense | Submitted and Discussed on Issue: [Run code coverage test failing on forked repositories #1921](https://github.com/reposense/RepoSense/issues/1921)      |
-| 8    | RepoSense | Made PR: [[#1909] Refactor CliArguments and subclasses to better utilize polymorphism #1942](https://github.com/reposense/RepoSense/pull/1942)           |
+| 8    | RepoSense | Merged PR: [[#1909] Refactor CliArguments and subclasses to better utilize polymorphism #1942](https://github.com/reposense/RepoSense/pull/1942)         |
 | 9    | RepoSense | Submitted and Investigated on Issue: [Illegal reflective access operation has occurred #1944](https://github.com/reposense/RepoSense/issues/1944)        |
 | 9    | RepoSense | Co-Authored PR: [[#1715] Add RepoSense CLI Wizard Walkthrough #1950](https://github.com/reposense/RepoSense/pull/1950)                                   |
-| 10   | RepoSense | Made PR: [[#1894] Add embeddable ramp widget #1954](https://github.com/reposense/RepoSense/pull/1954)                                                    |
+| 10   | RepoSense | Made PR (subsequently closed and split up): [[#1894] Add embeddable ramp widget #1954](https://github.com/reposense/RepoSense/pull/1954)                 |
 | 10   | RepoSense | Submitted First Timer Issue: [Usage of directive shorthand syntax #1955](https://github.com/reposense/RepoSense/issues/1955)                             |
 | 10   | RepoSense | Submitted Medium bug Issue: [Missing contribution bar for merged groups after refresh #1959](https://github.com/reposense/RepoSense/issues/1959)         |
 | 10   | RepoSense | Merged PR: [[#1959] Missing contribution bar for merged groups after refresh #1960](https://github.com/reposense/RepoSense/pull/1960)                    |
 | 10   | RepoSense | Reviewed PR: [[#1963] Migrate c-zoom.vue to TypeScript #1965](https://github.com/reposense/RepoSense/pull/1965)                                          |
 | 11   | RepoSense | Reviewed PR: [[#528] Allow multiple repos in one row for author-config.csv #1961](https://github.com/reposense/RepoSense/pull/1961)                      |
 | 11   | RepoSense | Submitted Issue: [Add cypress test for merged groups #1966](https://github.com/reposense/RepoSense/issues/1966)                                          |
-| 11   | RepoSense | Made PR: [[#1966] Add cypress test for merged groups contribution bars #1970](https://github.com/reposense/RepoSense/pull/1970)                          |
+| 11   | RepoSense | Merged PR: [[#1966] Add cypress test for merged groups contribution bars #1970](https://github.com/reposense/RepoSense/pull/1970)                        |
 | 12   | RepoSense | Submitted Issue: [Add Vue Router for RepoSense #1971](https://github.com/reposense/RepoSense/issues/1971)                                                |
-| 12   | RepoSense | Made PR: [[#1971] Add Vue router #1974](https://github.com/reposense/RepoSense/pull/1974)                                                                |
+| 12   | RepoSense | Merged PR: [[#1971] Add Vue router #1974](https://github.com/reposense/RepoSense/pull/1974)                                                              |
 | 12   | RepoSense | Made Draft PR: [[#642] Click back in browser to return to previous view #1975](https://github.com/reposense/RepoSense/pull/1975)                         |
 | 12   | RepoSense | Submitted First Timer Issue: [Changing global functions to modular imports #1977](https://github.com/reposense/RepoSense/issues/1977)                    |
+| 12   | RepoSense | Merged PR: [[#1908] Update how logger output is recorded #1978](https://github.com/reposense/RepoSense/pull/1978)                                        |
+| 12   | RepoSense | Submitted Medium bug Issue: [Wrong sort within groups by when visiting by url #1982](https://github.com/reposense/RepoSense/issues/1982)                 |
+| 12   | RepoSense | Merged PR: [[#1982] Use correct "sort within groups by" when visiting by url #1983](https://github.com/reposense/RepoSense/pull/1983)                    |
+| 12   | RepoSense | Submitted Medium bug Issue: [CheckedFileTypes unable to be set as empty #1984](https://github.com/reposense/RepoSense/issues/1984)                       |
+| 12   | RepoSense | Merged PR: [[#1984] Fix CheckedFileTypes unable to be set as empty #1985](https://github.com/reposense/RepoSense/pull/1985)                              |
+| 11   | RepoSense | Remade PR: [[#1894] Add embeddable ramp widget #1988](https://github.com/reposense/RepoSense/pull/1988)                                                  |

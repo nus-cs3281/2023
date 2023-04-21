@@ -39,7 +39,7 @@ Aside from the above, I have worked on a few other frontend related tasks, revie
 
 | Week | Achievements                                                                                                                                                                  |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1    | Authored PR (put on hold by request): [Instructor Viewing Student Activities: Bug Fix and Enhancement #12024](https://github.com/TEAMMATES/teammates/pull/12024)              |
+| 1    | Authored PR: [Instructor Viewing Student Activities: Bug Fix and Enhancement #12024](https://github.com/TEAMMATES/teammates/pull/12024)                                       |
 | 3    | Reviewed PR: [Style page navigation menu items as links #12044](https://github.com/TEAMMATES/teammates/pull/12044)                                                            |
 | 4    | Co-Authored PR: [Create frontend for Per Receiver Submission #12053](https://github.com/TEAMMATES/teammates/pull/12053)                                                       |
 | 5    | Reviewed PR: [Navigation menu got collapsed #12057](https://github.com/TEAMMATES/teammates/pull/12057)                                                                        |
@@ -68,5 +68,6 @@ Aside from the above, I have worked on a few other frontend related tasks, revie
 | 11   | Reviewed PR: [Admin logs page: Fix overflow of "Clear all" button #12298](https://github.com/TEAMMATES/teammates/pull/12298)                                                  |
 | 11   | Authored PR: [Submit Feedback Responses Action #12322](https://github.com/TEAMMATES/teammates/pull/12322)                                                                     |
 | 11   | Reviewed PR: [Student submitting fewer responses than allowed: don't consider the question as 'not fully answered' #12323](https://github.com/TEAMMATES/teammates/pull/12323) |
-| 11   | Authored PR: [Get Courses Action #12331](https://github.com/TEAMMATES/teammates/pull/12331)                                                                                   |
+| 11   | Authored PR: [Migrate Get Courses Action #12331](https://github.com/TEAMMATES/teammates/pull/12331)                                                                           |
 | 12   | Reviewed PR: [Admin logs page: Extension of query start/end time is not reflected in search range #12342](https://github.com/TEAMMATES/teammates/pull/12342)                  |
+| 13   | Merged PR: [Migrate Get Courses Action #12331](https://github.com/TEAMMATES/teammates/pull/12331)                                                                             |

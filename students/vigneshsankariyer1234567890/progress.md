@@ -1,3 +1,14 @@
+## CS3281 Progress
+
+### Summary
+
+Over the past semester (AY22/23 Semester 2), I have worked on various aspects of the UI/UX as well as bug fixes and improvements in code quality in both CATcher and WATcher. Some of the notable features are:
+
+- Removal of Electron from CATcher ([PR #1153](https://github.com/CATcher-org/CATcher/pull/1153)) and WATcher ([PR #113](https://github.com/CATcher-org/WATcher/pull/113))
+- Addition of loading service to abstract out spinner rendering ([PR #1172](https://github.com/CATcher-org/CATcher/pull/1172))
+- Better error handling and display ([PR #104](https://github.com/CATcher-org/WATcher/pull/104))
+- UI Improvements and bug fixes ([PR #114](https://github.com/CATcher-org/WATcher/pull/114), [PR #118](https://github.com/CATcher-org/WATcher/pull/118), [PR #122](https://github.com/CATcher-org/WATcher/pull/122), [PR #1134](https://github.com/CATcher-org/CATcher/pull/1134))
+
 | Week | Project | Achievements |
 |------|---------|--------------|
 | 2 | CATcher | Created Issue ['Loading Custom Session' submenu under 'Testing' in DG is not showing the appropriate key-value pairs for Profiles.json #1073](https://github.com/CATcher-org/CATcher/issues/1073) |
@@ -28,3 +39,4 @@
 | 12 | WATcher | Investigated Issue [Issues not showing for some repositories #107](https://github.com/CATcher-org/WATcher/issues/107) |
 | 12 | WATcher | Opened PR [Add additional card to show unassigned issues #118](https://github.com/CATcher-org/WATcher/pull/118) |
 | 12 | WATcher | Reviewed PR [[#111] Modularizing issues and PRs as components #116](https://github.com/CATcher-org/WATcher/pull/116) |
+| 13 | CATcher | Reviewed PR [Migrate bug reporting phase to playwright #1186](https://github.com/CATcher-org/CATcher/pull/1186) |

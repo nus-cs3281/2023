@@ -18,27 +18,27 @@ Some interesting bugs were encountered when attempting to use pipes in batch fil
 
 ### Codecov
 
-As I explored Codecov to determine why it would intermittently fail for GitHub actions, I developed a greater appreciation for the role of code coverage analysis in ensuring software quality. I found its integration with popular CI/CD platforms to be seamless, making it easier to track and improve code coverage across projects. The visualization tools, such as the sunburst graph and diff coverage reports, were especially helpful in identifying areas that needed more testing attention. Furthermore, learning about Codecov's ability to enforce coverage thresholds and generate pull request comments reinforced the importance of maintaining high-quality test suites.
+As I explored [Codecov](https://about.codecov.io/) to determine why it would intermittently fail for GitHub actions, I developed a greater appreciation for the role of code coverage analysis in ensuring software quality. I found its integration with popular CI/CD platforms to be seamless, making it easier to track and improve code coverage across projects. The visualization tools, such as the [sunburst graph](https://docs.codecov.com/docs/graphs#sunburst) and [diff coverage reports](https://docs.codecov.com/docs/comparing-commits), were especially helpful in identifying areas that needed more testing attention. Furthermore, learning about Codecov's ability to enforce coverage thresholds and generate pull request comments reinforced the importance of maintaining high-quality test suites.
 
 ## Frontend
 
 ### Vue
 
-Vue is a progressive JavaScript framework that simplifies the creation of responsive and efficient web applications. Its reactive data-binding and component-based architecture promote modular programming, resulting in more maintainable and scalable code. Learning about Vue's component-based architecture also expanded my understanding of modular programming and how it can lead to more maintainable and scalable code.
+[Vue](https://vuejs.org/) is a progressive JavaScript framework that simplifies the creation of responsive and efficient web applications. Its reactive [data-binding](https://www.javatpoint.com/vue-js-data-binding) and [component-based architecture](https://vuex.vuejs.org/guide/structure.html) promote modular programming, resulting in more maintainable and scalable code. Learning about Vue's component-based architecture also expanded my understanding of modular programming and how it can lead to more maintainable and scalable code.
 
 ### Pug
 
-Pug is a templating engine that integrates well with Vue, allowing for cleaner and more concise HTML code with the use of whitespace and indentation for structure. By removing the need for closing tags, Pug attempts to make code more readable and organized. Its support for variables, mixins, and inheritance facilitates code reusability and modular design, improving the overall structure and readability of templates.
+[Pug](https://pugjs.org/api/getting-started.html) is a templating engine that integrates well with Vue, allowing for cleaner and more concise HTML code with the use of whitespace and indentation for structure. By removing the need for closing tags, Pug attempts to make code more readable and organized. Its support for variables, mixins, and inheritance facilitates code reusability and modular design, improving the overall structure and readability of templates.
 
 ### Cypress
 
-Cypress is an end-to-end testing framework that simplifies the process of writing and executing tests for web applications. Its intuitive syntax, real-time reloading, and support for network stubbing improve debugging and development efficiency, emphasizing thorough testing. I found its syntax and API to be intuitive and user-friendly, making the process of writing and executing tests more enjoyable. I was particularly impressed with the real-time reloading feature, which allows for faster debugging and development.
+[Cypress](https://www.cypress.io/) is an end-to-end testing framework that simplifies the process of writing and executing tests for web applications. Its intuitive syntax, real-time reloading, and support for network stubbing improve debugging and development efficiency, emphasizing thorough testing. I found its syntax and API to be intuitive and user-friendly, making the process of writing and executing tests more enjoyable. I was particularly impressed with the real-time reloading feature, which allows for faster debugging and development, simplifying [E2E](https://docs.cypress.io/guides/end-to-end-testing/writing-your-first-end-to-end-test) testing.
 
 ## Backend
 
 ### Bloch’s Builder Pattern
 
-Bloch’s Builder pattern is a design pattern that simplifies object instantiation in Java, particularly for classes with numerous constructor parameters, as it simplifies the process of object instantiation while maintaining immutability and improving readability. This was a particularly useful design pattern when refactoring the `CliArguments.java` class, as it had a large number of constructor parameters, and also required flexible construction as some of the fields were optional. The pattern facilitates immutability and reduces the risk of introducing errors in complex Java classes.
+Bloch’s Builder pattern is a design pattern that simplifies object instantiation in Java, particularly for classes with numerous constructor parameters, as it simplifies the process of object instantiation while maintaining immutability and improving readability. This was a particularly useful design pattern when refactoring the `CliArguments.java` class, as it had a large number of constructor parameters, and also required flexible construction as some of the fields were optional. The pattern facilitates immutability and reduces the risk of introducing errors in complex Java classes. Read more about [here](https://blogs.oracle.com/javamagazine/post/exploring-joshua-blochs-builder-design-pattern-in-java) on Oracle's blog.
 
 ### Polymorphism
 

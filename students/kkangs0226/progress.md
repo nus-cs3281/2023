@@ -83,6 +83,8 @@
 | 2 | Submitted Issue: [Error [ERR_REQUIRE_ESM] #1112](https://github.com/CATcher-org/CATcher/issues/1112) |
 | 3 | Submitted Issue: [Remove Electron from CATcher codebase #1138](https://github.com/CATcher-org/CATcher/issues/1138) |
 | 4 | Submitted Issue: [Lint Warnings due to deprecation of flatMap & async #1142](https://github.com/CATcher-org/CATcher/issues/1142) |
+| 8 | Submitted Issue: [Add Release Drafter Bot to repository #1162](https://github.com/CATcher-org/CATcher/issues/1162) |
+| 10 | Submitted Issue: [Improve undo/redo for Title component #1176](https://github.com/CATcher-org/CATcher/issues/1176) |
 
 ### Issues - WATcher
 
@@ -92,6 +94,9 @@
 | 2 | Submitted Issue: [Set up Github Actions for Setup builds & tests #56](https://github.com/CATcher-org/WATcher/issues/56) |
 | 4 | Submitted Issue: [Angular Upgrade #68](https://github.com/CATcher-org/WATcher/issues/68) |
 | 5 | Submitted Issue: [UI bug for label component #80](https://github.com/CATcher-org/WATcher/issues/80) |
+| 11 | Submitted Issue: [Removal of Electron #102](https://github.com/CATcher-org/WATcher/issues/102) |
+| 13 | Submitted Issue: [UI Improvements for when user name is too long #127](https://github.com/CATcher-org/WATcher/issues/127) |
+| 13 | Submitted Issue: [Pressing 'back' clears all issues #128](https://github.com/CATcher-org/WATcher/issues/128) |
 
 ### PR - CATcher
 
@@ -102,6 +107,7 @@
 | 3 | Merged PR: [Remove Electron from GitHub actions #1140](https://github.com/CATcher-org/CATcher/pull/1140) |
 | 4 | Merged PR: [Fix lint warnings due to Deprecation of async & flatMap #1143](https://github.com/CATcher-org/CATcher/pull/1143) |
 | 7 | Merged PR: [Fix typo under Project Management in DG #28](https://github.com/CATcher-org/catcher-org.github.io/pull/28) |
+| 10 | Merged PR: [Add Release-drafter bot to repository #1170](https://github.com/CATcher-org/CATcher/pull/1170) |
 
 ### PR - WATcher
 
@@ -125,6 +131,17 @@
 | 6 | Reviewed PR: [Remove electron dependencies #1145](https://github.com/CATcher-org/CATcher/pull/1145) |
 | 7 | Reviewed PR: [Update version for package.json #1146](https://github.com/CATcher-org/CATcher/pull/1146) |
 | 7 | Reviewed PR: [Merge new Release v3.4.5 to branch #1149](https://github.com/CATcher-org/CATcher/pull/1149) |
+| 7 | Reviewed PR: [Merge master into release for V3.4.5 #1150](https://github.com/CATcher-org/CATcher/pull/1150) |
+| 8 | Reviewed PR: [Remove electron dependencies #1153](https://github.com/CATcher-org/CATcher/pull/1153) |
+| 9 | Reviewed PR: [Fixes rendering for checkboxes #1155](https://github.com/CATcher-org/CATcher/pull/1155) |
+| 9 | Reviewed PR: [Custom undo and redo stack in comment editor #1164](https://github.com/CATcher-org/CATcher/pull/1164) |
+| 9 | Reviewed PR: [Add tooltip to markdown toolbar #1167](https://github.com/CATcher-org/CATcher/pull/1167) |
+| 10 | Reviewed PR: [Fix unintended binding of title attribute #1168](https://github.com/CATcher-org/CATcher/pull/1168) |
+| 10 | Reviewed PR: [Add spinners to indicate if edited information in issue has been persisted #1172](https://github.com/CATcher-org/CATcher/pull/1172) |
+| 11 | Reviewed PR: [[#1177] Fix breaking of hotkeys when caps lock is turned on #1179](https://github.com/CATcher-org/CATcher/pull/1179) |
+| 12 | Reviewed PR: [Remove nested subscribers #1184](https://github.com/CATcher-org/CATcher/pull/1184) |
+| 12 | Reviewed PR: [Migrate Login page e2e test to Playwright #1185](https://github.com/CATcher-org/CATcher/pull/1185) |
+
 
 
 ### PR Reviews - WATcher
@@ -142,3 +159,14 @@
 | 7 | Reviewed PR: [Create release for WATcher v0.0.2 #88](https://github.com/CATcher-org/WATcher/pull/88) |
 | 7 | Reviewed PR: [Fix wrong octicon displayed for closed PR #89](https://github.com/CATcher-org/WATcher/pull/89) |
 | 7 | Reviewed PR: [68 upgrade angular version #84](https://github.com/CATcher-org/WATcher/pull/84) |
+| 7 | Reviewed PR: [75 fix closed pr icon #91](https://github.com/CATcher-org/WATcher/pull/91) |
+| 9 | Reviewed PR: [Merge main into release for v0.1.0 #95](https://github.com/CATcher-org/WATcher/pull/95) |
+| 10 | Reviewed PR: [Improve UIX for milestones and label-filter-bar #97](https://github.com/CATcher-org/WATcher/pull/97) |
+| 10 | Reviewed PR: [Better error messages #104](https://github.com/CATcher-org/WATcher/pull/104) |
+| 12 | Reviewed PR: [Remove electron from WATcher #113](https://github.com/CATcher-org/WATcher/pull/113) |
+| 12 | Reviewed PR: [Clear Issues before fetching and populating IssuesDataTable #114](https://github.com/CATcher-org/WATcher/pull/114) |
+| 12 | Reviewed PR: [[#111] Modularizing issues and PRs as components #116](https://github.com/CATcher-org/WATcher/pull/116) |
+| 12 | Reviewed PR: [119 fix datatable inefficiency #120](https://github.com/CATcher-org/WATcher/pull/120) |
+| 13 | Reviewed PR: [Add additional card to show unassigned issues #118](https://github.com/CATcher-org/WATcher/pull/118) |
+| 13 | Reviewed PR: [Add horizontal scroll to Issues Viewer #122](https://github.com/CATcher-org/WATcher/pull/122) |
+| 13 | Reviewed PR: [Modularization and abstraction of filter related components #129](https://github.com/CATcher-org/WATcher/pull/129) |

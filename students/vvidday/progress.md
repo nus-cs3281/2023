@@ -38,3 +38,6 @@ The main deliverable of this semester is the completion of the epic issue [Migra
 | 12   | RepoSense          | Reviewed PR: [[#1984] Fix CheckedFileTypes unable to be set as empty](https://github.com/reposense/RepoSense/pull/1985)                              |
 | 12   | RepoSense          | Reviewed PR: [[#1004] Standardize fonts for consistency across panels](https://github.com/reposense/RepoSense/pull/1979)                             |
 | 12   | RepoSense          | Discussion on Issue: [Changing global functions to modular imports](https://github.com/reposense/RepoSense/issues/1977)                              |
+| 13   | RepoSense          | Merged PR: [[#1936] Migrate c-summary-charts.vue to TypeScript](https://github.com/reposense/RepoSense/pull/1976)                                    |
+| 13   | RepoSense          | Merged PR: [[#1936] Migrate c-authorship.vue to TypeScript](https://github.com/reposense/RepoSense/pull/1969)                                        |
+| 13   | RepoSense          | Reviewed PR: [[#1894] Add embeddable ramp widget](https://github.com/reposense/RepoSense/pull/1988)                                                  |
