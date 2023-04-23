@@ -25,4 +25,15 @@ Secondly, there is the idea of bubbling, where events will originate from the so
 
 Javascript generally implements both of this in 2 phases. When some event is going to trigger, it first "captures" all the relevant component and then it creates a event which "bubbles" back up. For more details regarding this behaviors as well as controlling them, I referred to the link [here](https://javascript.info/bubbling-and-capturing) for reference
 
-...
+### GraphQL
+
+Traditionally, interations with servers are usually done via REST APIs using POST and GET to retrive information. However, the problem here is the additional information that is unrelated to the what the user is actually want. For instance, if someone wants to query for certain objects on the server, information that is not important is still retrieved due to the fixed API responses.
+A much more desirable behavior is to supply the users with exactly what the users want in a singular, compact request. This is where GraphQl comes in. GraphQL enables the clients to have the freedom to select data that he or she needs and allow a much faster and fluid development compared to traditional REST.
+
+A specific GraphQL server is setup on the host to expose the data as a GraphQL API to the clients. This server will follow the graphQL requirements and allow clients to freely query for the specific information needed. CATcher and WATcher specifically uses the Github GraphQL server to query for information. Due to a rate limit of page size=100, we still need to make multiple requests fetch all the required information.
+
+Github GraphQL explorer: [Explorer](https://docs.github.com/en/graphql/overview/explorer)
+
+### RXJS
+
+A major difference in UI/UX developement is the need to handle interactions with users. Things like waiting for data from servers, updating elements based on changes can be rather difficult and tiring to code out using the asynchronous programming methods. RxJs adds Observers patterns to the code while abstracting away all the intricacies as well as asynchronous code. This enables developers to easily leverage observer patterns while maintaining a clean and readable code.
