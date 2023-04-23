@@ -35,7 +35,7 @@ The tasks that I have done range from
 - Adding the business/logic layers of the respective entities.
 - Migrating the endpoints i.e., Actions.
 
-Aside from the above, I have worked on a few other frontend related tasks, reviewed PRs and attend and manage to new contributors.
+Aside from the above, I have worked on a few other frontend related tasks, reviewed PRs and attend to and manage new contributors.
 
 | Week | Achievements                                                                                                                                                                  |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -71,3 +71,4 @@ Aside from the above, I have worked on a few other frontend related tasks, revie
 | 11   | Authored PR: [Migrate Get Courses Action #12331](https://github.com/TEAMMATES/teammates/pull/12331)                                                                           |
 | 12   | Reviewed PR: [Admin logs page: Extension of query start/end time is not reflected in search range #12342](https://github.com/TEAMMATES/teammates/pull/12342)                  |
 | 13   | Merged PR: [Migrate Get Courses Action #12331](https://github.com/TEAMMATES/teammates/pull/12331)                                                                             |
+| R    | Reviewed PR: [Instructor students page: accessibility issue for course summary headers #12395](https://github.com/TEAMMATES/teammates/pull/12395)                             |

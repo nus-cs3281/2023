@@ -1,3 +1,22 @@
+# Summary 
+
+Over the past semester (AY22/23 Semester 2). I mainly focused on frontend related development consisting of mainly adding/improving new features, fixing bugs as well as quality of life improvement to the codebase for both WATcher and CATcher.
+
+## Notable features/improvements:
+
+### CATcher
+
+- Experiments idea of automated bullet point generation in markdown [PR #1157](https://github.com/CATcher-org/CATcher/pull/1157)
+- Implements custom undo and redo model in the markdown editor [PR #1164](https://github.com/CATcher-org/CATcher/pull/1164)
+
+### WATcher
+
+- Adds a custom search filter [PR #82](https://github.com/CATcher-org/WATcher/pull/82)
+- Modularisation of modules (QoL improvements) [PR #116](https://github.com/CATcher-org/WATcher/pull/116), [PR #129](https://github.com/CATcher-org/WATcher/pull/129)
+- Custom profile page [PR #130](https://github.com/CATcher-org/WATcher/pull/130), [PR #131](https://github.com/CATcher-org/WATcher/pull/131), [PR #132](https://github.com/CATcher-org/WATcher/pull/132), [PR #133](https://github.com/CATcher-org/WATcher/pull/133), [PR #134](https://github.com/CATcher-org/WATcher/pull/134), [PR #135](https://github.com/CATcher-org/WATcher/pull/135)
+
+
+
 | Week | Project | Achievements |
 |------|---------|--------------|
 | 3 | CATcher | Investigated Issue [Dev response phase: label colors not shown for response label #1009](https://github.com/CATcher-org/CATcher/issues/1009) |
@@ -30,3 +49,9 @@
 | 10   | CATcher | Opened PR [[#1177] Fix breaking of hotkeys when caps lock is turned on #1179](https://github.com/CATcher-org/CATcher/pull/1179) |
 | 10   | WATcher | Reviewed PR [Improve UIX for milestones and label-filter-bar #97](https://github.com/CATcher-org/WATcher/pull/92) |
 | 11   | WATcher | Proposed feature [Modularizing issues and PRs as components. #111](https://github.com/CATcher-org/WATcher/issues/111) |
+| 12 | WATcher/CATcher | Investigated Issue [Function being called an unnecessary amount of times (highly inefficient code) #119](https://github.com/CATcher-org/WATcher/issues/119) and [Function being called an unnecessary amount of times (highly inefficient code) #1183](https://github.com/CATcher-org/CATcher/issues/1183) |
+| 12 | WATcher | Opened PR [119 fix datatable inefficiency #120](https://github.com/CATcher-org/WATcher/pull/120) |
+| 12 | WATcher | Investigated Issue [Potential improvement to issueService #126](https://github.com/CATcher-org/WATcher/issues/126) |
+| 12 | CATcher | Opened PR [Remove nested subscribers #1184](https://github.com/CATcher-org/CATcher/pull/1184) |
+| 12 | WATcher | Opened PR [Detailed view page #121](https://github.com/CATcher-org/WATcher/pull/121) |
+| 13 | WATcher | Split PR [#121](https://github.com/CATcher-org/WATcher/pull/121) to [#129](https://github.com/CATcher-org/WATcher/pull/129), [#130](https://github.com/CATcher-org/WATcher/pull/130), [#131](https://github.com/CATcher-org/WATcher/pull/131), [#132](https://github.com/CATcher-org/WATcher/pull/132), [#133](https://github.com/CATcher-org/WATcher/pull/133), [#134](https://github.com/CATcher-org/WATcher/pull/134), [#135](https://github.com/CATcher-org/WATcher/pull/135) |
