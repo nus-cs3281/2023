@@ -10,7 +10,7 @@ the intricacies of Vue and how to fully utilize its features.
 
 **1.1.1 MVVM Architecture Pattern**
 
-Vue.js focuses on the `ViewModel` layer of the MVVM (Model-View-ViewModel) architectural pattern. This is because it connects
+Vue.js focuses on the 'ViewModel' layer of the MVVM (Model-View-ViewModel) architectural pattern. This is because it connects
 the Views and Models via 2-way data bindings. In this case, the view is the DOM (Document Object Model), and the models are
 the plain JavaScript objects.
 
@@ -49,7 +49,7 @@ enforces rules to ensure that the state can only be mutated in a predictable man
 
 During my work on a [PR](https://github.com/reposense/RepoSense/pull/1939) to differentiate between authors when using 
 the 'merge group' option in RepoSense, I faced an issue with unsynchronised data copies. Initially, I had stored the 
-colors assigned to authors in both a local data() variable and the Vuex store. To resolve this, I employed `mapState` 
+colors assigned to authors in both a local `data()` variable and the Vuex store. To resolve this, I employed `mapState` 
 as a Vue `computed` property to access the Vuex state from Vue components. This approach allowed me to re-evaluate the 
 computed property every time the data changed, which triggered DOM updates and allowed a single source of truth. 
 However, relying on the global store singleton could potentially be considered an anti-pattern as it would make the code 
@@ -69,12 +69,12 @@ a string. This notation is useful when the property name is only known during ru
 
 ES6 introduced template strings as a concise and readable way to insert values into strings. In contrast, the string 
 concatenation approach can be harder to read and edit, and requires creating multiple strings that need to be put 
-together. Moreover, this process would take up more memory and computation compared to creating just one string.
+together. Moreover, string concatenation would take up more memory and computation compared to creating just one string.
 
 #### 1.4 TypeScript
 TypeScript is an object-oriented programming language that allows for classes, interfaces, and inheritance support in 
-the frontend. This language provides static typing and type inference, making it easier to catch errors before runtime. 
-Therefore, we decided to migrate our codebase from JavaScript to TypeScript to align our frontend with our Java backend.
+the frontend. It provides static typing and type inference, making it easier to catch errors before runtime. 
+Therefore, we decided to migrate our codebase from JavaScript to TypeScript to align our frontend with our OOP Java backend.
 
 **1.4.1 Class vs Interface for Typing**
 
@@ -128,21 +128,21 @@ code analysis tools of IDEs, I had not explicitly enforced custom coding rules u
 
 **1.8.1 Enforcing Custom Coding Rules with ESLint**
 
-During the migration to TypeScript, we decided to use the AirBnb style guide, similar to how we used it for JavaScript. 
+During the migration to TypeScript, we decided to use the Airbnb style guide, similar to how we used it for JavaScript. 
 Besides, we defined other [custom rules](https://typescript-eslint.io/rules/), and I created a
 [first-timer issue](https://github.com/reposense/RepoSense/issues/1980) that deals with the consistent use of `T[]` or 
 `Array` throughout the codebase. This helps enforce coding standards and make the code more consistent and maintainable.
 
 ---
 
-The Backend for RepoSense is written in Java, and testing is done using JUnit. Since this project is for contribution analysis,
-Git commands are highly used within the project. Gradle is used for manage the project dependencies and devops tasks.
+The Backend for RepoSense is written in Java, and testing is done using JUnit. Since RepoSense is for contribution analysis,
+Git commands are highly used within the project. Gradle is used to manage the project dependencies and for DevOps tasks.
 
 #### 1.9 Git
 **1.9.1 Understanding `git log`**
 
 For working on the [PR to include merge commits](https://github.com/reposense/RepoSense/pull/1882) in the web dashboard, some
-backend changes were required as merge commits were not included in the generated report itself. Hence I hadto look into the
+backend changes were required as merge commits were not included in the generated report itself. Hence, I had to look into the
 docs of git commands, specifically `git log`, to understand what flags I could make use of to include all the desired
 commits in the report. Previously, we were using the `--no-merges` flag to remove all merges from the report. However, simply
 removing this flag did not help in including all the merge commits in the new report. This may be because git continues to
@@ -153,9 +153,9 @@ this formatted output makes it easy for us to parse the results and generate our
 **1.9.2 Spoofing for Good**
 
 I was surprised by how easy it is to commit as someone else using Git as long as one has write access. I had to make use of this
-technique when I had to create a test commit. Only commits from a selected group of users is part of the Cypress test
-dashboard, so I [spoofed](https://github.com/reposense/RepoSense/commit/ffbc714a11c39fae870d1ea994ce200008c63756) one of 
-these users such that the commit to test appears on the test dashboard.
+technique when I had to create a test commit, as only commits from a selected group of users are part of the Cypress test
+dashboard. I [spoofed](https://github.com/reposense/RepoSense/commit/ffbc714a11c39fae870d1ea994ce200008c63756) one of 
+these users so that the commit to test appears on the test dashboard.
 
 ---
 
@@ -175,15 +175,15 @@ when migrating to TypeScript, which was eventually done.
 #### 2.2 Reflections
 **2.2.1 Understanding a Language/Tool Before Working with It**
 
-Previously, I had the mindset on making things work without understanding the inner workings of a language or tool.
+Previously, I had the mindset of just making things work without understanding the inner workings of a language or tool.
 However, I realized that this approach only led to superficial knowledge, making each challenge as difficult as the last.
 This semester, I gained a new perspective on how understanding the language/tool can make things easier down the road.
 I now strive for a good balance of theory and practical knowledge to accumulate my understanding and improve over time.
 
-**2.2.2 Applying the _"Make it Work, Make it Right, Make it Fast"_ Principle**
+**2.2.2 Applying the "Make it Work, Make it Right, Make it Fast" Principle**
 
 While working on a [PR](https://github.com/reposense/RepoSense/pull/1939) to differentiate between authors while using 
-'merge group', I applied the principle of "Make it work, Make it right, Make it fast." Initially, I focused on making 
+'merge group', I applied the principle of _"Make it work, Make it right, Make it fast."_ Initially, I focused on making 
 it work and fixing any edge cases. Later on, I refactored the code to optimize it. Additionally, I conducted performance 
 analysis for the PR after it was complete, which can be accessed 
 [here](https://github.com/reposense/RepoSense/pull/1939#issuecomment-1518718579).
