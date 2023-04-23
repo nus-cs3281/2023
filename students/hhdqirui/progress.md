@@ -1,6 +1,7 @@
 ## Summary
 - Per-receiver submission project
 - v9 migration implementation and review
+- v9 staging server deployment
 - Miscellaneous bug fixing and review general PRs
 
 ## CS3282 Pre-Sem Progress
@@ -68,3 +69,7 @@
 |12|Reviewed PR: [#[12048] Migrate update feedback response comment action #12319](https://github.com/TEAMMATES/teammates/pull/12319)|
 |12|Reviewed PR: [Migrate UpdateFeedbackQuestionAction #12318](https://github.com/TEAMMATES/teammates/pull/12318)|
 |12|Merged PR: [Migrate UpdateFeedbackQuestionAction #12318](https://github.com/TEAMMATES/teammates/pull/12318)|
+|12|Reviewed PR: [Migrate delete feedback response comment action #12328](https://github.com/TEAMMATES/teammates/pull/12328)|
+|12|Reviewed PR: [Migrate create feedback response comment action #12311](https://github.com/TEAMMATES/teammates/pull/12311)|
+|12|Reviewed PR: [Migrate DeleteFeedbackQuestionAction #12337](https://github.com/TEAMMATES/teammates/pull/12337)|
+|12|Merged PR: [Migrate DeleteFeedbackQuestionAction #12337](https://github.com/TEAMMATES/teammates/pull/12337)|
