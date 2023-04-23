@@ -1,11 +1,11 @@
 ### Summary
-I worked as a frontend developer for RepoSense. Some notable features I developed include:
+I primarily worked as a frontend developer for RepoSense, where I contributed to the project by implementing several features:
 * Showing merge commits and deletes commits in the report
-* Showing author breakdown in commits panel on merge group using highlights 
+* Showing author breakdown in commits panel on 'merge group' using highlights 
 * Pinning the file title for better user experience
 
-Apart from that, I assisted with the frontend migration to TypeScript, made our Cypress tests more robust and did minor
-tasks for the backend involving Git, Java as well as package upgrades for frontend DevOps.
+Additionally, I assisted with the frontend migration to TypeScript, increased the robustness of our Cypress tests, and 
+contributed to various backend tasks involving Git and Java, as well as upgrading packages for frontend DevOps.
 
 ### Weekly breakdown
 | Week | Project   | Achievements                                                                                                                               |
