@@ -1,146 +1,145 @@
 ### 1. Tools and Technologies
-The Frontend for RepoSense is created with Vue.js and Pug. Most of the JavaScript files have been migrated to TypeScript over
-the semester. The frontend is tested using Cypress, and the packages are maintained using Node.js. For static code analysis,
-we relied on ESLint configs.
+The RepoSense frontend is built with Vue.js and Pug, with most of the JavaScript files being migrated to TypeScript over
+the semester. Node.js is used to manage the packages, while static code analysis is performed with ESLint. 
+Cypress is the tool of choice for testing the frontend.
 
-#### 1.1 Vue
-While I had used Vue.js with Vuetify components and [Options API](https://vuejs.org/api/options-state.html) previously,
-working on RepoSense helped me to get more familiar with the intricacies of Vue, and how we can take full advantage of it.
+#### 1.1 Vue.js
+Prior to working on RepoSense, I had experienced working with Vue.js using Vuetify components and the
+[Options API](https://vuejs.org/api/options-state.html). However, working on the project allowed me to delve deeper into 
+the intricacies of Vue and how to fully utilize its features.
 
-**1.1.1 MVVM architecture**
+**1.1.1 MVVM Architecture Pattern**
 
-Vue.js focusses on the `ViewModel` layer of the MVVM (Model-View-ViewModel) architectural pattern. This is because it connects
+Vue.js focuses on the `ViewModel` layer of the MVVM (Model-View-ViewModel) architectural pattern. This is because it connects
 the Views and Models via 2-way data bindings. In this case, the view is the DOM (Document Object Model), and the models are
 the plain JavaScript objects.
 
-**1.1.2 Template refs**
+**1.1.2 Leveraging Template Refs for Custom Behaviors**
 
 While Vue has a rendering model that abstracts away direct manipulation of the DOM, sometimes it is necessary to have access
-to the DOM to programmatically control an element. This is why Vue gives us access to `$refs` . These `ref`s are similar to
-`document.querySelector('.element')` in JavaScript, but are more efficient since they give direct access to the element needed
-rather than returning the first element that matches the given selector. This allowed me to work on custom behaviour such as
-pinning the file title.
+to the DOM to programmatically control an element. Hence, Vue gives us access to `$refs`, which are similar to
+`document.querySelector('.element')` in JavaScript, but are more efficient as they give direct access to the element needed
+rather than returning the first element that matches the given selector. This allowed me to implement custom behaviour such as
+[pinning the file title](https://github.com/reposense/RepoSense/pull/1860) within Vue.
 
-**1.1.3 Custom directives**
+**1.1.3 Reusability with Custom Directives**
 
-An important concept to keep in mind while building software is reusability. This is where the use of custom directives comes
-in. Custom directives allow the reuse of logic that involves low-level DOM access. It is an object containing lifecycle hooks
-which are similar to those of a component.
+Reuse of code is an essential concept in software engineering, which is why Vue offers custom directives.
+Custom directives allow the reuse of logic that involves low-level DOM access. They are basically objects containing 
+lifecycle hooks similar to those of a component.
 
-One of the custom directives that RepoSense was already using was an external one called
+One of the custom directives that RepoSense was already utilizing was a plugin called
 [`vue-observe-visibility`](https://github.com/Akryum/vue-observe-visibility/tree/next). This made use of the
 [IntersectionObserverEntry Web API](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserverEntry) to observe
-whether an element is in view and perform a function accordingly.
+whether an element is in view and execute a function accordingly.
 
-While I was working on the pin file title PR, I was tasked to fix a bug that was made more apparent by the new feature, which
-was that tooltips appear out of the viewport when they are at the top of the page. Since the file title would be pinned to the
-top of the page, this issue had to be fixed before my PR could be merged. Hence, I thought of using a custom directive for this.
-I made use of the `vue-observe-visibility` custom directive to change the CSS of the tooltip to be bottom aligned based on
-whether the tooltip visibility has changed. Though this worked well, we required more customizability as the tooltip had to
-move back to be top-aligned when scrolling up, but this was not detected by the directive. Ultimately, I has to use template
-refs for this feature as well, but nevertheless, I learnt a lot about custom directives.
+During my work on the [pin file title PR](https://github.com/reposense/RepoSense/pull/1860), I encountered a bug where 
+tooltips appeared out of the viewport when at the top of the page. As the file title would be pinned to the top of the 
+page, this issue needed to be resolved before my PR could be merged. To address this, I thought of using a custom 
+directive, and I utilized the `vue-observe-visibility` directive to modify the CSS of the tooltip to be bottom-aligned 
+based on visibility changes. While this solution was successful, we required more customization as the tooltip needed 
+to move back to being top-aligned when scrolling up. I eventually used template refs to address this issue, but this 
+experience allowed me to understand better about custom directives.
 
 #### 1.2 Vuex
-Vuex is a state management pattern and library for Vue. It serves as the centralized source for all components and has rules
-to ensure that the state can only be mutated in a predictable manner.
+Vuex is a state management pattern and library for Vue that serves as the centralized source for all components. It 
+enforces rules to ensure that the state can only be mutated in a predictable manner.
 
-**1.2.1 Single source of truth**
+**1.2.1 Single Source of Truth**
 
-While working on a PR to differentiate between authors when using the 'merge group' option. I had initially stored the colors
-assigned to authors in Vuex store, but also has a local data() variable to store these colors. This may have led to 2
-unsynchronized copies of the same data, if the data were ever to be manipulated elsewhere. Hence I resolved this by getting
-Vuex state into the Vue components, which can be done by using `mapState` as a Vue `computed` property. This allows the
-computed property to be re-evaluated everytime the data changes and would trigger any DOM updates. However, one downside is  
-that this pattern causes the component to rely on the global store singleton, which is generally considered an anti-pattern.
+During my work on a [PR](https://github.com/reposense/RepoSense/pull/1939) to differentiate between authors when using 
+the 'merge group' option in RepoSense, I faced an issue with unsynchronised data copies. Initially, I had stored the 
+colors assigned to authors in both a local data() variable and the Vuex store. To resolve this, I employed `mapState` 
+as a Vue `computed` property to access the Vuex state from Vue components. This approach allowed me to re-evaluate the 
+computed property every time the data changed, which triggered DOM updates and allowed a single source of truth. 
+However, relying on the global store singleton could potentially be considered an anti-pattern as it would make the code 
+difficult to test.
 
 #### 1.3 JavaScript
-**1.3.1 Dot notation vs Bracket notation when accessing properties:**
+**1.3.1 Dot vs Bracket Notation for Accessing Object Properties:**
 
-The dot notation (eg. `objectName.propertyName`) is the most common way to access properties cleanly. However, property
-identifiers can only contain alphanumeric characters, `_` and `$`. On the contrary, bracket notation (eg.
-`objectName['propertyName']`) can use all UTF-8 characters in the property name, or even variables that finally resolve to a
-string. This is useful when we will only know the property name during runtime, as in this
-[PR](https://github.com/reposense/RepoSense/pull/1860), which uses `this.$refs[file.path]` because the reference `file.path`
-is only resolved based on which file is being interacted with.
+The dot notation (`objectName.propertyName`) is commonly used to access properties in a clean manner. However, it limits 
+property identifiers to alphanumeric characters, `_`, and `$`. On the other hand, the bracket notation 
+(`objectName['propertyName']`) can use all UTF-8 characters in property names or even variables that finally resolve to 
+a string. This notation is useful when the property name is only known during runtime, as in this
+[PR](https://github.com/reposense/RepoSense/pull/1860) where `this.$refs[file.path]` is used because the reference to 
+`file.path` is only resolved based on the file being interacted with.
 
-**1.3.2 ES6 string interpolation**
+**1.3.2 ES6 String Interpolation for Cleaner Code**
 
-Template strings are a great way to insert values into strings in a concise and readable manner. A;ternatively, if we use the
-string concatenation approach, the code may be hard to read and edit. Moreover, concatenation of strings requires creating
-multiple strings and then putting them together which takes up more memory and computation compared to creating just one string.
+ES6 introduced template strings as a concise and readable way to insert values into strings. In contrast, the string 
+concatenation approach can be harder to read and edit, and requires creating multiple strings that need to be put 
+together. Moreover, this process would take up more memory and computation compared to creating just one string.
 
 #### 1.4 TypeScript
-Since we heavily make use of OOP in our Java backend, it would make sense to have similar classes, interfaces and inheritance
-support in our frontend. Using TypeScript allows for this, along with static typing and type inference. Hence, was the decision
-to slowly migrate our codebase from JavaScipt to TypeScript.
+TypeScript is an object-oriented programming language that allows for classes, interfaces, and inheritance support in 
+the frontend. This language provides static typing and type inference, making it easier to catch errors before runtime. 
+Therefore, we decided to migrate our codebase from JavaScript to TypeScript to align our frontend with our Java backend.
 
-**1.4.1 Class vs interface for typing**
+**1.4.1 Class vs Interface for Typing**
 
-Since I haven’t used TypeScript before, I got to learn some basic concepts while working on
-[my first PR](https://github.com/reposense/RepoSense/pull/1852), where I defined classes to be used for declaring Vue prop
-types explicitly. However, I did not consider to use of interfaces for this purpose.
-
-Classes and interfaces in TypeScript are mostly equivalent, but the difference is that classes still exists at runtime while
-interfaces are only used for type-checking at compile time, and erased at runtime, when the code is transpiled to JS. Hence
-there would be slightly less overhead when using the interface. Classes do have an advantage over interfaces, which is that we
-can define methods that are relevant to the class objects, but this feature was not useful to us yet. This is why is a later
-PR, we discussed the benefits and decided to switch to an interface for better performance of the frontend.
+When working on [my first PR](https://github.com/reposense/RepoSense/pull/1852) for defining Vue prop types explicitly, 
+I initially used classes in TypeScript. However, after gaining more knowledge about TypeScript, I realized that 
+interfaces are more suitable for type-checking at compile time. Interfaces have less overhead since they do not exist at 
+runtime and are erased when the code is transpiled to JS. Although classes can define methods relevant to class objects, 
+this feature was not useful for us. In a [later PR](https://github.com/reposense/RepoSense/pull/1965), we decided to 
+switch to using an interface to improve the performance of the frontend.
 
 #### 1.5 Pug
-Pug is an HTML templating language for Node.js, It makes it easy to write reusable HTML components with cleaner syntax. Such
-templating engines may be useful while working with data-driven web applications, like RepoSense.
-
-Perhaps something unfortunate is that most online resources for Vue (and others) have their documentation given in HTML by
-default, with no option to toggle to Pug syntax. This makes it comparatively difficult to find good resources to learn
-[how Vue and Pug can be used together](https://medium.com/@martinsOnuoha/building-vue-components-with-pug-stylus-564615ed289).
-However, after getting used to the syntax, it was much faster to develop in Pug compared to HTML, due to the less repetitive
-syntax.
+Pug is a templating language that makes it easier to write reusable HTML components with cleaner syntax. It is useful 
+when working with data-driven web applications like RepoSense. Although it can be challenging to find resources that 
+provide documentation on 
+[using Vue and Pug together](https://medium.com/@martinsOnuoha/building-vue-components-with-pug-stylus-564615ed289), 
+Pug's syntax is much faster to develop in than HTML once you get used to it.
 
 #### 1.6 Sass and CSS
-Sass is an extension to CSS and is a pre-processor. It helps reduce the repetition in CSS and saves programming time. Some
-features include variables, mixins, imports, inheritance, etc. A Sass pre-processor transpiles Sass code into standard CSS as
-browsers can only understand plain CSS code.
+Sass is a CSS pre-processor and an extension of CSS. It helps reduce repetition in CSS and saves programming time by 
+providing features like variables, mixins, imports, and inheritance. A Sass pre-processor transpiles Sass code into 
+standard CSS as browsers can only understand plain CSS code.
 
-**1.6.1 Placeholders vs mixins**
+**1.6.1 Choosing between Placeholders and Mixins**
 
-The difference between mixins and placeholders is that placeholders consolidates mutually-shared code, whereas mixins just
+The difference between mixins and placeholders is that placeholders consolidate mutually-shared code, whereas mixins just
 assign the properties to the individual classes — along with whatever was specific to that class. Because of this, it’s
-preferred to use placeholders whenever possible. But since placeholders aren’t able to take parameters, it’s better to use
-mixins in those cases.
+preferred to use placeholders. But since placeholders aren’t able to take parameters, it’s better to use mixins in such 
+cases.
 
 I had to decide between placeholders and mixins when trying to consolidate the code required for a tooltip tail, and assign
 it along with some specific properties depending on whether the tooltip was top-aligned or bottom-aligned. Hence, I made use
-of placeholders for this as they group together mutually-shared code. In another situation, I used mixins to standardize
-the fonts used throughout the frontend as fonts just need to be assigned to the CSS classes along with their other properties.
+of placeholders for this as they group together mutually-shared code. In another 
+[PR](https://github.com/reposense/RepoSense/pull/1979), I used mixins to standardize the fonts used throughout the 
+frontend as fonts only need to be assigned to the CSS classes along with their other properties.
 
 #### 1.7 Cypress
-Cypress is a web testing framework used for E2E testing. Unlike Selenium, it can opearte within the application itself. This
-gives Cypress high flexibility to access any of the objects in the app, including DOM objects, window, etc., similar to how we
-do in the code itself. 
+Cypress is a powerful web testing framework designed for end-to-end testing. Unlike Selenium, it operates within the application, 
+allowing high flexibility to access any objects in the app, including DOM objects and the window, similar to how we do 
+within the code itself.
 
 **1.7.1 Effective and efficient test case design**
 
-I have tried to design my test cases such that each of them target a new potential fault point. However, one potential problem
-I have noticed is repetitive commands. While the rest of the codebase also uses such repetitive commands in all test cases
+To ensure effective and efficient test case design, I have targeted potential fault points with each of my Cypress test 
+cases. However, I noticed repetitive Cypress commands in these test cases, which can be extracted into a common function 
+for better reusability. While the rest of the codebase also uses such repetitive commands in all test cases
 for setup, we should plan to extract all the setup commands into a common function to allow for reusability.
 
 #### 1.8 Linting
 Linting is the process of performing static analysis on code to identify programming or code style errors. While I have used
-the code analysis tools of IDEs, I had not enforced custom coding rules using lints before.
+code analysis tools of IDEs, I had not explicitly enforced custom coding rules using lints before.
 
-**1.8.1 ESLint config choices**
+**1.8.1 Enforcing Custom Coding Rules with ESLint**
 
-During our migration to TypeScript, we decided to use the AirBnb style guide (similar to how we have used it for JavaScript as
-well). On top of that, we defined other [custom rules](https://typescript-eslint.io/rules/), and one of the first-timer issues
-I created also deals with using lint rules for the consistent use of `T[]` or `Array` throughout our codebase.
+During the migration to TypeScript, we decided to use the AirBnb style guide, similar to how we used it for JavaScript. 
+Besides, we defined other [custom rules](https://typescript-eslint.io/rules/), and I created a
+[first-timer issue](https://github.com/reposense/RepoSense/issues/1980) that deals with the consistent use of `T[]` or 
+`Array` throughout the codebase. This helps enforce coding standards and make the code more consistent and maintainable.
 
 ---
 
-The Backend for RepoSense is made with Java, and testing is done with JUnit. Since this project is for code analysis, Git
-features are highly used within the project. Gradle is used for maintaining the project dependencies and devops tasks.
+The Backend for RepoSense is written in Java, and testing is done using JUnit. Since this project is for contribution analysis,
+Git commands are highly used within the project. Gradle is used for manage the project dependencies and devops tasks.
 
 #### 1.9 Git
-**1.9.1 `git log`**
+**1.9.1 Understanding `git log`**
 
 For working on the [PR to include merge commits](https://github.com/reposense/RepoSense/pull/1882) in the web dashboard, some
 backend changes were required as merge commits were not included in the generated report itself. Hence I hadto look into the
@@ -148,14 +147,15 @@ docs of git commands, specifically `git log`, to understand what flags I could m
 commits in the report. Previously, we were using the `--no-merges` flag to remove all merges from the report. However, simply
 removing this flag did not help in including all the merge commits in the new report. This may be because git continues to
 simplify “uninteresting” merges in the default mode. Finally, the use of `--full-history` helped include all commits without
-merging any same content commits together. `git log`also had to option to format its output with a `<format-string>`, and
+merging any same content commits together. `git log` also had to option to format its output with a `<format-string>`, and
 this formatted output makes it easy for us to parse the results and generate our repository analysis reports.
 
-**1.9.2 Spoofing**
+**1.9.2 Spoofing for Good**
 
 I was surprised by how easy it is to commit as someone else using Git as long as one has write access. I had to make use of this
-technique when I had to create a test commit, but only commits from a selected group of users were part of the Cypress test
-dashboard.
+technique when I had to create a test commit. Only commits from a selected group of users is part of the Cypress test
+dashboard, so I [spoofed](https://github.com/reposense/RepoSense/commit/ffbc714a11c39fae870d1ea994ce200008c63756) one of 
+these users such that the commit to test appears on the test dashboard.
 
 ---
 
@@ -164,69 +164,68 @@ dashboard.
 #### 2.1 Design choices
 **2.1.1 Object parameter vs multiple parameters for constructors**
 
-While creating a `User` object in TypeScript, many arguments (~10) had to be passed in to construct the object. This made me
-wonder what the best way of initialising such objects with large number of attributes is. I was exploring the use of a single
-object parameter, as it makes the code much cleaner. However, there is a tradeoff of whether it would be type safe to just
-pass an object without any type as a parameter into the function. Yet, I decided to continue with the method of using an object
-argument. This issue of type safety could be mitigated in the future by checking that the object being passed in as the
-argument implements the `UserType` interface, when migrating to TypeScript.
+While creating a `User` object in TypeScript, I encountered the challenge of passing in a large number of arguments (~10) 
+to construct the object. This made me wonder what the best way of initialising such objects with large number of 
+attributes is. I was exploring the use of a single object parameter, as it makes the code much cleaner. However, there 
+is a tradeoff of whether it would be type safe to just pass an object without any type as a parameter into the function. 
+Yet, I decided to continue with the method of using an object argument as this issue of type safety could be mitigated 
+in the future by checking that the object being passed in as the argument implements the `User` interface, 
+when migrating to TypeScript, which was eventually done.
 
 #### 2.2 Reflections
-**2.2.1 Understanding how a language/tool works before working with it**
+**2.2.1 Understanding a Language/Tool Before Working with It**
 
-Earlier on, I had the mindset of just making something work and getting things done rather than understanding how a
-certain language actually works and figuring out based on my knowledge of its inner workings. However, this would make my
-knowledge very superficial, and I would not accumulate any knowledge. Hence each challenge would be as difficult as the last.
-However, from my learnings this semester, I have realised how things can get easier down the road if we take the right path of
-understanding what we are doing and have a good balance of theiry and practical knowledge to accumulate my knowledge and get
-better with time.
+Previously, I had the mindset on making things work without understanding the inner workings of a language or tool.
+However, I realized that this approach only led to superficial knowledge, making each challenge as difficult as the last.
+This semester, I gained a new perspective on how understanding the language/tool can make things easier down the road.
+I now strive for a good balance of theory and practical knowledge to accumulate my understanding and improve over time.
 
-**2.2.2 _"Make it work, make it right, make it fast"_**
+**2.2.2 Applying the _"Make it Work, Make it Right, Make it Fast"_ Principle**
 
-I got a chance to put this saying in practice while working on a PR to differentiate between authors while using 'merge group'.
-While initially I was trying to make it work and fix any edge cases, I later on went to refactor the code to ensure that my
-code is optimized. I had also conducted performance analysis for the PR after it was complete which can be accessed
+While working on a [PR](https://github.com/reposense/RepoSense/pull/1939) to differentiate between authors while using 
+'merge group', I applied the principle of "Make it work, Make it right, Make it fast." Initially, I focused on making 
+it work and fixing any edge cases. Later on, I refactored the code to optimize it. Additionally, I conducted performance 
+analysis for the PR after it was complete, which can be accessed 
 [here](https://github.com/reposense/RepoSense/pull/1939#issuecomment-1518718579).
 
-**2.2.3 Full-stack development**
+**2.2.3 Full-Stack Development Experience**
 
-I am grateful to have gotten a chance to work on an issue such as the show merge commits one, which gave me a chance to touch
-on all aspects of the codebase even while focussing as a frontend developer. I got to reserach on Git, to find out how to
-include all merge commits, edit the Java backend parsers to include an additional field for whether a commit is a merge commit,
-and make frontend changes to show whether a commit is a merge commit. In addition, I got to write test cases for frontend
-Cypress, backend unit tests and system tests. This was a rewarding experience as I had a chance to do full-stack development and
-learn how all the components work together while solving a single problem.
+Working on the [show merge commits PR](https://github.com/reposense/RepoSense/pull/1882) provided a chance to work on 
+all aspects of the codebase as a frontend developer. I researched Git to find out how to include all merge commits, 
+edited the Java backend parsers to include an additional field for whether a commit is a merge commit, and made frontend 
+changes to include merge commits within the HTML report. Furthermore, I wrote test cases for frontend Cypress, backend 
+unit tests, and system tests. This experience was rewarding as it allowed me to do full-stack development and learn how 
+all the components work together while solving a single problem.
 
 ---
 
 ### 3. Project Management
 
-#### 3.1 Lessons learned
+#### 3.1 Lessons Learned from Contributing to an Open-Source Project
 
-**3.1.1 Picking up the workflow**
+**3.1.1 Understanding the Contribution Workflow**
 
-Since RepoSense has been one of first open source projects I have contributed to, picking up the contribution workflow has been
-an interesting learning point for me. This helped me get familiar with the level of quality that needs to be fulfilled for
-such open-source projects that lives on its contributor's work. However, having such strict deadlines could also limit the
-flow of PRs and slow down the PR lifecycle. It is important to set guidelines that allow us to strike a good balance between
-quality expected and speed of PR reviews.
+Contributing to RepoSense has provided me with valuable insights into the contribution workflow for open-source projects.
+It has helped me understand the quality expectations that are necessary for maintaining a high-quality codebase.
+However, having strict rules can sometimes hinder the PR review process, leading to longer review cycles. Hence, to
+strike a balance between quality and speed, setting guidelines and maintaining effective communication channels is 
+essential.
 
-**3.1.2 Documentation ignored**
+**3.1.2 Importance of Documentation**
 
-I realised that in general, many of us (even those before this semester's iteration) forgot to update the documentation after
-making changes in a PR. This has led to a some of our documentation becoming obsolete and needs to be updated soon to ensure the
-next released version includes all the latest information for future contributors to refer to. Since it may be difficult for
-someone else to document the code one has written, we need to keep close track of whether a PR needs any documentation updates
-from now on, perhaps with a checklist within the PR issue template.
+Documentation is an integral part of open-source projects, and its importance cannot be overemphasized. It's easy to forget to
+update the documentation after making changes in a PR, leading to outdated documentation. Going forward, I recognize the need to
+maintain an up-to-date documentation to ensure that future contributors have access to accurate and comprehensive information.
+To this end, I suggest having a checklist in the PR issue template to remind contributors of the need to update documentation.
 
-**3.1.3 Ideal PR length**
+**3.1.3 Optimal PR Length**
 
-During the semester, I had received feedback from my mentors that my PRs were too big, especially because I was trying to have
-a single PR per issue. I realised how this could be difficult to review, and have tried breaking down my PRs into smaller ones
-in the next half of the semester for easier peer reviews.
+I received feedback from my mentors that my PRs were too long, leading to difficulty in reviewing. It was suggested that
+breaking down the PRs into smaller ones would make the review process easier. Based on this feedback, I have made a conscious
+effort to create smaller PRs going forward.
 
-**3.1.4 Versioning**
+**3.1.4 Understanding Versioning**
 
-I learnt how versioning is done from the various versions of RepoSense that I had seen as well as how we maintained separate
-webpages for documentation for the released version as well as the currently developing `master` version of RepoSense. In the
-near future, I am planning on making a release to understand the managerial workflow better.
+Contributing to RepoSense has provided me with insights into versioning and how it is maintained for open-source projects.
+The process of maintaining separate web pages for documentation of released versions and the master version has been an
+important lesson. To deepen my understanding of project management, I am planning on making a release myself in the near future.
