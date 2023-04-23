@@ -1,3 +1,20 @@
+## CS3281 Progress
+
+### Summary
+
+Over the past semester (AY22/23 Semester 2), I mainly focused on fixing bugs on both WATcher and CATcher, adding on to WATcher's GitHub workflow, finding and migrating the e2e platform to a suitable framework. Beyond that, I also provided reviews for PRs.
+
+Some notable features/improvement are:
+
+#### CATcher
+- Playwright Migration [PR #1185](https://github.com/CATcher-org/CATcher/pull/1185),[PR #1186](https://github.com/CATcher-org/CATcher/pull/1186)
+- Fixing bugs [PR #1175](https://github.com/CATcher-org/CATcher/pull/1175)
+
+#### WATcher
+- Improving existing features [PR #57](https://github.com/CATcher-org/WATcher/pull/57), [PR #62](https://github.com/CATcher-org/WATcher/pull/62)
+- Fixing bugs [PR #70](https://github.com/CATcher-org/WATcher/pull/70), [PR #92](https://github.com/CATcher-org/WATcher/pull/92)
+- Improving github workflows [PR #81](https://github.com/CATcher-org/WATcher/pull/81)
+
 | Week | Project | Achievements |
 |------|---------|--------------|
 | 2 | WATcher | Opened PR [Reset milestone selection upon repo change #57](https://github.com/CATcher-org/WATcher/pull/57) | 
