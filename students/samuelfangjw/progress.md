@@ -22,6 +22,7 @@
 |Jul 9, 2022|Reviewed PR: [Changes to team contribution question #11873](https://github.com/TEAMMATES/teammates/pull/11873)|
 |Jul 30, 2022|Reviewed PR: [Instructor copying course: Progress bar does not load when no feedback sessions are copied #11914](https://github.com/TEAMMATES/teammates/pull/11914)|
 |Aug 8, 2022|Reviewed PR: [Fix bug where Course Enroll Page highlights the wrong rows #11926](https://github.com/TEAMMATES/teammates/pull/11926)|
+|Aug 21, 2022|Reviewed PR: [Account Request Form Upgrade - Backend #11912](https://github.com/TEAMMATES/teammates/pull/11912)|
 |Aug 30, 2022|Reviewed PR: [Add front-end tests for Instructor Session Page #11937](https://github.com/TEAMMATES/teammates/pull/11937)|
 |Aug 31, 2022|Reviewed PR: [Apply lazy-loading of question responses in session results page #11905](https://github.com/TEAMMATES/teammates/pull/11905)|
 |Oct 7, 2022|Reviewed PR: [Decorative images are not hidden from accessibility tree #11963](https://github.com/TEAMMATES/teammates/pull/11963)|
@@ -122,6 +123,7 @@
 |10|Reviewed PR: [Add unit tests for SubmitFeedbackResponsesAction #12234](https://github.com/TEAMMATES/teammates/pull/12234)|
 |10|Reviewed PR: [Migrate *JoinEmailWorkerAction classes #12229](https://github.com/TEAMMATES/teammates/pull/12229)|
 |10|Reviewed PR: [Instructor help page: Page not scrolling to the right section #12224](https://github.com/TEAMMATES/teammates/pull/12224)|
+|10|Reviewed PR: [Add Firebase Authentication #11891](https://github.com/TEAMMATES/teammates/pull/11891)|
 |10|Reviewed PR: [User-friendliness: Add accessibility tests, fix submit feedback/view responses pages #12240](https://github.com/TEAMMATES/teammates/pull/12240)|
 |10|Reviewed PR: [Migrate UnpublishFeedbackSessionAction #12214](https://github.com/TEAMMATES/teammates/pull/12214)|
 |10|Reviewed PR: [Migrate Get Instructor Privilege Action #12245](https://github.com/TEAMMATES/teammates/pull/12245)|
@@ -134,5 +136,30 @@
 |11|Reviewed PR: [Migrate RestoreFeedbackSessionAction #12257](https://github.com/TEAMMATES/teammates/pull/12257)|
 |11|Reviewed PR: [Migrate create feedback session action #12255](https://github.com/TEAMMATES/teammates/pull/12255)|
 |11|Reviewed PR: [Migrate BinFeedbackSessionAction #12256](https://github.com/TEAMMATES/teammates/pull/12256)|
+|11|Reviewed PR: [Migrate Feedback Session remind-related email worker actions #12246](https://github.com/TEAMMATES/teammates/pull/12246)|
+|11|Reviewed PR: [Migrate *EmailAction classes. #12300](https://github.com/TEAMMATES/teammates/pull/12300)|
+|11|Reviewed PR: [Admin logs page: Extension of query start/end time is not reflected in search range #12301](https://github.com/TEAMMATES/teammates/pull/12301)|
 |11|Submitted Issue: [Modified session timing modal does not use updated session name #12307](https://github.com/TEAMMATES/teammates/issues/12307)|
 |11|Submitted Issue: [Add session: time picker constraint not applied correctly #12308](https://github.com/TEAMMATES/teammates/issues/12308)|
+|11|Submitted Issue: [Popover appears in front of modal blocking buttons #12314](https://github.com/TEAMMATES/teammates/issues/12314)|
+|11|Reviewed PR: [Migrate RemindFeedbackSessionResultAction #12303](https://github.com/TEAMMATES/teammates/pull/12303)|
+|11|Reviewed PR: [Migrate GetFeedbackSessionSubmittedGiverSetAction #12258](https://github.com/TEAMMATES/teammates/pull/12258)|
+|11|Reviewed PR: [Migrate RemindFeedbackSessionSubmissionAction #12304](https://github.com/TEAMMATES/teammates/pull/12304)|
+|11|Reviewed PR: [Modified session timing modal does not use updated session name #12310](https://github.com/TEAMMATES/teammates/pull/12310)|
+|11|Submitted Issue: [Consolidate duplicate modified timestamp modals #12327](https://github.com/TEAMMATES/teammates/issues/12327)|
+|11|Reviewed PR: [Students viewing submission form: Some answered essay questions are not shown in green #12316](https://github.com/TEAMMATES/teammates/pull/12316)|
+|12|Reviewed PR: [Migrate UpdateFeedbackQuestionAction #12318](https://github.com/TEAMMATES/teammates/pull/12318)|
+|12|Reviewed PR: [Migrate Feedback Session publish-related email worker actions. #12244](https://github.com/TEAMMATES/teammates/pull/12244)|
+|12|Reviewed PR: [Migrate GetDeadlineExtensionAction #12326](https://github.com/TEAMMATES/teammates/pull/12326)|
+|12|Reviewed PR: [Migrate UpdateInstructorPrivilegeAction #12343](https://github.com/TEAMMATES/teammates/pull/12343)|
+|12|Reviewed PR: [Migrate RegenerateInstructorKeyAction #12341](https://github.com/TEAMMATES/teammates/pull/12341)|
+|12|Reviewed PR: [Instructor results page stats tables: differentiate students with same team and name #12249](https://github.com/TEAMMATES/teammates/pull/12249)|
+|12|Reviewed PR: [Migrate RegenerateStudentKeyAction #12350](https://github.com/TEAMMATES/teammates/pull/12350)|
+|12|Reviewed PR: [Instructor: support previewing results as a student #12351](https://github.com/TEAMMATES/teammates/pull/12351)|
+|12|Reviewed PR: [Add session: time picker constraint not applied correctly #12352](https://github.com/TEAMMATES/teammates/pull/12352)|
+|12|Reviewed PR: [[#10623] Update development, troubleshooting, and process documentation #12358](https://github.com/TEAMMATES/teammates/pull/12358)|
+|13|Reviewed PR: [Migrate UpdateFeedbackSessionAction #12360](https://github.com/TEAMMATES/teammates/pull/12360)|
+|13|Reviewed PR: [Migrate GetRegkeyValidityAction #12357](https://github.com/TEAMMATES/teammates/pull/12357)|
+|13|Reviewed PR: [Migrate Get Courses Action #12331](https://github.com/TEAMMATES/teammates/pull/12331)|
+|13|Reviewed PR: [Enhance Pull Request Template #12370](https://github.com/TEAMMATES/teammates/pull/12370)|
+|13|Reviewed PR: [PR template causing PR checker to automatically pass #12381](https://github.com/TEAMMATES/teammates/pull/12381)|
