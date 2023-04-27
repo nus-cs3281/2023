@@ -148,7 +148,9 @@ contributions.
 View it [here](https://devfi-protocol.netlify.app/)
 
 This project was developed by me and my friends as we try to give open source
-developers some incentive to contribute.
+developers some incentive to contribute. We plan on making it open source and to
+launch it as something that web3 developers can use to reward contributors (much
+like the current bounty systems, but now much easier to use).
 
 ### How it works
 
@@ -158,3 +160,11 @@ bounty will be paid out in the form of a crypto token that is created by us. The
 developer can then claim the bounty by submitting a pull request that fixes the
 issue. The bot will then verify the pull request and pay out the bounty to the
 developer.
+
+### My Learning Record
+
+Tools/technologies I learned:
+
+- All things web development and smart contract related (typescript, nextjs,
+  rust, solidity, etc)
+- Github apps and octokit api
