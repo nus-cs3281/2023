@@ -17,6 +17,8 @@
 - V9 Migration
   - Add `isMigrated` flag for Account and Course
   - Migrate entities/actions/logic/DBs related to feedback sessions and usage statistics
+  - Discover bugs with authentication due to migration order of Account and Course entities
+  - Raise the inefficency of keeping the builder pattern in migrated entities
   - Add unit tests and integration tests for migrated classes
   - Review V9 migration PRs, mostly from Kevin who also works on migrating feedback sessions classes
 
