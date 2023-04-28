@@ -47,3 +47,5 @@ Work was focused on FeedbackQuestions, FeedbackResponses and FeedbackResponseCom
 |12|Reviewed PR: [Instructor results page stats tables: differentiate students with same team and name #12249](https://github.com/TEAMMATES/teammates/pull/12249)|
 |12|Reviewed PR: [Add session: time picker constraint not applied correctly #12352](https://github.com/TEAMMATES/teammates/pull/12352)|
 |13|Reviewed PR: [Instructor courses page: fix copy instructors from other courses modal checkbox #12369](https://github.com/TEAMMATES/teammates/pull/12369)|
+|Reading|Reviewed PR: [Instructor edit feedback session page: missing indication for tooltip #12384](https://github.com/TEAMMATES/teammates/pull/12384)|
+|Reading|Reviewed PR: [Usage statistics and logs page: Improve date/time input on mobile #12394](https://github.com/TEAMMATES/teammates/pull/12394)|
