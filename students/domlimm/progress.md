@@ -72,3 +72,11 @@ Aside from the above, I have worked on a few other frontend related tasks, revie
 | 12   | Reviewed PR: [Admin logs page: Extension of query start/end time is not reflected in search range #12342](https://github.com/TEAMMATES/teammates/pull/12342)                  |
 | 13   | Merged PR: [Migrate Get Courses Action #12331](https://github.com/TEAMMATES/teammates/pull/12331)                                                                             |
 | R    | Reviewed PR: [Instructor students page: accessibility issue for course summary headers #12395](https://github.com/TEAMMATES/teammates/pull/12395)                             |
+
+# CS3281 Post-Semester's Progress
+
+| Date        | Project   | Achievements                                                                                                                                      |
+| ----------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 26 Apr 2023 | TEAMMATES | Reviewed PR: [Instructor students page: accessibility issue for course summary headers #12405](https://github.com/TEAMMATES/teammates/pull/12405) |
+| 27 Apr 2023 | TEAMMATES | Merged PR: [Migrate Delete Student/Students Action #12241](https://github.com/TEAMMATES/teammates/pull/12241)                                     |
+| 29 Apr 2023 | TEAMMATES | Reviewed PR: [Instructor editing feedback path of a question: unnecessary scrollbars #12409](https://github.com/TEAMMATES/teammates/pull/12409)   |
