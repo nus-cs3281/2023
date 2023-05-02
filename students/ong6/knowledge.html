@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="MarkBind 4.1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="/2023/markbind/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/2023/markbind/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/2023/markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+    <link rel="stylesheet" href="/2023/markbind/css/octicons.css">
+    <link rel="stylesheet" href="/2023/markbind/material-icons/material-icons.css">
+    <link rel="stylesheet" href="/2023/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/2023/markbind/css/markbind.min.css"><script src="/2023/markbind/js/polyfill.min.js"></script>
+    <script src="/2023/markbind/js/vue.min.js"></script>
+    <script src="/2023/markbind/js/markbind.min.js"></script>
+    <script src="knowledge.page-vue-render.js"></script>
+    <script src="/2023/markbind/js/jquery.min.js"></script><link rel="stylesheet" href="/2023/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/2023/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    
+  <link rel="stylesheet" href="/2023/stylesheets/main.css">
+<link rel="icon" href="/2023/favicon.ico"></head>
+<script>
+  const baseUrl = '/2023'
+</script>
+<body >
+<div id="app" data-server-rendered="true"><header fixed=""><div placement="top" data-v-15113a2f><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-primary" data-v-15113a2f><div class="container-fluid" data-v-15113a2f><div class="navbar-left" data-v-15113a2f><a href="/2023/index.html" title="Home" class="navbar-brand" data-v-15113a2f>CS3281&amp;2-2023/Students</a></div> <div class="navbar-default" data-v-15113a2f><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-15113a2f> <li class="nav-link dropdown" data-v-2e98b3f0><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle" data-v-2e98b3f0>CS3281</a> <ul class="dropdown-menu" data-v-2e98b3f0> <li data-v-2e98b3f0><a href="/2023/index.html" class="dropdown-item" data-v-2e98b3f0>Students</a></li> <li data-v-2e98b3f0><a href="/2023/students/knowledge.html" class="dropdown-item" data-v-2e98b3f0>Knowledge</a></li> <li data-v-2e98b3f0><a href="https://nus-cs3281.github.io/2023-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByAuthors&amp;breakdown=false" class="dropdown-item" data-v-2e98b3f0>Code Dashboard</a></li></ul></li> <li class="nav-link dropdown" data-v-2e98b3f0><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle" data-v-2e98b3f0>CS3282</a> <ul class="dropdown-menu" data-v-2e98b3f0> <li data-v-2e98b3f0><a href="/2023/cs3282-index.html" class="dropdown-item" data-v-2e98b3f0>Students</a></li> <li data-v-2e98b3f0><a href="/2023/students/talksSchedule.html" class="dropdown-item" data-v-2e98b3f0>Lightning Talks</a></li></ul></li> <li data-v-15113a2f><a href="/2023/instructions.html" class="nav-link" data-v-15113a2f>Instructions</a></li> <li data-v-15113a2f><a href="https://nus-cs3281.github.io/website/" class="nav-link" data-v-15113a2f>CS3281&amp;2 Website <span data-v-15113a2f><span aria-hidden="true" class="glyphicon glyphicon-share-alt" data-v-15113a2f></span></span></a></li></ul></div> <ul class="navbar-nav navbar-right" data-v-15113a2f><li data-v-15113a2f><a href="https://github.com/nus-cs3281/2023" class="nav-link" data-v-15113a2f><span data-v-15113a2f><span aria-hidden="true" class="fab fa-github" data-v-15113a2f></span></span></a></li></ul></div></nav> <div class="lower-navbar-container" style="display:none;" data-v-15113a2f><!----> <!----></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><h3 id="special-characters-encoding-on-uri"><span id="special-characters-encoding-on-uri" class="anchor"></span>Special characters encoding on URI<a href="#special-characters-encoding-on-uri" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>On windows, file paths are separated by the directory separator character which
+is a <code class="hljs inline no-lang">\</code>. This is different from the linux and mac's <code class="hljs inline no-lang">/</code> separator. When
+building tools to be used cross-platform, it is important to be able to parse
+and encode file paths correctly. This is especially important when dealing with
+URI since they only accept 84 characters with <code class="hljs inline no-lang">\</code> not being one of them. Hence,
+if a URI contains a <code class="hljs inline no-lang">\</code> character, it will be encoded as <code class="hljs inline no-lang">%5C</code> and may cause
+issues with the path on a webpage. Read more about this
+<a href="https://stackoverflow.com/questions/1547899/which-characters-make-a-url-invalid">here</a>.</p> <h3 id="html-canvas-drawing"><span id="html-canvas-drawing" class="anchor"></span>HTML Canvas drawing<a href="#html-canvas-drawing" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>I used HTML canvas to help with image annotation. I choose to use HTML canvas
+since it provided the best performance and I felt it was well suited to the task
+of drawing arrows and annotating over images.</p> <p>Below are some things that I found useful while working with HTML canvas.</p> <p>The HTML <code class="hljs inline no-lang">&lt;canvas&gt;</code> element is used to draw graphics, on the fly, via
+JavaScript. The <code class="hljs inline no-lang">&lt;canvas&gt;</code> element is only a container for graphics but the
+actual drawing of the graphics is done using javascript by the user. I made use
+of lines, boxes, text and image to help annotate over images. Once an image/line
+is drawn, there is no way to erase that line unless the whole canvas is wiped
+out (or draw a white box over that section). Due to this feature of canvas, I
+had to parse all the image data and set the proper width, height and coordinates
+directly before actually beginning to draw the canvas element. This made drawing
+individual annotations harder since I had to account for the starting position
+of each element and make sure that they are all in line.</p> <p>I also found that resizing the canvas width or height will cause the whole
+canvas to be reset to a blank slate. This was one of the bigger issues I ran
+into since now I had to pre-calculate the final size of the canvas.</p> <p>Resources:</p> <ul><li><a href="https://www.w3schools.com/html/html5_canvas.asp">html-canvas Guide</a></li> <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">html-canvas API</a></li></ul> <h3 id="divs-vs-svg-vs-html-canvas-for-drawing"><span id="divs-vs-svg-vs-html-canvas-for-drawing" class="anchor"></span>DIVs vs SVG vs HTML Canvas for drawing<a href="#divs-vs-svg-vs-html-canvas-for-drawing" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <h4 id="advantages"><span id="advantages" class="anchor"></span>Advantages<a href="#advantages" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p>DIVs are simple to work with and are the most common components for frontend
+developers. They are quite user friendly and are good for simple animations and
+drawings.</p> <p>SVGs scale well and are a good choice for complex drawing. They are also
+relatively fast compared to DIVs and are computed in a way that there is no loss
+of quality at any scale.</p> <p>Canvas is a good choice for lines, boxes and text drawing. It is the fastest of
+the 3 methods and can be used to draw over an existing image. This functionality
+makes it a good choice for annotating over any given image.</p> <h4 id="disadvantages"><span id="disadvantages" class="anchor"></span>Disadvantages<a href="#disadvantages" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p>DIVs did not offer the flexibility of SVG and HTML canvas, especially for
+drawing more complex shapes like arrowheads. Positioning of div elements also
+tends to be clunky as I would have to work with CSS positioning as well. This
+might be an issue when scaling is involved since relative position tends to
+change significantly depending on the size of the screen.</p> <p>SVGs were complicated to overlay over an image and creating many different
+custom SVGs would require a use of a external library (or very complicated
+code). SVGs would also have to be referenced for each rended object and this
+would be troublesome since I am passing child components to the parent (making
+references difficult due to the similar names).</p> <p>HTML canvas is complicated to work with and requires a lot of javascript. It
+also requires the image to be drawn in one go (depending on application) as
+often times drawing over a already drawn image does not preserve quality well.</p> <p>Resources:</p> <ul><li><a href="https://stackoverflow.com/questions/5882716/html5-canvas-vs-svg-vs-div#:~:text=The%20short%20answer%3A&amp;text=SVG%20objects%20are%20DOM%20objects,yourself%2C%20or%20use%20a%20library.">Performance difference between DIVs, SVG and HTML Canvas</a></li></ul> <h4 id="final-choice-divs-for-annotating-over-images"><span id="final-choice-divs-for-annotating-over-images" class="anchor"></span>Final choice: DIVs for annotating over images<a href="#final-choice-divs-for-annotating-over-images" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p>DIVs provided more flexibility since using CSS on them is simple compared to
+Canvas which is drawing over the image directly. Using components also allowed
+for the implementation of hover actions and was much simpler than the
+implementation in Canvas.</p> <h3 id="attributes-and-query-selector"><span id="attributes-and-query-selector" class="anchor"></span>Attributes and Query Selector<a href="#attributes-and-query-selector" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>The <code class="hljs inline no-lang">querySelector</code> method is used to find elements in the DOM. I used it to get
+the info of all child classes from the <code class="hljs inline no-lang">annotation-wrapper</code>. This allowed me to
+get the attribute data needed to build the html canvass before drawing. I choose
+to use <code class="hljs inline no-lang">querySelector</code> over emitters due to the way my components where
+structured. By using <code class="hljs inline no-lang">querySelector</code> adding more annotation features to the
+class will be relatively easy since all I have to do is add another method to
+query the new element id.</p> <p>Resources:</p> <ul><li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector">query selector api</a></li></ul> <h3 id="debounce-js"><span id="debounce-js" class="anchor"></span>Debounce - JS<a href="#debounce-js" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>In JavaScript, a debounce function makes sure that your code is only triggered
+once per user input.</p> <h3 id="vue-element-selectors"><span id="vue-element-selectors" class="anchor"></span>Vue Element Selectors<a href="#vue-element-selectors" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>This feature of Vue was really awesome. It allowed me to get elements from the
+DOM without having to use the base javascript <code class="hljs inline no-lang">querySelector</code> method.</p> <p>Element selectors are used to find elements in the DOM. I used them to get the
+image of the parent element and from there managed to calculate the width and
+height of the image.</p> <p>Element selectors are generally used in the <code class="hljs inline no-lang">created()</code> section of vue but can
+be used elsewhere too.</p> <p>Example: <code class="hljs inline no-lang">this.$el.qureySelector('.image-wrapper')</code></p> <h3 id="css-pointer-redirection"><span id="css-pointer-redirection" class="anchor"></span>CSS pointer redirection<a href="#css-pointer-redirection" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>Learnt that in CSS if you have 2 overlaying areas, and you want to ignore the
+top area, you can use <code class="hljs inline no-lang">pointer-events: none;</code> on the top level element and then
+use <code class="hljs inline no-lang">pointer-events: all;</code> on the bottom level element. This makes it so that
+all pointer events in that area are redirected to the proper element.</p> <h3 id="vue-computed-vs-vue-method"><span id="vue-computed-vs-vue-method" class="anchor"></span>Vue computed vs Vue method<a href="#vue-computed-vs-vue-method" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>Generally not much difference between computed and methods. However the key
+differences are:</p> <p>Methods:</p> <ul><li>Similar to JS functions that are used to perform actions on the data.</li> <li>Will only run when called</li> <li>Can take in parameters</li></ul> <p>Computed:</p> <ul><li>Re-rendered every time the data changes</li> <li>Properties are available in data store</li> <li>Automatically cached</li> <li>Good for expensive operations</li> <li>Cannot send parameters</li></ul> <p>Resources:</p> <ul><li><a href="https://vuejs.org/v2/guide/computed.html#Computed-Properties">Vue computed vs Vue method</a></li> <li><a href="https://stackoverflow.com/questions/44350862/methods-vs-computed-in-vue#:~:text=The%20difference%20between%20computed%20and,every%20time%20it%20is%20called.">Stack overflow guide</a></li></ul> <i id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true" class="fa fa-arrow-circle-up fa-lg d-print-none"></i></div> <nav id="page-nav" class="fixed-header-padding" data-v-e8c82f88><div class="nav-component slim-scroll" data-v-e8c82f88></div> <!----></nav></div> <footer><div class="text-center"><p>[<strong>This site was generated using <img src="https://markbind.org/favicon.ico" width="25"> <a href="https://markbind.org/">MarkBind 4.1.0</a></strong> on Tue, May 2, 2023, 2:23:27 PM UTC]<br> <span class="dimmed"><small><small>favicon.ico of this site was made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small></small></span></p></div></footer></div>
+</body><script src="/2023/markbind/js/bootstrap-utility.min.js"></script>
+<script>
+  MarkBind.setupWithSearch()
+</script>
+</html>

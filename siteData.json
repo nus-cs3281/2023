@@ -1,0 +1,1607 @@
+{
+  "enableSearch": true,
+  "pages": [
+    {
+      "src": "README.md",
+      "title": "",
+      "headings": {
+        "cs3281-and-amp-2-student-data-website": "CS3281&amp;2 student data website"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "cs3282-index.md",
+      "title": "CS3282 - 2023 Batch",
+      "headings": {
+        "cs3282-2023-batch": "CS3282 - 2023 Batch",
+        "catcher": "CATcher",
+        "kang-su-min": "KANG SU MIN",
+        "lee-chun-wei": "Lee Chun Wei",
+        "markbind": "MarkBind",
+        "koh-rayson": "KOH RAYSON",
+        "liu-yongliang": "LIU YONGLIANG",
+        "ong-jun-xiong": "ONG JUN XIONG",
+        "jovyn-tan-li-shyan": "Jovyn Tan Li Shyan",
+        "reposense": "RepoSense",
+        "chan-jun-da": "CHAN JUN DA",
+        "huang-chengyu": "HUANG CHENGYU",
+        "tay-yi-hsuen": "TAY YI HSUEN",
+        "zhou-jiahao": "Zhou Jiahao",
+        "teammates": "TEAMMATES",
+        "fang-junwei-samuel": "FANG JUNWEI, SAMUEL",
+        "dao-ngoc-hieu": "DAO NGOC HIEU",
+        "zhao-jingjing": "ZHAO JINGJING",
+        "wu-qirui": "WU QIRUI"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "index.md",
+      "title": "CS3281&2 - 2023 Batch",
+      "headings": {
+        "cs3281-2023-batch": "CS3281 - 2023 Batch",
+        "catcher": "CATcher",
+        "sun-xinyu": "Sun Xinyu",
+        "li-zhaoqi": "Li Zhaoqi",
+        "wong-chee-hong": "Wong Chee Hong",
+        "vignesh-sankar-iyer": "Vignesh Sankar Iyer",
+        "markbind": "MarkBind",
+        "elton-goh-jun-hao": "Elton Goh Jun Hao",
+        "lee-wei-david": "LEE WEI, DAVID",
+        "lee-hyung-woon": "Lee Hyung Woon",
+        "chan-yu-cheng": "Chan Yu Cheng",
+        "reposense": "RepoSense",
+        "marcus-tang-xin-kye": "Marcus Tang Xin Kye",
+        "charisma-kausar": "Charisma Kausar",
+        "chang-si-kai": "Chang Si Kai",
+        "david-gareth-ong": "David Gareth Ong",
+        "teammates": "TEAMMATES",
+        "sim-sing-yee-eunice": "Sim Sing Yee, Eunice",
+        "ong-jun-heng-cedric": "Ong Jun Heng, Cedric",
+        "dominic-lim-kai-jun": "Dominic Lim Kai Jun",
+        "wu-qirui": "WU QIRUI",
+        "qiu-jiasheng-jason": "Qiu Jiasheng, Jason",
+        "kevin-foong-wei-tong": "Kevin Foong Wei Tong",
+        "neo-wei-qing": "Neo Wei Qing"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "instructions.md",
+      "title": "Updating this website",
+      "headings": {
+        "instructions-for-updating-this-website": "Instructions for Updating this Website",
+        "general-instructions-for-updating-this-repo": "General Instructions for Updating This Repo",
+        "updating-your-basic-info": "Updating Your Basic Info",
+        "updating-your-project-progress": "Updating Your Project Progress",
+        "cs3281-updating-the-knowledge-gained-page": "[CS3281] Updating the Knowledge Gained Page",
+        "cs3282-updating-the-observations-page": "[CS3282] Updating the Observations Page"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Echomo-Xinyu/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Echomo-Xinyu/knowledge.md",
+      "title": "",
+      "headings": {
+        "tool-angular-framework-overview": "Tool/Angular Framework Overview",
+        "angular-upgrade": "Angular Upgrade",
+        "tool-github-actions-markbind": "Tool/GitHub Actions + Markbind"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Echomo-Xinyu/progress.md",
+      "title": "",
+      "headings": {
+        "summary": "Summary"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Eclipse-Dominator/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Eclipse-Dominator/knowledge.md",
+      "title": "",
+      "headings": {
+        "angular-and-typescript": "Angular and Typescript",
+        "html-text-area-history-events": "HTML Text area history events",
+        "javascript-events": "Javascript Events",
+        "graphql": "GraphQL",
+        "rxjs": "RXJS"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Eclipse-Dominator/progress.md",
+      "title": "",
+      "headings": {
+        "summary": "Summary",
+        "notable-features-improvements": "Notable features/improvements:",
+        "catcher": "CATcher",
+        "watcher": "WATcher"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/EltonGohJH/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/EltonGohJH/knowledge.md",
+      "title": "",
+      "headings": {
+        "special-mention-to-chatgpt-and-github-copilot": "Special mention to ChatGPT and GitHub Copilot",
+        "vue-js": "Vue.js",
+        "monorepo-and-monorepo-management-tools": "Monorepo and Monorepo management tools",
+        "serverside-rendering-ssr": "Serverside Rendering (SSR)",
+        "webpack": "Webpack",
+        "i-learn-how-to-use-open-source-software": "I learn how to use Open Source Software"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/EltonGohJH/progress.md",
+      "title": "",
+      "headings": {
+        "summary": "Summary"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/EuniceSim142/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/EuniceSim142/knowledge.md",
+      "title": "",
+      "headings": {
+        "frontend": "Frontend",
+        "backend": "Backend:",
+        "testing": "Testing",
+        "git": "Git",
+        "oss-related": "OSS-related"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/EuniceSim142/progress.md",
+      "title": "",
+      "headings": {
+        "cs3281-semester-s-progress": "CS3281 Semester's Progress",
+        "summary": "Summary"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/HCY123902/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/HCY123902/knowledge.md",
+      "title": "",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "tool-technology-2": "Tool/Technology 2",
+        "tool-technology-3": "Tool/Technology 3",
+        "tool-technology-4": "Tool/Technology 4",
+        "tool-technology-5": "Tool/Technology 5",
+        "tool-technology-6": "Tool/Technology 6",
+        "tool-technology-7": "Tool/Technology 7",
+        "tool-technology-8": "Tool/Technology 8",
+        "tool-technology-8-2": "Tool/Technology 8"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/HCY123902/observations.md",
+      "title": "",
+      "headings": {
+        "project-checkstyle": "Project: Checkstyle",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record",
+        "reflection": "Reflection",
+        "project-mdn-web-docs": "Project: MDN Web Docs",
+        "my-contributions-2": "My Contributions",
+        "my-learning-record-2": "My Learning Record",
+        "reflection-2": "Reflection"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/HCY123902/progress.md",
+      "title": "",
+      "headings": {
+        "prior-work-in-ay2021-2022-semester-1": "Prior Work in AY2021/2022 semester 1",
+        "prior-work-in-ay2021-2022-semester-2": "Prior Work in AY2021/2022 semester 2",
+        "prior-work-in-ay2022-2023-semester-1": "Prior Work in AY2022/2023 semester 1",
+        "work-in-ay2022-2023-semester-2": "Work in AY2022/2023 semester 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/MarcusTXK/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/MarcusTXK/knowledge.md",
+      "title": "",
+      "headings": {
+        "devops": "DevOps",
+        "gradle": "Gradle",
+        "bash-and-batch-scripting": "Bash and Batch Scripting",
+        "codecov": "Codecov",
+        "frontend": "Frontend",
+        "vue": "Vue",
+        "pug": "Pug",
+        "cypress": "Cypress",
+        "backend": "Backend",
+        "bloch-s-builder-pattern": "Bloch’s Builder Pattern",
+        "polymorphism": "Polymorphism",
+        "discrete-event-simulator-des": "Discrete Event Simulator (DES)",
+        "misc": "Misc",
+        "git-commmands-functionalities": "Git Commmands/Functionalities",
+        "url-shortening": "URL Shortening"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/MarcusTXK/progress.md",
+      "title": "",
+      "headings": {
+        "summary": "Summary"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Zhoukerrr/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Zhoukerrr/knowledge.md",
+      "title": "",
+      "headings": {
+        "cypress": "Cypress",
+        "migration-from-vue-2-to-vue-3": "Migration from Vue 2 to Vue 3",
+        "vue-v-if-and-v-for": "(Vue) v-if and v-for",
+        "vue-v-if-vs-v-show": "(Vue) v-if vs v-show",
+        "vue-watchers": "(Vue) Watchers",
+        "checking-plugin-github-issue-page": "Checking Plugin GitHub Issue Page",
+        "opening-issues": "Opening Issues",
+        "working-with-json-files": "Working with JSON files",
+        "class-style-component-syntax": "Class-style component syntax",
+        "the-use-of-a-utility-class": "The use of a utility class",
+        "some-useful-typescript-syntax": "Some useful typescript syntax"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Zhoukerrr/observations.md",
+      "title": "",
+      "headings": {
+        "project-nusmods": "Project: NUSMods",
+        "my-contributions": "My Contributions",
+        "add-support-for-customisable-modules-useful-for-tas": "Add support for customisable modules (useful for TAs)",
+        "my-learning-record": "My Learning Record",
+        "jest": "Jest",
+        "redux": "Redux",
+        "suggested-area-s-of-improvement": "Suggested Area(s) of Improvement"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Zhoukerrr/progress.md",
+      "title": "",
+      "headings": {
+        "contributions": "Contributions",
+        "ay2021-22-special-term": "AY2021/22 Special Term",
+        "ay2022-23-semester-1": "AY2022/23 Semester 1",
+        "ay2022-23-winter-break": "AY2022/23 Winter Break",
+        "ay2022-23-semester-2": "AY2022/23 Semester 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/cedricongjh/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/cedricongjh/knowledge.md",
+      "title": "",
+      "headings": {
+        "angular": "Angular",
+        "context": "Context",
+        "pipes": "Pipes",
+        "angular-template": "Angular Template",
+        "hibernate": "Hibernate",
+        "context-2": "Context",
+        "entities": "Entities",
+        "entity-lifecycle": "Entity lifecycle",
+        "inheritance": "Inheritance",
+        "testing": "Testing",
+        "context-3": "Context",
+        "unit-vs-integration-testing": "Unit vs Integration testing",
+        "oop-patterns": "OOP patterns",
+        "builder-pattern": "Builder pattern",
+        "factory-pattern": "Factory pattern",
+        "misc": "Misc",
+        "migrations": "Migrations",
+        "github-web-editor": "Github web editor",
+        "git-interactive-rebase": "Git interactive rebase",
+        "github-cli": "Github CLI"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/cedricongjh/progress.md",
+      "title": "",
+      "headings": {
+        "cs3281-progress": "CS3281 Progress",
+        "summary": "Summary"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/chan-j-d/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/chan-j-d/knowledge.md",
+      "title": "",
+      "headings": {
+        "cs3282-semester-knowledge-gained": "CS3282 Semester Knowledge Gained",
+        "kotlin": "Kotlin",
+        "android-development-in-android-studio": "Android development in Android Studio",
+        "mockito": "Mockito",
+        "mvp-vs-mvc": "MVP vs MVC",
+        "previous-knowledge-gained": "Previous knowledge gained",
+        "filesystems-bash-and-cmd": "FileSystems, Bash and CMD",
+        "specifying-file-paths-in-command-line-arguments": "Specifying File Paths in Command Line Arguments",
+        "relative-and-absolute-file-pathing-specifics": "Relative and Absolute File Pathing Specifics",
+        "special-characters-in-bash-string-arguments": "Special Characters in Bash String Arguments",
+        "variable-and-tilde-expansion-in-cmd-and-bash": "Variable and tilde expansion in CMD and Bash",
+        "github": "GitHub",
+        "deployments-and-environments": "Deployments and Environments",
+        "github-api": "GitHub API",
+        "github-actions": "GitHub Actions",
+        "git-specifications": "Git Specifications:",
+        "git-diff-output": "Git Diff Output",
+        "git-log-output": "Git Log Output",
+        "git-commit-and-amp-config-interaction": "Git Commit &amp; Config Interaction",
+        "git-changelogs": "Git Changelogs",
+        "javascript-vue-js": "Javascript/Vue.js",
+        "html": "HTML",
+        "regular-expressions": "Regular Expressions",
+        "gson-package": "GSON package",
+        "others": "Others",
+        "and-quot-file-and-quot-uri-scheme": "&quot;file&quot; URI Scheme",
+        "curl-command": "cURL command",
+        "restful-api": "RESTful API",
+        "bash-shell-scripting": "Bash Shell Scripting",
+        "other-popular-remote-repository-hosts": "Other popular remote repository hosts",
+        "intellij-inspect-code": "IntelliJ Inspect Code",
+        "file-locks": "File locks",
+        "checkstyle": "Checkstyle"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/chan-j-d/observations.md",
+      "title": "",
+      "headings": {
+        "project-wikimedia-commons-app": "Project: Wikimedia Commons App",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record",
+        "reflections": "Reflections"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/chan-j-d/progress.md",
+      "title": "",
+      "headings": {
+        "before-semester-work": "Before semester work",
+        "during-semester-work": "During semester work"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/cheehongw/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/cheehongw/knowledge.md",
+      "title": "",
+      "headings": {
+        "angular-essentials": "Angular Essentials",
+        "e2e-testing-with-playwright": "E2E Testing with Playwright",
+        "github-actions": "Github Actions",
+        "rxjs-and-the-observer-pattern": "RxJS and the Observer Pattern"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/cheehongw/progress.md",
+      "title": "",
+      "headings": {
+        "cs3281-progress": "CS3281 Progress",
+        "summary": "Summary"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/chunweii/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/chunweii/knowledge.md",
+      "title": "",
+      "headings": {
+        "observer-design-pattern-in-rxjs": "Observer design pattern (in rxjs)",
+        "logging": "Logging",
+        "view-encapsulation": "View Encapsulation",
+        "authentication-and-authorization": "Authentication and authorization"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/chunweii/observations.md",
+      "title": "",
+      "headings": {
+        "project-httpexpect": "Project: httpexpect",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/chunweii/progress.md",
+      "title": "",
+      "headings": {
+        "cs3282-before-sem-progress": "CS3282 Before-Sem Progress",
+        "cs3282-during-sem-progress": "CS3282 During-Sem Progress",
+        "catcher": "CATcher",
+        "watcher": "WATcher",
+        "catcher-documentations": "CATcher documentations",
+        "watcher-documentations": "WATcher documentations",
+        "external-project-gavv-httpexpect": "External Project (gavv/httpexpect)"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/ckcherry23/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/ckcherry23/knowledge.md",
+      "title": "",
+      "headings": {
+        "1-tools-and-technologies": "1. Tools and Technologies",
+        "2-software-engineering": "2. Software Engineering",
+        "3-project-management": "3. Project Management"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/ckcherry23/progress.md",
+      "title": "",
+      "headings": {
+        "summary": "Summary",
+        "weekly-breakdown": "Weekly breakdown"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/daongochieu2810/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/daongochieu2810/knowledge.md",
+      "title": "",
+      "headings": {
+        "angular": "Angular",
+        "rxjs": "RxJs",
+        "google-app-engine": "Google App Engine",
+        "java": "Java",
+        "objectify": "Objectify",
+        "google-cloud-platform": "Google Cloud Platform",
+        "backend-techniques-and-amp-testing": "Backend Techniques &amp; Testing"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/daongochieu2810/observations.md",
+      "title": "",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/daongochieu2810/progress.md",
+      "title": "",
+      "headings": {
+        "2021": "2021",
+        "2022": "2022",
+        "2023": "2023",
+        "summary": "Summary",
+        "details": "Details"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/domlimm/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/domlimm/knowledge.md",
+      "title": "",
+      "headings": {
+        "angular": "Angular",
+        "context": "Context",
+        "passing-data-between-parent-and-child-components": "Passing data between Parent and Child components",
+        "services": "Services",
+        "testing": "Testing",
+        "spy-es-spies": "Spy-es/Spies",
+        "integration-tests": "Integration Tests",
+        "hibernate": "Hibernate",
+        "context-2": "Context",
+        "annotations": "Annotations",
+        "database-functionalities-of-hibernate-s-api": "Database Functionalities of Hibernate's API",
+        "data-persistence-through-jpa": "Data Persistence through JPA",
+        "cascade-types-delete": "Cascade Types (Delete)",
+        "specifying-cascade-cascadetype-remove-when-declaring-the-association-between-2-entities-parent-and-child": "Specifying cascade = CascadeType.REMOVE when declaring the association between 2 entities, parent and child",
+        "specifying-orphanremoval-true-when-declaring-the-association-between-2-entities-parent-and-child": "Specifying orphanRemoval = true when declaring the association between 2 entities, parent and child",
+        "using-ondelete-action-ondeleteaction-cascade": "Using @OnDelete(action = OnDeleteAction.CASCADE)",
+        "inheritance-strategies": "Inheritance Strategies",
+        "mappedsuperclass": "MappedSuperclass",
+        "single-table": "Single Table",
+        "joined-table-aka-table-per-subclass-mapping-strategy": "Joined Table aka Table-per-subclass mapping strategy",
+        "table-per-class": "Table per Class",
+        "conclusion": "Conclusion",
+        "resources": "Resources",
+        "miscellaneous": "Miscellaneous",
+        "large-modifications-to-a-live-system": "Large Modifications to a Live System",
+        "a-good-follow-up-after-submitting-a-pr": "A good follow-up after submitting a PR",
+        "a-different-view-when-looking-at-a-pr": "A different view when looking at a PR",
+        "github-cli": "GitHub CLI"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/domlimm/progress.md",
+      "title": "",
+      "headings": {
+        "cs3281-pre-semester-s-progress": "CS3281 Pre-Semester's Progress",
+        "cs3281-semester-s-progress": "CS3281 Semester's Progress",
+        "summary": "Summary",
+        "cs3281-post-semester-s-progress": "CS3281 Post-Semester's Progress"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/hhdqirui/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/hhdqirui/knowledge.md",
+      "title": "",
+      "headings": {
+        "angular": "Angular",
+        "rxjs": "RxJs",
+        "docker": "Docker",
+        "hibernate": "Hibernate"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/hhdqirui/observations.md",
+      "title": "",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/hhdqirui/progress.md",
+      "title": "",
+      "headings": {
+        "summary": "Summary",
+        "cs3282-pre-sem-progress": "CS3282 Pre-Sem Progress",
+        "cs3282-cs3282-progress": "CS3282/CS3282 Progress"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/itsyme/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/itsyme/knowledge.md",
+      "title": "",
+      "headings": {
+        "vue-js": "Vue.js",
+        "document-object-model-dom-manipulation": "Document Object Model (DOM) Manipulation",
+        "jest-vue-test-utils": "Jest/Vue Test Utils",
+        "typescript": "Typescript",
+        "ui": "UI",
+        "project-management": "Project Management"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/itsyme/progress.md",
+      "title": "",
+      "headings": {
+        "summary": "Summary"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jasonqiu212/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jasonqiu212/knowledge.md",
+      "title": "",
+      "headings": {
+        "angular": "Angular",
+        "web-accessability": "Web Accessability",
+        "bootstrap": "Bootstrap",
+        "snapshot-testing": "Snapshot Testing",
+        "end-to-end-testing": "End-to-end Testing",
+        "search": "Search",
+        "git": "Git"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jasonqiu212/observations.md",
+      "title": "",
+      "headings": {
+        "project-teammates": "Project: TEAMMATES",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jasonqiu212/progress.md",
+      "title": "",
+      "headings": {
+        "cs3281-progress": "CS3281 Progress"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jovyntls/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jovyntls/knowledge.md",
+      "title": "",
+      "headings": {
+        "vue-lifecycle-hooks": "Vue Lifecycle Hooks",
+        "vue-templates-and-amp-slots": "Vue Templates &amp; Slots",
+        "data-attributes": "Data attributes",
+        "server-side-rendering": "Server-Side Rendering",
+        "useful-git-tricks": "Useful Git tricks",
+        "npm-dependencies": "npm Dependencies",
+        "simple-scripting": "Simple scripting",
+        "traversing-the-dom": "Traversing the DOM",
+        "chrome-devtools": "Chrome Devtools",
+        "type-safety": "Type Safety",
+        "types-in-typescript": "Types in TypeScript",
+        "accessing-ambiguous-object-attributes-in-typescript": "Accessing ambiguous object attributes in TypeScript",
+        "strict-mode-in-javascript": "Strict mode in JavaScript"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jovyntls/observations.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jovyntls/progress.md",
+      "title": "",
+      "headings": {
+        "issues-and-amp-discussions": "Issues &amp; Discussions",
+        "implementation-work": "Implementation work",
+        "pr-reviews": "PR Reviews"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/kevin9foong/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/kevin9foong/knowledge.md",
+      "title": "",
+      "headings": {
+        "frontend": "Frontend",
+        "angular-frontend-framework": "Angular (Frontend framework)",
+        "backend": "Backend",
+        "presentation-logic-data-layering": "Presentation-Logic-Data Layering",
+        "exception-wrapping": "Exception wrapping",
+        "how-to-ensure-product-stays-live-even-during-migration": "How to ensure product stays live even during migration",
+        "hibernate-orm": "Hibernate ORM",
+        "general-swe-skills-and-tools": "General SWE skills and tools",
+        "docker": "Docker",
+        "gradlew": "Gradlew",
+        "testing": "Testing",
+        "oss-project-maintenance": "OSS project maintenance",
+        "swe-project-management-best-practices": "SWE/Project management best practices",
+        "improving-my-fluency-with-using-swe-tooling": "Improving my fluency with using SWE tooling",
+        "debugger": "Debugger",
+        "shortcuts": "Shortcuts"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/kevin9foong/progress.md",
+      "title": "",
+      "headings": {
+        "summary": "Summary",
+        "weekly-progress": "Weekly progress",
+        "issues-raised": "Issues raised",
+        "pr-reviews": "PR Reviews",
+        "misc": "Misc"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/kkangs0226/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/kkangs0226/knowledge.md",
+      "title": "",
+      "headings": {
+        "angular": "Angular",
+        "aspects-learnt": "Aspects learnt",
+        "resources-used-and-amp-summary": "Resources Used &amp; Summary",
+        "resources-used-and-amp-summary-2": "Resources Used &amp; Summary",
+        "jasmine-javascript-testing": "Jasmine (Javascript Testing)",
+        "aspects-learnt-2": "Aspects learnt",
+        "resources-used-and-amp-summary-3": "Resources Used &amp; Summary",
+        "electron": "Electron",
+        "aspects-learnt-3": "Aspects learnt",
+        "resources-used-and-amp-summary-4": "Resources Used &amp; Summary",
+        "github-authentication": "Github Authentication",
+        "aspects-learnt-4": "Aspects learnt",
+        "resources-used-and-amp-summary-5": "Resources Used &amp; Summary"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/kkangs0226/observations.md",
+      "title": "",
+      "headings": {
+        "project-pandas": "Project: Pandas",
+        "summary-of-contributions": "Summary of Contributions",
+        "my-learning-record": "My Learning Record",
+        "differences-in-processes": "Differences in Processes",
+        "suggestions-for-internal-project": "Suggestions for Internal Project"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/kkangs0226/progress.md",
+      "title": "",
+      "headings": {
+        "cs3282-pre-sem-progress": "CS3282 Pre-Sem Progress",
+        "issues": "Issues",
+        "prs": "PRs",
+        "pr-reviews": "PR Reviews",
+        "cs3282-progress": "CS3282 Progress",
+        "issues-catcher": "Issues - CATcher",
+        "issues-watcher": "Issues - WATcher",
+        "pr-catcher": "PR - CATcher",
+        "pr-watcher": "PR - WATcher",
+        "pr-reviews-catcher": "PR Reviews - CATcher",
+        "pr-reviews-watcher": "PR Reviews - WATcher"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/knowledge.md",
+      "title": "CS3281 - Knowledge gained from Projects",
+      "headings": {
+        "knowledge-gained-from-projects": "Knowledge gained from Projects",
+        "catcher": "CATcher",
+        "sun-xinyu": "Sun Xinyu",
+        "tool-angular-framework-overview": "Tool/Angular Framework Overview",
+        "angular-upgrade": "Angular Upgrade",
+        "tool-github-actions-markbind": "Tool/GitHub Actions + Markbind",
+        "li-zhaoqi": "Li Zhaoqi",
+        "angular-and-typescript": "Angular and Typescript",
+        "html-text-area-history-events": "HTML Text area history events",
+        "javascript-events": "Javascript Events",
+        "graphql": "GraphQL",
+        "rxjs": "RXJS",
+        "wong-chee-hong": "Wong Chee Hong",
+        "angular-essentials": "Angular Essentials",
+        "e2e-testing-with-playwright": "E2E Testing with Playwright",
+        "github-actions": "Github Actions",
+        "rxjs-and-the-observer-pattern": "RxJS and the Observer Pattern",
+        "vignesh-sankar-iyer": "Vignesh Sankar Iyer",
+        "angular": "Angular",
+        "rxjs-2": "RxJS",
+        "markbind": "MarkBind",
+        "elton-goh-jun-hao": "Elton Goh Jun Hao",
+        "special-mention-to-chatgpt-and-github-copilot": "Special mention to ChatGPT and GitHub Copilot",
+        "vue-js": "Vue.js",
+        "monorepo-and-monorepo-management-tools": "Monorepo and Monorepo management tools",
+        "serverside-rendering-ssr": "Serverside Rendering (SSR)",
+        "webpack": "Webpack",
+        "i-learn-how-to-use-open-source-software": "I learn how to use Open Source Software",
+        "lee-wei-david": "LEE WEI, DAVID",
+        "vue-js-2": "Vue.js",
+        "document-object-model-dom-manipulation": "Document Object Model (DOM) Manipulation",
+        "jest-vue-test-utils": "Jest/Vue Test Utils",
+        "typescript": "Typescript",
+        "ui": "UI",
+        "project-management": "Project Management",
+        "lee-hyung-woon": "Lee Hyung Woon",
+        "tools-technology-used-within-markbind": "Tools / Technology used within MarkBind",
+        "vue-js-3": "Vue.js",
+        "nunjucks": "Nunjucks",
+        "typescript-2": "TypeScript",
+        "external-tools-technology": "External Tools / Technology",
+        "static-site-generators-and-quot-competitor-analysis-and-quot": "Static Site Generators (&quot;Competitor Analysis&quot;)",
+        "chan-yu-cheng": "Chan Yu Cheng",
+        "vue": "Vue",
+        "jquery-cheerio-and-javascript-for-dom-manipulation": "Jquery, Cheerio and Javascript for DOM manipulation",
+        "css": "CSS",
+        "typescript-and-migration": "Typescript and migration",
+        "github-actions-2": "Github actions",
+        "nunjucks-2": "Nunjucks",
+        "node-js-versioning": "Node.js versioning",
+        "deployment": "Deployment",
+        "reuse-principle": "Reuse principle",
+        "documentation": "Documentation",
+        "reposense": "RepoSense",
+        "marcus-tang-xin-kye": "Marcus Tang Xin Kye",
+        "devops": "DevOps",
+        "gradle": "Gradle",
+        "bash-and-batch-scripting": "Bash and Batch Scripting",
+        "codecov": "Codecov",
+        "frontend": "Frontend",
+        "vue-2": "Vue",
+        "pug": "Pug",
+        "cypress": "Cypress",
+        "backend": "Backend",
+        "bloch-s-builder-pattern": "Bloch’s Builder Pattern",
+        "polymorphism": "Polymorphism",
+        "discrete-event-simulator-des": "Discrete Event Simulator (DES)",
+        "misc": "Misc",
+        "git-commmands-functionalities": "Git Commmands/Functionalities",
+        "url-shortening": "URL Shortening",
+        "charisma-kausar": "Charisma Kausar",
+        "1-tools-and-technologies": "1. Tools and Technologies",
+        "2-software-engineering": "2. Software Engineering",
+        "3-project-management": "3. Project Management",
+        "chang-si-kai": "Chang Si Kai",
+        "regular-expression": "Regular Expression",
+        "git-clone-bare": "Git Clone Bare",
+        "git-shallow-clone": "Git Shallow Clone",
+        "synchronization": "Synchronization",
+        "github-actions-3": "GitHub Actions",
+        "david-gareth-ong": "David Gareth Ong",
+        "vue-and-amp-options-api": "Vue &amp; Options API",
+        "cypress-testing": "Cypress testing",
+        "typescript-3": "TypeScript",
+        "teammates": "TEAMMATES",
+        "sim-sing-yee-eunice": "Sim Sing Yee, Eunice",
+        "frontend-2": "Frontend",
+        "backend-2": "Backend:",
+        "testing": "Testing",
+        "git": "Git",
+        "oss-related": "OSS-related",
+        "ong-jun-heng-cedric": "Ong Jun Heng, Cedric",
+        "angular-3": "Angular",
+        "context": "Context",
+        "pipes": "Pipes",
+        "angular-template": "Angular Template",
+        "hibernate": "Hibernate",
+        "context-2": "Context",
+        "entities": "Entities",
+        "entity-lifecycle": "Entity lifecycle",
+        "inheritance": "Inheritance",
+        "testing-2": "Testing",
+        "context-3": "Context",
+        "unit-vs-integration-testing": "Unit vs Integration testing",
+        "oop-patterns": "OOP patterns",
+        "builder-pattern": "Builder pattern",
+        "factory-pattern": "Factory pattern",
+        "misc-2": "Misc",
+        "migrations": "Migrations",
+        "github-web-editor": "Github web editor",
+        "git-interactive-rebase": "Git interactive rebase",
+        "github-cli": "Github CLI",
+        "dominic-lim-kai-jun": "Dominic Lim Kai Jun",
+        "angular-4": "Angular",
+        "context-4": "Context",
+        "passing-data-between-parent-and-child-components": "Passing data between Parent and Child components",
+        "services": "Services",
+        "testing-3": "Testing",
+        "spy-es-spies": "Spy-es/Spies",
+        "integration-tests": "Integration Tests",
+        "hibernate-2": "Hibernate",
+        "context-5": "Context",
+        "annotations": "Annotations",
+        "database-functionalities-of-hibernate-s-api": "Database Functionalities of Hibernate's API",
+        "data-persistence-through-jpa": "Data Persistence through JPA",
+        "cascade-types-delete": "Cascade Types (Delete)",
+        "specifying-cascade-cascadetype-remove-when-declaring-the-association-between-2-entities-parent-and-child": "Specifying cascade = CascadeType.REMOVE when declaring the association between 2 entities, parent and child",
+        "specifying-orphanremoval-true-when-declaring-the-association-between-2-entities-parent-and-child": "Specifying orphanRemoval = true when declaring the association between 2 entities, parent and child",
+        "using-ondelete-action-ondeleteaction-cascade": "Using @OnDelete(action = OnDeleteAction.CASCADE)",
+        "inheritance-strategies": "Inheritance Strategies",
+        "mappedsuperclass": "MappedSuperclass",
+        "single-table": "Single Table",
+        "joined-table-aka-table-per-subclass-mapping-strategy": "Joined Table aka Table-per-subclass mapping strategy",
+        "table-per-class": "Table per Class",
+        "conclusion": "Conclusion",
+        "resources": "Resources",
+        "miscellaneous": "Miscellaneous",
+        "large-modifications-to-a-live-system": "Large Modifications to a Live System",
+        "a-good-follow-up-after-submitting-a-pr": "A good follow-up after submitting a PR",
+        "a-different-view-when-looking-at-a-pr": "A different view when looking at a PR",
+        "github-cli-2": "GitHub CLI",
+        "wu-qirui": "WU QIRUI",
+        "angular-5": "Angular",
+        "rxjs-3": "RxJs",
+        "docker-2": "Docker",
+        "hibernate-3": "Hibernate",
+        "qiu-jiasheng-jason": "Qiu Jiasheng, Jason",
+        "angular-6": "Angular",
+        "web-accessability": "Web Accessability",
+        "bootstrap-2": "Bootstrap",
+        "snapshot-testing-2": "Snapshot Testing",
+        "end-to-end-testing": "End-to-end Testing",
+        "search": "Search",
+        "git-2": "Git",
+        "kevin-foong-wei-tong": "Kevin Foong Wei Tong",
+        "frontend-3": "Frontend",
+        "angular-frontend-framework": "Angular (Frontend framework)",
+        "backend-3": "Backend",
+        "presentation-logic-data-layering": "Presentation-Logic-Data Layering",
+        "exception-wrapping": "Exception wrapping",
+        "how-to-ensure-product-stays-live-even-during-migration": "How to ensure product stays live even during migration",
+        "hibernate-orm": "Hibernate ORM",
+        "general-swe-skills-and-tools": "General SWE skills and tools",
+        "docker-3": "Docker",
+        "gradlew": "Gradlew",
+        "testing-4": "Testing",
+        "oss-project-maintenance": "OSS project maintenance",
+        "swe-project-management-best-practices": "SWE/Project management best practices",
+        "improving-my-fluency-with-using-swe-tooling": "Improving my fluency with using SWE tooling",
+        "debugger": "Debugger",
+        "shortcuts": "Shortcuts",
+        "neo-wei-qing": "Neo Wei Qing",
+        "frontend-4": "Frontend",
+        "backend-4": "Backend",
+        "others": "Others"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/lhw-1/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/lhw-1/knowledge.md",
+      "title": "",
+      "headings": {
+        "tools-technology-used-within-markbind": "Tools / Technology used within MarkBind",
+        "vue-js": "Vue.js",
+        "nunjucks": "Nunjucks",
+        "typescript": "TypeScript",
+        "external-tools-technology": "External Tools / Technology",
+        "static-site-generators-and-quot-competitor-analysis-and-quot": "Static Site Generators (&quot;Competitor Analysis&quot;)"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/lhw-1/progress.md",
+      "title": "",
+      "headings": {
+        "cs3281-progress": "CS3281 Progress",
+        "summary": "Summary",
+        "progress-overview": "Progress Overview",
+        "pull-requests": "Pull Requests",
+        "issues-discussions": "Issues / Discussions"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/observations.md",
+      "title": "",
+      "headings": {
+        "observations-from-external-projects": "Observations from External Projects",
+        "catcher": "CATcher",
+        "kang-su-min": "KANG SU MIN",
+        "project-pandas": "Project: Pandas",
+        "summary-of-contributions": "Summary of Contributions",
+        "my-learning-record": "My Learning Record",
+        "differences-in-processes": "Differences in Processes",
+        "suggestions-for-internal-project": "Suggestions for Internal Project",
+        "lee-chun-wei": "Lee Chun Wei",
+        "project-httpexpect": "Project: httpexpect",
+        "my-contributions": "My Contributions",
+        "my-learning-record-2": "My Learning Record",
+        "markbind": "MarkBind",
+        "koh-rayson": "KOH RAYSON",
+        "project-ockam": "Project: Ockam",
+        "external-project-workflow": "External Project Workflow",
+        "my-contributions-2": "My Contributions",
+        "my-learning-record-3": "My Learning Record",
+        "recommendations-for-markbind-project": "Recommendations for Markbind Project",
+        "liu-yongliang": "LIU YONGLIANG",
+        "project-1-mdn-web-docs": "Project 1: MDN Web Docs",
+        "my-contributions-3": "My Contributions",
+        "my-learning-record-4": "My Learning Record",
+        "project-2-dendron": "Project 2: Dendron",
+        "my-contributions-4": "My Contributions",
+        "my-learning-record-5": "My Learning Record",
+        "ong-jun-xiong": "ONG JUN XIONG",
+        "project-tachiyomi": "Project: Tachiyomi",
+        "motivation": "Motivation",
+        "my-contributions-5": "My Contributions",
+        "my-learning-record-6": "My Learning Record",
+        "project-2-devfi": "Project 2 - devFi",
+        "how-it-works": "How it works",
+        "my-learning-record-7": "My Learning Record",
+        "jovyn-tan-li-shyan": "Jovyn Tan Li Shyan",
+        "reposense": "RepoSense",
+        "chan-jun-da": "CHAN JUN DA",
+        "project-wikimedia-commons-app": "Project: Wikimedia Commons App",
+        "my-contributions-6": "My Contributions",
+        "my-learning-record-8": "My Learning Record",
+        "reflections": "Reflections",
+        "huang-chengyu": "HUANG CHENGYU",
+        "project-checkstyle": "Project: Checkstyle",
+        "my-contributions-7": "My Contributions",
+        "my-learning-record-9": "My Learning Record",
+        "reflection-4": "Reflection",
+        "project-mdn-web-docs": "Project: MDN Web Docs",
+        "my-contributions-8": "My Contributions",
+        "my-learning-record-10": "My Learning Record",
+        "reflection-5": "Reflection",
+        "tay-yi-hsuen": "TAY YI HSUEN",
+        "project-foo": "Project: Foo",
+        "my-contributions-9": "My Contributions",
+        "my-learning-record-11": "My Learning Record",
+        "zhou-jiahao": "Zhou Jiahao",
+        "project-nusmods": "Project: NUSMods",
+        "my-contributions-10": "My Contributions",
+        "add-support-for-customisable-modules-useful-for-tas": "Add support for customisable modules (useful for TAs)",
+        "my-learning-record-12": "My Learning Record",
+        "jest": "Jest",
+        "redux": "Redux",
+        "suggested-area-s-of-improvement": "Suggested Area(s) of Improvement",
+        "teammates": "TEAMMATES",
+        "fang-junwei-samuel": "FANG JUNWEI, SAMUEL",
+        "project-foo-2": "Project: Foo",
+        "my-contributions-11": "My Contributions",
+        "my-learning-record-13": "My Learning Record",
+        "dao-ngoc-hieu": "DAO NGOC HIEU",
+        "project-foo-3": "Project: Foo",
+        "my-contributions-12": "My Contributions",
+        "my-learning-record-14": "My Learning Record",
+        "zhao-jingjing": "ZHAO JINGJING",
+        "project-foo-4": "Project: Foo",
+        "my-contributions-13": "My Contributions",
+        "my-learning-record-15": "My Learning Record",
+        "wu-qirui": "WU QIRUI",
+        "project-foo-5": "Project: Foo",
+        "my-contributions-14": "My Contributions",
+        "my-learning-record-16": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/ong6/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/ong6/knowledge.md",
+      "title": "",
+      "headings": {
+        "special-characters-encoding-on-uri": "Special characters encoding on URI",
+        "html-canvas-drawing": "HTML Canvas drawing",
+        "divs-vs-svg-vs-html-canvas-for-drawing": "DIVs vs SVG vs HTML Canvas for drawing",
+        "attributes-and-query-selector": "Attributes and Query Selector",
+        "debounce-js": "Debounce - JS",
+        "vue-element-selectors": "Vue Element Selectors",
+        "css-pointer-redirection": "CSS pointer redirection",
+        "vue-computed-vs-vue-method": "Vue computed vs Vue method"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/ong6/observations.md",
+      "title": "",
+      "headings": {
+        "project-tachiyomi": "Project: Tachiyomi",
+        "motivation": "Motivation",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record",
+        "project-2-devfi": "Project 2 - devFi",
+        "how-it-works": "How it works",
+        "my-learning-record-2": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/ong6/progress.md",
+      "title": "",
+      "headings": {
+        "cs3282-progress": "CS3282 Progress"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/parth-io/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/parth-io/knowledge.md",
+      "title": "",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "tool-technology-2": "Tool/Technology 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/parth-io/progress.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/raysonkoh/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/raysonkoh/knowledge.md",
+      "title": "",
+      "headings": {
+        "ay22-23-sem-2-knowledge": "AY22/23 Sem 2 Knowledge",
+        "ay20-21-sem-2-knowledge": "AY20/21 Sem 2 Knowledge"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/raysonkoh/observations.md",
+      "title": "",
+      "headings": {
+        "project-ockam": "Project: Ockam",
+        "external-project-workflow": "External Project Workflow",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record",
+        "recommendations-for-markbind-project": "Recommendations for Markbind Project"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/raysonkoh/progress.md",
+      "title": "",
+      "headings": {
+        "cs3282-pre-sem-progress": "CS3282 Pre-Sem Progress",
+        "cs3282-progress": "CS3282 Progress"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/sample/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/sample/knowledge.md",
+      "title": "",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "tool-technology-2": "Tool/Technology 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/sample/observations.md",
+      "title": "",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/sample/progress.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/sample/resume.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/samuelfangjw/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/samuelfangjw/knowledge.md",
+      "title": "",
+      "headings": {
+        "sass": "Sass",
+        "google-cloud-datastore": "Google Cloud Datastore",
+        "higher-order-rxjs-mapping-operators": "Higher-Order RxJs Mapping Operators",
+        "end-to-end-testing-with-selenium": "End-to-end Testing with Selenium",
+        "tips-and-tricks": "Tips and Tricks"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/samuelfangjw/observations.md",
+      "title": "",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/samuelfangjw/progress.md",
+      "title": "",
+      "headings": {
+        "cs3282-pre-sem-progress": "CS3282 Pre-Sem Progress",
+        "cs3282-progress": "CS3282 Progress"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/sikai00/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/sikai00/knowledge.md",
+      "title": "",
+      "headings": {
+        "regular-expression": "Regular Expression",
+        "git-clone-bare": "Git Clone Bare",
+        "git-shallow-clone": "Git Shallow Clone",
+        "synchronization": "Synchronization",
+        "github-actions": "GitHub Actions"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/sikai00/progress.md",
+      "title": "",
+      "headings": {
+        "summary": "Summary"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/talksSchedule.md",
+      "title": "CS3282 - Lightning Talks",
+      "headings": {
+        "round-a-week-4-5": "Round A (week 4, 5)",
+        "round-a1": "Round A1",
+        "round-a2": "Round A2",
+        "round-b-week-7-8": "Round B (week 7, 8)",
+        "round-b1": "Round B1",
+        "round-b2": "Round B2",
+        "round-c-week-11-12-10-11": "Round C (week 11, 12 10, 11)",
+        "round-c1": "Round C1",
+        "round-c2": "Round C2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/tlylt/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/tlylt/knowledge.md",
+      "title": "",
+      "headings": {
+        "creating-and-amp-publishing-a-npm-package": "Creating &amp; Publishing a NPM package",
+        "regular-expression": "Regular Expression",
+        "devops-and-amp-ci": "Devops &amp; CI",
+        "git-and-amp-github": "Git &amp; GitHub",
+        "html": "HTML",
+        "logging": "Logging"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/tlylt/observations.md",
+      "title": "",
+      "headings": {
+        "project-1-mdn-web-docs": "Project 1: MDN Web Docs",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record",
+        "project-2-dendron": "Project 2: Dendron",
+        "my-contributions-2": "My Contributions",
+        "my-learning-record-2": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/tlylt/progress.md",
+      "title": "",
+      "headings": {
+        "cs3282-pre-sem-progress": "CS3282 Pre-Sem Progress",
+        "implementation": "Implementation",
+        "issues-raised": "Issues Raised",
+        "pr-reviews": "PR Reviews",
+        "cs3282-progress": "CS3282 Progress",
+        "implementation-2": "Implementation",
+        "issues-raised-2": "Issues Raised",
+        "pr-reviews-2": "PR Reviews"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/vigneshsankariyer1234567890/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/vigneshsankariyer1234567890/knowledge.md",
+      "title": "",
+      "headings": {
+        "angular": "Angular",
+        "rxjs": "RxJS"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/vigneshsankariyer1234567890/progress.md",
+      "title": "",
+      "headings": {
+        "cs3281-progress": "CS3281 Progress",
+        "summary": "Summary"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/vvidday/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/vvidday/knowledge.md",
+      "title": "",
+      "headings": {
+        "vue-and-amp-options-api": "Vue &amp; Options API",
+        "cypress-testing": "Cypress testing",
+        "typescript": "TypeScript"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/vvidday/progress.md",
+      "title": "",
+      "headings": {
+        "summary": "Summary"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/weiquu/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/weiquu/knowledge.md",
+      "title": "",
+      "headings": {
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "others": "Others"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/weiquu/progress.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/worksheet.md",
+      "title": "",
+      "headings": {
+        "feedback-for-round-a-slides": "Feedback for Round A Slides"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yhtMinceraft1010X/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yhtMinceraft1010X/knowledge.md",
+      "title": "",
+      "headings": {
+        "git-cloning-windows-credential-manager": "Git Cloning/Windows Credential Manager",
+        "java-date-time-apis": "Java Date/Time APIs",
+        "toolstack-upgrades-over-many-versions": "Toolstack upgrades over many versions",
+        "gradle-task-configuration-avoidance": "Gradle Task Configuration Avoidance",
+        "java-8-vs-11-why-java-8-is-still-popular": "Java 8 vs 11: Why Java 8 is still popular"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yhtMinceraft1010X/observations.md",
+      "title": "",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yhtMinceraft1010X/progress.md",
+      "title": "",
+      "headings": {
+        "cs3282-before-sem-progress": "CS3282 Before-Sem Progress",
+        "internal-projects-implementation-work-strictly-for-cs3282": "Internal Projects - Implementation Work Strictly for CS3282",
+        "internal-projects-project-management-strictly-for-cs3282": "Internal Projects - Project Management Strictly for CS3282",
+        "cs3282-during-sem-progress": "CS3282 During-Sem Progress"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yucheng11122017/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yucheng11122017/knowledge.md",
+      "title": "",
+      "headings": {
+        "vue": "Vue",
+        "jquery-cheerio-and-javascript-for-dom-manipulation": "Jquery, Cheerio and Javascript for DOM manipulation",
+        "css": "CSS",
+        "typescript-and-migration": "Typescript and migration",
+        "github-actions": "Github actions",
+        "nunjucks": "Nunjucks",
+        "node-js-versioning": "Node.js versioning",
+        "deployment": "Deployment",
+        "reuse-principle": "Reuse principle",
+        "documentation": "Documentation"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yucheng11122017/progress.md",
+      "title": "",
+      "headings": {
+        "cs3281-summary": "CS3281 Summary",
+        "summary": "Summary",
+        "work-in-chronological-order": "Work in chronological order:"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/zhaojj2209/info.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/zhaojj2209/knowledge.md",
+      "title": "",
+      "headings": {
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "end-to-end-testing": "End-to-End Testing",
+        "accessibility": "Accessibility"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/zhaojj2209/observations.md",
+      "title": "",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/zhaojj2209/progress.md",
+      "title": "",
+      "headings": {
+        "cs3282-pre-sem-progress": "CS3282 Pre-Sem Progress",
+        "cs3282-progress": "CS3282 Progress"
+      },
+      "headingKeywords": {}
+    }
+  ]
+}
